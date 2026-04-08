@@ -1,0 +1,244 @@
+﻿###################################
+# Hardcoded
+###################################
+
+#these mods not balanced against chnages in depth 0 advances
+# these mods should be checked later game for building and rgo costs, especially across areas that are different control and have different existing RGO levels already build.
+# building and rgo price not effected by control
+# build price impacted by age techs
+# wrong way by surplus jobs, but just barely (increase size)
+# rgo price increased correctly for tech
+# rgo output scaled correclty for RGO size; tech worked, but removed.
+# remove better ag, and port key things over to 1.1. Inc. potato + cal and + trade cost.
+# base RGO price down a scoach
+# base build price up a bit
+
+TRY_REPLACE:location_base_values = {
+	game_data = {
+		category = location
+	}
+	
+	local_devastation_recovery = 0.005
+	local_monthly_control = 0.0005
+
+
+	max_regiments_trained_at_same_time = 1
+	max_constructions_at_same_time = 1
+
+	local_pop_promotion_speed = 0.0066 #was 0.01
+	local_pop_demotion_speed = 0.10
+
+	local_food_capacity = 50
+
+	local_frontage_allowed = 10
+
+	local_migration_attraction = 0.1
+	local_garrison_growth = 0.01
+	
+	max_attrition = 10
+	supply_limit = 15
+	
+	hostile_disembark_time_modifier = 0.25
+	
+	local_max_rgo_size = 1.25 # was 2, A bit higher due to efficiency hits in other areas.
+	
+	local_monthly_prosperity = 0.0025 #was 0.0025; consider dropping
+	
+	local_trade_embark_disembark_cost_modifier = 0.1
+	
+	
+	local_clergy_desired_pop_scaled = 0.005
+	local_nobles_desired_pop_scaled = 0.0025
+	
+}
+
+TRY_REPLACE:is_blockaded_by_enemies = {
+	game_data = {
+		category = location
+	}
+	local_monthly_prosperity = -0.025
+	local_maritime_presence = -2.0
+	local_max_control = -0.10
+	hostile_food_multiplier = -0.75
+	local_monthly_development_modifier = -0.20
+	local_trade_embark_disembark_cost_modifier = 2.0
+	local_construction_speed = -0.10
+	local_population_growth = -0.001
+}
+
+TRY_REPLACE:under_siege = {
+	game_data = {
+		category = location
+	}
+	hostile_food_multiplier = -1.0
+	local_monthly_development_modifier = -0.20
+	road_building_blocked = yes
+	local_prosperity_decay = 0.05
+	local_population_growth = -0.002
+	
+	constructions_stalled = yes
+}
+
+#multiplies with development in location (0-100)
+TRY_REPLACE:development = {
+	game_data = {
+		category = location
+	}
+	local_population_capacity_modifier = 0.025
+	local_distance_from_capital_speed_propagation = 0.005
+	local_supply_limit_modifier = 0.02
+	blockade_force_required = 0.01
+	local_migration_attraction = 0.0025
+	local_trade_center_power = 0.001
+
+	local_institution_growth_modifier = 0.002
+	
+	local_construction_speed = 0.01
+	
+	local_monthly_food_modifier = 0.01
+	
+	free_building_levels = 1
+	
+	local_max_rgo_size = 0.1
+	
+	local_life_expectancy = 0.1
+	
+	occupation_time = 0.01
+	
+	local_build_buildings_cost = -0.001
+	maximum_stockpile_capacity = 5
+}
+
+TRY_REPLACE:is_occupied = {
+	game_data = {
+		category = location
+	}
+	local_monthly_prosperity = -0.025
+	local_monthly_control = -0.005 # -0.002
+	
+	hostile_food_multiplier = -0.5
+	
+	local_garrison_growth = -1.0
+	
+	local_construction_speed = -0.5 #-0.25
+
+}
+
+#multiplied with 1-control
+TRY_REPLACE:inverse_control = {
+	game_data = {
+		category = location
+	}
+	
+	local_crown_estate_power = -1.0
+	# possible to add an enrichment penalty here to reduce money funneling to estates?
+
+	local_levy_size_modifier = -1.5 # was -1.0
+	local_manpower_modifier = -1.25 # was -1.0
+	local_sailors_modifier = -1.0
+	
+	local_build_buildings_cost = 0.5 #low control, more corruption and inefficiency
+	local_raw_material_output = -0.25 #similar to the building cost malus, this reflects greater corruption and inefficiency, reducing the effective output of low contorl RGOs. This in turn helps but a break on wide countries, AND, reduces *some* wealth going to estates (since this moderately reduces income in low control areas).
+
+}
+
+TRY_REPLACE:unemployed_peasants = {
+	game_data = {
+		category = location
+	}
+	local_migration_attraction = -0.0025
+	local_levy_size_modifier = .1 #added; no job? join the army, meet cool people, and then kill them!
+	
+	# local_build_buildings_cost = 0.05 #labor surplus, so building is cheaper / does not work
+	#local_build_rgo_cost = -0.025 #this may not actually be a real param -check this / doe snot work
+	# scale rgo and building costs DOWN to represent cheap labor?
+}
+
+#per 1k available jobs; this means there is more jobs then labor, so labor is in demand.
+TRY_REPLACE:surplus_jobs = {
+	game_data = {
+		category = location
+	}
+	local_migration_attraction = 0.1
+	
+	local_build_buildings_cost = 0.05 #labor demand, so building is more expensive; 0.3 made for very high costs in some areas (x00%+). Reducing to 0.03 should make change generally minimal.
+	#local_build_rgo_cost = 0.025 #this may not actually be a real param -check this / does not work
+	# way to create cost based on demand for labor?
+}
+
+TRY_REPLACE:rgo_level = {
+	game_data = {
+		category = location
+	}
+	local_laborers_desired_pop = 1.0 #sadly this doesn't seem to function as an actual multiple required laborers per RGO
+	local_raw_material_output = -0.03 #output drops per RGO level in an area. This will somewhat encourage wide play (since RGO spread over many areas will be net better; may need to adjust in otherways)
+
+}
+
+TRY_REPLACE:raised_levies = {
+	game_data = {
+		category = location
+	}
+	local_raw_material_output = -0.35 #-0.3
+	local_monthly_food_modifier = -0.35 #-0.3
+	
+	local_population_growth = -0.0015 #-0.001
+}
+
+TRY_REPLACE:possible_promotion_percentage = {
+	game_data = {
+		category = location
+	}
+	local_peasants_estate_power = 10.0
+	local_pop_promotion_speed_scaled = 0.00075 #0.001 Promotion a bit slower overall.
+	local_burghers_estate_power = -1
+	local_nobles_estate_power = -1
+	local_clergy_estate_power = -1
+}
+
+TRY_REPLACE:devastation = {
+	game_data = {
+		category = location
+	}
+	local_monthly_food_modifier = 0.5
+	local_raw_material_output = 0.5
+	local_production_efficiency = 0.5
+	local_population_growth = 0.005
+	local_monthly_literacy = 0.075 # 0.05
+	local_pop_promotion_speed_modifier = 0.5
+	local_migration_attraction = 1
+	local_monthly_development = 0.004
+	local_life_expectancy = 25 #
+	local_mercenaries_modifier = -0.5
+	local_construction_speed = -0.5
+}
+
+#TBD needed. The intent is to reduce the (overly) large impact literacy has on promotion.
+#TRY_INJECT:peasant_literacy = {
+#	game_data = {
+#		category = location
+#	}
+#	local_pop_promotion_speed = -0.005 # a value of -0.01 would completely remove the impact of literacy. So, -0.005 should cut impact in half...
+#}
+
+###################################
+# From Unit Abilitis
+###################################
+
+TRY_REPLACE:recently_raided_by_horde = {
+	game_data = {
+		category = location
+	}
+	local_monthly_prosperity = -0.035
+	local_raw_material_output = -0.3
+	local_monthly_food_modifier = -0.35
+}
+
+TRY_REPLACE:recently_razed = {
+	game_data = {
+		category = location
+	}
+	local_monthly_prosperity = -0.035
+	local_raw_material_output = -0.3
+	local_monthly_food_modifier = -0.35
+}

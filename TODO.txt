@@ -1,0 +1,8 @@
+[ IN prog[ Rename all Sager file names and comments to SP
+[ O ]Upload to git
+[ X ]Remove YML from paradox
+[In prog] Remove / rename anything from other mods
+[ O ] Incorporate land_gov, bullion, most of trade mod, Chauvachee
+[ O ] Preface all comments I've made with SP then append to the readme by category.
+[ O ] Readme MD that outlines philosophy; plus line by line.
+[ O ] Increase wealth calc #s for income. Maybe more for pop?

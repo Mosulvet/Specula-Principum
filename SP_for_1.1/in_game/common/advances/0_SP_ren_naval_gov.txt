@@ -1,0 +1,3 @@
+﻿TRY_INJECT:power_projection_advance_2 = {
+	num_naval_governors = 1
+}

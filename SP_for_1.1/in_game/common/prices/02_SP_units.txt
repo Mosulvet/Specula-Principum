@@ -1,0 +1,70 @@
+﻿# NOTE!
+# All manpower costs scale by max_strength, so army units should be at 1 manpower
+# All sailor costs scale by crew_size, so navy units should be at 1 sailors
+#
+
+# all maintenance about 20% higher; some navy higher still
+
+##################################
+# Army Categories
+##################################
+
+TRY_REPLACE:army_infantry_maintenance = {
+	gold = 0.6 #was 0.5
+	manpower = 0.02
+}
+
+TRY_REPLACE:army_cavalry_build = {
+	gold = 200 # was 150, bit higher due to damage taken advantage
+	manpower = 1
+}
+
+TRY_REPLACE:army_cavalry_maintenance = {
+	gold = 2.0 #was 1.5, higher due to damage taken advantage
+	manpower = 0.04
+}
+
+TRY_REPLACE:army_artillery_maintenance = {
+	gold = 2.5 #2
+	manpower = 0.05 #0.04
+}
+
+TRY_REPLACE:army_auxiliary_maintenance = {
+	gold = 1.1 #
+	manpower = 0.02
+}
+
+
+##################################
+# Navy Categories
+##################################
+
+TRY_REPLACE:navy_heavy_ship_build = {
+	gold = 80 # was 50
+	sailors = 3 # was 1
+}
+
+TRY_REPLACE:navy_heavy_ship_maintenance = {
+	gold = 1.25 #0.5
+	sailors = 0.06 # 0.2; heavy ships have vastly higher man power requirements
+}
+
+TRY_REPLACE:navy_light_ship_maintenance = {
+	gold = 0.5 # 0.25
+	sailors = 0.02
+}
+
+TRY_REPLACE:navy_galley_maintenance = {
+	gold = 0.4 #was 0.25
+	sailors = 0.025 #from 0.2; galleys require rowers.
+}
+
+TRY_REPLACE:navy_transport_maintenance = {
+	gold = 0.4 #was 0.25
+	sailors = 0.01 # was 0.2 transports don't need a fighting crew. Much smaller crew size.
+}
+
+######################################
+# Unit specific adds
+#####################################
+# not needed since these are mods on the bases costs above

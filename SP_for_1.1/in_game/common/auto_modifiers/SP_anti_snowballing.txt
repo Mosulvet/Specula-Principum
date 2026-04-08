@@ -1,0 +1,182 @@
+﻿# since I also have various snowball measures in place, reducing the impact here for balance reasons. Also, removeed crown power, trade, production, food and research maluses, since these don't thematically fit. (If anything they get better / easier in a large nation). Removed global estate sat (estate wealth already creates impact here AND if anything country wealth has the opposite effect) Increased several other maluses (cabinet, stability). On the fence about global estate target. Made legislative, cabinet and stability a bit worse to represent corruption. Also going to add cost of court (remember to add string for it); also bump up the default tax efficiency malus (currenlty 15%. Probably drop to 5%?)
+
+country_size_impact_small_human = {
+	potential_trigger = {
+		is_human = yes
+		country_economical_base > 100 # Adds a cut off, below which no impact
+		country_economical_base <= 500 #500
+		}
+		
+	scales_with = {
+		value = country_economical_base
+		subtract = 100
+		multiply = 0.015 # was 0.2 Reduces impact at smallest size
+	}
+	
+	court_spending_cost = 0.0075 #added; call this the conspicuous consumption tax
+	tax_income_efficiency = -0.015
+	#trade_efficiency = -0.01
+	#global_production_efficiency = -0.01
+	#global_monthly_food_modifier = -0.01
+	legislative_efficiency = -0.0125
+	country_cabinet_efficiency = -0.0125
+	global_max_control = -0.0033 # reduce control impact by 2/3rds
+	stability_investment = -0.0125
+	#global_estate_target_satisfaction = -0.01
+	#global_crown_estate_power = -0.01
+	#research_speed_modifier = -0.01
+	diplomatic_reputation = -0.1
+	antagonism_received_modifier = 0.01
+}
+
+country_size_impact_medium_human = {
+	potential_trigger = {
+		is_human = yes
+		country_economical_base > 500 #500
+		country_economical_base <= 3000 #2500
+		}
+		
+	scales_with = {
+		value = country_economical_base
+		subtract = 500 #500
+		multiply = 0.01
+		add = 5.25 #this functionally add the previous category as well
+	}
+	
+	court_spending_cost = 0.0075 #added; call this the conspicuous consumption tax
+	tax_income_efficiency = -0.0115
+	#trade_efficiency = -0.01
+	#global_production_efficiency = -0.01
+	#global_monthly_food_modifier = -0.01
+	legislative_efficiency = -0.0125
+	country_cabinet_efficiency = -0.0125
+	global_max_control = -0.0033 # reduce control impact by 2/3rds
+	stability_investment = -0.0125
+	#global_estate_target_satisfaction = -0.01
+	#global_crown_estate_power = -0.01
+	#research_speed_modifier = -0.01
+	diplomatic_reputation = -0.1
+	antagonism_received_modifier = 0.01
+}
+
+country_size_impact_large_human = {
+	potential_trigger = {
+		is_human = yes
+		country_economical_base > 3000 #2500
+		}
+		
+	scales_with = {
+		value = country_economical_base
+		subtract = 3000 #2500
+		multiply = 0.005
+		add = 30 #this functionally adds the two previous categories as well
+	}
+	
+	court_spending_cost = 0.0075 #added; call this the conspicuous consumption tax
+	tax_income_efficiency = -0.01 #dropped this slightly because very rich empires were not getting any taxes
+	#trade_efficiency = -0.01
+	#global_production_efficiency = -0.01
+	#global_monthly_food_modifier = -0.01
+	legislative_efficiency = -0.0125
+	country_cabinet_efficiency = -0.0125
+	global_max_control = -0.0033 # reduce control impact by 2/3rds
+	stability_investment = -0.0125
+	#global_estate_target_satisfaction = -0.01
+	#global_crown_estate_power = -0.01
+	#research_speed_modifier = -0.01
+	diplomatic_reputation = -0.1
+	antagonism_received_modifier = 0.01
+}
+
+####
+# AI here; AI gets some small bonuses (see the 'subtract' operation)
+####
+
+country_size_impact_small_ai = {
+	potential_trigger = {
+		is_ai = yes
+		country_economical_base > 100 # Adds a cut off, below which no impact
+		country_economical_base <= 500 #500
+		}
+		
+	scales_with = {
+		value = country_economical_base
+		subtract = 100
+		multiply = 0.015 # 0.2
+		subtract = 2.5 #this is to give small ai a bit less malus here.
+	}
+	
+	court_spending_cost = 0.0075 #added; call this the conspicuous consumption tax
+	tax_income_efficiency = -0.015
+	#trade_efficiency = -0.01
+	#global_production_efficiency = -0.01
+	#global_monthly_food_modifier = -0.01
+	legislative_efficiency = -0.0125
+	country_cabinet_efficiency = -0.0125
+	global_max_control = -0.0033 # reduce control impact by 2/3rds
+	stability_investment = -0.0125
+	#global_estate_target_satisfaction = -0.01
+	#global_crown_estate_power = -0.01
+	#research_speed_modifier = -0.01
+	diplomatic_reputation = -0.1
+	antagonism_received_modifier = 0.01
+}
+
+country_size_impact_medium_ai = {
+	potential_trigger = {
+		is_ai = yes
+		country_economical_base > 500 #500
+		country_economical_base <= 3000 #2500
+		}
+		
+	scales_with = {
+		value = country_economical_base
+		subtract = 500 #500
+		multiply = 0.01
+		add = 5.25 #this functionally adds the previous category as well, minus a bit (0.75)
+	}
+	
+	court_spending_cost = 0.0075 #added; call this the conspicuous consumption tax
+	tax_income_efficiency = -0.0115 #dropped this because very rich empires were not getting any taxes
+	#trade_efficiency = -0.01
+	#global_production_efficiency = -0.01
+	#global_monthly_food_modifier = -0.01
+	legislative_efficiency = -0.0125
+	country_cabinet_efficiency = -0.0125
+	global_max_control = -0.0033 # reduce control impact by 2/3rds
+	stability_investment = -0.0125
+	#global_estate_target_satisfaction = -0.01
+	#global_crown_estate_power = -0.01
+	#research_speed_modifier = -0.01
+	diplomatic_reputation = -0.1
+	antagonism_received_modifier = 0.01
+}
+
+country_size_impact_large_ai = {
+	potential_trigger = {
+		is_ai = yes
+		country_economical_base > 3000 #2500
+		}
+		
+	scales_with = {
+		value = country_economical_base
+		subtract = 3000 #2500
+		multiply = 0.005
+		add = 30 #this functionally add the two previous categories as well
+	}
+	
+	court_spending_cost = 0.0075 #added; call this the conspicuous consumption tax
+	tax_income_efficiency = -0.01 #dropped this slightly because very rich empires were not getting any taxes
+	#trade_efficiency = -0.01
+	#global_production_efficiency = -0.01
+	#global_monthly_food_modifier = -0.01
+	legislative_efficiency = -0.0125
+	country_cabinet_efficiency = -0.0125
+	global_max_control = -0.0033 # reduce control impact by 2/3rds
+	stability_investment = -0.0125
+	#global_estate_target_satisfaction = -0.01
+	#global_crown_estate_power = -0.01
+	#research_speed_modifier = -0.01
+	diplomatic_reputation = -0.1
+	antagonism_received_modifier = 0.01
+}

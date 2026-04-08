@@ -1,0 +1,82 @@
+﻿# European Naval Superiority — Ship Types
+#
+# Part 1: Non-European Regional Variants
+#   Strong in home waters, weaker in open-ocean artillery combat.
+#   Large, crew-heavy, or fast, but carry fewer/lighter guns
+#   and suffer penalties on ocean and deep ocean topography.
+#
+# Part 2: Western Shipbuilding Adoption (Catch-Up Ships)
+#   Available to non-European nations one age behind the European
+#   equivalents. Same stats as the originals, no ocean penalties.
+#
+# NOTE: All ships set buildable = yes to override the is_special default.
+# Each ship has a location_potential gate restricting where it can be built.
+
+
+##################################################
+# PART 1: REGIONAL VARIANTS
+##################################################
+
+
+##################################################
+# Lateen rigged north african ships; though some were launched by European navies. Fast, cheaper, a bit lighter than frigate of its era.
+##################################################
+
+# Med xebec
+# trade routes. Hull 4 (vs base 6), cannons 4 (vs 8), crew 0.030 (vs 0.050),
+# speed 12 (vs base 10).
+n_ens_Xbec = {
+	is_special = yes
+	category = navy_light_ship
+	copy_from = n_age_2_renaissance_light_ship #age 4
+	upgrades_to = n_ens_heavy_dhow #improved xbece
+	buildable = yes
+
+	location_potential = {
+		ens_indian_ocean_location_trigger = yes #medi / equivalent (maghreb)
+	}
+
+	hull_size = 4
+	cannons = 4
+	crew_size = 0.030
+	movement_speed = 12
+
+	combat = {
+		ocean = -0.15
+		deep_ocean = -0.35
+	}
+
+	maintenance_demand = light_ship_2_maintenance
+	construction_demand = light_ship_2_construction
+	age = "age_2_renaissance"
+}
+
+# Improved dhow — still fast but outgunned by European pinnaces.
+# Hull 6 (vs base 8), cannons 6 (vs 10), crew 0.050 (vs 0.075),
+# speed 13 (vs base 11).
+# Upgrades into adopted caravel once Western shipbuilding is researched.
+n_ens_heavy_dhow = {
+	is_special = yes
+	category = navy_light_ship
+	copy_from = n_age_3_discovery_light_ship
+	upgrades_to = n_ens_adopted_caravel
+	buildable = yes
+
+	location_potential = {
+		ens_indian_ocean_location_trigger = yes
+	}
+
+	hull_size = 6
+	cannons = 6
+	crew_size = 0.050
+	movement_speed = 13
+
+	combat = {
+		ocean = -0.15
+		deep_ocean = -0.35
+	}
+
+	maintenance_demand = light_ship_3_maintenance
+	construction_demand = light_ship_3_construction
+	age = "age_3_discovery"
+}

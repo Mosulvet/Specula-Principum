@@ -1,0 +1,235 @@
+﻿# These values are additive age to age. One note - AI isn't really making cities on test run, so lower town and city upgrade costs substantially.
+# Note base costs also lowered a bit.
+# Age of Traditions, Age of Renaissance, Discovery, Reformation, Absolutism, Revolutions
+# Note CITY costs are tied specifically to age, and DECREASE with age. Since there are other limits in place in this mod, this should create more historical urbanizaiton patterns. Towns scale slowly linearly upwards in cost.
+# Renaissance
+
+TRY_INJECT:renaissance_advance = {
+
+	#global_raw_material_output = -0.01 #this is a stand-in for production challenges as costs increases 'deeper' into RGOs. This isn't really needed, since raw output is also being impacted by stacked RGOs.
+	peasants_estate_target_satisfaction = -0.01 #this becomes a stand in for peasan unhappiness with change, and functions as a break on tax vs. this estate specifically.
+	
+	global_build_buildings_cost = 0.05 
+	expand_rgo_mining_cost_modifier = 0.05
+	expand_rgo_farming_cost_modifier = 0.05
+	expand_rgo_hunting_cost_modifier = 0.05
+	expand_rgo_gathering_cost_modifier = 0.05
+	expand_rgo_forestry_cost_modifier = 0.05
+	
+}
+
+TRY_INJECT:banking_advance = {
+
+	#global_raw_material_output = -0.01 #this is a stand-in for production challenges as costs increases 'deeper' into RGOs.
+	peasants_estate_target_satisfaction = -0.01 
+	
+	global_build_buildings_cost = 0.05 
+	expand_rgo_mining_cost_modifier = 0.05
+	expand_rgo_farming_cost_modifier = 0.05
+	expand_rgo_hunting_cost_modifier = 0.05
+	expand_rgo_gathering_cost_modifier = 0.05
+	expand_rgo_forestry_cost_modifier = 0.05
+
+}
+
+TRY_INJECT:professional_armies_advance = {
+
+	#global_raw_material_output = -0.01 #this is a stand-in for production challenges as costs increases 'deeper' into RGOs.
+	peasants_estate_target_satisfaction = -0.01 
+
+	global_build_buildings_cost = 0.05 
+	expand_rgo_mining_cost_modifier = 0.05
+	expand_rgo_farming_cost_modifier = 0.05
+	expand_rgo_hunting_cost_modifier = 0.05
+	expand_rgo_gathering_cost_modifier = 0.05
+	expand_rgo_forestry_cost_modifier = 0.05
+
+}
+
+# Discovery
+
+TRY_INJECT:new_world_advance = {
+
+	#global_raw_material_output = -0.02 #this is a stand-in for production challenges as costs increases 'deeper' into RGOs.
+	peasants_estate_target_satisfaction = -0.01 
+	
+	global_build_buildings_cost = 0.1
+	expand_rgo_mining_cost_modifier = 0.1
+	expand_rgo_farming_cost_modifier = 0.1
+	expand_rgo_hunting_cost_modifier = 0.1
+	expand_rgo_gathering_cost_modifier = 0.1
+	expand_rgo_forestry_cost_modifier = 0.1
+	
+	town_upgrade_cost_modifier = 0.05
+}
+
+TRY_INJECT:printing_press_advance = {
+
+	#global_raw_material_output = -0.02 #this is a stand-in for production challenges as costs increases 'deeper' into RGOs.
+	peasants_estate_target_satisfaction = -0.01 
+	
+	global_build_buildings_cost = 0.1
+	expand_rgo_mining_cost_modifier = 0.1
+	expand_rgo_farming_cost_modifier = 0.1
+	expand_rgo_hunting_cost_modifier = 0.1
+	expand_rgo_gathering_cost_modifier = 0.1
+	expand_rgo_forestry_cost_modifier = 0.1
+		
+	town_upgrade_cost_modifier = 0.05
+}
+
+TRY_INJECT:pike_and_shot_advance = {
+
+	#global_raw_material_output = -0.02 #this is a stand-in for production challenges as costs increases 'deeper' into RGOs.
+	peasants_estate_target_satisfaction = -0.01 
+	
+	global_build_buildings_cost = 0.1
+	expand_rgo_mining_cost_modifier = 0.1
+	expand_rgo_farming_cost_modifier = 0.1
+	expand_rgo_hunting_cost_modifier = 0.1
+	expand_rgo_gathering_cost_modifier = 0.1
+	expand_rgo_forestry_cost_modifier = 0.1
+		
+	town_upgrade_cost_modifier = 0.05
+}
+
+# Reformation
+
+TRY_INJECT:confessionalism_advance = {
+
+	#global_raw_material_output = -0.03 #this is a stand-in for production challenges as costs increases 'deeper' into RGOs.
+	peasants_estate_target_satisfaction = -0.01
+	
+	global_build_buildings_cost = 0.2
+	expand_rgo_mining_cost_modifier = 0.2
+	expand_rgo_farming_cost_modifier = 0.2
+	expand_rgo_hunting_cost_modifier = 0.2
+	expand_rgo_gathering_cost_modifier = 0.2
+	expand_rgo_forestry_cost_modifier = 0.2
+	
+	town_upgrade_cost_modifier = 0.075
+}
+
+TRY_INJECT:global_trade_advance = {
+
+	#global_raw_material_output = -0.03 #this is a stand-in for production challenges as costs increases 'deeper' into RGOs.
+	peasants_estate_target_satisfaction = -0.01 
+	
+	global_build_buildings_cost = 0.2
+	expand_rgo_mining_cost_modifier = 0.2
+	expand_rgo_farming_cost_modifier = 0.2
+	expand_rgo_hunting_cost_modifier = 0.2
+	expand_rgo_gathering_cost_modifier = 0.2
+	expand_rgo_forestry_cost_modifier = 0.2
+	
+	town_upgrade_cost_modifier = 0.075
+}
+
+TRY_INJECT:artillery_institution_advance = {
+
+	#global_raw_material_output = -0.03 #this is a stand-in for production challenges as costs increases 'deeper' into RGOs.
+	peasants_estate_target_satisfaction = -0.01
+	
+	global_build_buildings_cost = 0.2
+	expand_rgo_mining_cost_modifier = 0.2
+	expand_rgo_farming_cost_modifier = 0.2
+	expand_rgo_hunting_cost_modifier = 0.2
+	expand_rgo_gathering_cost_modifier = 0.2
+	expand_rgo_forestry_cost_modifier = 0.2
+	
+	town_upgrade_cost_modifier = 0.075
+}
+
+# Absolutism
+
+TRY_INJECT:manufactories_advance = {
+
+	#global_raw_material_output = -0.04 #this is a stand-in for production challenges as costs increases 'deeper' into RGOs.
+	peasants_estate_target_satisfaction = -0.01 
+	
+	global_build_buildings_cost = 0.3
+	expand_rgo_mining_cost_modifier = 0.3
+	expand_rgo_farming_cost_modifier = 0.3
+	expand_rgo_hunting_cost_modifier = 0.3
+	expand_rgo_gathering_cost_modifier = 0.3
+	expand_rgo_forestry_cost_modifier = 0.3
+	
+	town_upgrade_cost_modifier = 0.1
+}
+
+TRY_INJECT:scientific_revolution_advance = {
+
+	#global_raw_material_output = -0.04 #this is a stand-in for production challenges as costs increases 'deeper' into RGOs.
+	peasants_estate_target_satisfaction = -0.01 #
+	
+	global_build_buildings_cost = 0.3
+	expand_rgo_mining_cost_modifier = 0.3
+	expand_rgo_farming_cost_modifier = 0.3
+	expand_rgo_hunting_cost_modifier = 0.3
+	expand_rgo_gathering_cost_modifier = 0.3
+	expand_rgo_forestry_cost_modifier = 0.3
+	
+	town_upgrade_cost_modifier = 0.1
+}
+
+TRY_INJECT:military_revolution_advance = {
+
+	#global_raw_material_output = -0.04 #this is a stand-in for production challenges as costs increases 'deeper' into RGOs.
+	peasants_estate_target_satisfaction = -0.01 #this becomes a stand in for labor costs, though it should be linked to labor demand.
+	
+	global_build_buildings_cost = 0.3
+	expand_rgo_mining_cost_modifier = 0.3
+	expand_rgo_farming_cost_modifier = 0.3
+	expand_rgo_hunting_cost_modifier = 0.3
+	expand_rgo_gathering_cost_modifier = 0.3
+	expand_rgo_forestry_cost_modifier = 0.3
+	
+	town_upgrade_cost_modifier = 0.1
+}
+
+# Revolutions
+
+TRY_INJECT:enlightenment_advance = {
+
+	#global_raw_material_output = -0.05 #this is a stand-in for production challenges as costs increases 'deeper' into RGOs.
+	peasants_estate_target_satisfaction = -0.01 
+	
+	global_build_buildings_cost = 0.4
+	expand_rgo_mining_cost_modifier = 0.4
+	expand_rgo_farming_cost_modifier = 0.4
+	expand_rgo_hunting_cost_modifier = 0.4
+	expand_rgo_gathering_cost_modifier = 0.4
+	expand_rgo_forestry_cost_modifier = 0.4
+	
+	town_upgrade_cost_modifier = 0.1
+}
+
+TRY_INJECT:industrialization_advance = {
+
+	#global_raw_material_output = -0.05 #this is a stand-in for production challenges as costs increases 'deeper' into RGOs.
+	peasants_estate_target_satisfaction = -0.01 
+	
+	global_build_buildings_cost = 0.4
+	expand_rgo_mining_cost_modifier = 0.4
+	expand_rgo_farming_cost_modifier = 0.4
+	expand_rgo_hunting_cost_modifier = 0.4
+	expand_rgo_gathering_cost_modifier = 0.4
+	expand_rgo_forestry_cost_modifier = 0.4
+
+	town_upgrade_cost_modifier = 0.1
+}
+
+TRY_INJECT:levee_en_masse_advance = {
+
+	#global_raw_material_output = -0.05 #this is a stand-in for production challenges as costs increases 'deeper' into RGOs.
+	peasants_estate_target_satisfaction = -0.01 
+	
+	global_build_buildings_cost = 0.4
+	expand_rgo_mining_cost_modifier = 0.4
+	expand_rgo_farming_cost_modifier = 0.4
+	expand_rgo_hunting_cost_modifier = 0.4
+	expand_rgo_gathering_cost_modifier = 0.4
+	expand_rgo_forestry_cost_modifier = 0.4
+
+	town_upgrade_cost_modifier = 0.1
+}

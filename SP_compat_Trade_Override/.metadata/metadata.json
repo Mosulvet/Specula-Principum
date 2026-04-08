@@ -1,0 +1,14 @@
+﻿{
+    "name": "Specula Principum Overides For Improved Trade",
+    "id": "historical_tweaks",
+    "version": "1",
+    "supported_game_version": "1.0.10",
+    "short_description": "Small tweaks good demands and building outputs to reflect other balance changes in SP",
+    "tags": [
+        "Balance",
+        "Fixes",
+        "Historical"
+    ],
+    "relationships": [],
+    "game_custom_data": {}
+}

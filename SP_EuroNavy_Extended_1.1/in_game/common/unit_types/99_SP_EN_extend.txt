@@ -1,0 +1,63 @@
+﻿# Xebec — Fast light lateen frigate.
+
+n_ens_xebec = {
+	is_special = yes
+	category = navy_light_ship
+	copy_from = n_age_3_discovery_light_ship
+	upgrades_to = n_ens_late_xebec
+	buildable = yes
+
+	movement_speed = 13 # 11
+	hull_size = 7 # 8
+	cannons = 8 # 10
+	crew_size = 0.085 # 0.075
+	blockade_capacity = 1.65  #1.5 closer to wind due to rigging, and closer in-shore (draft)
+		
+	location_trigger = {
+		dominant_culture = { has_culture_group = culture_group:maghrebi_group }
+	}
+
+	combat = {
+		ocean = -0.1
+		deep_ocean = -0.2
+		inland_sea = 0.15
+
+	}
+
+	maintenance_demand = light_ship_3_maintenance
+	construction_demand = light_ship_3_construction
+	age = "age_3_discovery"
+
+}
+
+# Xebec — Fast light lateen frigate.
+
+n_ens_late_xebec = {
+	is_special = yes
+	category = navy_light_ship
+	copy_from = n_age_4_reformation_light_ship
+	upgrades_to = n_ens_adopted_pinnace
+	buildable = yes
+
+	movement_speed = 14 # 13
+	hull_size = 9 # 10
+	cannons = 10 # 12
+	crew_size = 0.12 # 0.100
+	blockade_capacity = 2.2 # 2.0 closer to wind due to rigging, and closer in-shore (draft)
+
+	location_trigger = {
+		dominant_culture = { has_culture_group = culture_group:maghrebi_group }
+	}
+
+	combat = {
+		ocean = -0.1
+		deep_ocean = -0.2
+		inland_sea = 0.15
+
+	}
+
+	maintenance_demand = light_ship_4_maintenance
+	construction_demand = light_ship_4_construction
+	age = "age_4_reformation"
+
+}

@@ -1,0 +1,259 @@
+﻿#MODDED CHANGED BUILDINGS FOR COMPATABILITY
+
+####################
+#UNIQUE BUILDINGS
+####################
+
+
+
+###############
+#RURAL BUILDINGS
+###############
+#Added sand to fishing and clay to forest villages to make up for short falls due to much lower RGO Production
+# This is intended to be a 'bad deal', but sufficient to fill in cases where a sand or clay pit isn't available / affordable.
+
+REPLACE:fishing_village = {
+	#Arctic fishing village removed. Used Ivory and was spammed by the Indians
+	is_foreign = no
+	max_levels = rural_building_cap
+	pop_type = peasants
+
+	category = village_category
+	employment_size = village_employment_size
+	
+	rural_settlement = yes
+	
+	AI_optimization_flag_coastal = yes
+	location_potential = {
+		is_coastal = yes
+	}
+	
+	build_time = village_build_time
+
+	unique_production_methods = {
+		fishing_village_maintenance_new = {
+
+			produced = fish
+			output = 0.5
+			
+			salt = 0.1
+
+			category = building_maintenance
+		}
+		fishing_village_maintenance_naval_supplies_new = {
+
+			produced = naval_supplies
+			output = 0.4
+			
+			fiber_crops = 0.1
+			tools = 0.02
+			lumber =  0.1
+			cloth = 0.1
+			tar =  0.1
+
+			category = building_maintenance
+		}
+
+#added sand		
+		fishing_village_maintenance_sand_new = {
+
+			tools = 0.1
+			output = 0.4		
+			produced = sand
+
+			category = building_maintenance
+		}
+		
+	}
+	construction_demand = village_construction
+
+	modifier = {
+		local_merchant_capacity = 0.25
+		local_peasants_estate_power = 0.25		#25% higher here.
+		local_food_capacity = 50
+		
+		local_maritime_presence = 0.01
+		
+		local_laborers_desired_pop = 0.1
+		local_soldiers_desired_pop = 0.05
+
+		harbor_suitability = 0.02
+		
+		local_sailors = 0.001
+		
+		
+		
+	}
+}
+
+REPLACE:forest_village = {
+	#Added lumber output and beeswax output to diversify the villages
+	is_foreign = no
+	max_levels = rural_building_cap
+	pop_type = peasants
+	
+	category = village_category
+	employment_size = village_employment_size
+	
+
+	rural_settlement = yes
+	
+	location_potential = {
+		OR = {
+			raw_material = goods:wild_game
+			vegetation = forest
+			vegetation = woods
+			vegetation = jungle
+		}
+	}
+	
+		
+	
+	build_time = village_build_time
+
+	unique_production_methods = {
+		forest_village_maintenance_new = {
+			
+			output = 0.25
+			produced = leather
+
+			sand = 0.1
+			tar = 0.02
+			wild_game = 0.4
+			
+			debug_max_profit = 0.6
+			
+			category = building_maintenance
+		}
+		forest_village_beeswax_maintenance_new = {
+			lumber = 0.2
+
+			produced = beeswax
+			output = 0.3
+
+			category = building_maintenance
+		}
+		forest_village_lumber_maintenance_new = {
+			tools = 0.4
+
+			produced = lumber
+			output = 0.75
+
+			category = building_maintenance
+		}
+		forest_village_wild_game_maintenance_new = {
+			weaponry = 0.05
+
+			produced = wild_game
+			output = 0.4
+
+			category = building_maintenance
+		}
+
+#added clay		
+		farming_village_clay_new = {
+			
+			tools = 0.1
+			output = 0.4		
+			produced = clay
+
+			category = building_maintenance
+		}
+		
+	}
+
+
+	
+	construction_demand = village_construction
+
+	modifier = {
+		local_monthly_food = 1.0
+		local_peasants_estate_power = 0.25		#25% higher here.
+		
+		local_laborers_desired_pop = 0.1
+		local_soldiers_desired_pop = 0.05
+
+	}
+}
+
+REPLACE:sawmill = {
+	#10%->25%, increased maintenance
+	is_foreign = no
+	pop_type = laborers
+	max_levels = 1
+	
+	employment_size = rural_peasant_enhance_employment
+	
+	
+	category = rgo_building_category
+	
+	rural_settlement = yes
+
+	location_potential = {
+		raw_material = goods:lumber
+	}
+
+	unique_production_methods = {
+		
+		sawmill_maintenance_new = {
+			tools  = 0.25
+			category = building_maintenance
+		}
+	}
+
+	modifier = {
+		local_lumber_output_modifier = 0.50 #0.25
+	}
+
+	
+
+	build_time = rural_build_time
+
+
+	construction_demand = farm_constructions
+}
+
+REPLACE:lumber_mill = {
+	#Is now limited to river locations, big lumbermills needs power and that was historically rivers/flowing water. Also reduces lumber spam and slows down the game a bit.
+	#Buffed 50% in output, so less should be spammed out.
+	is_foreign = no
+	max_levels = lumber_mill_cap_new
+	pop_type = laborers
+	
+	employment_size = rural_peasant_produce_employment
+	
+	rural_settlement = yes
+	town = yes
+	city = yes
+
+	
+	location_potential = {
+		AND = {
+			OR = {
+					vegetation = woods
+					vegetation = forest
+					vegetation = jungle
+			}
+		}
+		NOT = {
+			raw_material = goods:lumber
+		}
+	}
+
+	category = rgo_building_category
+	
+	build_time = rural_build_time
+	
+	unique_production_methods = {
+		lumber_mill_maintenance_new = {
+			produced = lumber
+			output = 1.0 #1.0
+
+			tools = 0.25 #0.3
+			
+			category = building_maintenance
+		}
+	}
+
+	construction_demand = basic_construction_needs
+}

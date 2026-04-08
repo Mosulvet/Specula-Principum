@@ -1,0 +1,12 @@
+kidnap_effect_doubled = {
+	owner ?= {
+		drop_antagonism_bomb = {
+			modifier = antagonism_kidnap
+			target = prev.unit_location
+			value = {
+				value = 2
+			}
+		}
+	}
+
+}

@@ -1,0 +1,11 @@
+﻿{
+	"name":	"Chevauchée",
+	"id":	"raidtorchpillage0.2",
+	"version":	"0.3",
+	"supported_game_version":	"1.0.10",
+	"short_description":	"Based on the original mod Raining, Torching and Pillaging by FentDino.",
+	"tags":	["Balance", "Gameplay", "Historical", "Military"],
+	"relationships":	[],
+	"game_custom_data":	{
+}
+}
