@@ -78,7 +78,7 @@ REPLACE:goods_gold = {
 	method = mining
 	category = raw_material
 	color = goods_gold
-	default_market_price = 10
+	default_market_price = 8
 	transport_cost = 0.5
 	ai_rgo_size_importance = 10 # ai preference to avoid building a city on this rgo
 	
@@ -98,7 +98,7 @@ REPLACE:silver = {
 	method = mining
 	category = raw_material
 	color = goods_silver
-	default_market_price = 8
+	default_market_price = 6
 	transport_cost = 0.5
 	ai_rgo_size_importance = 10 # ai preference to avoid building a city on this rgo
 	
@@ -433,7 +433,7 @@ REPLACE:elephants = {
 	method = farming
 	category = raw_material
 	color = goods_elephants
-	default_market_price = 10
+	default_market_price = 5
 	transport_cost = 5
 	
 	demand_add = {
