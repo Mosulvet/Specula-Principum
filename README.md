@@ -8,20 +8,22 @@ SP has been tested and tweaked through a dozens of observer runs with mid-way an
 Where possible, systems that the AI doesn't understand well are minimized in order to ensure reasonably competitive gameplay.
 
 #Key Features
-Social values have been substantially tweaked to create more engaging decisions.
-RGOs produce less as the size of the RGO increases; low control also has a moderate impact on production efficiency.
-Governors are cheaper to build (primarily to help the AI build them), but 1) no longer dissapear arbitrarily, and 2) are a substantially reduced source of control.
-Pop growth is substantially slower than vanilla, but final growth numbers are ballpark similar to historical estimates.
-Pop assimilation and culture both happen more slowly (~50%; note that control is generally lower than in vanilla, and control impacts how fast these occur).
-Tax efficiency scales downwards gradually as wealth increases; additionally, as wealth increases multiple other global values are impacted including 
-The first advance in each age tech chain grants slowly increasing maluses; this is less punishing to countries that are behind in technology.
-Cities start very expensive to discourage early urbanization, but price drops over time.
+-Social values have been substantially tweaked to create more engaging decisions.
+-RGOs produce less as the size of the RGO increases; low control also has a moderate impact on production efficiency.
+-Governors are cheaper to build (primarily to help the AI build them), but 1. no longer dissapear arbitrarily, and 2. are a substantially reduced source of control.
+-Pop growth is substantially slower than vanilla, but final growth numbers are ballpark similar to historical estimates.
+-Pop assimilation and culture both happen more slowly (~50%; note that control is generally lower than in vanilla, and control impacts how fast these occur).
+-Tax efficiency scales downwards gradually as wealth increases; additionally, as wealth increases multiple other global values are impacted including 
+-The first advance in each age tech chain grants slowly increasing maluses; this is less punishing to countries that are behind in technology.
+-Cities start very expensive to discourage early urbanization, but price drops over time.
+
+TODO - complete this section
 
 #Balance / Strategy
-
+TODO
 
 #Details
-TODO - pull details from existing comments
+TODO - pull details from existing comments TODO - finish internal file documentation
 TODO - incorporate Bullion, Chauvachee, Land Value
 TODO - incorporate disease mod
 
