@@ -47,14 +47,13 @@ standard_aux_recruitment_time	= 90 #30
 ######################################
 
 # These set above van to offset the static 5% + dynamic efficiency nerfs based on wealth. This makes efficiency offsets more important.
+# Not needed due to other substantial nerfs to tax efficiency.
 
 #tiny_tax_income_efficiency_bonus = 0.015 #0.01
 #small_tax_income_efficiency_bonus = 0.0375 #0.025
 #medium_tax_income_efficiency_bonus = 0.075 #0.05
 #large_tax_income_efficiency_bonus = 0.15 #0.10
 #huge_tax_income_efficiency_bonus = 0.30 #0.20
-
-# Penalties are same as vanilla.
 
 ############################
 # Building times

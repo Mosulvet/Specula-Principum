@@ -1,4 +1,4 @@
-﻿#~25% reduction in cabinet action impact
+﻿#~25% reduction in cabinet action impact; these also scale with control which is generally lower.
 
 INJECT:promote_culture = {
 	location_modifier = {

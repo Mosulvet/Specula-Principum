@@ -1,5 +1,5 @@
-﻿#integrate changed to admin; mil 1) doesn't actually make sense and 2) there are already too many mil actions.
-integrate_province = {
+﻿#integrate skill changed to admin, as military 1. doesn't actually make sense and 2. there are already too many mil actions.
+TRY_REPLACE:integrate_province = {
 	ability = adm
 	allow_multiple = yes
 	

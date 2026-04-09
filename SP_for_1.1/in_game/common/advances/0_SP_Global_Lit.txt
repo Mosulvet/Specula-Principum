@@ -1,6 +1,6 @@
-# This is a 50% reduction in global literacy max AND growth for all advances that aren't special to a tag or area.
-# These are made as injections so they are subtracted from the values in the advances.
-# Also did not touch PisaU in area_tuscany
+# SP - This is a 50% reduction in global literacy max AND growth for all advances that aren't special to a tag or area.
+# SP - These are made as injections so they are subtracted from the values in the advances.
+# SP - Also did not touch PisaU in area_tuscany
 
 TRY_INJECT:scientific_revolution_advance = {
 	global_max_literacy = -5 #now 5 total

@@ -1,3 +1,4 @@
-﻿TRY_INJECT:power_projection_advance_2 = {
+﻿#SP - some access to naval gov's for non naval-focused countries. Note naval gov control is substantially reduced.
+TRY_INJECT:power_projection_advance_2 = {
 	num_naval_governors = 1
 }

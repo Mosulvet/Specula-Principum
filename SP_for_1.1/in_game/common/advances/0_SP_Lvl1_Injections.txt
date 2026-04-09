@@ -1,9 +1,8 @@
-﻿# These values are additive age to age. One note - AI isn't really making cities on test run, so lower town and city upgrade costs substantially.
-# Note base costs also lowered a bit.
+﻿# SP - These values are additive age to age. One note - AI isn't really making cities on test run, so lower town and city upgrade costs substantially.
 # Age of Traditions, Age of Renaissance, Discovery, Reformation, Absolutism, Revolutions
-# Note CITY costs are tied specifically to age, and DECREASE with age. Since there are other limits in place in this mod, this should create more historical urbanizaiton patterns. Towns scale slowly linearly upwards in cost.
-# Renaissance
+# SP - TODO - change to depth0 advances - Note CITY costs are tied specifically to age, and DECREASE with age. Since there are other limits in place in this mod, this should create more historical urbanizaiton patterns. Towns scale slowly linearly upwards in cost.
 
+#Renaissance
 TRY_INJECT:renaissance_advance = {
 
 	#global_raw_material_output = -0.01 #this is a stand-in for production challenges as costs increases 'deeper' into RGOs. This isn't really needed, since raw output is also being impacted by stacked RGOs.
@@ -15,6 +14,8 @@ TRY_INJECT:renaissance_advance = {
 	expand_rgo_hunting_cost_modifier = 0.05
 	expand_rgo_gathering_cost_modifier = 0.05
 	expand_rgo_forestry_cost_modifier = 0.05
+
+	global_pop_food_consumption = 0.008
 	
 }
 
@@ -30,6 +31,8 @@ TRY_INJECT:banking_advance = {
 	expand_rgo_gathering_cost_modifier = 0.05
 	expand_rgo_forestry_cost_modifier = 0.05
 
+	global_pop_food_consumption = 0.008
+
 }
 
 TRY_INJECT:professional_armies_advance = {
@@ -43,6 +46,8 @@ TRY_INJECT:professional_armies_advance = {
 	expand_rgo_hunting_cost_modifier = 0.05
 	expand_rgo_gathering_cost_modifier = 0.05
 	expand_rgo_forestry_cost_modifier = 0.05
+
+	global_pop_food_consumption = 0.008
 
 }
 
@@ -61,6 +66,9 @@ TRY_INJECT:new_world_advance = {
 	expand_rgo_forestry_cost_modifier = 0.1
 	
 	town_upgrade_cost_modifier = 0.05
+
+	global_pop_food_consumption = 0.01
+
 }
 
 TRY_INJECT:printing_press_advance = {
@@ -76,6 +84,9 @@ TRY_INJECT:printing_press_advance = {
 	expand_rgo_forestry_cost_modifier = 0.1
 		
 	town_upgrade_cost_modifier = 0.05
+
+	global_pop_food_consumption = 0.01
+
 }
 
 TRY_INJECT:pike_and_shot_advance = {
@@ -91,6 +102,9 @@ TRY_INJECT:pike_and_shot_advance = {
 	expand_rgo_forestry_cost_modifier = 0.1
 		
 	town_upgrade_cost_modifier = 0.05
+
+	global_pop_food_consumption = 0.01
+
 }
 
 # Reformation
@@ -108,6 +122,9 @@ TRY_INJECT:confessionalism_advance = {
 	expand_rgo_forestry_cost_modifier = 0.2
 	
 	town_upgrade_cost_modifier = 0.075
+
+	global_pop_food_consumption = 0.0135
+
 }
 
 TRY_INJECT:global_trade_advance = {
@@ -123,6 +140,9 @@ TRY_INJECT:global_trade_advance = {
 	expand_rgo_forestry_cost_modifier = 0.2
 	
 	town_upgrade_cost_modifier = 0.075
+
+	global_pop_food_consumption = 0.0135
+
 }
 
 TRY_INJECT:artillery_institution_advance = {
@@ -138,6 +158,9 @@ TRY_INJECT:artillery_institution_advance = {
 	expand_rgo_forestry_cost_modifier = 0.2
 	
 	town_upgrade_cost_modifier = 0.075
+
+	global_pop_food_consumption = 0.0135
+
 }
 
 # Absolutism
@@ -155,6 +178,9 @@ TRY_INJECT:manufactories_advance = {
 	expand_rgo_forestry_cost_modifier = 0.3
 	
 	town_upgrade_cost_modifier = 0.1
+
+	global_pop_food_consumption = 0.02
+
 }
 
 TRY_INJECT:scientific_revolution_advance = {
@@ -170,6 +196,9 @@ TRY_INJECT:scientific_revolution_advance = {
 	expand_rgo_forestry_cost_modifier = 0.3
 	
 	town_upgrade_cost_modifier = 0.1
+
+	global_pop_food_consumption = 0.02
+
 }
 
 TRY_INJECT:military_revolution_advance = {
@@ -185,6 +214,9 @@ TRY_INJECT:military_revolution_advance = {
 	expand_rgo_forestry_cost_modifier = 0.3
 	
 	town_upgrade_cost_modifier = 0.1
+
+	global_pop_food_consumption = 0.02
+
 }
 
 # Revolutions
@@ -202,6 +234,9 @@ TRY_INJECT:enlightenment_advance = {
 	expand_rgo_forestry_cost_modifier = 0.4
 	
 	town_upgrade_cost_modifier = 0.1
+
+	global_pop_food_consumption = 0.025
+
 }
 
 TRY_INJECT:industrialization_advance = {
@@ -217,6 +252,9 @@ TRY_INJECT:industrialization_advance = {
 	expand_rgo_forestry_cost_modifier = 0.4
 
 	town_upgrade_cost_modifier = 0.1
+
+	global_pop_food_consumption = 0.025
+
 }
 
 TRY_INJECT:levee_en_masse_advance = {
@@ -232,4 +270,7 @@ TRY_INJECT:levee_en_masse_advance = {
 	expand_rgo_forestry_cost_modifier = 0.4
 
 	town_upgrade_cost_modifier = 0.1
+
+	global_pop_food_consumption = 0.025
+
 }

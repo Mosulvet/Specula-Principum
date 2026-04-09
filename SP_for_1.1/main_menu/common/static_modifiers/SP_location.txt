@@ -162,7 +162,7 @@ TRY_REPLACE:surplus_jobs = {
 	local_migration_attraction = 0.1
 	
 	local_build_buildings_cost = 0.05 #labor demand, so building is more expensive; 0.3 made for very high costs in some areas (x00%+). Reducing to 0.03 should make change generally minimal.
-	#local_build_rgo_cost = 0.025 #this may not actually be a real param -check this / does not work
+
 	# way to create cost based on demand for labor?
 }
 

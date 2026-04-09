@@ -1,4 +1,4 @@
-#HRE is made substantially harder to form, so the AI stops f***ing itself. The AI will still form the HRE, but will hopefully only do so when in a stronger position
+#SP - HRE is made substantially harder to form, so the AI stops f***ing itself. The AI will still form the HRE, but will hopefully only do so when in a stronger position
 
 REPLACE:HRE_f = {
 

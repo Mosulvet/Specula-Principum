@@ -8,7 +8,9 @@ SP has been tested and tweaked through a dozens of observer runs with mid-way an
 Where possible, systems that the AI doesn't understand well are minimized in order to ensure reasonably competitive gameplay.
 
 #Key Features
--Social values have been substantially tweaked to create more engaging decisions.
+- Almost everything is slower - population promotion is slower, growth is slower, building RGOs and buildings are slower, raising troops are slower. Economic problems cannot be solved quickly.
+-Social values have been substantially tweaked to create more engaging decisions. Significantly, Decentralization is generally needed for wide play; Centralization is needed for tall play.
+- Stability is vastly more impactful.
 -RGOs produce less as the size of the RGO increases; low control also has a moderate impact on production efficiency.
 -Governors are cheaper to build (primarily to help the AI build them), but 1. no longer dissapear arbitrarily, and 2. are a substantially reduced source of control.
 -Pop growth is substantially slower than vanilla, but final growth numbers are ballpark similar to historical estimates.
@@ -16,6 +18,9 @@ Where possible, systems that the AI doesn't understand well are minimized in ord
 -Tax efficiency scales downwards gradually as wealth increases; additionally, as wealth increases multiple other global values are impacted including 
 -The first advance in each age tech chain grants slowly increasing maluses; this is less punishing to countries that are behind in technology.
 -Cities start very expensive to discourage early urbanization, but price drops over time.
+-Catholic Bulls are closer to reality AND generally have down sides.
+-Fiefdoms are further differentiated from Vassals.
+- 
 
 TODO - complete this section
 
