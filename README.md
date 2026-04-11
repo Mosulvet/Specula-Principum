@@ -29,7 +29,7 @@ TODO
 
 #Details
 TODO - pull details from existing comments TODO - finish internal file documentation
-TODO - incorporate Bullion, Chauvachee, Land Value
+TODO - incorporate Bullion DONE, Chauvachee TODO, Land Value DONE
 TODO - incorporate disease mod
 
 #Compat
@@ -44,8 +44,8 @@ TBD post alpha
 
 #Dir Structure
 SP_for_1.1 --> main mod
-SP_compat_trade_override --> load this after Improved Trade. Required, else some goods will be overly scare.
-SP_Great_Bullion_Fam --> adjusted version of mod of the same name.
-SP_land_value_local_gov --> adds access to 2 additional local governors for high land value countries. 
+SP_compat_trade_override --> load this after Improved Trade. Required, else some goods will be overly scare, some overly abudnant.
+SP_Great_Bullion_Fam --> TODO - remove. adjusted version of mod of the same name.
+SP_land_value_local_gov --> TODO - remove. adds access to 2 additional local governors for high land value countries. 
 SP_EuroNavy_Extended --> compat mod for EN, and adds earlier access two new Maghrebi ships, the early and late xebec.
 
