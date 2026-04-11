@@ -19,18 +19,14 @@ REPLACE:difficulty_player_hard = {
 
 #remember these are all additive
 TRY_INJECT:difficulty_ai_hard = {
-	game_data = {
-		category = country
-	}
+
 	tax_income_efficiency = 2.5 #remember this adds
 	trade_efficiency = 2.5 #remember this adds
 	global_pop_food_consumption = -0.1
 }
 
 TRY_INJECT:difficulty_ai_very_hard = {
-	game_data = {
-		category = country
-	}
+
 	tax_income_efficiency = 2.5 #remember this adds
 	trade_efficiency = 2.5 #remember this adds
 	global_pop_food_consumption = -0.1 #TBD this reduces cost of food globabally which can have a positive effect for the player. It might need to be removed.
