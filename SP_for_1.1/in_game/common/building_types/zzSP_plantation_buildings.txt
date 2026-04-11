@@ -1,6 +1,5 @@
 ﻿# Removing arbitrary limitation around overseas and colonial. These limitations reflect how European powers used plantations; not plantations as a production approach.
 # Because plantations still require slaves, European powers that do not import slaves will not be able to use plantation buildings in ahistorical ways.
-# slave usage slightly increased
 
 TRY_REPLACE:sugar_plantation = {
 	is_foreign = no
@@ -36,7 +35,7 @@ TRY_REPLACE:sugar_plantation = {
 			produced = sugar
 			output = 1
 		
-			slaves_goods = 0.125
+			slaves_goods = 0.1
 			leather = 0.05
 			tools = 0.05
 			lumber = 0.05
@@ -87,7 +86,7 @@ TRY_REPLACE:cotton_plantation = {
 			produced = cotton
 			output = 1
 		
-			slaves_goods = 0.125
+			slaves_goods = 0.1
 			leather = 0.05
 			tools = 0.05
 			lumber = 0.05
@@ -139,7 +138,7 @@ TRY_REPLACE:tobacco_plantation = {
 			produced = tobacco
 			output = 1
 		
-			slaves_goods = 0.125
+			slaves_goods = 0.1
 			leather = 0.05
 			tools = 0.05
 			lumber = 0.05
