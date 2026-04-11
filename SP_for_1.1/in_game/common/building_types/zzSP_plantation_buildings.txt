@@ -45,7 +45,7 @@ TRY_REPLACE:sugar_plantation = {
 	}
 	
 	modifier = {
-		local_sugar_output_modifier = 0.9 # SP 1.0
+		local_sugar_output_modifier = 0.09 # SP 0.1
 		local_slave_pop_satisfaction = -0.0065 # SP-0.005	
 		}
 
@@ -96,7 +96,7 @@ TRY_REPLACE:cotton_plantation = {
 	}
 	
 	modifier = {
-		local_cotton_output_modifier = 0.9 # SP 1.0
+		local_cotton_output_modifier = 0.09 # SP 0.1
 		local_slave_pop_satisfaction = -0.0065 # SP-0.005	
 		}
 
@@ -148,7 +148,7 @@ TRY_REPLACE:tobacco_plantation = {
 	}
 	
 	modifier = {
-		local_tobacco_output_modifier = 0.9 # SP 1.0
+		local_tobacco_output_modifier = 0.09 # SP 0.1
 		local_slave_pop_satisfaction = -0.0065 # SP-0.005	
 		}
 
