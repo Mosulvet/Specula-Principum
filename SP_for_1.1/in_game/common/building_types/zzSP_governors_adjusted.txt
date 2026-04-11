@@ -1,10 +1,9 @@
-﻿# These changes do several things.
-# Reducing cost to build, and restrictsions, to encourage AI to build.
-# Temporarily, until proper paradox fix, the land gov building is not deleted when a connection is deleted; or if a naval gov gets land connection. This happens too easily. Naval still disapears when a land connection is created.
-# Second, the overall prox bonus is reduced from 80. This could be used with the mod "Local Governors from Land Value", but does not need to be.
-# Buildale in towns as well to encourage AI to build.
-
-# TODO - bug multiple maintenance methods showing in game. Try change to REPLACE: or try only changing  key elementvs via INSERT?
+﻿# SP  These changes do several things.
+# SP  Reducing cost to build, and restrictsions, to encourage AI to build.
+# SP  Temporarily, until proper paradox fix, the land gov building is not deleted when a connection is deleted; or if a naval gov gets land connection. This happens too easily. Naval still disapears when a land connection is created.
+# SP  Second, the overall prox bonus is reduced from 80. This could be used with the mod "Local Governors from Land Value", but does not need to be.
+# SP  Buildale in towns as well to encourage AI to build.
+# SP  TODO - bug multiple maintenance methods showing in game. Try change to REPLACE: or try only changing  key elementvs via INSERT?
 
 TRY_REPLACE:local_governor = {
 	is_foreign = no
@@ -33,7 +32,7 @@ TRY_REPLACE:local_governor = {
 		owner.capital != this
 	}
 
-	expensive = no # cost isn't high regardless, setting to no to help encourage AI to build.
+	expensive = no # SP  cost isn't high regardless, setting to no to help encourage AI to build.
 	
 	automation_build_allowed = no
 	ai_forbid_shutdown = yes
@@ -41,25 +40,15 @@ TRY_REPLACE:local_governor = {
 
 	build_time = government_build_time
 
-#removed Gold maintenance to encourage AI to build.
+# SP reduced Gold maintenance to encourage AI to build.
 
-	unique_production_methods = {
-		local_governor_maintenance = {
-			tools = 1
-			masonry = 1
-			weaponry = 0.5
-			paper = 3
-			books = 1
-			furniture = 2
-			fine_cloth = 1
-
-			category = building_maintenance
+	possible_production_methods = {
+			local_gov_maintenance_gold
 		}
-	}
 
 	construction_demand = local_governor_construction
 
-#80 was too powerful, especially considering that AI wasn't building
+# SP 80 was too powerful, especially considering that AI wasn't building
 	modifier = {
 		local_proximity_source = 60 
 	}
@@ -102,27 +91,16 @@ TRY_REPLACE:naval_governor = {
 
 	build_time = government_build_time
 
-#removed Gold maintenance to encourage AI to build.
-# TODO - bug multiple maintenance methods showing in game. Try change to REPLACE: or try only changing  key elementvs via INSERT?
+# SP reduced Gold maintenance to encourage AI to build.
 
-	unique_production_methods = {
-		naval_governor_maintenance = {
-			tools = 1
-			masonry = 1
-			weaponry = 0.5
-			paper = 3
-			books = 1
-			furniture = 2
-			naval_supplies = 0.5
-			fine_cloth = 0.5
-
-			category = building_maintenance
+	possible_production_methods = {
+			naval_gov_maintenance_gold
 		}
-	}
+
 
 	construction_demand = local_governor_construction
 
-#80; note a naval governor is now also granted in age 2 with the power projection advance;
+# SP 80; note a naval governor is now also granted in age 2 with the power projection advance;
 
 	modifier = {
 		local_proximity_source = 50 
