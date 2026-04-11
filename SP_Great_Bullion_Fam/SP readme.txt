@@ -1,1 +1,0 @@
-Nerfed gold and silver RGO production further. Hungary was far too strong too long due to these mines.
