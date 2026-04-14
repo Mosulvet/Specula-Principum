@@ -1,0 +1,38 @@
+#SP - HRE is made substantially harder to form, so the AI stops f***ing itself. The AI will still form the HRE, but will hopefully only do so when in a stronger position
+
+REPLACE:HRE_f = {
+
+	level = 4
+	required_locations_fraction = 0.90 #0.75
+	rule = plausible
+	potential = {
+		exists = international_organization:hre
+		is_member_of_international_organization = international_organization:hre
+	}
+
+	allow = {
+		trigger_if = {
+			limit = {
+			legitimacy = 100
+			stability > 50
+				}
+		}
+		custom_tooltip = {
+			text = HRE_f_tt
+			always = no
+		}
+	}
+	
+	name = HRE
+	flag = HRE
+	adjective = HRE_ADJ
+	tag = HRE
+	color = map_HRE
+	
+	regions = {
+		north_german_region
+		south_german_region
+	}
+	form_effect = {
+	}
+}

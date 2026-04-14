@@ -1,0 +1,11 @@
+﻿{
+	"name":	"Specula Principum",
+	"id":	"specula.principum",
+	"version":	"0.1",
+	"supported_game_version":	"",
+	"short_description":	"Specular Principum - a deep and validated economic and growth overhaul. Includes integrated / tweaked Deadlier Diseases; Raiding, Torching and Pillaging; Great Bullion Famine; Local gov from Land Value; Improved Trade and Buildings.",
+	"tags":	["Balance", "Military"],
+	"relationships":	[],
+	"game_custom_data":	{
+}
+}

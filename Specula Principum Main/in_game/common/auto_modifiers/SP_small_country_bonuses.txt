@@ -1,0 +1,74 @@
+﻿TRY_INJECT:country_base_values = {
+	
+	global_peasant_enfranchisment = 0.45 # 0.25. This may (?) function as addative with the 0.25 that's already present. Therefore 0.45 --> actually 0.7. This helps slow down growth as a whole. TODO - test / verify.
+	
+}
+
+TRY_REPLACE:num_locations_impact_small = {
+	potential_trigger = {
+		num_locations =< 10
+		} 
+	fort_limit = 1
+}
+
+# small country bonuses for recruiting
+
+small_country_commoner_levy_boost = {
+	potential_trigger = {
+		is_subject = no
+	}
+	limit = {
+		total_population < 750
+	}
+	scales_with = {
+		value = 751
+		subtract = total_population
+		divide = 750
+	}
+	peasants_estate_levy_size = 2
+}
+
+small_country_levy_recovery_boost = {
+	potential_trigger = {
+		is_subject = no
+	}
+	limit = {
+		total_population < 750
+	}
+	scales_with = {
+		value = 751
+		subtract = total_population
+		divide = 750
+	}
+
+	levy_recovery_modifier = 1 
+}
+
+small_country_regulars_discount = {
+	potential_trigger = {
+		is_subject = no
+	}
+	limit = {
+		total_population < 750
+	}
+	scales_with = {
+		value = 751
+		subtract = total_population
+		divide = 750
+	}
+
+	army_infantry_build_cost_modifier = -0.6
+	army_infantry_maintenance_cost_modifier = -0.6
+	army_cavalry_build_cost_modifier = -0.6
+	army_cavalry_maintenance_cost_modifier = -0.6
+	
+	army_artillery_build_cost_modifier = -0.6
+	army_artillery_maintenance_cost_modifier = -0.6
+	army_auxiliary_build_cost_modifier = -0.6
+	army_auxiliary_maintenance_cost_modifier = -0.6
+
+	army_heavy_infantry_build_cost_modifier = -0.6
+	army_heavy_infantry_maintenance_cost_modifier = -0.6
+	army_heavy_cavalry_build_cost_modifier = -0.6
+	army_heavy_cavalry_maintenance_cost_modifier = -0.6
+}

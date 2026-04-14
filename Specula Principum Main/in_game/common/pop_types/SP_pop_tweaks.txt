@@ -1,0 +1,9 @@
+INJECT:tribesmen = {
+	literacy_impact = {
+		#local_tribal_promotion = -0.2	# Reduced literacy impact by 40%
+	}
+}
+
+INJECT:slaves = {
+	grow = yes # Slave pop grows.
+}

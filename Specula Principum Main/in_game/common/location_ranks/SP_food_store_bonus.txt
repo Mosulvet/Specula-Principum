@@ -1,0 +1,16 @@
+TRY_INJECT:city = {
+	
+	rank_modifier = {
+		local_food_capacity = 250 # Should now be 500
+	}
+
+}
+
+TRY_INJECT:town = {
+	
+	rank_modifier = {
+		local_food_capacity = 250 # Should now be 500
+
+	}
+	
+}

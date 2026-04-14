@@ -1,0 +1,5 @@
+﻿TRY_INJECT:diplomatic_endeavors = {
+	country_modifier = {
+		annexation_speed_modifier = 0.33
+	}
+}
