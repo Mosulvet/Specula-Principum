@@ -12,7 +12,7 @@
 		num_subunits > 5
 		unit_has_leader = yes
 		
-		#dominant_culture = { has_culture_group = culture_group:maghrebi_group }
+		dominant_culture = { has_culture_group = culture_group:maghrebi_group } #this was commented out, re-adding.
 
 		unit_location = {
 			development > 5

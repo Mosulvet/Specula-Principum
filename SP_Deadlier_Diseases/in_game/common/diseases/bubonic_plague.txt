@@ -9,7 +9,7 @@
 					situation_has_ended = yes
 				}
 			}
-			value = 0.0025 #Should happen around once per 20 years
+			value = 0.002 #0.0025 Should happen around once per 20 years
 		}
 		else_if = {
 			#It is ongoing
@@ -68,7 +68,7 @@
 		}
 	}
 
-	monthly_resistance_reduction = 0.0005
+	monthly_resistance_reduction = 0.00025 #0.0005
 
 	spawn = {
 		#Has the Black Death spawned already?
@@ -338,6 +338,12 @@
 
 		local_migration_attraction = -5.0
 		local_migration_speed = 0.01
+		
+		local_population_growth = -0.002 #added
+		
+		local_raw_material_output = -0.65 #added
+		local_monthly_food_modifier = -0.35 #added
+		local_production_efficiency = -0.75 #added
 	}
 
 	# If untreated, the mortality rate is between 40% and 70%
