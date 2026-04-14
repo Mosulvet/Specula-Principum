@@ -12,8 +12,8 @@
  AUTO_MODIFIER_NAME_num_locations_impact_tiny: "Tiny country fort bonus."
  AUTO_MODIFIER_NAME_sager_tax_efficiency_small: "Tax efficiency bonus for countries with 25-50 wealth"
  AUTO_MODIFIER_NAME_sager_tax_efficiency_tiny: "Tax efficiency bonus for countries with less than 25 wealth"
- AUTO_MODIFIER_NAME_sager_tax_efficiency_mid: "Tax effiiciency malus for all countries"
- AUTO_MODIFIER_NAME_sager_tax_efficiency: "Tax effiiciency malus for all countries"
+ AUTO_MODIFIER_NAME_sager_tax_efficiency_mid: "Tax effiiciency malus countries with 75-100 wealth"
+ AUTO_MODIFIER_NAME_sager_tax_efficiency: "Tax effiiciency malus for all countries with > 100 wealth"
 #
  AUTO_MODIFIER_NAME_small_country_commoner_levy_boost: "Bonus for small countries"
  AUTO_MODIFIER_NAME_small_country_levy_recovery_boost: "Bonus for small countries"
