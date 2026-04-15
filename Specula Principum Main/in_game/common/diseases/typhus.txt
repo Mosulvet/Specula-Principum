@@ -136,7 +136,8 @@
 	#modifier applied to locations that have the disease (multiplied by the presence %age)
 	#general bad effects on locations that have this
 	location_modifier = {
-		#Nothing
+		local_raw_material_output = -0.2
+		local_production_efficiency = -0.2
 	}
 
 	#script value for mortality rate of the disease (0..1)

@@ -1,4 +1,6 @@
-﻿smallpox = { #https://en.wikipedia.org/wiki/Smallpox
+﻿# SP - the Greater Pox could be brutally lethal for those sickened.
+
+smallpox = { #https://en.wikipedia.org/wiki/Smallpox
 
 	#script value for how likely the disease is to spawn per month (0..1)
 	monthly_spawn_chance = {
@@ -189,13 +191,15 @@ monthly_resistance_reduction = 0.0015
 	#modifier applied to locations that have the disease (multiplied by the presence %age)
 	#general bad effects on locations that have this
 	location_modifier = {
-		#Nothing
+		local_raw_material_output = -0.2
+		local_production_efficiency = -0.2
 	}
 
 	#script value for mortality rate of the disease (0..1)
 	#By the 16th century, smallpox had become entrenched across most of Europe,[3] where it had a mortality rate as high as 30 percent
+	# SP - slight increase in mortality here. 
 	mortality_rate = { 
-		0.05 0.3
+		0.065 0.35
 	}
 
 	#script value for how likely it is that a character will die per calc interval (0..1)

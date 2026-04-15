@@ -108,8 +108,10 @@
 		value = 1
 	}
 
+#SP - malaria can be crippling for long periods of time AND requires caregivers.
 	location_modifier = {
-		#Nothing
+		local_raw_material_output = -0.35
+		local_production_efficiency = -0.35
 	}
 
 	mortality_rate = { 
