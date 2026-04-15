@@ -9,3 +9,5 @@
 [ X ] Increase wealth calc #s for income. Maybe more for pop?
 [ X ] Fix the dupe building maintenance bug
 [ O ] Refine readme.md.
+[ O ] Test mod upload to Steam
+[ O ] Create steam page
