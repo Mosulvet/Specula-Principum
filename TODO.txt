@@ -1,9 +1,11 @@
-[ IN prog[ Rename all Sager file names and comments to SP
-[ X ]Upload to git
-[ X ]Remove YML from paradox
-[In prog] Remove / rename anything from other mods
-[ O ] Incorporate land_gov, bullion, most of trade mod, Chauvachee, deadlier disease
-[ O ] Add loc effects to deadlier diseases
-[ In Prog ] Preface all comments I've made with SP then append to the readme by category.
-[ In Prox ] Readme MD that outlines philosophy; plus line by line.
+[ X ] Rename all Sager file names and comments to SP. Commenting should be done, but it's possible some were missed; close enough for now.
+[ X ] Upload to git
+[ X ] Remove YML from paradox
+[ X ] Remove / rename anything from other mods. Integrated mods maintain file names in order to correctly overwrite if a player has them loaded earlier in the load earlier; or be overwritten if loaded later.
+[ X ] Incorporate land_gov, bullion, most of trade mod, Chauvachee, deadlier disease
+[ X ] Add loc effects to deadlier diseases
+[ X ] Preface all comments I've made with SP then append to the readme by category.
+[ In Prog ] Readme MD that outlines philosophy; plus line by line.
 [ X ] Increase wealth calc #s for income. Maybe more for pop?
+[ X ] Fix the dupe building maintenance bug
+[ O ] Refine readme.md.
