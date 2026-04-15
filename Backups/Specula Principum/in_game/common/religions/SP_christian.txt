@@ -1,0 +1,144 @@
+﻿#protestant flavors felt... underwhelming. They should now provide more whelm.
+
+REPLACE:calvinist = { 
+	color = color_calvinist
+	group = christian
+	
+	enable = 9999.1.1 #historically 1529.1.1 precise date unknown but Calvin's Conversion was either 1529 or 1530
+	
+	religious_aspects = 3
+	has_religious_influence = yes
+
+	ai_wants_convert = yes
+	
+	definition_modifier = {
+		clergy_estate_target_satisfaction = large_permanent_target_satisfaction
+		
+		is_battles_preordained = yes
+		retreat_delay = 20
+
+		global_monthly_art_start_chance = -0.1
+		discipline = 0.075 #was 0.05
+
+		monthly_religious_influence = 0.1
+
+		maximum_religious_influence = 400
+	}
+	
+	opinions = {
+		hussite = positive
+		lutheran = positive
+		lollardy = positive
+	}
+
+	unique_names = {
+		name_aaron name_abraham 
+		name_bartholomew name_benjamin 
+		name_cornelius
+		name_elias Ezra
+		name_gabriel 
+		name_isaac 
+		name_james Jason name_jeremiah name_jonas Jonathan name_jordan name_joseph name_joshua Josiah 
+		name_moses 
+		Nathan Nathaniel 
+		name_samuel name_salomon
+		name_timothy
+		name_zechariah	
+	}
+
+	tags = { protestant_gfx western_christian_gfx christian_gfx abrahamic_gfx }
+	custom_tags = { protestant church_aspects }
+}
+
+REPLACE:hussite = { 
+	color = color_hussite
+	group = christian
+
+	language = czech_dialect #this will change once lutheranism spawns to mirror their 
+	
+	enable = 9999.1.1 #historically 1412.10.18 Jan Hus renounces all authority but Jesus Christ
+	
+	religious_aspects = 3
+	has_religious_influence = yes
+	
+	definition_modifier = {
+		army_auxiliary_maintenance_cost_modifier = -0.25
+		global_pop_promotion_speed_modifier = 0.10
+		global_pop_conversion_speed_modifier = 0.10
+		
+		monthly_religious_influence = 0.1
+
+		maximum_religious_influence = 400
+		land_morale_modifier = 0.05 #hussites had good morale
+	}
+	
+	opinions = {
+		lutheran = kindred
+		calvinist = positive
+	}
+
+	unique_names = {
+		name_aaron name_abraham 
+		name_bartholomew name_benjamin 
+		name_cornelius
+		name_elias Ezra
+		name_gabriel 
+		name_isaac 
+		name_james Jason name_jeremiah name_jonas Jonathan name_jordan name_joseph name_joshua Josiah 
+		name_moses 
+		Nathan Nathaniel 
+		name_samuel name_salomon
+		name_timothy
+		name_zechariah	
+	}
+
+	tags = { protestant_gfx western_christian_gfx christian_gfx abrahamic_gfx }
+	custom_tags = { protestant church_aspects }
+}
+
+REPLACE:lutheran = {
+	color = color_lutheran
+	group = christian
+	
+	enable = 9999.1.1 #historically 1522.3.9 Luthers eight sermons cementing the Reformation as a separate religon
+	
+	religious_aspects = 3
+	has_religious_influence = yes
+
+	ai_wants_convert = yes
+	
+	definition_modifier = {
+	
+		clergy_estate_target_satisfaction = medium_permanent_target_satisfaction
+		tax_income_efficiency = medium_tax_income_efficiency_bonus
+		global_production_efficiency = medium_production_efficiency_bonus #lutherans work hard and are well organized.
+
+		monthly_religious_influence = 0.1
+
+		maximum_religious_influence = 400
+	}
+	
+	opinions = {
+		calvinist = positive
+		hussite = kindred
+		lollardy = positive
+	}
+
+	unique_names = {
+		name_aaron name_abraham 
+		name_bartholomew name_benjamin 
+		name_cornelius
+		name_elias Ezra
+		name_gabriel 
+		name_isaac 
+		name_james Jason name_jeremiah name_jonas Jonathan name_jordan name_joseph name_joshua Josiah 
+		name_moses 
+		Nathan Nathaniel 
+		name_samuel name_salomon
+		name_timothy
+		name_zechariah	
+	}
+
+	tags = { protestant_gfx western_christian_gfx christian_gfx abrahamic_gfx }
+	custom_tags = { protestant church_aspects }
+}

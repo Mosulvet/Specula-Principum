@@ -1,0 +1,12 @@
+pillage_effect = {
+	owner ?= {
+		drop_antagonism_bomb = {
+			modifier = antagonism_pillaged
+			target = prev.unit_location
+			value = {
+				value = 1
+			}
+		}
+	}
+
+}

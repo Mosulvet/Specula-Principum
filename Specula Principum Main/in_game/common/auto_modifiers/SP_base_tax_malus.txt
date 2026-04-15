@@ -1,0 +1,32 @@
+﻿#this is a base tax malus for all countries; this is is on top of large maluses for larger economies. However, the original anti-snowballing decreases for tax efficiency bonuses has been removed. These bonuses now become a more important part of growth over time.
+# This malus is on TOP of the wealth based scaling malus. Consider 7.5% to be the default; with tiny small and mid being a moderate scaling roll-off to help small / poor countries.
+
+sager_tax_efficiency_tiny = {
+	potential_trigger = {
+		country_economical_base < 25
+	}
+	tax_income_efficiency = .25
+}
+
+sager_tax_efficiency_small = {
+	potential_trigger = {
+		country_economical_base => 25
+		country_economical_base < 50
+	}
+	tax_income_efficiency = 0.125
+}
+
+sager_tax_efficiency_mid = {
+	potential_trigger = {
+		country_economical_base => 75
+		country_economical_base < 100
+	}
+	tax_income_efficiency = -0.035 	
+}
+
+sager_tax_efficiency = {
+	potential_trigger = {
+		country_economical_base >= 100
+	}
+	tax_income_efficiency = -0.075 
+}

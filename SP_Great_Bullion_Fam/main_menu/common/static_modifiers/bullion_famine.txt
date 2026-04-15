@@ -1,8 +1,0 @@
-﻿the_great_bullion_famine = {
-	game_data = {
-		category = location
-	}
-	local_max_rgo_size_modifier = -0.5
-	local_goods_gold_output_modifier = -0.35 #-0.3
-	local_silver_output_modifier = -0.35 #-0.3
-}

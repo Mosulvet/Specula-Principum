@@ -1,0 +1,127 @@
+﻿namespace = loansnestates
+
+loansnestates.1 = {
+	#hidden = yes
+	type = country_event
+	
+	immediate = {
+
+		#Sets effective inverse tax base
+		set_variable = {
+			name = loansnestates_country_tax_base
+			value = country_tax_base
+		}
+		set_variable = {
+			name = loansnestates_average_control
+			value = {
+				every_owned_location = {
+					add = {
+						value = local_control
+					}
+				}
+				divide = num_locations
+			}
+		}
+		set_variable = {
+			name = loansnestates_inverse_average_control
+			value = {
+				add = 1
+				subtract = var:loansnestates_average_control
+			}
+		}
+		set_variable = {
+			name = loansnestates_adjusted_country_tax_base
+			value = {
+				add = var:loansnestates_country_tax_base
+				multiply = var:loansnestates_inverse_average_control
+			}
+		}
+
+		#Sets autonomous estate income
+		#Nobles		
+		set_variable = {
+			name = loansnestates_autonomous_income_estate_nobles
+			value = {
+				add = var:loansnestates_adjusted_country_tax_base
+				multiply = "estate_power(estate_type:nobles_estate)"
+				multiply = -0.5 #ideally, this will reduce estate income by 50%
+			}
+		}	
+		add_gold_to_estate = {
+			estate_type = estate_type:nobles_estate
+			value = var:loansnestates_autonomous_income_estate_nobles
+		}
+		#Clergy		
+		set_variable = {
+			name = loansnestates_autonomous_income_estate_clergy
+			value = {
+				add = var:loansnestates_adjusted_country_tax_base
+				multiply = "estate_power(estate_type:clergy_estate)"
+			}
+		}
+		add_gold_to_estate = {
+			estate_type = estate_type:clergy_estate
+			value = var:loansnestates_autonomous_income_estate_clergy
+		}	
+		#Burghers		
+		set_variable = {
+			name = loansnestates_autonomous_income_estate_burghers
+			value = {
+				add = var:loansnestates_adjusted_country_tax_base
+				multiply = "estate_power(estate_type:burghers_estate)"
+			}
+		}				
+		add_gold_to_estate = {
+			estate_type = estate_type:burghers_estate
+			value = var:loansnestates_autonomous_income_estate_burghers
+		}		
+		#Commoners		
+		set_variable = {
+			name = loansnestates_autonomous_income_estate_peasants
+			value = {
+				add = var:loansnestates_adjusted_country_tax_base
+				multiply = "estate_power(estate_type:peasants_estate)"
+			}
+		}				
+		add_gold_to_estate = {
+			estate_type = estate_type:peasants_estate
+			value = var:loansnestates_autonomous_income_estate_peasants
+		}				
+		#Dhimmi		
+		set_variable = {
+			name = loansnestates_autonomous_income_estate_dhimmi
+			value = {
+				add = var:loansnestates_adjusted_country_tax_base
+				multiply = "estate_power(estate_type:dhimmi_estate)"
+			}
+		}						
+		add_gold_to_estate = {
+			estate_type = estate_type:dhimmi_estate
+			value = var:loansnestates_autonomous_income_estate_dhimmi
+		}					
+		#Tribes	
+		set_variable = {
+			name = loansnestates_autonomous_income_estate_tribes
+			value = {
+				add = var:loansnestates_adjusted_country_tax_base
+				multiply = "estate_power(estate_type:tribes_estate)"
+			}
+		}								
+		add_gold_to_estate = {
+			estate_type = estate_type:tribes_estate
+			value = var:loansnestates_autonomous_income_estate_tribes
+		}				
+		#Cossacks
+		set_variable = {
+			name = loansnestates_autonomous_income_estate_cossacks
+			value = {
+				add = var:loansnestates_adjusted_country_tax_base
+				multiply = "estate_power(estate_type:cossacks_estate)"
+			}
+		}								
+		add_gold_to_estate = {
+			estate_type = estate_type:cossacks_estate
+			value = var:loansnestates_autonomous_income_estate_cossacks
+		}
+	}
+}

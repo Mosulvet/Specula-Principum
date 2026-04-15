@@ -1,0 +1,358 @@
+locations = {
+
+	# Bergslagen Iron Belt
+	grythyttan = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "bergslagen_iron_belt_base"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+
+	# Bergslagen Iron Belt
+	nora = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "bergslagen_iron_belt_base"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+
+	# Bergslagen Iron Belt
+	skinskatteberg = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "bergslagen_iron_belt_base"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+
+	# Bergslagen Iron Belt
+	avesta = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "bergslagen_iron_belt_base"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+
+	# Styrian Erzberg Ore Mountain
+	leoben = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "styrian_erzberg_iron_mountain_base"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+
+	# Newcastle–Tyne Coalfield
+	hexham = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "newcastle_tyne_coalfield_base"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+
+	darlington = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "newcastle_tyne_coalfield_base"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+
+	# Sumbawa & Timor Aloeswood Forests (remaining centers)
+	sumba = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "sumbawa_timor_aloeswood_forests_base"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+			}
+		}
+
+	nunkolo = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "sumbawa_timor_aloeswood_forests_base"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+			}
+	}
+
+	# Flanders Linen Basin
+	kortriik = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "flanders_linen_basin_base"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+
+	sint_niklaas = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "flanders_linen_basin_base"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+
+	#Lower Rhine Flax
+	harderwijk = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "lower_rhine_flax_corridor_base"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+
+	# Sumbawa & Timor Aloeswood Forests
+	likusaen = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "sumbawa_timor_aloeswood_forests_base"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+
+	# Carrara Marble Quarries
+	fosdinovo = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "carrara_marble_quarries_base"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+
+	# Persian Silk Heartland (Gilan)
+	langarud = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "persian_silk_heartland_base"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+
+	rasht = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "persian_silk_heartland_base"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+
+	# The Grande Saunerie
+	salins_les_bains = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "grande_saunerie_saltworks_base"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+
+	# The Root of Life
+	bongju = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "the_root_of_life_base"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+
+	samhwa = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "the_root_of_life_base"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+
+	# Jiangnan Imperial Silk Basin
+	hangzhou = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "jiangnan_imperial_silk_basin_base"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+
+	wuxing = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "jiangnan_imperial_silk_basin_base"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+
+	jiaxing = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "jiangnan_imperial_silk_basin_base"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+
+	wuxian = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "jiangnan_imperial_silk_basin_base"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+
+	limassol = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "cyprus_sugar_base"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 2
+				}
+			}
+		}
+	}
+	
+#Medieval Mali’s gold mines, located primarily in the southern Bambuk, Boure, and Galam regions near the Niger and Senegal rivers, supplied nearly half of the Old World's gold in the 14th century.
+
+		siguiri = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "gold_mines_of_mali"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1.5
+				}
+			}
+		}
+	}
+	
+		niani = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "gold_mines_of_mali"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 2.5
+				}
+			}
+		}
+	}
+	
+}

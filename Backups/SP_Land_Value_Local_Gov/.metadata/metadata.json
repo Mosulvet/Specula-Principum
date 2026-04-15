@@ -1,0 +1,12 @@
+﻿{
+    "name": "[Local]Land Value Reforms for Local Governors",
+    "id": "LandValueGivesGovernors",
+    "version": "1.0",
+    "supported_game_version": "1.1.9",
+    "short_description": "Adds land-focused government reforms that grant local governors, mirroring the naval reforms that grant naval governors. Two new reforms at age 1 and age 4 require land focus societal value.",
+    "tags": [
+        "Balance"
+    ],
+    "relationships": [],
+    "game_custom_data": {}
+}

@@ -1,0 +1,118 @@
+﻿# SP - central vs. de is a replace instead of an inject as it has a lot of changes, and it's hard to read otherwise.
+
+TRY_REPLACE:centralization_vs_decentralization = {
+	left_modifier = {
+	
+# SP - a centralized state propagates control LESS effectively, but more is more efficient with what it does control.
+	
+		global_crown_estate_power = 0.5
+		global_distance_from_capital_speed_propagation = -0.25 # SP - this is flipped L to R; AND rather than scaling up to bonus, it scales lower to overall slow economies, especially of wide nations.
+		
+		court_spending_cost  = 0.1
+		subject_loyalty = -20
+		
+		annexation_speed_modifier = 0.33
+		tax_income_efficiency = 0.1
+		global_estate_max_tax = 0.025
+		control_importance_modifier = 0.2
+
+	}
+	right_modifier = {
+	
+# SP - a decentralized state propagates control more effectively, but suffers from more powerful estates and less effective taxation. This should be attractive to wide nations.
+
+		global_estate_target_satisfaction = medium_permanent_target_satisfaction
+		global_estate_satisfaction_recovery = 0.002
+		global_distance_from_capital_speed_propagation = 0.3 # SP - flipped left vs right, and was 0.2. Strong decentralized governance mechanisms in place. This is also more attractive overall due to the inverse building cost calc.
+
+		global_crown_estate_power = -0.5
+		subject_income_modifier = 0.1 # SP - this was scaling too high, dropped from .2 to .1
+
+
+		#court_spending_cost  = -0.05
+		global_max_control = 0.1
+
+		annexation_speed_modifier = -0.75 # SP - was -0.33; if you're annexing often, you're not really decentralized, are you? 
+
+		tax_income_efficiency = -0.15 # SP - this was -0.1, however increasing to reflect the subject income bonus
+		# global_estate_max_tax = -0.025 Not sure this is needed w/ the efficieny mod
+		
+		#global_nobles_estate_power = 0.1
+		#global_clergy_estate_power = 0.1
+		#global_burghers_estate_power = 0.1
+		#global_peasants_estate_power = 0.05 #a decentralized state benefits peasants less
+		
+		subject_loyalty = 10 # SP - as a decentralized states, has the mechanisms to influence its vassals; and they enjoy more freedoms. This is a small bonus, as there's also a subject income bonus.
+		# SP - counter_espionage = -0.3
+		
+		control_importance_modifier = -0.1
+	}
+
+	opinion_importance_multiplier = 0.5
+}
+
+##############################################
+# SP - Adjustments to keep this a bit more interesting, and to tie cabinet w/ tax. TODO - explore way to charge cash for ongoing cabinet actions.
+
+TRY_INJECT:individualism_vs_communalism = {
+	left_modifier = {
+		country_cabinet_efficiency = -0.25 # SP - cabinet mostly functions on communal systems (rebelion, religion, culture, etc...)
+		tax_income_efficiency = 0.1 # SP - offsets malus above; think of this as individuals function with great efficiency overall, increasing tax base.
+	}
+	right_modifier = {
+		country_cabinet_efficiency = 0.25 # SP - if stacked with other mods, could this be too high?
+		tax_income_efficiency = -0.1
+	}
+}
+
+
+##############################################
+# SP - tweaks to make land a bit more attractive
+
+TRY_INJECT:land_vs_naval = {
+	left_modifier = {
+		trade_sea_movement_cost_modifier = -0.25 # SP - 0.5, now 0.25
+		trade_land_movement_cost_modifier = -0.1 # SP - -0.2 now -0.15
+	}
+	right_modifier = {
+		global_maritime_presence_modifier = -0.1 # SP - 0.3, now 0.2
+		trade_land_movement_cost_modifier = -0.25 # SP - 0.5, now 0.25
+	}
+
+}
+
+##############################################
+# SP - Part of the overall nerf of promotion
+
+TRY_INJECT:serfdom_vs_free_subjects = {
+	left_modifier = {
+		global_raw_material_output = -0.05  # SP - 0.1, this brings value down to 0.05
+
+		peasants_estate_levy_size = -0.1 # SP - 0.25, brings actual down to 0.15
+		# SP - global_peasant_enfranchisment = -0.33 # SP - -0.33 nerf some of the noble income by shifting to peasants. Trying to adjust country defaults first.
+		
+		land_morale_modifier = 0.1 # SP - added - serf's more easily beaten into line
+	}
+	right_modifier = {
+		global_pop_promotion_speed_modifier = -0.5 # SP - 1.0, actual value now 0.5
+        levy_combat_efficiency_modifier = 0.1 # SP - 0.1 actual value now 0.2
+
+		# SP - global_peasant_enfranchisment = 0.33 # SP - 0.33 consider a nerf to some of the noble income by shifting to peasants
+
+		naval_morale_modifier = 0.1 # SP - added - freeer societies have generally had superior navies (even an able seaman has far higher technical requirements, and day to day decision making required)
+	}
+}
+
+TRY_INJECT:aristocracy_vs_plutocracy = { #
+
+	left_modifier = {
+	army_cavalry_power = 0.065
+	court_spending_cost = 0.03 # SP - bumps exisitng to 0.05
+	}
+	
+	right_modifier = {
+	army_infantry_power = 0.05
+	levy_combat_efficiency_modifier = 0.1
+	court_spending_cost  = 0.02 # SP - removes existing modifier
+	}
+}

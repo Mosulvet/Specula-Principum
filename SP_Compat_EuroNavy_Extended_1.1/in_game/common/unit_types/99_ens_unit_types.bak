@@ -1,0 +1,520 @@
+﻿# European Naval Superiority — Ship Types
+#
+# Part 1: Non-European Regional Variants
+#   Strong in home waters, weaker in open-ocean artillery combat.
+#   Large, crew-heavy, or fast, but carry fewer/lighter guns
+#   and suffer penalties on ocean and deep ocean topography.
+#
+# Part 2: Western Shipbuilding Adoption (Catch-Up Ships)
+#   Available to non-European nations one age behind the European
+#   equivalents. Same stats as the originals, no ocean penalties.
+#
+# NOTE: All ships set buildable = yes to override the is_special default.
+# Each ship has a location_potential gate restricting where it can be built.
+
+
+##################################################
+# PART 1: REGIONAL VARIANTS
+##################################################
+
+
+##################################################
+# War Jongs — Southeast Asian heavy ships
+# Large, crew-heavy, optimized for boarding in coastal waters.
+# Vulnerable to European standoff gunnery in open ocean.
+##################################################
+
+# Southeast Asian war jong — large, crew-heavy, strong in coastal waters
+# but vulnerable to standoff gunnery. Hull 35 (vs base 25), cannons 30 (vs 50),
+# crew 0.500 (vs 0.300).
+n_ens_war_jong = {
+	is_special = yes
+	category = navy_heavy_ship
+	copy_from = n_age_3_discovery_heavy_ship
+	upgrades_to = n_ens_great_jong
+	buildable = yes
+
+	location_potential = {
+		ens_southeast_asian_location_trigger = yes
+	}
+
+	hull_size = 35
+	cannons = 30
+	crew_size = 0.500
+
+	combat = {
+		ocean = -0.25
+		deep_ocean = -0.5
+	}
+
+	maintenance_demand = heavy_ship_3_maintenance
+	construction_demand = heavy_ship_3_construction
+	age = "age_3_discovery"
+}
+
+# Late-era war jong — massive displacement but still limited artillery.
+# Hull 45 (vs base 30), cannons 40 (vs 60), crew 0.700 (vs 0.450).
+# Upgrades into adopted galleon once Western shipbuilding is researched.
+n_ens_great_jong = {
+	is_special = yes
+	category = navy_heavy_ship
+	copy_from = n_age_4_reformation_heavy_ship
+	upgrades_to = n_ens_adopted_galleon
+	buildable = yes
+
+	location_potential = {
+		ens_southeast_asian_location_trigger = yes
+	}
+
+	hull_size = 45
+	cannons = 40
+	crew_size = 0.700
+
+	combat = {
+		ocean = -0.25
+		deep_ocean = -0.5
+	}
+
+	maintenance_demand = heavy_ship_4_maintenance
+	construction_demand = heavy_ship_4_construction
+	age = "age_4_reformation"
+}
+
+##################################################
+# Coastal Prau — Southeast Asian light ships
+# Fast outrigger vessels for island hopping and coastal patrol.
+# Very fast but fragile and poorly armed.
+##################################################
+
+# Coastal prau — fast outrigger patrol vessel. Hull 5 (vs base 6),
+# cannons 5 (vs 8), crew 0.035 (vs 0.050), speed 12 (vs base 10).
+n_ens_coastal_prau = {
+	is_special = yes
+	category = navy_light_ship
+	copy_from = n_age_2_renaissance_light_ship
+	upgrades_to = n_ens_war_prau
+	buildable = yes
+
+	location_potential = {
+		ens_southeast_asian_location_trigger = yes
+	}
+
+	hull_size = 5
+	cannons = 5
+	crew_size = 0.035
+	movement_speed = 12
+
+	combat = {
+		ocean = -0.2
+		deep_ocean = -0.4
+	}
+
+	maintenance_demand = light_ship_2_maintenance
+	construction_demand = light_ship_2_construction
+	age = "age_2_renaissance"
+}
+
+# War prau — larger armed outrigger. Hull 6 (vs base 8), cannons 7 (vs 10),
+# crew 0.050 (vs 0.075), speed 13 (vs base 11).
+# Upgrades into adopted caravel once Western shipbuilding is researched.
+n_ens_war_prau = {
+	is_special = yes
+	category = navy_light_ship
+	copy_from = n_age_3_discovery_light_ship
+	upgrades_to = n_ens_adopted_caravel
+	buildable = yes
+
+	location_potential = {
+		ens_southeast_asian_location_trigger = yes
+	}
+
+	hull_size = 6
+	cannons = 7
+	crew_size = 0.050
+	movement_speed = 13
+
+	combat = {
+		ocean = -0.2
+		deep_ocean = -0.4
+	}
+
+	maintenance_demand = light_ship_3_maintenance
+	construction_demand = light_ship_3_construction
+	age = "age_3_discovery"
+}
+
+##################################################
+# War Dhows — Indian Ocean light ships
+# Fast, lightly armed, optimized for monsoon trade routes.
+# Outgunned by European equivalents in open water.
+##################################################
+
+# Indian Ocean war dhow — fast, lightly armed, optimized for monsoon
+# trade routes. Hull 4 (vs base 6), cannons 4 (vs 8), crew 0.030 (vs 0.050),
+# speed 12 (vs base 10).
+n_ens_war_dhow = {
+	is_special = yes
+	category = navy_light_ship
+	copy_from = n_age_2_renaissance_light_ship
+	upgrades_to = n_ens_heavy_dhow
+	buildable = yes
+
+	location_potential = {
+		ens_indian_ocean_location_trigger = yes
+	}
+
+	hull_size = 4
+	cannons = 4
+	crew_size = 0.030
+	movement_speed = 12
+
+	combat = {
+		ocean = -0.15
+		deep_ocean = -0.35
+	}
+
+	maintenance_demand = light_ship_2_maintenance
+	construction_demand = light_ship_2_construction
+	age = "age_2_renaissance"
+}
+
+# Improved dhow — still fast but outgunned by European pinnaces.
+# Hull 6 (vs base 8), cannons 6 (vs 10), crew 0.050 (vs 0.075),
+# speed 13 (vs base 11).
+# Upgrades into adopted caravel once Western shipbuilding is researched.
+n_ens_heavy_dhow = {
+	is_special = yes
+	category = navy_light_ship
+	copy_from = n_age_3_discovery_light_ship
+	upgrades_to = n_ens_adopted_caravel
+	buildable = yes
+
+	location_potential = {
+		ens_indian_ocean_location_trigger = yes
+	}
+
+	hull_size = 6
+	cannons = 6
+	crew_size = 0.050
+	movement_speed = 13
+
+	combat = {
+		ocean = -0.15
+		deep_ocean = -0.35
+	}
+
+	maintenance_demand = light_ship_3_maintenance
+	construction_demand = light_ship_3_construction
+	age = "age_3_discovery"
+}
+
+##################################################
+# Ghurāb — Indian Ocean heavy ships
+# Armed warships used by Omani, Maratha, and other Indian Ocean powers.
+# Lighter than European heavy ships, fewer guns, but faster with more
+# crew for boarding. Penalized in open ocean.
+##################################################
+
+# Ghurāb — Indian Ocean armed warship. Hull 20 (vs base 25),
+# cannons 25 (vs 50), crew 0.400 (vs 0.300), speed 7 (vs base 6.5).
+n_ens_ghurab = {
+	is_special = yes
+	category = navy_heavy_ship
+	copy_from = n_age_3_discovery_heavy_ship
+	upgrades_to = n_ens_heavy_ghurab
+	buildable = yes
+
+	location_potential = {
+		ens_indian_ocean_location_trigger = yes
+	}
+
+	hull_size = 20
+	cannons = 25
+	crew_size = 0.400
+	movement_speed = 7
+
+	combat = {
+		ocean = -0.2
+		deep_ocean = -0.4
+	}
+
+	maintenance_demand = heavy_ship_3_maintenance
+	construction_demand = heavy_ship_3_construction
+	age = "age_3_discovery"
+}
+
+# Heavy ghurāb — improved armed warship. Hull 28 (vs base 30),
+# cannons 35 (vs 60), crew 0.550 (vs 0.450), speed 7.5 (vs base 7).
+# Upgrades into adopted galleon once Western shipbuilding is researched.
+n_ens_heavy_ghurab = {
+	is_special = yes
+	category = navy_heavy_ship
+	copy_from = n_age_4_reformation_heavy_ship
+	upgrades_to = n_ens_adopted_galleon
+	buildable = yes
+
+	location_potential = {
+		ens_indian_ocean_location_trigger = yes
+	}
+
+	hull_size = 28
+	cannons = 35
+	crew_size = 0.550
+	movement_speed = 7.5
+
+	combat = {
+		ocean = -0.2
+		deep_ocean = -0.4
+	}
+
+	maintenance_demand = heavy_ship_4_maintenance
+	construction_demand = heavy_ship_4_construction
+	age = "age_4_reformation"
+}
+
+##################################################
+# Chinese Junks — heavy ships with advanced construction
+# Reasonably seaworthy but not ocean-optimized. Strong in inland seas.
+##################################################
+
+# Chinese imperial junk — advanced construction, moderate armament, strong
+# in coastal defense. Hull 30 (vs base 25), cannons 35 (vs 50),
+# crew 0.250 (vs 0.300). Bonus in inland seas, penalty in open ocean.
+n_ens_imperial_junk = {
+	is_special = yes
+	category = navy_heavy_ship
+	copy_from = n_age_3_discovery_heavy_ship
+	upgrades_to = n_ens_treasure_junk
+	buildable = yes
+
+	location_potential = {
+		ens_chinese_location_trigger = yes
+	}
+
+	hull_size = 30
+	cannons = 35
+	crew_size = 0.250
+
+	combat = {
+		ocean = -0.1
+		deep_ocean = -0.3
+		inland_sea = 0.15
+	}
+
+	maintenance_demand = heavy_ship_3_maintenance
+	construction_demand = heavy_ship_3_construction
+	age = "age_3_discovery"
+}
+
+# Late treasure junk — massive but conservative gunnery doctrine.
+# Hull 50 (vs base 30), cannons 40 (vs 60), crew 0.350 (vs 0.450).
+# Elevated maritime presence reflects prestige projection.
+# Upgrades into adopted galleon once Western shipbuilding is researched.
+n_ens_treasure_junk = {
+	is_special = yes
+	category = navy_heavy_ship
+	copy_from = n_age_4_reformation_heavy_ship
+	upgrades_to = n_ens_adopted_galleon
+	buildable = yes
+
+	location_potential = {
+		ens_chinese_location_trigger = yes
+	}
+
+	hull_size = 50
+	cannons = 40
+	crew_size = 0.350
+	maritime_presence = ship_above_medium_maritime
+
+	combat = {
+		ocean = -0.1
+		deep_ocean = -0.3
+		inland_sea = 0.15
+	}
+
+	maintenance_demand = heavy_ship_4_maintenance
+	construction_demand = heavy_ship_4_construction
+	age = "age_4_reformation"
+}
+
+##################################################
+# Coastal Junks — Chinese light ships
+# Small war junks for coastal patrol and trade protection.
+# Compartmented hull for survivability, moderate guns, inland sea bonus.
+##################################################
+
+# Coastal junk — small patrol vessel with compartmented hull.
+# Hull 7 (vs base 6), cannons 6 (vs 8), crew 0.040 (vs 0.050),
+# speed 10 (same as base).
+n_ens_coastal_junk = {
+	is_special = yes
+	category = navy_light_ship
+	copy_from = n_age_2_renaissance_light_ship
+	upgrades_to = n_ens_patrol_junk
+	buildable = yes
+
+	location_potential = {
+		ens_chinese_location_trigger = yes
+	}
+
+	hull_size = 7
+	cannons = 6
+	crew_size = 0.040
+
+	combat = {
+		ocean = -0.1
+		deep_ocean = -0.25
+		inland_sea = 0.1
+	}
+
+	maintenance_demand = light_ship_2_maintenance
+	construction_demand = light_ship_2_construction
+	age = "age_2_renaissance"
+}
+
+# Patrol junk — larger coastal junk for trade protection.
+# Hull 9 (vs base 8), cannons 8 (vs 10), crew 0.060 (vs 0.075),
+# speed 11 (same as base).
+# Upgrades into adopted caravel once Western shipbuilding is researched.
+n_ens_patrol_junk = {
+	is_special = yes
+	category = navy_light_ship
+	copy_from = n_age_3_discovery_light_ship
+	upgrades_to = n_ens_adopted_caravel
+	buildable = yes
+
+	location_potential = {
+		ens_chinese_location_trigger = yes
+	}
+
+	hull_size = 9
+	cannons = 8
+	crew_size = 0.060
+
+	combat = {
+		ocean = -0.1
+		deep_ocean = -0.25
+		inland_sea = 0.1
+	}
+
+	maintenance_demand = light_ship_3_maintenance
+	construction_demand = light_ship_3_construction
+	age = "age_3_discovery"
+}
+
+
+##################################################
+# PART 2: WESTERN SHIPBUILDING ADOPTION
+##################################################
+# Available to non-European nations one age behind the European
+# equivalent. Same stats as the originals (via copy_from),
+# representing successful technology transfer.
+# No ocean combat penalties — the design is Western.
+##################################################
+
+
+######################
+# Adopted Heavy Ships
+######################
+
+# Western-rigged carrack — European carrack design built by non-European
+# shipyards. Same stats as the age 3 European carrack, available at age 4.
+n_ens_adopted_carrack = {
+	is_special = yes
+	category = navy_heavy_ship
+	copy_from = n_age_3_discovery_heavy_ship
+	upgrades_to = n_ens_adopted_galleon
+	buildable = yes
+
+	location_potential = {
+		ens_non_european_location_trigger = yes
+	}
+
+	age = "age_4_reformation"
+}
+
+# Adopted galleon — Western galleon design adapted by non-European nations.
+# Same stats as the age 4 European galleon, available at age 5.
+n_ens_adopted_galleon = {
+	is_special = yes
+	category = navy_heavy_ship
+	copy_from = n_age_4_reformation_heavy_ship
+	upgrades_to = n_ens_adopted_twodecker
+	buildable = yes
+
+	location_potential = {
+		ens_non_european_location_trigger = yes
+	}
+
+	age = "age_5_absolutism"
+}
+
+# Adopted two-decker — Western two-decker design built overseas.
+# Same stats as the age 5 European two-decker, available at age 6.
+# Upgrades to the base game three-decker (ungated at age 6).
+n_ens_adopted_twodecker = {
+	is_special = yes
+	category = navy_heavy_ship
+	copy_from = n_age_5_absolutism_heavy_ship
+	upgrades_to = n_threedecker
+	buildable = yes
+
+	location_potential = {
+		ens_non_european_location_trigger = yes
+	}
+
+	age = "age_6_revolutions"
+}
+
+######################
+# Adopted Light Ships
+######################
+
+# Adopted caravel — Western caravel design built by non-European nations.
+# Same stats as the age 3 European caravel, available at age 4.
+n_ens_adopted_caravel = {
+	is_special = yes
+	category = navy_light_ship
+	copy_from = n_age_3_discovery_light_ship
+	upgrades_to = n_ens_adopted_pinnace
+	buildable = yes
+
+	location_potential = {
+		ens_non_european_location_trigger = yes
+	}
+
+	age = "age_4_reformation"
+}
+
+# Adopted pinnace — Western pinnace design adapted by non-European navies.
+# Same stats as the age 4 European pinnace, available at age 5.
+n_ens_adopted_pinnace = {
+	is_special = yes
+	category = navy_light_ship
+	copy_from = n_age_4_reformation_light_ship
+	upgrades_to = n_ens_adopted_frigate
+	buildable = yes
+
+	location_potential = {
+		ens_non_european_location_trigger = yes
+	}
+
+	age = "age_5_absolutism"
+}
+
+# Adopted frigate — Western frigate design built overseas.
+# Same stats as the age 5 European frigate, available at age 6.
+# Upgrades to the base game heavy frigate (ungated at age 6).
+n_ens_adopted_frigate = {
+	is_special = yes
+	category = navy_light_ship
+	copy_from = n_age_5_absolutism_light_ship
+	upgrades_to = n_heavy_frigate
+	buildable = yes
+
+	location_potential = {
+		ens_non_european_location_trigger = yes
+	}
+
+	age = "age_6_revolutions"
+}

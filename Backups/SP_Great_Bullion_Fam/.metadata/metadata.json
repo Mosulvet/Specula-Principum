@@ -1,0 +1,12 @@
+﻿{
+	"name":	"(Local)Bullion Famine",
+	"id":	"alpys.bullionfamine",
+	"version":	"0.1",
+	"supported_game_version":	"1.0.10",
+	"short_description":	"European gold and silver mine debuff.",
+	"tags":	["Balance", "Trade and Economics"],
+	"picture": "thumbnail.png",
+	"relationships":	[],
+	"game_custom_data":	{
+}
+}

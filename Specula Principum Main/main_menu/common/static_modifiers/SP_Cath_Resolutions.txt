@@ -1,0 +1,106 @@
+﻿###################################
+# Scripted form Curia Actions
+###################################
+
+#Christiana pietas by Sixtus V in 1586, relieved the Jews of many oppressive social and economic restrictions which had been imposed upon them by Paul IV and Pius V. 
+REPLACE:christiana_pietas = {
+	game_data = {
+		category = religion
+	}
+	tolerance_heathen = 2
+	burghers_estate_target_satisfaction = tiny_permanent_target_satisfaction #more people to sell to and buy from is always good
+	trade_efficiency = tiny_trade_efficiency_bonus
+	nobles_estate_target_satisfaction = small_permanent_target_satisfaction_penalty #can't squeeze the heretics and jews quite as hard
+	peasants_estate_target_satisfaction = small_permanent_target_satisfaction_penalty #lost someone to look down on
+}
+
+
+#Illius qui se pro divini is a papal bull issued by Pope Eugene IV in December 1442. Eugene granted plenary indulgence to the knights and friars of the Order of Christ, and all other Christians who fought in the crusade against the Saracens
+REPLACE:illius_qui_se_pro_divini = {
+	game_data = {
+		category = religion
+	}
+	monthly_army_tradition = 0.05
+	global_manpower_modifier = 0.05
+	antagonism_received_modifier = 0.25 #granting this for crusaders is VERY ANTAGONOSTIC.
+	tolerance_heathen = -0.5	
+}
+
+#prohibited clergy members from engaging in secular, worldly business and pursuits. It aimed to enforce church laws against ecclesiastics who were occupied with commercial ventures
+REPLACE:apostolicae_servitutis = {
+	game_data = {
+		category = religion
+	}
+	nobles_estate_target_satisfaction = tiny_permanent_target_satisfaction
+	burghers_estate_target_satisfaction = tiny_permanent_target_satisfaction
+	tax_income_efficiency = tiny_tax_income_efficiency_bonus
+	clergy_estate_target_satisfaction = large_permanent_target_satisfaction_penalty #this makes clergy very UNHAPPY as they are losing side hustles.
+}
+
+#provide instruction in condemning or correcting literature which were against Catholic doctrine.[1] The document also had the authority to give permission for selected individuals to read books which were forbidden
+REPLACE:immensa_aeterni_dei = {
+	game_data = {
+		category = religion
+	}
+	global_institution_growth_modifier = 0.10 #reasonable; general increases spread of ideas
+	research_speed = 0.025
+	stability_cost = 0.2 #Scary books!
+}
+
+#Freedom to accomplish its spiritual mission without interference from any secular power.[
+REPLACE:libertas_ecclesiae = {
+	game_data = {
+		category = religion
+	}
+	clergy_estate_target_satisfaction = medium_permanent_target_satisfaction
+	global_crown_estate_power = -0.25
+	global_clergy_estate_power = 0.5
+	imperial_authority_modifier = -0.05 #the original 0.2 makes ZERO goddamn sense against what this modifier actually does.
+}
+
+
+#Dei Gratia Rex (abbreviated as D. G. Rex) is a Latin title inscribed on coins meaning, By the Grace of God, King.
+REPLACE:dei_gratia_rex = {
+	game_data = {
+		category = religion
+	}
+	monthly_legitimacy = 0.1 #the state is trading legitimacy for acknowledgement that authority flows from the church
+	global_crown_estate_power = -0.25
+}
+
+#The Bull contained a collection of censures of excommunication against the perpetrators of various offences. These include hersies, but also piracy and plundering, attacking the church etc...
+REPLACE:in_coena_domini = {
+	game_data = {
+		category = religion
+	}
+	global_maritime_presence_modifier = 0.125
+	stability_cost = -0.025
+	global_pirate_spawn_chance = -0.1
+	anti_piracy_warfare_modifier = 0.1
+	tolerance_heathen = -1
+}
+
+#most famously refers to the 1336 Apostolic Constitution by Pope Benedict XII, which defined that souls of the faithful enter the Beatific Vision (heaven) immediately after death, rather than waiting for the Last Judgment.
+REPLACE:benedictus_deus = {
+	game_data = {
+		category = religion
+	}
+	global_pop_conversion_speed_modifier = 0.15 #reasonable modifier, but 0.33 is too high
+	tolerance_heathen = -0.5 #placeholder?	
+}
+
+#gregorian calendar
+REPLACE:inter_gravissimas = {
+	game_data = {
+		category = religion
+	}
+	legislative_efficiency = 0.2
+	peasants_estate_target_satisfaction = small_permanent_target_satisfaction_penalty #peasants don't like newfangled crap
+}
+
+REPLACE:papacy_blocked_modifier = {
+	game_data = {
+		category = religion
+	}
+	papacy_blocked = yes
+}

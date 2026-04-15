@@ -1,0 +1,191 @@
+﻿l_english:
+
+ # ==================== Unit Types: Regional Variants ====================
+
+ n_ens_war_jong: "War Jong"
+ n_ens_war_jong_desc: "The war jong is a large, multi-decked vessel of Southeast Asian origin, built for coastal warfare and boarding actions. Crewed by hundreds of warriors, its sheer mass and crew size make it formidable in sheltered waters, but its heavy construction and limited gunnery leave it vulnerable to European standoff tactics on the open ocean."
+ n_ens_great_jong: "Great Jong"
+ n_ens_great_jong_desc: "The great jong represents the pinnacle of Southeast Asian naval engineering — a massive warship capable of carrying over a thousand men. While its displacement dwarfs most European vessels, its conservative approach to artillery means it remains outgunned in open-ocean engagements where European line-of-battle tactics dominate."
+ n_ens_war_dhow: "War Dhow"
+ n_ens_war_dhow_desc: "An armed variant of the traditional Indian Ocean dhow, optimized for speed along monsoon trade routes. Lightly built and lightly armed compared to European warships, the war dhow relies on its superior speed and knowledge of local waters to harry enemy shipping and protect merchant convoys."
+ n_ens_heavy_dhow: "Heavy Dhow"
+ n_ens_heavy_dhow_desc: "A larger and more heavily armed dhow, representing the limit of traditional Indian Ocean shipbuilding without European naval technology. Still fast but outgunned by contemporary European pinnaces, the heavy dhow is formidable in home waters but unable to compete on the open ocean."
+ n_ens_coastal_prau: "Coastal Prau"
+ n_ens_coastal_prau_desc: "A small outrigger vessel of the Malay Archipelago, built for speed among the islands and shallow straits. The prau's twin hulls give it exceptional stability and quickness, but its light construction and minimal armament make it no match for European warships in open water."
+ n_ens_war_prau: "War Prau"
+ n_ens_war_prau_desc: "A larger armed prau fitted with swivel guns and fighting platforms. Faster than any European vessel in coastal waters, the war prau excels at raids, patrols, and interdiction among the islands. Yet its light hull and limited gunnery leave it outmatched by European caravels beyond the archipelago."
+ n_ens_ghurab: "Ghurab"
+ n_ens_ghurab_desc: "An armed warship of the Indian Ocean, used by Omani, Maratha, and other maritime powers. Lighter and faster than a European carrack, the ghurab carries fewer guns but a larger crew for boarding actions. Effective in the confined waters of the Arabian Sea and Bay of Bengal, it struggles against European broadside firepower in open ocean."
+ n_ens_heavy_ghurab: "Heavy Ghurab"
+ n_ens_heavy_ghurab_desc: "An improved ghurab with heavier timbers and more guns, representing the furthest development of Indian Ocean warship design. Though it approaches the European galleon in size, its armament remains inferior — a gap that only the adoption of Western shipbuilding techniques can close."
+ n_ens_coastal_junk: "Coastal Junk"
+ n_ens_coastal_junk_desc: "A small war junk used for coastal patrol and trade protection. Its watertight compartmented hull — a Chinese innovation unknown in the West — gives it remarkable survivability for its size, though its light armament limits its offensive capability."
+ n_ens_patrol_junk: "Patrol Junk"
+ n_ens_patrol_junk_desc: "A larger war junk fitted for extended patrol duty along the coast and inland seas. Its compartmented hull and lug sails make it a reliable workhorse of the Chinese coastal fleet, but its conservative gunnery doctrine leaves it outmatched by European light warships in open water."
+ n_ens_imperial_junk: "Imperial Junk"
+ n_ens_imperial_junk_desc: "The imperial junk is a large Chinese warship featuring advanced watertight compartment construction and lug sails. Reasonably seaworthy and well-suited to inland sea defense, it carries moderate armament by European standards. Its compartmented hull gives it excellent survivability in coastal engagements."
+ n_ens_treasure_junk: "Treasure Junk"
+ n_ens_treasure_junk_desc: "The treasure junk is a massive vessel of the Chinese fleet, built as much for prestige as for war. With enormous hull displacement and elevated maritime presence, it projects imperial power across the seas. Yet its conservative gunnery doctrine leaves it undergunned compared to European warships of similar size."
+
+ # ==================== Unit Types: Adopted Western Ships ====================
+
+ n_ens_adopted_carrack: "Western-rigged Carrack"
+ n_ens_adopted_carrack_desc: "A carrack built to European specifications by local shipwrights who have studied Western shipbuilding techniques. Though it arrives a generation behind the European original, it represents a decisive break from traditional naval architecture — a proper gun platform rather than a troop carrier."
+ n_ens_adopted_galleon: "Adopted Galleon"
+ n_ens_adopted_galleon_desc: "A galleon constructed using Western methods, adapted to local materials and shipyard capabilities. The adoption of European hull design and gun placement transforms a nation's naval capacity, closing the technological gap that once made European fleets invincible."
+ n_ens_adopted_twodecker: "Adopted Two-Decker"
+ n_ens_adopted_twodecker_desc: "A two-decked warship built to Western standards, representing the full adoption of European naval architecture. With two continuous gun decks and proper broadside capability, this vessel can stand in the line of battle alongside any European ship."
+ n_ens_adopted_caravel: "Western-rigged Caravel"
+ n_ens_adopted_caravel_desc: "A caravel constructed using Western lateen and square rigging techniques. Fast, weatherly, and capable of oceanic voyages, this vessel gives non-European navies access to the same exploration and trade protection capabilities that drove European expansion."
+ n_ens_adopted_pinnace: "Adopted Pinnace"
+ n_ens_adopted_pinnace_desc: "A pinnace built to European design standards. Small, fast, and well-armed for its size, it serves as an escort, scout, and commerce raider — roles that traditional vessels were ill-suited to fill against European opposition."
+ n_ens_adopted_frigate: "Adopted Frigate"
+ n_ens_adopted_frigate_desc: "A frigate constructed to Western specifications, representing the culmination of naval technology transfer. Fast enough to escape what it cannot fight and powerful enough to destroy what it cannot outrun, the frigate is the workhorse of any modern navy."
+
+ # ==================== Advances: Gunnery Doctrine ====================
+
+ ens_gunnery_doctrine_1: "Standardized Gun Crews"
+ ens_gunnery_doctrine_1_desc: "Establishing uniform training and drill procedures for naval gun crews ensures faster, more reliable broadsides. Every gunner knows his station, his piece, and his timing."
+ ens_gunnery_doctrine_2: "Broadside Tactics"
+ ens_gunnery_doctrine_2_desc: "Rather than closing to board, our captains are trained to present the full weight of their guns in a devastating broadside. This marks a fundamental shift from the age-old tradition of naval melee."
+ ens_gunnery_doctrine_3: "Line of Battle"
+ ens_gunnery_doctrine_3_desc: "Ships sailing in a single file line can bring their combined broadsides to bear in unison. This formation maximizes firepower while protecting vulnerable bows and sterns, transforming naval warfare from a chaotic brawl into an exercise in disciplined gunnery."
+ ens_gunnery_doctrine_4: "Ship-Killing Gunnery"
+ ens_gunnery_doctrine_4_desc: "Advances in metallurgy, powder charges, and targeting doctrine allow our gunners to punch through enemy hulls at ever-greater ranges. The age of boarding is truly over — battles are now decided by weight of shot."
+
+ # ==================== Advances: Naval Bombardment ====================
+
+ ens_coastal_bombardment: "Coastal Bombardment"
+ ens_coastal_bombardment_desc: "Warships can be used to bombard coastal fortifications and port facilities, extending naval power ashore. This makes blockades far more effective, as the besieged port faces destruction from the sea as well as starvation."
+ ens_shore_battery_tactics: "Shore Battery Tactics"
+ ens_shore_battery_tactics_desc: "Systematic bombardment of shore positions using coordinated fire from multiple ships reduces enemy coastal defenses to rubble. Combined with tighter blockade discipline, this leaves enemy ports with nowhere to hide."
+
+ # ==================== Advances: Trade Range ====================
+
+ ens_maritime_exploration_tradition: "Maritime Exploration Heritage"
+ ens_maritime_exploration_tradition_desc: "Generations of Iberian mariners have pushed the boundaries of the known world. Their accumulated knowledge of winds, currents, and celestial navigation extends our reach far beyond what other nations can achieve."
+ ens_oceanic_trade_routes: "Oceanic Trade Routes"
+ ens_oceanic_trade_routes_desc: "Established networks of supply stations, charted routes, and experienced captains allow our merchants to trade across vast oceanic distances. What was once a perilous voyage is now a routine commercial enterprise."
+
+ # ==================== Advances: Navy Tradition ====================
+
+ ens_naval_heritage: "Naval Heritage"
+ ens_naval_heritage_desc: "A long tradition of maritime warfare gives our admirals a deep well of experience to draw upon. Our sailors are raised on stories of great naval victories, and our officer corps carries forward centuries of hard-won tactical wisdom."
+
+ # ==================== Advances: Regional Ship Unlocks ====================
+
+ ens_unlock_coastal_prau: "Coastal Prau Construction"
+ ens_unlock_coastal_prau_desc: "Our shipwrights can now build the coastal prau — a fast outrigger vessel ideal for patrolling the shallow seas and island straits of the archipelago."
+ ens_unlock_war_prau: "War Prau Construction"
+ ens_unlock_war_prau_desc: "Armed praus fitted with swivel guns and fighting platforms can now be produced in our shipyards, giving our fleet a fast raider for coastal operations."
+ ens_unlock_ghurab: "Ghurab Construction"
+ ens_unlock_ghurab_desc: "Our dockyards can now produce the ghurab — an armed warship suited to the Indian Ocean, carrying a large crew for boarding actions in coastal waters."
+ ens_unlock_heavy_ghurab: "Heavy Ghurab Construction"
+ ens_unlock_heavy_ghurab_desc: "An improved ghurab with heavier timbers and more guns can now be built, representing the peak of traditional Indian Ocean warship construction."
+ ens_unlock_coastal_junk: "Coastal Junk Construction"
+ ens_unlock_coastal_junk_desc: "Our shipyards can now produce small war junks with watertight compartments, suited for coastal patrol and trade protection."
+ ens_unlock_patrol_junk: "Patrol Junk Construction"
+ ens_unlock_patrol_junk_desc: "Larger patrol junks with reinforced hulls can now be built, extending our fleet's reach along the coast and through the inland seas."
+ ens_unlock_war_jong: "War Jong Construction"
+ ens_unlock_war_jong_desc: "Our shipwrights have mastered the construction of the war jong — a large, multi-decked warship optimized for the shallow seas and crowded straits of the archipelago."
+ ens_unlock_great_jong: "Great Jong Construction"
+ ens_unlock_great_jong_desc: "The greatest shipyards of the archipelago can now produce the massive great jong, a warship of extraordinary size crewed by hundreds of warriors."
+ ens_unlock_war_dhow: "War Dhow Construction"
+ ens_unlock_war_dhow_desc: "Our shipbuilders have adapted the traditional dhow design for warfare, producing fast, maneuverable vessels suited to the monsoon trade routes of the Indian Ocean."
+ ens_unlock_heavy_dhow: "Heavy Dhow Construction"
+ ens_unlock_heavy_dhow_desc: "A larger armed dhow with heavier timbers and more guns, representing the furthest development of traditional Indian Ocean naval architecture."
+ ens_unlock_imperial_junk: "Imperial Junk Construction"
+ ens_unlock_imperial_junk_desc: "The imperial dockyards can now produce large war junks with watertight compartments and heavy crews, capable of projecting power across the inland seas."
+ ens_unlock_treasure_junk: "Treasure Junk Construction"
+ ens_unlock_treasure_junk_desc: "The most prestigious shipyards of the empire can construct the enormous treasure junk — a vessel of immense size meant to project imperial authority across the seas."
+
+ # ==================== Advances: Western Shipbuilding Adoption ====================
+
+ ens_adopt_western_carrack: "Adopt Western Carrack Design"
+ ens_adopt_western_carrack_desc: "By studying captured European vessels and hiring foreign shipwrights, our dockyards can now construct Western-style carracks. These gun-armed sailing ships represent a fundamental departure from our traditional naval architecture."
+ ens_adopt_western_galleon: "Adopt Western Galleon Design"
+ ens_adopt_western_galleon_desc: "Our shipbuilders have progressed beyond the carrack to master the galleon — a purpose-built warship that combines heavy armament with improved sailing characteristics. The technological gap with European navies narrows with each vessel launched."
+ ens_adopt_western_twodecker: "Adopt Western Two-Decker Design"
+ ens_adopt_western_twodecker_desc: "The construction of two-decked warships marks the full adoption of European naval architecture. With two continuous gun decks and the ability to fight in the line of battle, our fleet can now match any European squadron."
+ ens_adopt_western_caravel: "Adopt Western Caravel Design"
+ ens_adopt_western_caravel_desc: "European caravels are fast, weatherly vessels ideal for exploration and trade protection. By adopting their design, our navy gains the ability to project power across oceanic distances."
+ ens_adopt_western_pinnace: "Adopt Western Pinnace Design"
+ ens_adopt_western_pinnace_desc: "The pinnace is a small but versatile European warship, well-suited to escort duty, scouting, and commerce raiding. Adopting this design fills a critical gap in our naval capabilities."
+ ens_adopt_western_frigate: "Adopt Western Frigate Design"
+ ens_adopt_western_frigate_desc: "The frigate represents the cutting edge of European light warship design. Fast, powerful, and capable of independent operations, it is the vessel every navy needs for trade protection and power projection."
+
+ # ==================== Laws ====================
+
+ ens_trade_enforcement_law: "Trade Enforcement"
+ ens_trade_enforcement_law_desc: "How shall the navy enforce our trade policies on the seas? Different approaches to maritime trade enforcement reflect different national traditions and strategic priorities."
+ ens_trade_enforcement_law_CATEGORY: "MILITARY_LAW_CATEGORY"
+
+ ens_strategic_focus_law: "Strategic Focus"
+ ens_strategic_focus_law_desc: "Where shall the state direct its military investment? The balance between naval and continental forces shapes the character of our armed forces and our place in the world."
+ ens_strategic_focus_law_CATEGORY: "MILITARY_LAW_CATEGORY"
+
+ # ==================== Policies: Trade Enforcement ====================
+
+ ens_cartaz_system: "Cartaz System"
+ ens_cartaz_system_desc: "All vessels sailing in our waters must carry a cartaz — a mandatory trading license issued by the crown. Ships found without one are subject to seizure, their cargo forfeit. This system extends our control over ocean trade routes and fills the royal coffers."
+ ens_mare_clausum: "Mare Clausum"
+ ens_mare_clausum_desc: "The seas belong to those with the power to claim them. Under the doctrine of mare clausum, we assert sovereign control over our maritime trade routes, excluding foreign competitors and channeling commerce through our own merchants."
+ ens_open_waters_trade: "Open Waters Trade"
+ ens_open_waters_trade_desc: "Allow free passage of trade vessels through our waters. While this forgoes the revenue of trade licensing, it encourages a greater volume of commerce and extends our merchants' reach."
+ ens_naval_trade_patrols: "Naval Trade Patrols"
+ ens_naval_trade_patrols_desc: "Dedicated naval squadrons patrol our trade routes, hunting pirates and deterring enemy privateers. This active approach to trade protection keeps our sea lanes safe without restricting the flow of commerce."
+
+ # ==================== Policies: Strategic Focus ====================
+
+ ens_maritime_focus: "Maritime Focus"
+ ens_maritime_focus_desc: "The state directs its military investment toward naval power. Shipyards are expanded, naval officers are given precedence, and the fleet receives the lion's share of the military budget."
+ ens_continental_focus: "Continental Focus"
+ ens_continental_focus_desc: "The state directs its military investment toward the army. Fortifications are strengthened, regiments are drilled, and the infantry receives the bulk of our resources."
+ ens_balanced_strategy: "Balanced Strategy"
+ ens_balanced_strategy_desc: "The state maintains a balanced approach to military investment, neither favoring the fleet nor the army. This avoids overcommitment to either arm but forgoes the efficiencies of specialization."
+ ens_sager_brown_focus: "Littoral Focus"
+ ens_sager_brown_focus_desc: "The state focues its limited efforts on a brown and green water navy - favoring small, light ships to control coasts, bays, rivers and estuaries."
+
+ # ==================== Building Types ====================
+
+ ens_gunnery_foundry: "Foreign Naval Dock"
+ ens_gunnery_foundry_desc: "A specialized facility for casting naval cannons. The foundry produces standardized gun tubes and shot, strengthening the port's coastal defenses and supporting the fleet with a reliable supply of armaments."
+ ens_advanced_gunnery_foundry: "Foreign Naval Base"
+ ens_advanced_gunnery_foundry_desc: "An advanced foundry employing the latest metallurgical techniques to produce heavier, more accurate naval guns. Its output significantly strengthens coastal defenses and establishes the port as a center of naval power."
+
+ ens_gunnery_foundry_maintenance: "Gunnery Foundry Upkeep"
+ ens_advanced_gunnery_maintenance: "Advanced Gunnery Foundry Upkeep"
+
+ # ==================== Traits ====================
+
+ ens_broadside_expert: "Broadside Expert"
+ desc_ens_broadside_expert: "This admiral is a master of broadside gunnery. Ships under this commander deliver devastating volleys, making full use of European heavy ship firepower."
+ ens_broadside_expert_die_desc: "[CHARACTER.GetHerHis|U] mastery of broadside gunnery struck fear into every fleet that faced [CHARACTER.GetHerHim]. Our gun crews will not soon forget [CHARACTER.GetHerHis] exacting standards."
+ ens_coastal_raider: "Coastal Raider"
+ desc_ens_coastal_raider: "This admiral excels at coastal raids and trade interdiction. Fast ships under this commander can sweep enemy coastlines and impose punishing blockades."
+ ens_coastal_raider_die_desc: "Enemy merchants and coastal towns alike can breathe easier now that [CHARACTER.GetSheHe] no longer prowls the sea lanes."
+ ens_monsoon_navigator: "Monsoon Navigator"
+ desc_ens_monsoon_navigator: "This admiral has an intimate knowledge of monsoon winds and regional sea conditions. Fleets under this commander move swiftly and suffer less damage from the elements."
+ ens_monsoon_navigator_die_desc: "[CHARACTER.GetSheHe|U] could read the monsoon winds as other men read books. That knowledge dies with [CHARACTER.GetHerHim], and our captains are poorer for it."
+ ens_fleet_tactician: "Fleet Tactician"
+ desc_ens_fleet_tactician: "This admiral is skilled in coordinating complex fleet engagements. Ships under this commander fight with greater cohesion, dealing more damage and maintaining higher morale."
+ ens_fleet_tactician_die_desc: "[CHARACTER.GetHerHis|U] ability to coordinate an entire fleet as though it were a single instrument of war was unmatched. We may not see [CHARACTER.GetHerHis] like again."
+ ens_boarding_master: "Boarding Master"
+ desc_ens_boarding_master: "This admiral is a specialist in boarding actions — the traditional method of naval warfare. Crews under this commander are expert at grappling and capturing enemy vessels."
+ ens_boarding_master_die_desc: "[CHARACTER.GetHerHis|U] fearsome reputation in close quarters brought many a prize into our hands. Our boarding crews mourn the loss of their greatest teacher."
+ ens_ocean_voyager: "Ocean Voyager"
+ desc_ens_ocean_voyager: "This admiral is experienced in long ocean crossings. Fleets under this commander move quickly over vast distances and can make repairs at sea."
+ ens_ocean_voyager_die_desc: "[CHARACTER.GetSheHe|U] sailed farther and faster than any admiral before [CHARACTER.GetHerHim]. The open ocean has lost its greatest navigator."
+ 
+ 
+#Sager Xebec Adds
+n_ens_xebec: "Maghreb Early Xebec"
+n_ens_xebec_desc: "A Xebec is a sloop or frigate-size ship, fast, lateen rigged, and lightly armed. They were inexpensive and effective ships in the inner sea."
+n_ens_late_xebec: "Maghreb Late Xebec"
+n_ens_late_xebec_desc: "A Xebec is a frigate-size ship, fast lateen rigged, and lightly armed. They were inexpensive and effective ships in the inner sea."
+ens_unlock_xebec: "Maghreb Early Xebec"
+ens_unlock_late_xebec: "Maghreb Late Xebec"
+ens_unlock_xebec_desc: A Xebec is a sloop frigate-size ship, fast, lateen rigged, and lightly armed. They were inexpensive and effective ships in the inner sea."
+ens_unlock_late_xebec_desc: "A Xebec is a frigate-size ship, fast lateen rigged, and lightly armed. They were inexpensive and effective ships in the inner sea."
+
+
