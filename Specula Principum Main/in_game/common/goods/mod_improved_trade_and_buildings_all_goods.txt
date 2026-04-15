@@ -1,4 +1,6 @@
 ﻿#This is an SP modified version of this file. File name intention not changed so if this is loaded later than Improved Trade (which shouldn't be used), it will replace values.
+# SP 1.2 previewed gold and silver costs already includd in this file.
+
 REPLACE:horses = { #War Horses
 	method = farming
 	category = raw_material

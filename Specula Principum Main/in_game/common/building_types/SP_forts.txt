@@ -1,4 +1,6 @@
-﻿TRY_REPLACE:stockade = {
+﻿#SP - there is a general reduction in proximity due to multiple different mechanisms. Castles+ now provide some proximity.
+
+TRY_REPLACE:stockade = {
 	
 	max_levels = 1
 	pop_type = soldiers

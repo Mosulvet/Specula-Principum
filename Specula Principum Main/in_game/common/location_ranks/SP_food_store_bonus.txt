@@ -1,7 +1,8 @@
+# SP remember injects are additive
 TRY_INJECT:city = {
 	
 	rank_modifier = {
-		local_food_capacity = 250 # Should now be 500
+		local_food_capacity = 250 # Should now be 750
 	}
 
 }

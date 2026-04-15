@@ -1,16 +1,16 @@
 ﻿# NOTE!
-# All manpower costs scale by max_strength, so army units should be at 1 manpower
-# All sailor costs scale by crew_size, so navy units should be at 1 sailors
-#
+# AS All manpower costs scale by max_strength, so army units should be at 1 manpower
+# AS ll sailor costs scale by crew_size, so navy units should be at 1 sailors
+# 
 
-# all maintenance about 20% higher; some navy higher still
+# SP all maintenance about 20% higher; some navy higher still
 
 ##################################
 # Army Categories
 ##################################
 
 TRY_REPLACE:army_infantry_maintenance = {
-	gold = 0.6 #was 0.5
+	gold = 0.65 #was 0.5
 	manpower = 0.02
 }
 
@@ -30,7 +30,7 @@ TRY_REPLACE:army_artillery_maintenance = {
 }
 
 TRY_REPLACE:army_auxiliary_maintenance = {
-	gold = 1.1 #
+	gold = 1.1 #1
 	manpower = 0.02
 }
 

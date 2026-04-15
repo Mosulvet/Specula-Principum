@@ -1,6 +1,6 @@
 ﻿# this name is hardcoded, so dependent subjects in PUs will become fiefdoms
 
-# Fiefdoms and Vassals are too similar. This helps create some additional differentiation. Fiefdoms grant a bit more, and are easier to keep happy, but cannot be annexed (they are CROWN property).
+# Fiefdoms and Vassals are too similar. This file helps create some additional differentiation. Fiefdoms grant a bit more value, and are easier to keep happy, but are hard to annex (they are CROWN property, why would you annex them?).
 
 fiefdom = { # like a personal union except the subject has much less power
 	subject_pays = subject_pays_tributary #a bit better income compared to vassal

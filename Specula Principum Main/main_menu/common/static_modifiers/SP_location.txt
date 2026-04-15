@@ -2,16 +2,13 @@
 # Hardcoded
 ###################################
 
-#these mods not balanced against chnages in depth 0 advances
-# these mods should be checked later game for building and rgo costs, especially across areas that are different control and have different existing RGO levels already build.
-# building and rgo price not effected by control
-# build price impacted by age techs
-# wrong way by surplus jobs, but just barely (increase size)
-# rgo price increased correctly for tech
-# rgo output scaled correclty for RGO size; tech worked, but removed.
-# remove better ag, and port key things over to 1.1. Inc. potato + cal and + trade cost.
-# base RGO price down a scoach
-# base build price up a bit
+# SP these mods not balanced against chnages in depth 0 advances
+# SP these mods should be checked later game for building and rgo costs, especially across areas that are different control and have different existing RGO levels already build.
+# SP building price effected by control
+# SP build price impacted by age techs
+# SP surplus jobs impact building
+# SP RGO efficiency reduced w/ stacked RGOs.
+
 
 TRY_REPLACE:location_base_values = {
 	game_data = {
@@ -40,7 +37,7 @@ TRY_REPLACE:location_base_values = {
 	
 	hostile_disembark_time_modifier = 0.25
 	
-	local_max_rgo_size = 1.25 # was 2, A bit higher due to efficiency hits in other areas.
+	local_max_rgo_size = 1.25 # SP was 2, A bit higher due to efficiency hits in other areas. TODO consider dropping to 1.0; this will require food consumption adjustments (or not).
 	
 	local_monthly_prosperity = 0.0025 #was 0.0025; consider dropping
 	

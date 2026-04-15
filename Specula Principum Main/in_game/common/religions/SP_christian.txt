@@ -1,4 +1,4 @@
-﻿#protestant flavors felt... underwhelming. They should now provide more whelm.
+﻿# SP protestant flavors felt... underwhelming. They should now provide more whelm.
 
 REPLACE:calvinist = { 
 	color = color_calvinist

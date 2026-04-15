@@ -1,5 +1,5 @@
-﻿# Removing arbitrary limitation around overseas and colonial. These limitations reflect how European powers used plantations; not plantations as a production approach.
-# Because plantations still require slaves, European powers that do not import slaves will not be able to use plantation buildings in ahistorical ways.
+﻿# SP Removing arbitrary limitation around overseas and colonial. These limitations reflect how European powers used plantations; not plantations as a production approach.
+# SP Because plantations still require slaves, European powers that do not import slaves will not be able to use plantation buildings in ahistorical ways.
 
 TRY_REPLACE:sugar_plantation = {
 	is_foreign = no

@@ -1,6 +1,6 @@
 INJECT:tribesmen = {
 	literacy_impact = {
-		#local_tribal_promotion = -0.2	# Reduced literacy impact by 40%
+		local_tribal_promotion = -0.1	# Reduced literacy impact on tribe promo
 	}
 }
 
