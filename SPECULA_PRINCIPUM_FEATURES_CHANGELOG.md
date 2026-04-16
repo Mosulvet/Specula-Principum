@@ -6,19 +6,239 @@ This document provides a comprehensive list of all features, mechanics changes, 
 ---
 
 ## TABLE OF CONTENTS
-1. [Building Costs & Construction](#building-costs--construction)
-2. [Military & Warfare](#military--warfare)
-3. [Economy & Resource Management](#economy--resource-management)
-4. [Population & Demographics](#population--demographics)
-5. [Governance & Cabinet Actions](#governance--cabinet-actions)
-6. [Religion & Beliefs](#religion--beliefs)
-7. [Stability & Morale Systems](#stability--morale-systems)
-8. [Anti-Snowballing & Balance](#anti-snowballing--balance)
+1. [Societal Values](#societal-values)
+2. [Economy & Resource Management](#economy--resource-management)
+3. [Building Costs & Construction](#building-costs--construction)
+4. [Governance & Cabinet Actions](#governance--cabinet-actions)
+5. [Military & Warfare](#military--warfare)
+6. [Population & Demographics](#population--demographics)
+7. [Religion & Beliefs](#religion--beliefs)
+8. [Stability & Morale Systems](#stability--morale-systems)
 9. [Country Mechanics & Estates](#country-mechanics--estates)
 10. [Age & Era Specific Changes](#age--era-specific-changes)
 11. [Specific Features & Special Mechanics](#specific-features--special-mechanics)
 12. [AI Behavior Adjustments](#ai-behavior-adjustments)
 13. [Miscellaneous Tweaks](#miscellaneous-tweaks)
+
+---
+
+## SUMMARY OF KEY CHANGES
+
+### Top 10 Most Impactful Changes
+1. **Building Times Doubled/Tripled** - Fort construction especially increased 3x
+2. **RGO Base Time 3x Increase** (180 → 540 days) - Major economic slowdown
+3. **Army Recruitment Extended** (30 → 90 days for infantry) - Extended military buildup
+4. **Tax Efficiency Nerfed** - 7.5% base malus, increasing with size
+5. **Literacy Growth Halved** - Slows tech progression significantly
+6. **Unit Maintenance 20% Higher** - Increases operational costs
+7. **Combat Dynamics Redesigned** - Assault, terrain, and naval crossing heavily adjusted
+8. **Anti-Snowballing Restructured** - Reduced impact but maintained control pressure
+9. **Estate System Rebalanced** - Changes to satisfaction and taxation
+10. **Food System Adjusted** - Goods food values reduced, population growth more balanced
+
+This mod represents a comprehensive rebalancing of Europa Universalis IV mechanics toward a more historically-paced, strategically-interesting experience with less exponential snowballing in the late game.
+
+---
+
+## DEVELOPER NOTES & INTENT
+
+### Overall Philosophy
+The Specula Principum mod aims to:
+1. **Slow Down Early Game**: Building and recruitment take longer, making early expansion less snowball-y
+2. **Make Resources Meaningful**: Increased costs mean strategic choices matter more
+3. **Balance Large Empires**: Anti-snowballing measures prevent late-game dominance without crippling large nations
+4. **Encourage Tall Play**: Bonuses to population-based growth encourage developing provinces deeply
+5. **Improve AI Competency**: Adjusted AI parameters help the AI compete without being obviously overpowered
+6. **Enhance Strategic Depth**: Longer build times and higher costs create more interesting economic decisions
+
+### Known Adjustments & TODOs
+- **Movement Locked Modifier**: Currently 0.25 (50% in vanilla). Could be dynamic based on general quality, light cavalry %, etc.
+- **City Upgrade Costs**: Tied to age and decrease with age to create historical urbanization patterns
+- **Levy Performance**: Nerfed via increased costs and combat adjustments to offset discipline bonus
+- **Stability Impact**: Still being tuned to ensure it creates meaningful strategic choice
+- **Cabinet Efficiency**: Tied to stability to create corruption-like effect on large empires
+
+### Balance Testing Notes
+- RGO production already has multiple nerfs (control, stacking, total numbers)
+- Tax efficiency bonuses made more important due to snowballing reduction
+- Estate satisfaction mechanics changed to prevent sudden revolts
+- Literacy gains intentionally reduced to prevent tech runaway
+- Advance costs scale progressively to slow tech progression
+
+---
+
+## Societal Values
+
+### Societal Values - Centralization vs Decentralization
+**Centralization Direction**:
+- Crown estate power +0.5
+- Distance from capital speed propagation -0.25 (flipped from vanilla)
+- Court spending cost +0.1
+- Subject loyalty -20
+- Annexation speed +0.33
+- Tax income efficiency +0.1
+- Estate max tax +0.025
+- Control importance +0.2
+
+**Decentralization Direction**:
+- Estate target satisfaction (medium bonus)
+- Estate satisfaction recovery +0.002
+- Distance from capital speed propagation +0.3 (flipped and increased)
+- Crown estate power -0.5
+- Subject income modifier +0.1
+- Max control +0.1
+- Annexation speed -0.75 (was -0.33)
+- Tax income efficiency -0.15 (was -0.1)
+- Subject loyalty +10
+
+**Comment**: A centralized state propagates control LESS effectively but more efficiently. A decentralized state propagates more effectively but suffers from more powerful estates and less effective taxation.
+
+### Societal Values - Individualism vs Communalism
+- **Individualism**: Cabinet efficiency -0.25, tax efficiency +0.1
+- **Communalism**: Cabinet efficiency +0.25, tax efficiency -0.1
+
+**Comment**: Cabinet mostly functions on communal systems; individuals function with great efficiency overall.
+
+### Societal Values - Land vs Naval
+- **Land Direction**: Trade sea movement cost -0.25, trade land movement cost -0.1
+- **Naval Direction**: Maritime presence -0.1, trade land movement cost -0.25
+
+**Comment**: Tweaks to make land a bit more attractive.
+
+### Societal Values - Serfdom vs Free Subjects
+- **Serfdom**: Raw material output -0.05, peasant levy size -0.1, land morale +0.1
+- **Free Subjects**: Pop promotion speed -0.5, levy combat efficiency +0.1, naval morale +0.1
+
+**Comment**: Free societies have generally had superior navies due to higher technical knowledge requirements.
+
+### Societal Values - Aristocracy vs Plutocracy
+- **Aristocracy**: Cavalry power +0.065, court spending +0.03
+- **Plutocracy**: Infantry power +0.05, levy combat efficiency +0.1, court spending +0.02
+
+---
+
+## Economy & Resource Management
+
+### Anti-Snowballing & Balance
+
+#### Country Size Maluses (Heavily Redesigned)
+- **Reduced Impact**: Previous vanilla snowball measures heavily reduced for balance
+- **Small Countries (100-500 econ base)**:
+  - Court spending cost +0.0075
+  - Tax efficiency -0.015
+  - Legislative efficiency -0.0125
+  - Cabinet efficiency -0.0125
+  - Max control -0.0033 (reduced by 2/3)
+  - Stability investment -0.0125
+  - Diplomatic reputation -0.1
+  - Antagonism received +0.01
+
+- **Medium Countries (500-3000 econ base)**:
+  - Similar structure with 0.01 scaling multiplier
+  - Court spending +0.0075
+  - Tax efficiency -0.0115
+  - Legislative & Cabinet efficiency -0.0125
+
+- **Large Countries (3000+ econ base)**:
+  - Court spending +0.0075
+  - Tax efficiency -0.01 (slightly better than medium)
+  - Others same as medium
+
+**AI Bonus**: AI gets small bonuses (subtract operations) to help balance
+
+**Comment**: Removed crown power, trade, production, food, research maluses as they don't thematically fit (large nations should have advantages). Kept legislative, cabinet, stability as corruption representation. Increased several other maluses.
+
+#### Literacy Growth Reduction
+- **Scientific Revolution**: Global max literacy -5 (from 10)
+- **Printing Press**: Global max literacy -2.5 (only 25% reduction; printing particularly impactful)
+- **Enlightened Court**: Global max literacy -2.5
+- **Written Alphabet**: Global max literacy -2.5, global monthly literacy -0.005
+- **Educated Bureaucrats**: Global monthly literacy -0.005
+- **Innovativeness**: Global max literacy -2.5
+- **Humanism**: Global max literacy -5
+- **Free Thinkers**: Global max literacy -2.5
+- **Feudalism**: Global nobles max literacy -10 (from 20)
+- **Organized Religion**: Global clergy max literacy -2.5
+- **Guilds**: Global burghers max literacy -2.5
+- **Global Advances**: Each estate-specific literacy advance -5
+
+**Comment**: 50% reduction in global literacy max AND growth for all advances that aren't special to tag/area.
+
+#### Advance Cost Scaling (Progressive Increases)
+Each age increases building costs progressively:
+- Renaissance: +5% building cost
+- Discovery: +10% building cost
+- Reformation: +20% building cost
+- Absolutism: +30% building cost
+- Revolutions: +40% building cost
+
+Plus progressive RGO expansion cost increases and town upgrade cost modifiers.
+
+**Comment**: These values are additive age to age. AI wasn't really making cities, so lowered town/city upgrade costs substantially.
+
+### Tax Efficiency Nerfs
+- **Base Tax Efficiency Malus**: -0.075 (7.5% default reduction)
+  - Tiny countries: +0.1
+  - Small countries: +0.05
+  - Mid countries: -0.035
+  - Normal countries: -0.075
+
+**Comment**: Base malus on top of large maluses for larger economies. Bonuses now become a more important part of growth over time.
+
+### Economical Base Calculations (Changed)
+- **From Tax Base**: 0.5 (unchanged)
+- **From Population**: 0.015 → 0.0235 (creates slight push towards tall play)
+- **From Trade Value**: 0.2 → 0.15
+- **From Trade Profit**: 0.2 → 0.4
+- **Interest**: 0.25 (unchanged)
+- **From Subject**: 0.05 → 0.04 (overly penalizes decentralized play)
+- **From Institution**: 0.066 → 0.05
+
+### Subject Upkeep
+- **Subject Upkeep Rank Scale**: 0.25
+
+### Market Mechanics
+- **Burgher Trade Impact on Supply**: 0.1 → 0.25
+- **Trade Impact on Supply**: 0.25 → 0.35
+- **Burgher Trade Impact on Demand**: 0.25 → 0.35
+- **Trade Impact on Demand**: 1.0 → 0.75
+
+### Mothball Maintenance
+- **Mothball Maintenance Factor**: 0.5 → 0.25 (Savings was too low)
+
+### Estate Taxation
+- **Nobles Estate Tax Impact**: -1.0 → -1.1 (functionally)
+- **Burghers Estate Tax Impact**: -1.0 → -1.05 (functionally)
+
+### Food & Agriculture
+- **Goods Food Values (Reduced)**
+  - Wheat: 8 → 6.0
+  - Maize: 8 → 7.0
+  - Rice: 10 → 8.5
+  - Millet: 5 → 4.0
+  - Wool: 5 → 3.5
+  - Wild Game: 3.5 → 2.5
+  - Fur: 2 → 1.5
+  - Fish: 5 → 4.5
+
+**Comment**: Lower food values to maintain proper population growth rates, as there are substantial nerfs elsewhere.
+
+### Plantation Output
+- **Sugar Plantation Output Modifier**: 0.1 → 0.09
+- **Cotton Plantation Output Modifier**: 0.1 → 0.09
+- **Tobacco Plantation Output Modifier**: 0.1 → 0.09
+- **Slave Pop Satisfaction**: -0.005 → -0.0065
+
+### Special Location Bonuses
+- **Cyprus Sugar Output**: 0.5 (Venetian methods focused on quality)
+- **Madeira Sugar Output**: 2.0 (largest sugar producer in world by ~1500)
+
+**Comment**: It would be rad to have a 'sleeping sickness' for RGOs with sugar production event.
+
+### RGO System
+- **RGO Base Time**: 180 → 540 days (substantially slowed)
+- **Max RGO Size**: 2.0 → 1.25
+- **Local Monthly Prosperity**: 0.0025 (balanced)
 
 ---
 
@@ -70,6 +290,41 @@ This document provides a comprehensive list of all features, mechanics changes, 
 - **Town Upgrade**: min_scale 400
 - City upgrade cost modifier decreases per age (1.0 in Age 1 → removed in later ages)
 - **Intent**: Create more historical urbanization patterns
+
+---
+
+## Governance & Cabinet Actions
+
+### Cabinet Actions Nerfed
+- **Promote Culture**: Local pop assimilation speed -0.015 (base 0.04), monthly nationalist rebel growth +0.01
+- **Assimilate Area**: Local pop assimilation speed -0.0075 (base 0.02), monthly nationalist rebel growth +0.01
+- **Promote Religion**: Local pop conversion speed -0.015 (base 0.04), monthly nationalist rebel growth +0.01
+
+**Comment**: ~25% reduction in cabinet action impact; these also scale with control which is generally lower.
+
+### Integrate Province
+- **Ability Changed**: Military → Administrative
+- **Comment**: Military doesn't make sense, and there are already too many military actions.
+
+### Study Islamic Texts Fix
+- **Comment**: This was applying a societal modifier in the wrong direction.
+
+### Study Institutions
+- **Global Institution Growth Modifier**: +0.50
+- **Comment**: Should be far more balanced than flat +1 institution growth in vanilla.
+
+### Diplomatic Endeavors
+- **Annexation Speed Modifier**: +0.33
+
+### Reduce War Exhaustion
+- **Restriction**: Can no longer reduce war exhaustion while at war
+- **Monthly War Exhaustion Reduction**: -0.05 (when not at war)
+
+### Cabinet Efficiency
+- **Positive Stability Impact**: Country cabinet efficiency +0.1 (small bonus)
+- **Negative Stability Impact**: Country cabinet efficiency -0.5 (as stability drops)
+
+**Intent**: Make stability more important and function like an efficiency drag on council.
 
 ---
 
@@ -243,41 +498,6 @@ This document provides a comprehensive list of all features, mechanics changes, 
 
 ---
 
-## Governance & Cabinet Actions
-
-### Cabinet Actions Nerfed
-- **Promote Culture**: Local pop assimilation speed -0.015 (base 0.04), monthly nationalist rebel growth +0.01
-- **Assimilate Area**: Local pop assimilation speed -0.0075 (base 0.02), monthly nationalist rebel growth +0.01
-- **Promote Religion**: Local pop conversion speed -0.015 (base 0.04), monthly nationalist rebel growth +0.01
-
-**Comment**: ~25% reduction in cabinet action impact; these also scale with control which is generally lower.
-
-### Integrate Province
-- **Ability Changed**: Military → Administrative
-- **Comment**: Military doesn't make sense, and there are already too many military actions.
-
-### Study Islamic Texts Fix
-- **Comment**: This was applying a societal modifier in the wrong direction.
-
-### Study Institutions
-- **Global Institution Growth Modifier**: +0.50
-- **Comment**: Should be far more balanced than flat +1 institution growth in vanilla.
-
-### Diplomatic Endeavors
-- **Annexation Speed Modifier**: +0.33
-
-### Reduce War Exhaustion
-- **Restriction**: Can no longer reduce war exhaustion while at war
-- **Monthly War Exhaustion Reduction**: -0.05 (when not at war)
-
-### Cabinet Efficiency
-- **Positive Stability Impact**: Country cabinet efficiency +0.1 (small bonus)
-- **Negative Stability Impact**: Country cabinet efficiency -0.5 (as stability drops)
-
-**Intent**: Make stability more important and function like an efficiency drag on council.
-
----
-
 ## Religion & Beliefs
 
 ### Catholic Resolutions (Papal Modifiers)
@@ -322,112 +542,7 @@ This document provides a comprehensive list of all features, mechanics changes, 
 
 ---
 
-## Anti-Snowballing & Balance
-
-### Country Size Maluses (Heavily Redesigned)
-- **Reduced Impact**: Previous vanilla snowball measures heavily reduced for balance
-- **Small Countries (100-500 econ base)**:
-  - Court spending cost +0.0075
-  - Tax efficiency -0.015
-  - Legislative efficiency -0.0125
-  - Cabinet efficiency -0.0125
-  - Max control -0.0033 (reduced by 2/3)
-  - Stability investment -0.0125
-  - Diplomatic reputation -0.1
-  - Antagonism received +0.01
-
-- **Medium Countries (500-3000 econ base)**:
-  - Similar structure with 0.01 scaling multiplier
-  - Court spending +0.0075
-  - Tax efficiency -0.0115
-  - Legislative & Cabinet efficiency -0.0125
-
-- **Large Countries (3000+ econ base)**:
-  - Court spending +0.0075
-  - Tax efficiency -0.01 (slightly better than medium)
-  - Others same as medium
-
-**AI Bonus**: AI gets small bonuses (subtract operations) to help balance
-
-**Comment**: Removed crown power, trade, production, food, research maluses as they don't thematically fit (large nations should have advantages). Kept legislative, cabinet, stability as corruption representation. Increased several other maluses.
-
-### Literacy Growth Reduction
-- **Scientific Revolution**: Global max literacy -5 (from 10)
-- **Printing Press**: Global max literacy -2.5 (only 25% reduction; printing particularly impactful)
-- **Enlightened Court**: Global max literacy -2.5
-- **Written Alphabet**: Global max literacy -2.5, global monthly literacy -0.005
-- **Educated Bureaucrats**: Global monthly literacy -0.005
-- **Innovativeness**: Global max literacy -2.5
-- **Humanism**: Global max literacy -5
-- **Free Thinkers**: Global max literacy -2.5
-- **Feudalism**: Global nobles max literacy -10 (from 20)
-- **Organized Religion**: Global clergy max literacy -2.5
-- **Guilds**: Global burghers max literacy -2.5
-- **Global Advances**: Each estate-specific literacy advance -5
-
-**Comment**: 50% reduction in global literacy max AND growth for all advances that aren't special to tag/area.
-
-### Advance Cost Scaling (Progressive Increases)
-Each age increases building costs progressively:
-- Renaissance: +5% building cost
-- Discovery: +10% building cost
-- Reformation: +20% building cost
-- Absolutism: +30% building cost
-- Revolutions: +40% building cost
-
-Plus progressive RGO expansion cost increases and town upgrade cost modifiers.
-
-**Comment**: These values are additive age to age. AI wasn't really making cities, so lowered town/city upgrade costs substantially.
-
----
-
 ## Country Mechanics & Estates
-
-### Societal Values - Centralization vs Decentralization
-**Centralization Direction**:
-- Crown estate power +0.5
-- Distance from capital speed propagation -0.25 (flipped from vanilla)
-- Court spending cost +0.1
-- Subject loyalty -20
-- Annexation speed +0.33
-- Tax income efficiency +0.1
-- Estate max tax +0.025
-- Control importance +0.2
-
-**Decentralization Direction**:
-- Estate target satisfaction (medium bonus)
-- Estate satisfaction recovery +0.002
-- Distance from capital speed propagation +0.3 (flipped and increased)
-- Crown estate power -0.5
-- Subject income modifier +0.1
-- Max control +0.1
-- Annexation speed -0.75 (was -0.33)
-- Tax income efficiency -0.15 (was -0.1)
-- Subject loyalty +10
-
-**Comment**: A centralized state propagates control LESS effectively but more efficiently. A decentralized state propagates more effectively but suffers from more powerful estates and less effective taxation.
-
-### Societal Values - Individualism vs Communalism
-- **Individualism**: Cabinet efficiency -0.25, tax efficiency +0.1
-- **Communalism**: Cabinet efficiency +0.25, tax efficiency -0.1
-
-**Comment**: Cabinet mostly functions on communal systems; individuals function with great efficiency overall.
-
-### Societal Values - Land vs Naval
-- **Land Direction**: Trade sea movement cost -0.25, trade land movement cost -0.1
-- **Naval Direction**: Maritime presence -0.1, trade land movement cost -0.25
-
-**Comment**: Tweaks to make land a bit more attractive.
-
-### Societal Values - Serfdom vs Free Subjects
-- **Serfdom**: Raw material output -0.05, peasant levy size -0.1, land morale +0.1
-- **Free Subjects**: Pop promotion speed -0.5, levy combat efficiency +0.1, naval morale +0.1
-
-**Comment**: Free societies have generally had superior navies due to higher technical knowledge requirements.
-
-### Societal Values - Aristocracy vs Plutocracy
-- **Aristocracy**: Cavalry power +0.065, court spending +0.03
-- **Plutocracy**: Infantry power +0.05, levy combat efficiency +0.1, court spending +0.02
 
 ### Casus Belli System
 - **Coalition CB**: AI should slightly prefer this CB over others (value +25)
@@ -647,50 +762,5 @@ Maintenance includes increased costs for firearms and cannons for later tier for
 
 ---
 
-## DEVELOPER NOTES & INTENT
-
-### Overall Philosophy
-The Specula Principum mod aims to:
-1. **Slow Down Early Game**: Building and recruitment take longer, making early expansion less snowball-y
-2. **Make Resources Meaningful**: Increased costs mean strategic choices matter more
-3. **Balance Large Empires**: Anti-snowballing measures prevent late-game dominance without crippling large nations
-4. **Encourage Tall Play**: Bonuses to population-based growth encourage developing provinces deeply
-5. **Improve AI Competency**: Adjusted AI parameters help the AI compete without being obviously overpowered
-6. **Enhance Strategic Depth**: Longer build times and higher costs create more interesting economic decisions
-
-### Known Adjustments & TODOs
-- **Movement Locked Modifier**: Currently 0.25 (50% in vanilla). Could be dynamic based on general quality, light cavalry %, etc.
-- **City Upgrade Costs**: Tied to age and decrease with age to create historical urbanization patterns
-- **Levy Performance**: Nerfed via increased costs and combat adjustments to offset discipline bonus
-- **Stability Impact**: Still being tuned to ensure it creates meaningful strategic choice
-- **Cabinet Efficiency**: Tied to stability to create corruption-like effect on large empires
-
-### Balance Testing Notes
-- RGO production already has multiple nerfs (control, stacking, total numbers)
-- Tax efficiency bonuses made more important due to snowballing reduction
-- Estate satisfaction mechanics changed to prevent sudden revolts
-- Literacy gains intentionally reduced to prevent tech runaway
-- Advance costs scale progressively to slow tech progression
-
----
-
-## SUMMARY OF KEY CHANGES
-
-### Top 10 Most Impactful Changes
-1. **Building Times Doubled/Tripled** - Fort construction especially increased 3x
-2. **RGO Base Time 3x Increase** (180 → 540 days) - Major economic slowdown
-3. **Army Recruitment Extended** (30 → 90 days for infantry) - Extended military buildup
-4. **Tax Efficiency Nerfed** - 7.5% base malus, increasing with size
-5. **Literacy Growth Halved** - Slows tech progression significantly
-6. **Unit Maintenance 20% Higher** - Increases operational costs
-7. **Combat Dynamics Redesigned** - Assault, terrain, and naval crossing heavily adjusted
-8. **Anti-Snowballing Restructured** - Reduced impact but maintained control pressure
-9. **Estate System Rebalanced** - Changes to satisfaction and taxation
-10. **Food System Adjusted** - Goods food values reduced, population growth more balanced
-
-This mod represents a comprehensive rebalancing of Europa Universalis IV mechanics toward a more historically-paced, strategically-interesting experience with less exponential snowballing in the late game.
-
----
-
-*Last Updated: April 15, 2026*
+*Last Updated: April 16, 2026*
 *Version: Specula Principum (Current Build)*
