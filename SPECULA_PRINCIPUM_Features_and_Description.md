@@ -240,6 +240,9 @@ Plus progressive RGO expansion cost increases and town upgrade cost modifiers.
 - **Max RGO Size**: 2.0 → 1.25
 - **Local Monthly Prosperity**: 0.0025 (balanced)
 
+
+- Descreased Tin & Copper costs for naval supplies (yes bronze is important for cannons, bells etc... but not that important)
+
 ---
 
 ## Building Costs & Construction

@@ -26,7 +26,7 @@ NUnit = {
 NEconomy = {
 
 	ECONOMICAL_BASE_FROM_TAX_BASE = 0.5 #was 0.5
-	ECONOMICAL_BASE_FROM_POP = 0.0235 #was 0.015 - this creates a slight push towards tall play.
+	ECONOMICAL_BASE_FROM_POP = 0.02 #was 0.015 - this creates a slight push towards tall play.
 	ECONOMICAL_BASE_FROM_TRADE_VALUE = 0.165 #was 0.2. 0.15 was a bit low, bumping a bit to nerf trade republics (venice, yo)
 	ECONOMICAL_BASE_FROM_TRADE_PROFIT = 0.4 #was 0.2
 	ECONOMICAL_BASE_INTEREST = 0.25 #was 0.25
@@ -89,9 +89,9 @@ NAI = {
 	MONTHS_TO_WAIT_FOR_CASUS_BELLI = 60 # 24 - how many months will Ai wait for a potential casus belli from script before declaring a no CB or abandoning the war
 	
 # SP - Needed else AI doesn't buy enough regulars.
-	DEFAULT_REGULAR_ARMY_PREFERENCE = 2.75 # 1
-	DEFAULT_LEVY_ARMY_PREFERENCE = 0.925 # 1
-	DEFAULT_MERCENARY_ARMY_PREFERENCE = 3.0 # SP - 1 was too low. 2 feels too low as well.
+	DEFAULT_REGULAR_ARMY_PREFERENCE = 3.5 # 1
+	DEFAULT_LEVY_ARMY_PREFERENCE = 0.85 # 1
+	DEFAULT_MERCENARY_ARMY_PREFERENCE = 3.0 # SP - 1 was too low
 
 	LEVY_ARMY_PREFERENCE_FACTOR = 0.35 # Vanilla: 0.5
 

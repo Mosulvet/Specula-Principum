@@ -68,7 +68,7 @@
 		}
 	}
 
-	monthly_resistance_reduction = 0.00025 #0.0005
+	monthly_resistance_reduction = 0.0001 #0.0005 , 0.00025 was still showing very high lethality.
 
 	spawn = {
 		#Has the Black Death spawned already?
@@ -346,11 +346,11 @@
 		local_production_efficiency = -0.75 #added
 	}
 
-	# If untreated, the mortality rate is between 40% and 70%
-	mortality_rate = { 0.3 0.6 }
+	# If untreated, the mortality rate is between 40% and 70%; decreased to reduce overall ww disease deaths, given other impacts on locations, actual mortality will be more inline with historicality mortality rates.
+	mortality_rate = { 0.25 0.5 }
 
 	character_mortality_chance = {
-		value = 0.08
+		value = 0.065 #0.08
 		if = {
 			limit = {
 				NOT = { 

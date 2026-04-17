@@ -7,7 +7,7 @@ smallpox = { #https://en.wikipedia.org/wiki/Smallpox
 		#Around 1 outbreaks around the world
 		value = 0.0075
 	}
-monthly_resistance_reduction = 0.0015
+monthly_resistance_reduction = 0.0005 #0.0015
 	#effect to spawn the disease somewhere when we've decided it should spawn.
 	#Include a spawn_disease effect here
 	spawn = {
@@ -197,9 +197,9 @@ monthly_resistance_reduction = 0.0015
 
 	#script value for mortality rate of the disease (0..1)
 	#By the 16th century, smallpox had become entrenched across most of Europe,[3] where it had a mortality rate as high as 30 percent
-	# SP - slight increase in mortality here. 
+	# SP - slight decrease in mortality here. Helps bring down ww disease mortality
 	mortality_rate = { 
-		0.065 0.35
+		0.04 0.25
 	}
 
 	#script value for how likely it is that a character will die per calc interval (0..1)

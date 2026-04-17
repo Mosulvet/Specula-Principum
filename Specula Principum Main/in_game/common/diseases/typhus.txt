@@ -16,7 +16,7 @@
 
 
 	#script value for how likely the disease is to spawn per month (0..1)
-	monthly_resistance_reduction = 0.001
+	monthly_resistance_reduction = 0.00035 #SP 0.001
 	monthly_spawn_chance = {
 		#Around 1 outbreaks around the world
 		value = 0.01
@@ -141,8 +141,9 @@
 	}
 
 	#script value for mortality rate of the disease (0..1)
+	#was 0.04 - 0.4; decreased to reduce overall ww disease deaths
 	mortality_rate = { 
-		0.04 0.4
+		0.025 0.25
 	}
 
 	#script value for how likely it is that a character will die per calc interval (0..1)
