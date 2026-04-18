@@ -167,8 +167,8 @@ REPLACE:incense = {
 	method = farming
 	category = raw_material
 	color = goods_incense
-	default_market_price = 4
-	transport_cost = 0.5
+	default_market_price = 3.5 #4
+	transport_cost = 0.25 #0.5 - encourage trade
 	
 	demand_add = {
 		clergy = 0.025
@@ -185,8 +185,8 @@ REPLACE:tea = {
 	method = farming
 	category = raw_material
 	color = goods_tea
-	default_market_price = 4
-	transport_cost = 0.5
+	default_market_price = 3.5 #reduced from 4.0
+	transport_cost = 0.25 #halved to encourage long distance trade
 
 	demand_add = {
 		nobles = 0.2
@@ -899,10 +899,11 @@ REPLACE:masonry = {		# basically bricks etc..
 REPLACE:lacquerware = {
 	category = produced
 	color = goods_lacquerware
-	default_market_price = 5
+	default_market_price = 4 #5
 	transport_cost = 0.5
+	# these demands are set much too, now only x2 for nobles
 	demand_add = {
-		nobles =  0.2
+		nobles =  0.1
 		burghers =  0.025
 	}	
 	
