@@ -1,0 +1,11 @@
+﻿{
+	"name":	"[Local]Output - Cultural Differences",
+	"id":	"CD",
+	"version":	"1.0",
+	"supported_game_version":	"1.1.10",
+	"short_description":	"Cultural Variations to bring some flavor",
+	"tags":	["Culture & Art"],
+	"relationships":	[],
+	"game_custom_data":	{
+}
+}
