@@ -1,0 +1,76 @@
+Prompt -
+
+My intent is to make adjustments to every culture in EU5.
+
+Start with files in C:\Users\sages\Specula-Principum\CulturalDifferencesSource\in_game\common\cultures
+These are the source files. Use the file caucasian.txt as an example.
+
+Iterate through every file completely. For each culture, you will add a country modifier and a location modifier.
+
+To do this,
+Search online and find information about this culture, or common features of the area it is dominate. Weight towards information about how and where the culture existed in the 1400s.
+
+Then, decide on one cultural feature for countries where it is dominate. Then, decide on one cultural feature for locations where it is dominate.
+
+Map these cultural features into EU5 game variables - you can find examples of Location EU5 variables (link), and country variables (link).
+
+Create a copy of the source file here: Output to C:\Users\sages\Specula-Principum\CulturalDifferencesOutput
+
+Add the location variables to an existing, or new location_modifier block:
+	location_modifier = {
+	}
+
+Add the country variables to ane exisitng or new country_modifier block:
+	country_modifier = {
+	}
+
+You will add one location and country country modifiers to every culture group.
+
+For example, in british.txt you can find Northumbrian culture:
+
+northumbrian = {
+	language = northumbrian_dialect
+	
+	color = map_NOL
+	
+	tags = { english_gfx north_british_gfx british_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		english = kindred 
+		scottish = positive
+		anglo_irish = positive
+		norman = enemy
+	}
+
+	culture_groups = {
+		british_group
+	}
+}
+
+You would add the location and country modifier blocks:
+northumbrian = {
+	language = northumbrian_dialect
+	
+	color = map_NOL
+	
+	tags = { english_gfx north_british_gfx british_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		english = kindred 
+		scottish = positive
+		anglo_irish = positive
+		norman = enemy
+	}
+
+	location_modifier = {
+	}
+
+	country_modifier = {
+	}
+
+	culture_groups = {
+		british_group
+	}
+}
+
+You can search online and find that sheep woold, coal and ironworking were all important to medieval Europe.
