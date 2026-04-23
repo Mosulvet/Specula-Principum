@@ -8,7 +8,7 @@
 ############################################################
 REPLACE:road_maintenance = {
 	lumber = 0.02
-	masonry = 0.015
+	masonry = 0.0125
 	stone = 0.01
 	sand = 0.01
 	category = building_maintenance
@@ -951,7 +951,7 @@ REPLACE:pop_demand = {
 	###########################
 	
 	sugar = {
-		value = 1.5
+		value = 1.45
 		if = {
 			limit = {
 				pop_type != pop_type:peasants
@@ -990,8 +990,9 @@ REPLACE:pop_demand = {
 		}
 	}
 
+#Tea demands tweaked down by about 10% as they were vastly overwhelming supply.
 	tea = {
-		value = 1
+		value = 0.9
 		
 		if = {
 			limit = { #Turks use tea extensively
@@ -1001,7 +1002,7 @@ REPLACE:pop_demand = {
 				}
 			}
 			multiply = {
-				value = 2
+				value = 1.8
 				desc = "POP_DEMAND_TURKISH"
 			}
 		}
@@ -1013,7 +1014,7 @@ REPLACE:pop_demand = {
 				}
 			}
 			multiply = {
-				value = 1.5
+				value = 1.35
 				desc = "POP_DEMAND_EGYPT"
 			}
 		}
@@ -1022,7 +1023,7 @@ REPLACE:pop_demand = {
 				culture = { has_culture_group = culture_group:maghrebi_group }
 			}
 			multiply = {
-				value = 2
+				value = 1.8
 				desc = "POP_DEMAND_MAGHREBI"
 			}
 		}
@@ -1030,11 +1031,11 @@ REPLACE:pop_demand = {
 	}
 
 	cocoa = {
-		value = 0.5	
+		value = 0.45	
 	}
 	
 	coffee = {
-		value = 0.5
+		value = 0.45
 	}
 	
 	saffron = {

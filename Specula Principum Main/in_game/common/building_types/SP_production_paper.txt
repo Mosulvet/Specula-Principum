@@ -1,6 +1,6 @@
-﻿#AI cannot solve paper shortages; general boost in 20% efficiency below.
+﻿#AI cannot solve paper shortages; general boost in 10% efficiency below.
 
-REPLACE:paper_guild = {
+paper_guild = {
 	is_foreign = no
 	pop_type = burghers
 	max_levels = guild_max_level
@@ -22,7 +22,7 @@ REPLACE:paper_guild = {
 			leather = 0.2
 			lumber = 0.2
 			produced = paper
-			output = 0.6
+			output = 0.55
 
 			debug_max_profit = 0.15
 			
@@ -33,7 +33,7 @@ REPLACE:paper_guild = {
 			fiber_crops = 0.6
 			lumber = 0.2
 			produced = paper
-			output = 1.2
+			output = 1.1
 
 			debug_max_profit = 0.45
 			
@@ -44,7 +44,7 @@ REPLACE:paper_guild = {
 			cloth = 0.5
 			lumber = 0.1
 			produced = paper
-			output = 1.2
+			output = 1.1
 			
 			category = guild_input
 		}
@@ -54,7 +54,7 @@ REPLACE:paper_guild = {
 	construction_demand = guild_construction
 }
 
-REPLACE:paper_workshop = {
+paper_workshop = {
 	is_foreign = no
 	pop_type = burghers
 	max_levels = workshop_max_level
@@ -76,7 +76,7 @@ REPLACE:paper_workshop = {
 		paper_workshop_fiber_pulp_maintenance = {
 			fiber_crops = 0.65
 			produced = paper
-			output = 1.2
+			output = 1.1
 
 			debug_max_profit = 0.6
 			
@@ -86,7 +86,7 @@ REPLACE:paper_workshop = {
 			cloth = 0.45
 			lumber = 0.1
 			produced = paper
-			output = 1.32
+			output = 1.21
 			
 			debug_max_profit = 0.6
 			
@@ -100,7 +100,7 @@ REPLACE:paper_workshop = {
 	construction_demand = workshop_construction
 }
 
-REPLACE:paper_manufactory = {
+paper_manufactory = {
 	is_foreign = no
 	pop_type = burghers
 	max_levels = manufactory_max_level
@@ -126,7 +126,7 @@ REPLACE:paper_manufactory = {
 		
 			
 			produced = paper
-			output = 2.4
+			output = 2.2
 			
 			debug_max_profit = 0.75
 			category = manufactory_input
@@ -140,7 +140,7 @@ REPLACE:paper_manufactory = {
 	construction_demand = manufactory_construction
 }
 
-REPLACE:paper_mill = {
+paper_mill = {
 	is_foreign = no
 	pop_type = laborers
 	max_levels = mills_max_level
@@ -163,7 +163,7 @@ REPLACE:paper_mill = {
 			fiber_crops = 1.0
 			
 			produced = paper
-			output = 2.4
+			output = 2.2
 			
 			debug_max_profit = 1.0
 			category = mills_input
@@ -173,7 +173,7 @@ REPLACE:paper_mill = {
 			# unlocked by paper_guild_wood_pulp_maintenance_advance
 			lumber = 3.0
 			produced = paper
-			output = 5.4
+			output = 4.95
 			
 			debug_max_profit = 1.25		#better one
 			

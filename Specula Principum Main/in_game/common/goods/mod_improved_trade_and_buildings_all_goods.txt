@@ -901,9 +901,9 @@ REPLACE:lacquerware = {
 	color = goods_lacquerware
 	default_market_price = 4 #5
 	transport_cost = 0.5
-	# these demands are set much too, now only x2 for nobles
+	# these demands are set too high, now only x1.5 for nobles
 	demand_add = {
-		nobles =  0.1
+		nobles =  0.075
 		burghers =  0.025
 	}	
 	

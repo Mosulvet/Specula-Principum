@@ -1,0 +1,3 @@
+As noted - the paradox engine doens't treat replacements correctly here (sometimes). You can see this with corrupted or dupe production methods.
+
+The solution is to use different files names, but not use REPLACE: or INJECT: before blocks.
