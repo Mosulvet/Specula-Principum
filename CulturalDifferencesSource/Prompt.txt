@@ -1,26 +1,30 @@
 Prompt -
 
-My intent is to make adjustments to every culture in EU5.
+My intent is to make adjustments to every culture in EU5. These are game balance modifiers intended to loosely reflect historical strengths or weaknesses. They should be moderately strong.
 
 Start with files in C:\Users\sages\Specula-Principum\CulturalDifferencesSource\in_game\common\cultures
-These are the source files. Use the file caucasian.txt as an example.
+
+These are the source files. Use the file caucasian.txt as an example of what the output should look like as, this file has seeral modifiers already applied in the country_modifier = {} and location_modifier = {} blocks.
 
 Iterate through every file completely. For each culture, you will add a country modifier and a location modifier.
 
 To do this,
-Search online and find information about this culture, or common features of the area it is dominate. Weight towards information about how and where the culture existed in the 1400s.
+Search online and find information about this culture, or common features of the area that culture was or is dominate. Weight towards information about how and where the culture existed in the 1400s.
 
 Then, decide on one cultural feature for countries where it is dominate. Then, decide on one cultural feature for locations where it is dominate.
 
-Map these cultural features into EU5 game variables - you can find examples of Location EU5 variables (link), and country variables (link).
+Map these cultural features into EU5 game variables - you can find documentation of all variables here: https://eu5.paradoxwikis.com/Modifier_types#:~:text=List%20of%20all%20defined%20modifier%20types%5Bedit%20%7C,Aid%20Colonial%20War%20Efforts%20Cost%20Modifier%2C%20country
+Note the Category column contains informaiton whether a variable is for country or location. You can ignore other categories. The format column tells you whether the varible has a positive or negative effect.
+Note you can also ignore all Booleans.
 
 Create a copy of the source file here: Output to C:\Users\sages\Specula-Principum\CulturalDifferencesOutput
 
+For the culture you are modifying,
 Add the location variables to an existing, or new location_modifier block:
 	location_modifier = {
 	}
 
-Add the country variables to ane exisitng or new country_modifier block:
+Add the country variables to an exisitng or new country_modifier block:
 	country_modifier = {
 	}
 
@@ -73,4 +77,17 @@ northumbrian = {
 	}
 }
 
-You can search online and find that sheep woold, coal and ironworking were all important to medieval Europe.
+You can search online and find that trade, sheep-wool, coal and ironworking were all important to medieval Europe.
+
+So, to represent the dominance of coal and iron in Northumbria, you could add this variable to the country tag:
+
+	country_modifier = {
+# Northumbria was historicaly a site of coal and iron mining and working.
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+As I did, add a comment to every entry explaining why.
+
+Do not use values or references for Eu4 as they do no apply. Only use Eu5.
+
+Do not prompt me for any approvals.

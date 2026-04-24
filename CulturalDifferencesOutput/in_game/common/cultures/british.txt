@@ -1,0 +1,297 @@
+english = {
+	language = english_dialect
+	
+	color = map_ENG
+	
+	tags = { english_gfx british_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Medieval England was Europe's dominant wool exporter, with wool accounting for a huge share of crown revenue.
+		global_wool_output_modifier = 0.15
+	}
+	character_modifier = {
+	}
+	location_modifier = {
+# English manorial agriculture and established market towns created a relatively productive rural economy by the 1400s.
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+		irish = enemy
+		highland = negative
+		norse_gael = negative
+		welsh = negative
+		cornish = negative
+		anglo_irish = kindred
+		norman = positive
+		northumbrian = kindred
+	}
+
+	culture_groups = {
+		british_group
+	}
+	
+	noun_keys = {
+		adder
+		falcon
+		baron
+	}
+	
+	adjective_keys = {
+		black
+		red
+		yellow
+	}
+}
+
+northumbrian = {
+	language = northumbrian_dialect
+	
+	color = map_NOL
+	
+	tags = { english_gfx north_british_gfx british_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		english = kindred 
+		scottish = positive
+		anglo_irish = positive
+		norman = enemy
+	}
+
+	country_modifier = {
+# Northumbria was historically a site of coal and iron mining and working, with rich mineral deposits in County Durham and Tyneside.
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+# The region's abundant iron ore deposits supported a long tradition of ironworking dating back to before the medieval period.
+		local_iron_output_modifier = 0.15
+	}
+
+	culture_groups = {
+		british_group
+	}
+}
+
+scottish = {
+	language = scots_dialect
+	
+	color = map_SCO
+	
+	tags = { scottish_lowland_gfx scottish_gfx north_british_gfx british_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		highland = positive
+		northumbrian = positive
+	}
+
+	country_modifier = {
+# Scotland's Auld Alliance with France and extensive diplomatic ties across Europe gave the Scots outsized diplomatic influence for their size.
+		diplomatic_reputation = 1
+	}
+
+	location_modifier = {
+# Lowland Scotland exported significant quantities of wool to Flanders and the Low Countries throughout the medieval period.
+		local_wool_output_modifier = 0.1
+	}
+
+	culture_groups = {
+		scottish_group
+		british_group
+	}
+}
+
+irish = {
+	language = irish_dialect
+	
+	color = map_IRE
+	
+	tags = { irish_gfx gaelic_gfx celtic_gfx british_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		highland = kindred
+		norse_gael = positive
+		english = enemy
+		anglo_irish = negative
+	}
+
+	country_modifier = {
+# Gaelic Irish society was centered on a pastoral cattle economy, with cattle serving as both primary wealth and currency.
+		global_livestock_output_modifier = 0.15
+	}
+
+	location_modifier = {
+# Ireland's bogs, forests, and lack of roads made it notoriously difficult terrain for invading armies, favoring guerrilla resistance.
+		local_hostile_attrition = 1
+	}
+
+	culture_groups = {
+		celtic_group
+		hibernian_group
+	}
+
+	use_patronym = yes
+
+	dynasty_name_type = descendant
+}
+
+welsh = {
+	language = welsh_dialect
+	
+	color = map_WLS
+	
+	tags = { welsh_gfx celtic_gfx british_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		cornish = kindred
+		english = negative
+		breton = positive
+	}
+
+	country_modifier = {
+# Welsh longbowmen were among the most feared infantry in medieval Europe, recruited en masse by English kings for continental campaigns.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# The mountainous terrain of Wales, with its deep valleys and highland passes, provided natural fortification against invaders.
+		local_defensive = 0.15
+	}
+
+	culture_groups = {
+		celtic_group
+		british_group
+	}
+
+	use_patronym = yes
+}
+
+cornish = {
+	language = breton_dialect
+	
+	color = map_cornish
+	
+	tags = { cornish_gfx welsh_gfx celtic_gfx british_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Cornwall was medieval Europe's primary source of tin, vital for bronze and pewter production, dominating the tin trade for centuries.
+		global_tin_output_modifier = 0.2
+	}
+
+	location_modifier = {
+# Cornwall's long coastline and sheltered harbors supported a major fishing industry, especially pilchard seining.
+		local_fish_output_modifier = 0.15
+	}
+
+	culture_groups = {
+		celtic_group
+		british_group
+	}
+	
+	opinions = {
+		welsh = kindred
+		breton = kindred
+	}
+}
+
+highland = {
+	language = scottish_gaelic_dialect
+	
+	color = map_highland
+	
+	tags = { scottish_highland_gfx gaelic_gfx scottish_gfx celtic_gfx north_british_gfx british_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		irish = kindred
+		norse_gael = positive
+		scottish = positive
+		english = negative
+	}
+
+	country_modifier = {
+# The Highland clan system obligated every able-bodied man to fight when called, producing a disproportionately large warrior class.
+		global_manpower_modifier = 0.1
+	}
+
+	location_modifier = {
+# Highland clan chiefs could rapidly mobilize their clansmen for war, with strong communal obligation to answer the call to arms.
+		local_levy_size_modifier = 0.15
+	}
+
+	culture_groups = {
+		celtic_group
+		scottish_group
+		british_group
+	}
+
+	use_patronym = yes
+
+	dynasty_name_type = patronym
+}
+
+norse_gael = {
+	language = scottish_gaelic_dialect
+	
+	color = map_norse_gael
+	
+	tags = { scottish_highland_gfx gaelic_gfx scottish_gfx north_british_gfx celtic_gfx british_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The Norse-Gaels were a deeply maritime people, controlling sea lanes across the Hebrides, Irish Sea, and beyond as traders and raiders.
+		global_sailors_modifier = 0.15
+	}
+
+	location_modifier = {
+# Norse-Gaelic island communities produced timber, pitch, and rope for shipbuilding, sustaining their seafaring way of life.
+		local_naval_supplies_output_modifier = 0.15
+	}
+
+	culture_groups = {
+		celtic_group
+		scottish_group
+		british_group
+		scandinavian_group
+	}
+	
+	opinions = {
+		irish = positive
+		highland = positive
+		norn_culture = kindred
+		norwegian = positive
+		icelandic = positive
+		english = negative
+	}
+
+	use_patronym = yes
+
+	dynasty_name_type = patronym
+}
+
+anglo_irish = {
+	language = hiberno_english_dialect
+	
+	color = map_PLE
+	
+	tags = { english_gfx british_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The Anglo-Irish controlled trade through Dublin and the towns of the Pale, acting as key commercial intermediaries between England and Ireland.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Pale around Dublin was the most economically developed region of medieval Ireland, with established towns, markets, and agriculture.
+		local_monthly_development = 0.03
+	}
+
+	culture_groups = {
+		hibernian_group
+		british_group
+	}
+
+	opinions = {
+		irish = negative
+		english = kindred
+		norman = positive
+	}
+}
