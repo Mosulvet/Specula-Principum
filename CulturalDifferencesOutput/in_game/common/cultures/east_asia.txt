@@ -1,0 +1,4744 @@
+﻿korean_culture = { 
+	language = korean_language
+	
+	color = map_KOR
+	
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# Korea's Confucian scholarly tradition and the invention of hangul reflected one of East Asia's most sophisticated literary cultures.
+		prestige = 5
+	}
+
+	location_modifier = {
+# Korean rice paddies and intensive agriculture in the peninsula's river valleys supported a large, literate population.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		tamna_culture = kindred
+	}
+	culture_groups = {
+		confucian_group
+	}
+}
+
+saigoku_culture = {
+	language = japanese_language
+
+	color = map_JAP
+
+	tags = { japanese_gfx east_asian_gfx }
+
+
+	country_modifier = {
+# The samurai warrior code and Japan's long tradition of clan warfare produced disciplined soldiers with exceptional fighting morale.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+# Japanese craftsmanship in metalwork, ceramics, and textiles was highly refined by the Muromachi period.
+		local_production_efficiency = 0.05
+	}
+	culture_groups = {
+		japanese_group
+		confucian_group
+	}
+
+	opinions = {
+		tougoku_culture = kindred
+		touhoku_culture = kindred
+		kyushu_culture = kindred
+	}
+}
+
+tougoku_culture = {
+	language = japanese_language
+
+	color = map_tougoku
+
+	tags = { japanese_gfx east_asian_gfx }
+
+
+	country_modifier = {
+# The samurai warrior code and Japan's long tradition of clan warfare produced disciplined soldiers with exceptional fighting morale.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+# Japanese craftsmanship in metalwork, ceramics, and textiles was highly refined by the Muromachi period.
+		local_production_efficiency = 0.05
+	}
+	culture_groups = {
+		japanese_group
+		confucian_group
+	}
+
+
+	opinions = {
+		saigoku_culture = kindred
+		touhoku_culture = kindred
+		kyushu_culture = kindred
+	}
+}
+
+kyushu_culture = {
+	language = japanese_language
+
+	color = map_kyushu
+
+	tags = { japanese_gfx east_asian_gfx }
+
+
+	country_modifier = {
+# The samurai warrior code and Japan's long tradition of clan warfare produced disciplined soldiers with exceptional fighting morale.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+# Japanese craftsmanship in metalwork, ceramics, and textiles was highly refined by the Muromachi period.
+		local_production_efficiency = 0.05
+	}
+	culture_groups = {
+		japanese_group
+		confucian_group
+	}
+
+	opinions = {
+		saigoku_culture = kindred
+		tougoku_culture = kindred
+		touhoku_culture = kindred
+	}
+}
+
+touhoku_culture = {
+	language = japanese_language
+
+	color = map_touhoku
+
+	tags = { japanese_gfx east_asian_gfx }
+	culture_groups = {
+		japanese_group
+		confucian_group
+	}
+
+	country_modifier = {
+# The samurai warrior code and Japan's long tradition of clan warfare produced disciplined soldiers with exceptional fighting morale.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+# Japanese craftsmanship in metalwork, ceramics, and textiles was highly refined by the Muromachi period.
+		local_production_efficiency = 0.05
+	}
+
+
+	opinions = {
+		saigoku_culture = kindred
+		tougoku_culture = kindred
+		kyushu_culture = kindred
+	}
+}
+
+ainu_culture = {
+	language = ainu_language
+
+	color = map_ANU
+
+	tags = { ainu_gfx japanese_gfx east_asian_gfx }
+
+
+	country_modifier = {
+# The Ainu were master fishermen and hunters of Hokkaido, the Kurils, and Sakhalin, their economy centered on salmon and marine resources.
+		global_fish_output_modifier = 0.15
+	}
+
+	location_modifier = {
+# The cold northern waters around Ainu territories teemed with salmon, trout, and marine mammals.
+		local_fish_output_modifier = 0.15
+	}
+	opinions = {
+	}
+}
+
+ryukyu_culture = {
+	language = ryukyu_language
+
+	color = map_ryukyu
+
+	tags = { japanese_gfx east_asian_gfx }
+
+
+	country_modifier = {
+# The Ryukyu Kingdom was a major maritime trading intermediary between China, Japan, Korea, and Southeast Asia.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# The Ryukyu Islands' subtropical waters provided abundant fishing alongside maritime trade.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+}
+
+jurchen_culture = {
+	language = jurchen_language
+
+	color = map_jurchen
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Jurchen were formidable mounted warriors whose cavalry traditions would eventually forge the Manchu conquest of China.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+# The Manchurian forests and grasslands supported Jurchen pastoral herding of horses and cattle.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+		haixi_culture = kindred
+		hurga_culture = kindred
+	}
+	culture_groups = {
+		jurchen_group
+		tungusic_group
+	}
+}
+
+haixi_culture = {
+	language = jurchen_language
+
+	color = map_haixi
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Jurchen were formidable mounted warriors whose cavalry traditions would eventually forge the Manchu conquest of China.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+# The Manchurian forests and grasslands supported Jurchen pastoral herding of horses and cattle.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+		hurga_culture = kindred
+		jurchen_culture = kindred
+	}
+	culture_groups = {
+		jurchen_group
+		tungusic_group
+	}
+}
+
+hurga_culture = {
+	language = nanai_language
+
+	color = map_hurga
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Jurchen were formidable mounted warriors whose cavalry traditions would eventually forge the Manchu conquest of China.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+# The Manchurian forests and grasslands supported Jurchen pastoral herding of horses and cattle.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+		haixi_culture = kindred
+		jurchen_culture = kindred
+		oroch_culture = kindred
+	}
+	culture_groups = {
+		jurchen_group
+		tungusic_group
+	}
+}
+
+tamna_culture = {
+	language = korean_language
+
+	color = map_TMN
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Tamna people of Jeju Island were renowned divers and fishermen, with the haenyeo diving tradition central to their culture.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Jeju's volcanic island waters supported a rich marine ecosystem exploited by skilled island fishermen.
+		local_fish_output_modifier = 0.15
+	}
+	opinions = {
+		korean_culture = kindred
+	}
+	culture_groups = {
+		confucian_group
+	}
+}
+
+hui_muslim_culture = {
+	language = northern_mandarin_dialect
+
+	color = map_hui_muslim
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Hui Muslim community maintained extensive commercial networks across China, specializing in long-distance caravan and maritime trade.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# Hui merchants and artisans contributed to commercial life in China's major trading cities.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+yan_culture = { #燕
+	language = northern_mandarin_dialect
+
+	color = map_yan
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The North China Plain was one of the world's great agricultural regions, its wheat and millet harvests feeding millions.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Yellow River basin's loess soils supported intensive grain agriculture that sustained dense populations.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+jilu_culture = { #冀魯
+	language = northern_mandarin_dialect
+
+	color = map_jilu
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The North China Plain was one of the world's great agricultural regions, its wheat and millet harvests feeding millions.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Yellow River basin's loess soils supported intensive grain agriculture that sustained dense populations.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+jiaodong_culture = { #胶东
+	language = northern_mandarin_dialect
+
+	color = map_jiaodong
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The North China Plain was one of the world's great agricultural regions, its wheat and millet harvests feeding millions.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Yellow River basin's loess soils supported intensive grain agriculture that sustained dense populations.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+liaodong_culture = { #辽东
+	language = northern_mandarin_dialect
+
+	color = map_liaodong
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The North China Plain was one of the world's great agricultural regions, its wheat and millet harvests feeding millions.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Yellow River basin's loess soils supported intensive grain agriculture that sustained dense populations.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+zhongyuan_culture = { #中原
+	language = southern_mandarin_dialect
+
+	color = map_zhongyuan
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The North China Plain was one of the world's great agricultural regions, its wheat and millet harvests feeding millions.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Yellow River basin's loess soils supported intensive grain agriculture that sustained dense populations.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+liang_culture = { #涼
+	language = northern_mandarin_dialect
+
+	color = map_liang
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The North China Plain was one of the world's great agricultural regions, its wheat and millet harvests feeding millions.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Yellow River basin's loess soils supported intensive grain agriculture that sustained dense populations.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+huaihai_culture = { #淮海
+	language = northern_mandarin_dialect
+
+	color = map_huaihai
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The North China Plain was one of the world's great agricultural regions, its wheat and millet harvests feeding millions.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Yellow River basin's loess soils supported intensive grain agriculture that sustained dense populations.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+qin_culture = { #秦
+	language = northern_mandarin_dialect
+
+	color = map_qin
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The North China Plain was one of the world's great agricultural regions, its wheat and millet harvests feeding millions.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Yellow River basin's loess soils supported intensive grain agriculture that sustained dense populations.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+jianghuai_culture = { #江淮
+	language = southern_mandarin_dialect
+
+	color = map_jianghuai
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yangtze River basin was the rice bowl of China, its wet-rice agriculture producing enormous surpluses.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The fertile Yangtze floodplains and terraced hillsides supported intensive rice cultivation.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+tongtai_culture = { #通泰
+	language = southern_mandarin_dialect
+
+	color = map_tongtai
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yangtze River basin was the rice bowl of China, its wet-rice agriculture producing enormous surpluses.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The fertile Yangtze floodplains and terraced hillsides supported intensive rice cultivation.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+chu_culture = { #楚
+	language = southern_mandarin_dialect
+
+	color = map_chu
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yangtze River basin was the rice bowl of China, its wet-rice agriculture producing enormous surpluses.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The fertile Yangtze floodplains and terraced hillsides supported intensive rice cultivation.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+changde_culture = { #常德
+	language = southern_mandarin_dialect
+
+	color = map_changde
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yangtze River basin was the rice bowl of China, its wet-rice agriculture producing enormous surpluses.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The fertile Yangtze floodplains and terraced hillsides supported intensive rice cultivation.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+shu_culture = { #蜀
+	language = shu_language
+
+	color = map_sichuanese
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yangtze River basin was the rice bowl of China, its wet-rice agriculture producing enormous surpluses.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The fertile Yangtze floodplains and terraced hillsides supported intensive rice cultivation.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+jin_culture = {
+	language = jin_language
+
+	color = map_jin
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# Shanxi's abundant coal and iron deposits made it a major center of Chinese metalworking and mining since antiquity.
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+# The Shanxi plateau contained some of China's richest coal and iron deposits.
+		local_iron_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+wu_culture = { #吳
+	language = wu_language
+
+	color = map_wu
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yangtze Delta Wu-speaking region was China's wealthiest, with Suzhou and Hangzhou as centers of silk, commerce, and culture.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Wu region's silk production, rice paddies, and urban workshops made it the economic heart of Ming China.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+yue_wu_culture = { #越
+	language = wu_language
+
+	color = map_yue_wu
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yangtze Delta Wu-speaking region was China's wealthiest, with Suzhou and Hangzhou as centers of silk, commerce, and culture.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Wu region's silk production, rice paddies, and urban workshops made it the economic heart of Ming China.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+xuanzhou_culture = { #宣州
+	language = wu_language
+
+	color = map_xuanzhou
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yangtze Delta Wu-speaking region was China's wealthiest, with Suzhou and Hangzhou as centers of silk, commerce, and culture.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Wu region's silk production, rice paddies, and urban workshops made it the economic heart of Ming China.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+wuzhou_culture = { #婺州
+	language = wu_language
+
+	color = map_wuzhou
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yangtze Delta Wu-speaking region was China's wealthiest, with Suzhou and Hangzhou as centers of silk, commerce, and culture.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Wu region's silk production, rice paddies, and urban workshops made it the economic heart of Ming China.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+quzhou_culture = { #衢州
+	language = wu_language
+
+	color = map_quzhou
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yangtze Delta Wu-speaking region was China's wealthiest, with Suzhou and Hangzhou as centers of silk, commerce, and culture.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Wu region's silk production, rice paddies, and urban workshops made it the economic heart of Ming China.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+chuzhou_culture = { #滁州
+	language = wu_language
+
+	color = map_chuzhou
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yangtze Delta Wu-speaking region was China's wealthiest, with Suzhou and Hangzhou as centers of silk, commerce, and culture.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Wu region's silk production, rice paddies, and urban workshops made it the economic heart of Ming China.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+jiangshan_culture = { #江山
+	language = wu_language
+
+	color = map_jiangshan
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yangtze Delta Wu-speaking region was China's wealthiest, with Suzhou and Hangzhou as centers of silk, commerce, and culture.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Wu region's silk production, rice paddies, and urban workshops made it the economic heart of Ming China.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+taizhou_wu_culture = { #台州
+	language = wu_language
+
+	color = map_taizhou_wu
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yangtze Delta Wu-speaking region was China's wealthiest, with Suzhou and Hangzhou as centers of silk, commerce, and culture.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Wu region's silk production, rice paddies, and urban workshops made it the economic heart of Ming China.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+ouhai_culture = { #瓯海
+	language = wu_language
+
+	color = map_ouhai
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yangtze Delta Wu-speaking region was China's wealthiest, with Suzhou and Hangzhou as centers of silk, commerce, and culture.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Wu region's silk production, rice paddies, and urban workshops made it the economic heart of Ming China.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+tunxi_culture = { #屯溪
+	language = huizhou_language
+
+	color = map_tunxi
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yangtze Delta Wu-speaking region was China's wealthiest, with Suzhou and Hangzhou as centers of silk, commerce, and culture.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Wu region's silk production, rice paddies, and urban workshops made it the economic heart of Ming China.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+jixi_culture = { #绩溪
+	language = huizhou_language
+
+	color = map_jixi
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yangtze Delta Wu-speaking region was China's wealthiest, with Suzhou and Hangzhou as centers of silk, commerce, and culture.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Wu region's silk production, rice paddies, and urban workshops made it the economic heart of Ming China.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+qiwu_culture = { #屯溪
+	language = huizhou_language
+
+	color = map_qiwu
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yangtze Delta Wu-speaking region was China's wealthiest, with Suzhou and Hangzhou as centers of silk, commerce, and culture.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Wu region's silk production, rice paddies, and urban workshops made it the economic heart of Ming China.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+xinxiang_culture = { #新湘
+	language = xiang_language
+
+	color = map_xiang
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# Hunan's Xiang-speaking region was a major rice-producing area, with the Dongting Lake basin among China's most fertile.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Dongting Lake lowlands and Xiang River valley were among China's most productive rice-growing regions.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+laoxiang_culture = { #老湘
+	language = xiang_language
+
+	color = map_laoxiang
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# Hunan's Xiang-speaking region was a major rice-producing area, with the Dongting Lake basin among China's most fertile.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Dongting Lake lowlands and Xiang River valley were among China's most productive rice-growing regions.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+xianxi_culture = { #湘西
+	language = xiang_language
+
+	color = map_xiangxi
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# Hunan's Xiang-speaking region was a major rice-producing area, with the Dongting Lake basin among China's most fertile.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Dongting Lake lowlands and Xiang River valley were among China's most productive rice-growing regions.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+yongzhou_culture = { #永州
+	language = xiang_language
+
+	color = map_yongzhou
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# Hunan's Xiang-speaking region was a major rice-producing area, with the Dongting Lake basin among China's most fertile.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Dongting Lake lowlands and Xiang River valley were among China's most productive rice-growing regions.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+hengzhou_culture = { #衡州
+	language = xiang_language
+
+	color = map_hengzhou
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# Hunan's Xiang-speaking region was a major rice-producing area, with the Dongting Lake basin among China's most fertile.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Dongting Lake lowlands and Xiang River valley were among China's most productive rice-growing regions.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+waxiang_culture = { #瓦乡
+	language = xiang_language
+
+	color = map_waxiang
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# Hunan's Xiang-speaking region was a major rice-producing area, with the Dongting Lake basin among China's most fertile.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Dongting Lake lowlands and Xiang River valley were among China's most productive rice-growing regions.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+gan_culture = { #贛
+	language = gan_language
+
+	color = map_gan
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# Jiangxi's Gan-speaking region centered on the Poyang Lake basin was a major rice-producing heartland of southern China.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Poyang Lake basin and Gan River valley supported intensive rice cultivation and freshwater fishing.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+kejia_culture = { #客家
+	language = kejia_language
+
+	color = map_hakka
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Hakka people were known for their martial traditions and defensive architecture, building fortified tulou earthen roundhouses.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# Hakka communities built their settlements in defensible mountain positions, with fortified villages resisting outside pressure.
+		local_defensive = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+huizhou_hakka_culture = { #惠州
+	language = kejia_language
+
+	color = map_huizhou_hakka
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Hakka people were known for their martial traditions and defensive architecture, building fortified tulou earthen roundhouses.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# Hakka communities built their settlements in defensible mountain positions, with fortified villages resisting outside pressure.
+		local_defensive = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+dongjiang_culture = { #東江
+	language = kejia_language
+
+	color = map_dongjiang
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Hakka people were known for their martial traditions and defensive architecture, building fortified tulou earthen roundhouses.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# Hakka communities built their settlements in defensible mountain positions, with fortified villages resisting outside pressure.
+		local_defensive = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+fuzhou_culture = { #福州
+	language = min_language
+
+	color = map_min
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# Fujian's Min-speaking coastal communities were among China's foremost seafarers, building the maritime trade networks of the South China Sea.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Fujian coast's rugged harbors supported extensive fishing and maritime trade communities.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+funing_culture = { #福宁
+	language = min_language
+
+	color = map_funing
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# Fujian's Min-speaking coastal communities were among China's foremost seafarers, building the maritime trade networks of the South China Sea.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Fujian coast's rugged harbors supported extensive fishing and maritime trade communities.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+manjiang_culture = { #蛮讲
+	language = min_language
+
+	color = map_manjiang
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# Fujian's Min-speaking coastal communities were among China's foremost seafarers, building the maritime trade networks of the South China Sea.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Fujian coast's rugged harbors supported extensive fishing and maritime trade communities.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+xinghua_culture = { #兴化
+	language = min_language
+
+	color = map_xinghua
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# Fujian's Min-speaking coastal communities were among China's foremost seafarers, building the maritime trade networks of the South China Sea.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Fujian coast's rugged harbors supported extensive fishing and maritime trade communities.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+minnan_culture = { #闽南
+	language = min_language
+
+	color = map_minnan
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# Southern Min (Hokkien/Teochew) merchants built a vast maritime trading diaspora across Southeast Asia, the greatest in Chinese history.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Southern Min coast supported both fishing and the staging of maritime expeditions across the South China Sea.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+chaozhou_culture = { #潮州
+	language = min_language
+
+	color = map_chaozhou
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# Southern Min (Hokkien/Teochew) merchants built a vast maritime trading diaspora across Southeast Asia, the greatest in Chinese history.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Southern Min coast supported both fishing and the staging of maritime expeditions across the South China Sea.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+fulao_culture = { #福佬
+	language = min_language
+
+	color = map_fulao
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# Southern Min (Hokkien/Teochew) merchants built a vast maritime trading diaspora across Southeast Asia, the greatest in Chinese history.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Southern Min coast supported both fishing and the staging of maritime expeditions across the South China Sea.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+leizhou_culture = { #雷州
+	language = min_language
+
+	color = map_leizhou
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# Southern Min (Hokkien/Teochew) merchants built a vast maritime trading diaspora across Southeast Asia, the greatest in Chinese history.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Southern Min coast supported both fishing and the staging of maritime expeditions across the South China Sea.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+qiong_culture = { #琼
+	language = min_language
+
+	color = map_qiong
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# Southern Min (Hokkien/Teochew) merchants built a vast maritime trading diaspora across Southeast Asia, the greatest in Chinese history.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Southern Min coast supported both fishing and the staging of maritime expeditions across the South China Sea.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+cunhua_culture = { #村话
+	language = min_language
+
+	color = map_cunhua
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Cunhua-speaking communities of Hainan depended on coastal fishing and tropical agriculture.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Hainan's warm tropical waters supported abundant fishing for coastal communities.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+jianning_culture = { #建宁
+	language = min_language
+
+	color = map_jianning
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# Fujian's Min-speaking coastal communities were among China's foremost seafarers, building the maritime trade networks of the South China Sea.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Fujian coast's rugged harbors supported extensive fishing and maritime trade communities.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+yuehai_culture = { #粵海
+	language = yue_language
+
+	color = map_yue
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yue-speaking regions of Guangdong and Guangxi were major centers of maritime and overland trade in southern China.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+xinhui_culture = { #新会
+	language = yue_language
+
+	color = map_xinhui
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yue-speaking regions of Guangdong and Guangxi were major centers of maritime and overland trade in southern China.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+malao_culture = { #麻佬
+	language = yue_language
+
+	color = map_malao
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yue-speaking regions of Guangdong and Guangxi were major centers of maritime and overland trade in southern China.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+huazhou_culture = { #化州
+	language = yue_language
+
+	color = map_huazhou
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yue-speaking regions of Guangdong and Guangxi were major centers of maritime and overland trade in southern China.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+gaozhou_culture = { #高州
+	language = yue_language
+
+	color = map_gaozhou
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yue-speaking regions of Guangdong and Guangxi were major centers of maritime and overland trade in southern China.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+wuchuan_culture = { #吴川
+	language = yue_language
+
+	color = map_wuchuan
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yue-speaking regions of Guangdong and Guangxi were major centers of maritime and overland trade in southern China.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+yangjiang_culture = { #阳江
+	language = yue_language
+
+	color = map_yangjiang
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yue-speaking regions of Guangdong and Guangxi were major centers of maritime and overland trade in southern China.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+guangxin_culture = { #广信
+	language = yue_language
+
+	color = map_guangxin
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yue-speaking regions of Guangdong and Guangxi were major centers of maritime and overland trade in southern China.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+tubai_culture = { #土白
+	language = yue_language
+
+	color = map_tubai
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yue-speaking regions of Guangdong and Guangxi were major centers of maritime and overland trade in southern China.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+yulin_culture = { #郁林
+	language = yue_language
+
+	color = map_yulin
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yue-speaking regions of Guangdong and Guangxi were major centers of maritime and overland trade in southern China.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+danzhou_culture = { #儋州
+	language = yue_language
+
+	color = map_danzhou
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yue-speaking regions of Guangdong and Guangxi were major centers of maritime and overland trade in southern China.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+mai_culture_culture = { #迈
+	language = yue_language
+
+	color = map_mai
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yue-speaking regions of Guangdong and Guangxi were major centers of maritime and overland trade in southern China.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+guibei_culture = { #桂北
+	language = ping_language
+
+	color = map_guibei
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yue-speaking regions of Guangdong and Guangxi were major centers of maritime and overland trade in southern China.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+guinan_culture = { #桂北
+	language = ping_language
+
+	color = map_guinan
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yue-speaking regions of Guangdong and Guangxi were major centers of maritime and overland trade in southern China.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chinese_group
+		confucian_group
+	}
+}
+
+mongolian_culture = {
+	language = mongolian_language
+
+	color = map_mongol
+
+	tags = { mongol_gfx central_asian_gfx mongolian_coa_gfx east_asian_gfx }
+
+
+	country_modifier = {
+# The Mongol cavalry tradition was unmatched in history, their mounted archery and steppe warfare dominating Eurasia for centuries.
+		army_cavalry_power = 0.15
+	}
+
+	location_modifier = {
+# The Mongolian steppe's vast grasslands supported enormous herds of horses, sheep, and cattle.
+		local_livestock_output_modifier = 0.15
+	}
+	opinions = {
+		
+	}
+	culture_groups = {
+		mongolian_group
+		steppe_group
+	}
+}
+
+formosan_culture = {
+	language = formosan_language
+
+	color = map_formosan
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# Taiwan's indigenous Austronesian peoples were skilled fishermen and seafarers on the island's coasts and rivers.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The waters around Taiwan provided abundant fishing grounds for the island's indigenous communities.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+		
+	}
+	culture_groups = {
+		austronesian_group
+	}
+}
+
+zhuang_culture = {
+	language = zhuang_language
+
+	color = map_zhuang
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Zhuang were skilled rice farmers of Guangxi, practicing wet-rice agriculture in the river valleys of southern China.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Zhuang homeland in Guangxi's river valleys supported productive rice paddy agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		
+	}
+	culture_groups = {
+		thai_group
+	}
+}
+
+hmong_culture = { #Hmong
+	language = hmong_language
+
+	color = map_hmong
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Hmong were highland swidden farmers and herders, cultivating upland rice and raising livestock in southern China's mountains.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountain homeland of the Hmong was difficult terrain for Chinese imperial armies to pacify.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+		
+	}
+}
+
+yao_china_culture = { #Yao https://en.wikipedia.org/wiki/Iu_Mien_people
+	language = hmong_language
+
+	color = map_yao_china_culture
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yao (Iu Mien) were mountain-dwelling swidden farmers who maintained independence in the highlands of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Yao mountain homeland was remote and heavily forested, resisting outside control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+		
+	}
+}
+
+yi_culture = {
+	language = yi_language
+
+	color = map_yi
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Yi (Nuosu) were fierce highland warriors of Yunnan and Sichuan, maintaining an independent caste-based society.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# The Yi homeland in the Liangshan Mountains was extremely rugged, resisting Chinese imperial control for centuries.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+		
+	}
+	culture_groups = {
+		tibeto_burman_group
+	}
+}
+
+tujia_culture = {
+	language = tujia_language
+
+	color = map_tujia
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Tujia were settled farmers in the mountains of Hunan and Hubei, cultivating rice on terraced hillsides.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+# The Tujia mountain homeland in western Hunan provided natural defensive terrain.
+		local_defensive = 0.1
+	}
+	opinions = {
+		
+	}
+	culture_groups = {
+		tibeto_burman_group
+	}
+}
+
+utsang_culture = {
+	language = tibetan_language
+
+	color = map_tibetan
+
+	tags = { tibetan_gfx east_asian_gfx }
+	culture_groups = {
+		tibetan_group
+		tibeto_burman_group
+	}
+
+	country_modifier = {
+# Tibetan pastoral nomads herded yaks, sheep, and horses across the vast Tibetan Plateau, one of the world's highest inhabited regions.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The extreme altitude and harsh climate of the Tibetan Plateau made it virtually impossible for outside armies to conquer.
+		local_defensive = 0.15
+	}
+
+	opinions = {
+		
+	}
+}
+
+khampa_culture = {
+	language = tibetan_language
+
+	color = map_khampa
+
+	tags = { tibetan_gfx east_asian_gfx }
+	culture_groups = {
+		tibetan_group
+		tibeto_burman_group
+	}
+
+	country_modifier = {
+# The Khampa warriors of eastern Tibet were among the fiercest fighters in Central Asia, renowned for their martial prowess.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# The rugged mountains and deep gorges of Kham made it extremely difficult terrain for outside armies.
+		local_defensive = 0.15
+	}
+
+	opinions = {
+		
+	}
+}
+
+amdowa_culture = {
+	language = tibetan_language
+
+	color = map_amdowa
+
+	tags = { tibetan_gfx east_asian_gfx }
+
+
+	country_modifier = {
+# Tibetan pastoral nomads herded yaks, sheep, and horses across the vast Tibetan Plateau, one of the world's highest inhabited regions.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The extreme altitude and harsh climate of the Tibetan Plateau made it virtually impossible for outside armies to conquer.
+		local_defensive = 0.15
+	}
+	opinions = {
+		
+	}
+	culture_groups = {
+		tibetan_group
+		tibeto_burman_group
+	}
+}
+
+dai_culture = { #https://en.wikipedia.org/wiki/Dai_people
+	language = dai_dialect
+
+	color = map_dai
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Dai people were skilled wet-rice farmers in the tropical valleys of Yunnan, culturally related to the Thai.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The fertile Dai river valleys in Yunnan supported productive rice agriculture in a tropical climate.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		
+	}
+	culture_groups = {
+		thai_group
+	}
+}
+
+bai_culture = { #https://en.wikipedia.org/wiki/Bai_people
+	language = bai_language
+
+	color = map_bai
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# The Bai of Dali in Yunnan maintained a sophisticated urban and commercial culture, heirs to the Nanzhao and Dali kingdoms.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# Dali was a prosperous trading center connecting China with Southeast Asia and Tibet.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+		
+	}
+	culture_groups = {
+		confucian_group
+		tibeto_burman_group
+	}
+}
+
+uyghur_culture = {
+	language = turkic_language
+
+	color = map_uyghur
+
+	tags = { central_asian_gfx middle_east_gfx }
+
+
+	country_modifier = {
+# The Uyghurs controlled the vital Silk Road oases of the Tarim Basin, profiting from trans-Asian caravan trade for centuries.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# The irrigated oases of the Tarim Basin supported productive agriculture and Silk Road trading cities.
+		local_production_efficiency = 0.1
+	}
+	opinions = {
+		
+	}
+	culture_groups = {
+		turkic_group
+	}
+
+}
+
+kam_culture = { #https://en.wikipedia.org/wiki/Kam_people
+	language = kam_language
+
+	color = map_kam
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		thai_group
+	}
+}
+
+hani_culture = { #https://en.wikipedia.org/wiki/Hani_people
+	language = yi_language
+
+	color = map_hani
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tibeto_burman_group
+	}
+}
+
+hlai_culture = { #https://en.wikipedia.org/wiki/Hlai_people
+	language = hlai_language
+
+	color = map_hlai
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		thai_group
+	}
+}
+
+ she_culture = { #https://en.wikipedia.org/wiki/She_people
+ 	language = kejia_language
+
+ 	color = map_she
+
+ 	tags = { east_asian_gfx }
+
+ 	opinions = {
+
+ 	}
+ 	culture_groups = {
+ 		confucian_group
+ 	}
+ }
+
+lisu_culture = { #https://en.wikipedia.org/wiki/Lisu_people
+	language = yi_language
+
+	color = map_lisu
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tibeto_burman_group
+	}
+}
+
+sarta_culture = { #https://en.wikipedia.org/wiki/Dongxiangs
+	language = mongolian_language
+
+	color = map_sarta
+
+	tags = { east_asian_gfx mongolian_coa_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		mongolian_group
+	}
+}
+
+gelao_culture = { #https://en.wikipedia.org/wiki/Gelao_people
+	language = kra_language
+
+	color = map_gelao
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		thai_group
+	}
+
+}
+
+bo_culture = {
+	language = kra_language
+
+	color = map_bo
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		thai_group
+	}
+
+}
+
+lahu_culture = { #https://en.wikipedia.org/wiki/Lahu_people
+	language = yi_language
+
+	color = map_lahu
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tibeto_burman_group
+	}
+}
+
+wa_culture = { #https://en.wikipedia.org/wiki/Wa_people
+	language = palaungic_language
+
+	color = map_wa
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		austroasiatic_group
+	}
+}
+
+sui_culture = { #https://en.wikipedia.org/wiki/Sui_people
+	language = kam_language
+
+	color = map_sui
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		thai_group
+	}
+}
+
+nashi_culture = { #https://en.wikipedia.org/wiki/Nakhi_people
+	language = yi_language
+
+	color = map_nashi
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tibeto_burman_group
+	}
+}
+
+rma_culture = { #https://en.wikipedia.org/wiki/Qiang_people
+	language = qiangic_language
+
+	color = map_rma
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tibeto_burman_group
+	}
+}
+
+gyalrong_culture = {
+	language = qiangic_language
+
+	color = map_gyalrong
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tibeto_burman_group
+	}
+}
+
+mi_niah_culture = { #https://en.wikipedia.org/wiki/Tangut_people
+	language = qiangic_language
+
+	color = map_tangut
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tibeto_burman_group
+	}
+}
+
+monguor_culture = { #https://en.wikipedia.org/wiki/Monguor_people
+	language = mongolian_language
+
+	color = map_monguor
+
+	tags = { east_asian_gfx mongolian_coa_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		mongolian_group
+	}
+}
+
+mulam_culture = { #https://en.wikipedia.org/wiki/Mulao_people
+	language = kam_language
+
+	color = map_mulam
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		thai_group
+	}
+}
+
+sibe_culture = { #https://en.wikipedia.org/wiki/Sibe_people
+	language = jurchen_language
+
+	color = map_sibe
+
+	tags = { east_asian_gfx  tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Sibe were skilled mounted archers from Manchuria, later employed as frontier garrison troops.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+# The Sibe maintained pastoral traditions of horse and cattle herding on the Manchurian plains.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		mongolian_group
+		tungusic_group
+	}
+}
+
+kyrgyz_culture = { #https://en.wikipedia.org/wiki/Kyrgyz_in_China
+	language = kipchak_language
+
+	color = map_kyrgyz
+
+	tags = { central_asian_gfx middle_east_gfx }
+
+
+	country_modifier = {
+# The Kyrgyz were steppe nomadic warriors, their cavalry tradition dominating the Tian Shan mountain region.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+# The Kyrgyz alpine pastures of the Tian Shan supported horse and sheep herding.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		turkic_group
+	}
+
+}
+
+jingpo_culture = { #https://en.wikipedia.org/wiki/Jingpo_people
+	language = kachinic_language
+
+	color = map_jingpo
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tibeto_burman_group
+	}
+}
+
+salar_culture = { #https://en.wikipedia.org/wiki/Salar_people
+	language = turkmen_dialect
+
+	color = map_salar
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		turkic_group
+	}
+}
+
+blang_culture = { #https://en.wikipedia.org/wiki/Blang_people
+	language = palaungic_language
+
+	color = map_blang
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		austroasiatic_group
+	}
+}
+
+maonan_culture = { #https://en.wikipedia.org/wiki/Maonan_people
+	language = kam_language
+
+	color = map_maonan
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		thai_group
+	}
+}
+
+pumi_culture = { #https://en.wikipedia.org/wiki/Pumi_people
+	language = yi_language
+
+	color = map_pumi
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tibeto_burman_group
+	}
+}
+
+ngacang_culture = { #https://en.wikipedia.org/wiki/Achang_people
+	language = yi_language
+
+	color = map_ngacang
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tibeto_burman_group
+	}
+}
+
+nu_culture = { #https://en.wikipedia.org/wiki/Nu_people
+	language = yi_language
+
+	color = map_nu
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tibeto_burman_group
+	}
+}
+
+jino_culture = { #https://en.wikipedia.org/wiki/Jino_people
+	language = yi_language
+
+	color = map_jino
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tibeto_burman_group
+	}
+}
+
+palaung_culture = { #https://en.wikipedia.org/wiki/Palaung_people
+	language = palaungic_language
+
+	color = map_palaung
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		austroasiatic_group
+	}
+}
+
+bonan_culture = { #https://en.wikipedia.org/wiki/Bonan_people
+ 	language = mongolian_language
+
+	color = map_bonan
+
+	tags = { east_asian_gfx mongolian_coa_gfx  }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		mongolian_group
+	}
+}
+
+yugur_culture = { #https://en.wikipedia.org/wiki/Yugur
+	language = mongolian_language # Yugur speak two languages, one Mongolian and the other Turkic
+
+	color = map_yugur
+
+	tags = { east_asian_gfx mongolian_coa_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		mongolian_group
+	}
+}
+
+derung_culture = { #https://en.wikipedia.org/wiki/Derung_language
+	language = yi_language
+
+	color = map_derung
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tibeto_burman_group
+	}
+}
+
+sherpa_culture = { #https://en.wikipedia.org/wiki/Sherpa_people
+	language = tibetan_language
+
+	color = map_sherpa
+
+	tags = { tibetan_gfx east_asian_gfx }
+	culture_groups = {
+		nepali_group
+		tibetan_group
+		tibeto_burman_group
+	}
+
+	country_modifier = {
+# This Himalayan community survived through pastoral herding and mountain agriculture at extreme altitudes.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The extreme Himalayan altitude and terrain made this homeland virtually impregnable to outside forces.
+		local_defensive = 0.15
+	}
+
+	opinions = {
+		
+	}
+
+}
+
+ladakh_culture = { #https://en.wikipedia.org/wiki/Ladakhis
+	language = tibetan_language
+
+	color = map_MAR
+
+	tags = { tibetan_gfx east_asian_gfx }
+	culture_groups = {
+		tibetan_group
+		tibeto_burman_group
+	}
+
+	country_modifier = {
+# This Himalayan community survived through pastoral herding and mountain agriculture at extreme altitudes.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The extreme Himalayan altitude and terrain made this homeland virtually impregnable to outside forces.
+		local_defensive = 0.15
+	}
+
+	opinions = {
+
+	}
+}
+
+baima_culture = { #https://en.wikipedia.org/wiki/Baima_people
+	language = qiangic_language
+
+	color = map_baima
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+		
+	}
+	culture_groups = {
+		tibeto_burman_group
+	}
+}
+
+monpa_culture = { #https://en.wikipedia.org/wiki/Monpa_people
+	language = tibetan_language
+
+	color = map_monpa
+
+	tags = { tibetan_gfx east_asian_gfx }
+
+
+	country_modifier = {
+# This highland minority community maintained a pastoral and agricultural economy in the mountains of southern China.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountainous homeland was difficult terrain for outside powers to penetrate and control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+		
+	}
+	culture_groups = {
+		tibetan_group
+		tibeto_burman_group
+	}
+}
+
+changpa_culture = { #https://en.wikipedia.org/wiki/Monpa_people
+	language = tibetan_language
+
+	color = map_changpa
+
+	tags = { tibetan_gfx east_asian_gfx }
+	culture_groups = {
+		tibetan_group
+		tibeto_burman_group
+	}
+
+	country_modifier = {
+# This Himalayan community survived through pastoral herding and mountain agriculture at extreme altitudes.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The extreme Himalayan altitude and terrain made this homeland virtually impregnable to outside forces.
+		local_defensive = 0.15
+	}
+
+	opinions = {
+		
+	}
+}
+
+oirat_culture = {
+	language = mongolian_language
+
+	color = map_oirat
+
+	tags = { east_asian_gfx mongolian_coa_gfx }
+
+
+	country_modifier = {
+# The Oirat (Western Mongols) were fearsome steppe cavalry who forged powerful confederacies challenging Ming China and the Timurids.
+		army_cavalry_power = 0.15
+	}
+
+	location_modifier = {
+# The vast Oirat steppe pastures supported enormous herds of horses and livestock.
+		local_livestock_output_modifier = 0.15
+	}
+	opinions = {
+		
+	}
+	culture_groups = {
+		mongolian_group
+	}
+}
+
+mishmi_culture = { #https://en.wikipedia.org/wiki/Mishmi_people
+	language = meitei_language
+
+	color = map_mishmi
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This mountain tribal community maintained a subsistence economy based on swidden agriculture and animal husbandry.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountain and forest terrain was extremely difficult for outside forces to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+		
+	}
+	culture_groups = {
+		tibeto_burman_group
+	}
+}
+
+tani_culture = { #https://en.wikipedia.org/wiki/Tani_people
+	language = meitei_language
+
+	color = map_tani
+
+	tags = { east_asian_gfx }
+
+
+	country_modifier = {
+# This mountain tribal community maintained a subsistence economy based on swidden agriculture and animal husbandry.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountain and forest terrain was extremely difficult for outside forces to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+		
+	}
+	culture_groups = {
+		tibeto_burman_group
+	}
+}
+
+tebbu_culture = { #https://en.wikipedia.org/wiki/Tebbu_people
+	language = tibetan_language
+
+	color = map_tebbu
+
+	tags = { tibetan_gfx east_asian_gfx }
+
+
+	country_modifier = {
+# This mountain tribal community maintained a subsistence economy based on swidden agriculture and animal husbandry.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountain and forest terrain was extremely difficult for outside forces to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+		
+	}
+	culture_groups = {
+		tibeto_burman_group
+	}
+}
+
+ngalop_culture = { #https://en.wikipedia.org/wiki/Ngalop_people
+	language = tibetan_language
+
+	color = map_ngalop
+
+	tags = { tibetan_gfx east_asian_gfx }
+
+
+	country_modifier = {
+# This Himalayan community survived through pastoral herding and mountain agriculture at extreme altitudes.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The extreme Himalayan altitude and terrain made this homeland virtually impregnable to outside forces.
+		local_defensive = 0.15
+	}
+	opinions = {
+		
+	}
+	culture_groups = {
+		tibeto_burman_group
+	}
+}
+
+
+kirati_culture = { #https://en.wikipedia.org/wiki/Kirati_people
+	language = tibetan_language
+
+	color = map_kirati
+
+	tags = { tibetan_gfx east_asian_gfx }
+	culture_groups = {
+		nepali_group
+		tibetan_group
+		tibeto_burman_group
+	}
+
+	country_modifier = {
+# The Kirati peoples of eastern Nepal were fierce mountain warriors, ancestors of the legendary Gurkha fighting tradition.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# The steep eastern Himalayan terrain provided formidable natural defenses for Kirati communities.
+		local_defensive = 0.15
+	}
+
+	opinions = {
+		
+	}
+}
+
+sikkim_culture = { #https://en.wikipedia.org/wiki/Sikkimese_people
+	language = tibetan_language
+
+	color = map_sikkim
+
+	tags = { tibetan_gfx east_asian_gfx }
+	culture_groups = {
+		nepali_group
+		tibetan_group
+		tibeto_burman_group
+	}
+
+	country_modifier = {
+# This Himalayan community survived through pastoral herding and mountain agriculture at extreme altitudes.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The extreme Himalayan altitude and terrain made this homeland virtually impregnable to outside forces.
+		local_defensive = 0.15
+	}
+
+	opinions = {
+		
+	}
+}
+
+nivkh_culture = { #https://en.wikipedia.org/wiki/Nivkh_people
+	language = nivkh_language
+
+	color = map_nivkh
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Nivkh were expert fishermen of the Amur River and Sakhalin, their entire economy centered on salmon fishing.
+		global_fish_output_modifier = 0.15
+	}
+
+	location_modifier = {
+# The Amur River and Sakhalin coasts provided enormous salmon runs that sustained Nivkh communities.
+		local_fish_output_modifier = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+evenk_culture = { #https://en.wikipedia.org/wiki/Evenks
+	language = evenk_language
+
+	color = map_evenk
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+olyokma_culture = {
+	language = evenk_language
+
+	color = map_olyokma
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+aldan_culture = {
+	language = evenk_language
+
+	color = map_aldan
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+sym_culture = {
+	language = evenk_language
+
+	color = map_sym
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+uchami_culture = {
+	language = evenk_language
+
+	color = map_uchami
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+ilimpeya_culture = {
+	language = evenk_language
+
+	color = map_ilimpeya
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+ayan_mai_culture = {
+	language = evenk_language
+
+	color = map_ayan_mai
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+fuglyad_culture = {
+	language = evenk_language
+
+	color = map_fuglyad
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+kantakul_culture = {
+	language = evenk_language
+
+	color = map_kantakul
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+lamutk_culture = {
+	language = evenk_language
+
+	color = map_lamutk
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+memel_culture = {
+	language = evenk_language
+
+	color = map_memel
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+tugochar_culture = {
+	language = evenk_language
+
+	color = map_tugochar
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+beldet_culture = {
+	language = evenk_language
+
+	color = map_beldet
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+lalagir_culture = {
+	language = evenk_language
+
+	color = map_lalagir
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+selogon_culture = {
+	language = evenk_language
+
+	color = map_selogon
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+nanagir_culture = {
+	language = evenk_language
+
+	color = map_nanagir
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+silyagir_culture = {
+	language = evenk_language
+
+	color = map_silyagir
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+cemdal_culture = {
+	language = evenk_language
+
+	color = map_cemdal
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+kondogir_culture = {
+	language = evenk_language
+
+	color = map_kondogir
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+nyurmgan_culture = {
+	language = evenk_language
+
+	color = map_nyurmgan
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+nyurilc_culture = {
+	language = evenk_language
+
+	color = map_nyurilc
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+kindigir_culture = {
+	language = evenk_language
+
+	color = map_kindigir
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+managir_culture = {
+	language = evenk_language
+
+	color = map_managir
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+pochegor_culture = {
+	language = evenk_language
+
+	color = map_pochegor
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+vargagaits_culture = {
+	language = evenk_language
+
+	color = map_vargagaits
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+obgints_culture = {
+	language = evenk_language
+
+	color = map_obgints
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+vitimske_culture = {
+	language = evenk_language
+
+	color = map_vitimske
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+nalyagir_culture = {
+	language = evenk_language
+
+	color = map_nalyagir
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evenk were vast-ranging reindeer herders and hunters across the Siberian taiga, covering enormous territorial ranges.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The immense Siberian taiga was one of the most hostile environments on Earth for outside military forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+evesel_culture = { #https://en.wikipedia.org/wiki/Evens
+	language = lamut_language
+
+	color = map_evesel
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Evens were reindeer herders and hunters of northeastern Siberia, adapted to extreme subarctic conditions.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote northeastern Siberian taiga and tundra were among the most inhospitable regions on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+}
+
+#arman_culture = {
+#	language = lamut_language
+#
+#	color = map_arman
+#
+#	tags = { east_asian_gfx tungusic_coa_gfx }
+
+#	opinions = {
+#
+#	}
+#}
+
+#indigirka_culture = {
+#	language = lamut_language
+#
+#	color = map_indigirka
+#
+#	tags = { east_asian_gfx tungusic_coa_gfx }
+
+#	opinions = {
+#
+#	}
+#}
+
+sakkyryr_culture = {
+	language = lamut_language
+
+	color = map_sakkyryr
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# This Even subgroup herded reindeer across the vast northeastern Siberian wilderness.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote Siberian terrain was virtually inaccessible to outside forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+}
+
+nimchan_culture = {
+	language = lamut_language
+
+	color = map_nimchan
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# This Even subgroup herded reindeer across the vast northeastern Siberian wilderness.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote Siberian terrain was virtually inaccessible to outside forces.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+}
+
+chukchi_culture = {	#https://en.wikipedia.org/wiki/Chukchi_people
+	language = chukotko_kamchatkan_language
+
+	color = map_chukchi
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# This Arctic/sub-Arctic people survived through reindeer herding, sea mammal hunting, and fishing in extreme northeastern Siberia.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The extreme Arctic conditions of the Chukotka region were lethal to unprepared outsiders.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+}
+
+alyutor_culture = {
+	language = chukotko_kamchatkan_language
+
+	color = map_alyutor
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# This Arctic/sub-Arctic people survived through reindeer herding, sea mammal hunting, and fishing in extreme northeastern Siberia.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The extreme Arctic conditions of the Chukotka region were lethal to unprepared outsiders.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+}
+
+kerek_culture = {	#https://en.wikipedia.org/wiki/Kereks
+	language = chukotko_kamchatkan_language
+
+	color = map_kerek
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# This Arctic/sub-Arctic people survived through reindeer herding, sea mammal hunting, and fishing in extreme northeastern Siberia.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The extreme Arctic conditions of the Chukotka region were lethal to unprepared outsiders.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+}
+
+chuvan_culture = {	#https://en.wikipedia.org/wiki/Chuvans
+	language = yukaghir_language
+
+	color = map_chuvan
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# This Arctic/sub-Arctic people survived through reindeer herding, sea mammal hunting, and fishing in extreme northeastern Siberia.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The extreme Arctic conditions of the Chukotka region were lethal to unprepared outsiders.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+}
+
+omok_culture = {
+	language = yukaghir_language
+
+	color = map_omok
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# This Yukaghir-related people subsisted on reindeer herding and hunting in the remote interior of northeastern Siberia.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The vast, frozen Siberian interior was among the most inaccessible inhabited regions on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+}
+
+anauls_culture = {
+	language = yukaghir_language
+
+	color = map_anauls
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# This Yukaghir-related people subsisted on reindeer herding and hunting in the remote interior of northeastern Siberia.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The vast, frozen Siberian interior was among the most inaccessible inhabited regions on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+}
+
+vadul_culture = {
+	language = yukaghir_language
+
+	color = map_vadul
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# This Yukaghir-related people subsisted on reindeer herding and hunting in the remote interior of northeastern Siberia.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The vast, frozen Siberian interior was among the most inaccessible inhabited regions on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+}
+
+olyuben_culture = {
+	language = yukaghir_language
+
+	color = map_olyuben
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# This Yukaghir-related people subsisted on reindeer herding and hunting in the remote interior of northeastern Siberia.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The vast, frozen Siberian interior was among the most inaccessible inhabited regions on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+}
+
+yandin_culture = {
+	language = yukaghir_language
+
+	color = map_yandin
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# This Yukaghir-related people subsisted on reindeer herding and hunting in the remote interior of northeastern Siberia.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The vast, frozen Siberian interior was among the most inaccessible inhabited regions on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+}
+
+shoromba_culture = {
+	language = yukaghir_language
+
+	color = map_shoromba
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# This Yukaghir-related people subsisted on reindeer herding and hunting in the remote interior of northeastern Siberia.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The vast, frozen Siberian interior was among the most inaccessible inhabited regions on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+}
+
+kolyms_culture = {
+	language = yukaghir_language
+
+	color = map_kolyms
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# This Yukaghir-related people subsisted on reindeer herding and hunting in the remote interior of northeastern Siberia.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The vast, frozen Siberian interior was among the most inaccessible inhabited regions on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+}
+
+yandyr_culture = {
+	language = yukaghir_language
+
+	color = map_yandyr
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# This Yukaghir-related people subsisted on reindeer herding and hunting in the remote interior of northeastern Siberia.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The vast, frozen Siberian interior was among the most inaccessible inhabited regions on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+}
+
+onoid_culture = {
+	language = yukaghir_language
+
+	color = map_onoid
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# This Yukaghir-related people subsisted on reindeer herding and hunting in the remote interior of northeastern Siberia.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The vast, frozen Siberian interior was among the most inaccessible inhabited regions on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+}
+
+khoromboy_culture = {
+	language = yukaghir_language
+
+	color = map_khoromboy
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# This Yukaghir-related people subsisted on reindeer herding and hunting in the remote interior of northeastern Siberia.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The vast, frozen Siberian interior was among the most inaccessible inhabited regions on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+}
+
+koryak_culture = {	#https://en.wikipedia.org/wiki/Koryaks
+	language = chukotko_kamchatkan_language
+
+	color = map_koryak
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Koryak were skilled fishermen and reindeer herders of the Kamchatka Peninsula and adjacent coasts.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The volcanic, subarctic Kamchatka region was extremely remote and difficult to access.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+}
+
+itelmen_culture = {	#https://en.wikipedia.org/wiki/Itelmens
+	language = chukotko_kamchatkan_language
+
+	color = map_itelmen
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Itelmen of Kamchatka were expert salmon fishermen, their economy entirely dependent on the peninsula's rich fish runs.
+		global_fish_output_modifier = 0.15
+	}
+
+	location_modifier = {
+# Kamchatka's rivers teemed with enormous salmon runs, supporting the Itelmen fishing economy.
+		local_fish_output_modifier = 0.15
+	}
+	opinions = {
+
+	}
+}
+
+yupighyt_culture = {	#https://en.wikipedia.org/wiki/Siberian_Yupik
+	language = yupik_language
+
+	color = map_yupighyt
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# The Siberian Yupik were expert sea mammal hunters and fishermen of the Bering Strait region.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Arctic Bering Strait region was among the most extreme environments inhabited by humans.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+
+	}
+}
+
+#nanai_culture = { #https://en.wikipedia.org/wiki/Nanai_people
+#	language = nanai_language
+#
+#	color = map_nanai
+#
+#	tags = { east_asian_gfx tungusic_coa_gfx }
+#
+#	opinions = {
+#
+#	}
+#
+#	culture_groups = {
+#		jurchen_group
+#		tungusic_group
+#	}
+#}
+
+oroqen_culture = { #https://en.wikipedia.org/wiki/Oroqen_people
+	language = evenk_language
+
+	color = map_oroqen
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# This Tungusic people of the Amur region combined hunting, fishing, and pastoral traditions in the Manchurian forests.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The dense forests and river systems of the Amur region were difficult terrain for outside military forces.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+daur_culture = { #https://en.wikipedia.org/wiki/Daur_people
+	language = mongolian_language
+
+	color = map_daur
+
+	tags = { east_asian_gfx mongolian_coa_gfx altai_coa_gfx }
+
+
+	country_modifier = {
+# The Daur were skilled horsemen and farmers of the upper Amur, maintaining Mongolic cavalry traditions.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+# The Daur practiced settled agriculture in the fertile Amur river valleys alongside pastoral herding.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		mongolian_group
+	}
+}
+
+ulch_culture = { #https://en.wikipedia.org/wiki/Ulch_people
+	language = nanai_language
+
+	color = map_ulch
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# This Tungusic people of the Amur region combined hunting, fishing, and pastoral traditions in the Manchurian forests.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The dense forests and river systems of the Amur region were difficult terrain for outside military forces.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+oroch_culture = { #https://en.wikipedia.org/wiki/Oroch_people
+	language = udege_language
+
+	color = map_oroch
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+
+	country_modifier = {
+# This Tungusic people of the Amur region combined hunting, fishing, and pastoral traditions in the Manchurian forests.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The dense forests and river systems of the Amur region were difficult terrain for outside military forces.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		tungusic_group
+	}
+}
+
+udege_culture = { #https://en.wikipedia.org/wiki/Udege_people
+	language = udege_language
+
+	color = map_udege
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+	
+
+	country_modifier = {
+# This Tungusic people of the Amur region combined hunting, fishing, and pastoral traditions in the Manchurian forests.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The dense forests and river systems of the Amur region were difficult terrain for outside military forces.
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+
+	}
+	culture_groups = {
+		jurchen_group
+		tungusic_group
+	}
+}
+
+buryat_culture = { #https://en.wikipedia.org/wiki/Buryats
+	language = mongolian_language
+
+	color = map_buryat
+
+	tags = { east_asian_gfx mongolian_coa_gfx altai_coa_gfx }
+
+
+	country_modifier = {
+# This Mongol group maintained the steppe cavalry traditions of Chinggis Khan's empire, fielding formidable mounted warriors.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+# The Mongol steppe pastures supported large herds of horses, sheep, and cattle essential to the nomadic economy.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		mongolian_group
+	}
+}
+
+khamag_culture = { #https://en.wikipedia.org/wiki/Khamag_Mongol
+	language = mongolian_language
+
+	color = map_khamag
+
+	tags = { east_asian_gfx mongolian_coa_gfx altai_coa_gfx }
+
+
+	country_modifier = {
+# This Mongol group maintained the steppe cavalry traditions of Chinggis Khan's empire, fielding formidable mounted warriors.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+# The Mongol steppe pastures supported large herds of horses, sheep, and cattle essential to the nomadic economy.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		mongolian_group
+	}
+}
+
+kharchin_culture = { #https://en.wikipedia.org/wiki/Kharchin_Mongols
+	language = mongolian_language
+
+	color = map_kharchin
+
+	tags = { east_asian_gfx mongolian_coa_gfx altai_coa_gfx }
+
+
+	country_modifier = {
+# This Mongol group maintained the steppe cavalry traditions of Chinggis Khan's empire, fielding formidable mounted warriors.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+# The Mongol steppe pastures supported large herds of horses, sheep, and cattle essential to the nomadic economy.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		mongolian_group
+	}
+}
+
+tumed_culture = { #https://en.wikipedia.org/wiki/Tumed
+	language = mongolian_language
+
+	color = map_tumed
+
+	tags = { east_asian_gfx mongolian_coa_gfx altai_coa_gfx }
+
+
+	country_modifier = {
+# This Mongol group maintained the steppe cavalry traditions of Chinggis Khan's empire, fielding formidable mounted warriors.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+# The Mongol steppe pastures supported large herds of horses, sheep, and cattle essential to the nomadic economy.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		mongolian_group
+	}
+}
+
+tuvan_culture = { #https://en.wikipedia.org/wiki/Tuvans
+	language = turkic_language
+
+	color = map_tuvan
+
+	tags = { central_asian_gfx middle_east_gfx mongolian_coa_gfx altai_coa_gfx }
+
+
+	country_modifier = {
+# The Tuvans were steppe-forest nomads of the upper Yenisei, combining Mongol cavalry skills with Siberian hunting traditions.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+# The Tuvan homeland in the Sayan Mountains combined alpine pastures with forest hunting grounds.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+
+	}
+	culture_groups = {
+		turkic_group
+	}
+
+}
+
+#solon_culture = { #https://en.wikipedia.org/wiki/Solon_people
+#	language = evenk_language
+#
+#	color = map_solon
+#
+#	tags = { east_asian_gfx tungusic_coa_gfx }
+#
+#	opinions = {
+#
+#	}	
+#	culture_groups = {
+#		tungusic_group
+#	}
+#}
+
+balti_culture = {
+	language = tibetan_language
+	
+	color = map_balti
+	
+	tags = { tibetan_gfx east_asian_gfx }
+
+
+	country_modifier = {
+# This Himalayan community survived through pastoral herding and mountain agriculture at extreme altitudes.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The extreme Himalayan altitude and terrain made this homeland virtually impregnable to outside forces.
+		local_defensive = 0.15
+	}
+	opinions = {
+	
+	}		
+	culture_groups = {
+		tibeto_burman_group
+	}
+}
