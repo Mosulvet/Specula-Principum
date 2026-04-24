@@ -1,0 +1,149 @@
+alawite_culture = {
+	language = levantine_dialect
+	
+	color = color_culture_alawite
+	
+	tags = { levantine_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Alawite mountain communities of Syria maintained cohesive social structures and fierce independence in their coastal highland refuges.
+		stability_cost_modifier = -0.05
+	}
+
+	location_modifier = {
+# The Alawite Mountains along the Syrian coast provided natural defensive terrain against lowland powers.
+		local_defensive = 0.1
+	}
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		arabic_group
+	}	
+}
+
+iraqi_culture = {
+	language = iraqi_dialect
+	
+	color = color_culture_iraqi
+	
+	tags = { levantine_gfx middle_east_gfx }
+
+	country_modifier = {
+# Mesopotamia's ancient irrigation systems along the Tigris and Euphrates made Iraq one of the world's oldest and most productive breadbaskets.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The irrigated plains between the Tigris and Euphrates produced enormous grain surpluses, feeding Baghdad and Basra.
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		arabic_group
+	}	
+}
+
+levantine_culture = {
+	language = levantine_dialect
+	
+	color = color_culture_levantine
+	
+	tags = { levantine_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Levantine coast was one of the world's great commercial crossroads, with Damascus and Aleppo as major caravan termini.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# Damascus, Aleppo, and the Levantine port cities were among the most developed urban centers of the Islamic world.
+		local_monthly_development = 0.03
+	}
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		arabic_group
+	}
+}
+
+mandean_culture = {
+	language = iraqi_dialect
+	
+	color = religion_mandeaism
+	
+	tags = { levantine_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Mandeans preserved one of the world's oldest Gnostic religious traditions in the marshlands of southern Iraq.
+		stability_cost_modifier = -0.05
+	}
+
+	location_modifier = {
+# Mandean communities were renowned silversmiths and boat-builders in the marshlands of the Tigris-Euphrates delta.
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		
+	}
+}
+
+samaritan_culture = {
+	language = hebrew_language
+	
+	color = religion_samaritanism
+	
+	tags = { levantine_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Samaritans maintained the oldest continuous Israelite liturgical tradition, centered on Mount Gerizim near Nablus.
+		stability_cost_modifier = -0.05
+	}
+
+	location_modifier = {
+# The Samaritan community around Nablus practiced agriculture and skilled craftsmanship on the fertile slopes of Mount Gerizim.
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		
+	}
+}
+
+syriac_culture = {
+	language = aramaic_language
+	
+	color = color_culture_syriac
+	
+	tags = { levantine_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Syriac Christians preserved a vast scholarly tradition, translating Greek philosophy into Arabic and contributing to the Islamic Golden Age.
+		prestige = 5
+	}
+
+	location_modifier = {
+# Syriac monasteries were centers of learning, manuscript production, and skilled craftsmanship across the Mesopotamian plain.
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		arabic_group
+	}
+}

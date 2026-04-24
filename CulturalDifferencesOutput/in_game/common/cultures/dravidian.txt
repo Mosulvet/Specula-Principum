@@ -1,0 +1,319 @@
+#North
+
+brahui_culture = {
+	language = north_dravidian_language
+
+	color = map_brahui
+	
+	tags = { dravidian_gfx indian_gfx }
+
+	culture_groups = {
+		dravidian_group
+		indian_group
+	}
+
+	country_modifier = {
+# Balochistan pastoral nomadism; Brahui herders maintained livestock across arid highlands
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Arid mountain terrain of Balochistan; harsh conditions devastate invading armies
+		local_hostile_attrition = 0.15
+	}
+
+	opinions = {
+
+	}
+}
+
+kurukh_culture = { #https://en.wikipedia.org/wiki/Kurukh_people
+	language = north_dravidian_language
+
+	color = map_kurukh
+	
+	tags = { dravidian_gfx indian_gfx }
+
+	culture_groups = {
+		dravidian_group
+		indian_group
+	}
+
+	country_modifier = {
+# Forest tribal pastoralism; Oraon herders sustained communities in Chota Nagpur highlands
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Dense Chota Nagpur forests; difficult terrain for outside military campaigns
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+malto_culture = { #https://en.wikipedia.org/wiki/Malto_people
+	language = north_dravidian_language
+
+	color = map_malto
+	
+	tags = { dravidian_gfx indian_gfx }
+
+	culture_groups = {
+		dravidian_group
+		indian_group
+	}
+
+	opinions = {
+
+	}
+}
+
+#South
+
+beary = {
+	language = malayalam_language
+	
+	color = map_beary
+	
+	tags = { dravidian_gfx indian_gfx }
+
+	culture_groups = {
+		dravidian_group
+		indian_group
+	}
+
+	opinions = {
+		malayali = positive
+		kannadiga = positive
+		tamil = positive
+	}
+	
+}
+
+kannadiga = {
+	language = kannada_language
+	
+	color = map_kannadiga
+	
+	tags = { dravidian_gfx indian_gfx }
+
+	culture_groups = {
+		dravidian_group
+		indian_group
+	}
+
+	country_modifier = {
+# Vijayanagara trading networks; Kannada merchants connected Deccan markets to coastal ports
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# Deccan workshop tradition; artisan production in Vijayanagara-era towns and cities
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+		tuluva = positive
+		telugu = positive
+		tamil = positive
+		malayali = positive
+	}
+	
+	
+}
+
+kodaga = {
+	language = kannada_language
+	
+	color = map_kodaga
+	
+	tags = { dravidian_gfx indian_gfx }
+
+	culture_groups = {
+		dravidian_group
+		indian_group
+	}
+
+	country_modifier = {
+# Kodava warrior tradition; martial culture of Coorg renowned for fierce independent fighters
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# Western Ghats hill terrain; forested mountains of Coorg provide strong natural defenses
+		local_defensive = 0.1
+	}
+	
+	opinions = {
+		kannadiga = positive
+		malayali = positive
+	}
+	
+}
+
+malayali = {
+	language = malayalam_language
+	
+	color = map_malayali
+	
+	tags = { dravidian_gfx indian_gfx }
+
+	culture_groups = {
+		dravidian_group
+		indian_group
+	}
+
+	country_modifier = {
+# Malabar spice trade; Cochin and Calicut dominated Indian Ocean pepper and spice exports
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# Kerala spice and pepper production; black pepper, cardamom, and cinnamon from Malabar coast
+		local_production_efficiency = 0.1
+	}
+
+	opinions = {
+		tamil = positive
+	}
+	
+	
+}
+
+tamil = {
+	language = tamil_language
+	
+	color = map_tamil
+	
+	tags = { dravidian_gfx indian_gfx }
+
+	culture_groups = {
+		dravidian_group
+		indian_group
+	}
+
+	country_modifier = {
+# Chola naval tradition; Tamil seafarers dominated Indian Ocean trade routes for centuries
+		global_sailors_modifier = 0.15
+	}
+
+	location_modifier = {
+# Temple economy and textile production; Tamil Nadu rice paddies and weavers sustained dense settlement
+		local_production_efficiency = 0.1
+	}
+
+	opinions = {
+		tamil = positive
+		kannadiga = positive
+	}
+	
+	
+}
+
+tuluva = {
+	language = kannada_language
+	
+	color = map_tuluva
+	
+	tags = { dravidian_gfx indian_gfx }
+
+	culture_groups = {
+		dravidian_group
+		indian_group
+	}
+
+	country_modifier = {
+# Coastal Karnataka trade; Tulu merchants of Mangalore engaged in Arabian Sea commerce
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# Mangalore fishing tradition; rich coastal fisheries along the Karnataka shoreline
+		local_fish_output_modifier = 0.1
+	}
+
+	opinions = {
+		kannadiga = positive
+		marathi_culture = positive
+	}
+	
+}
+
+#South Central
+
+gond = {
+	language = gondi_language
+	
+	color = map_gondi_language
+	
+	tags = { dravidian_gfx indian_gfx }
+
+	culture_groups = {
+		dravidian_group
+		indian_group
+	}
+
+	country_modifier = {
+# Forest tribal pastoral economy; Gondi communities sustained livestock herding in central Indian forests
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Dense central Indian forests; Gondwana thick jungle terrain devastates invading armies
+		local_hostile_attrition = 0.1
+	}
+
+	# opinions = {
+	# }
+	
+	
+}
+
+khond_culture = { #https://en.wikipedia.org/wiki/Khonds
+	language = gondi_language
+
+	color = map_khond
+	
+	tags = { dravidian_gfx indian_gfx }
+
+	culture_groups = {
+		dravidian_group
+		indian_group
+	}
+
+	opinions = {
+
+	}
+}
+
+telugu = {
+	language = telugu_language
+	
+	color = map_telugu
+	
+	tags = { dravidian_gfx indian_gfx }
+
+	culture_groups = {
+		dravidian_group
+		indian_group
+	}
+
+	country_modifier = {
+# Vijayanagara cavalry tradition; Telugu warriors provided elite mounted forces for the empire
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+# Deccan agricultural heartland; Telugu river valleys produced abundant grain harvests
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		tamil = positive
+	}
+	
+	
+}

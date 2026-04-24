@@ -1,0 +1,148 @@
+cappadocian_greek_culture = {
+	
+	language = greek_language
+	
+	color = color_culture_cappadocian_greek
+	
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		greek_culture = positive
+		griko_culture = positive
+		pontic_greek_culture = positive
+		gothic_culture = positive
+	}
+
+    country_modifier = {
+		global_construction_speed = 0.1
+		global_build_buildings_cost = -0.1
+	}
+
+	location_modifier = {
+# Cappadocia's rock-hewn cities and cave churches demonstrated extraordinary construction ingenuity adapted to the volcanic landscape.
+		local_defensive = 0.1
+	}
+	
+	culture_groups = {
+		greek_group
+	}
+}
+
+greek_culture = {
+	language = greek_language
+	
+	color = map_BYZ
+	
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		cappadocian_greek_culture = positive
+		griko_culture = positive
+		pontic_greek_culture = positive
+		gothic_culture = positive
+		turkish_culture = negative
+	}
+
+	country_modifier = {
+# The Byzantine Greek tradition of statecraft, diplomacy, and scholarship was unmatched in medieval Europe and the Near East.
+		diplomatic_reputation = 1
+	}
+
+	location_modifier = {
+# Greece's strategic Mediterranean position and the legacy of Constantinople made Greek lands highly developed commercial centers.
+		local_monthly_development = 0.03
+	}
+	
+	culture_groups = {
+		greek_group
+	}
+}
+
+griko_culture = {
+	language = greek_language
+	
+	color = color_culture_griko
+	
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		cappadocian_greek_culture = positive
+		pontic_greek_culture = positive
+		gothic_culture = positive
+		neapolitan = positive
+	}
+
+	country_modifier = {
+# The Griko Greeks of southern Italy preserved Byzantine scholarship and maintained connections between Eastern and Western Mediterranean cultures.
+		prestige = 5
+	}
+
+	location_modifier = {
+# The Griko communities of Calabria and Apulia maintained productive agriculture on fertile southern Italian soils.
+		local_production_efficiency = 0.05
+	}
+	
+	culture_groups = {
+		greek_group
+	}
+}
+
+pontic_greek_culture = {
+	
+	language = greek_language
+	
+	color = color_culture_pontic_greek
+	
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		greek_culture = positive
+		griko_culture = positive
+		cappadocian_greek_culture = positive
+		gothic_culture = positive
+	}
+
+    country_modifier = {
+		global_defensive = 0.1
+		naval_morale_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Pontic Greek coastal cities of Trebizond and Sinope were major Black Sea trading hubs connecting Persia, the Caucasus, and the Mediterranean.
+		local_fish_output_modifier = 0.15
+	}
+	
+	culture_groups = {
+		greek_group
+	}
+}
+
+gothic_culture = {
+	
+	language = greek_language
+	
+	color = map_FEO
+	
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		greek_culture = positive
+		griko_culture = positive
+		cappadocian_greek_culture = positive
+		pontic_greek_culture = positive
+	}
+
+	country_modifier = {
+# The Crimean Goths preserved a unique Germanic-Byzantine hybrid culture in the fortress-principality of Theodoro.
+		stability_cost_modifier = -0.05
+	}
+
+	location_modifier = {
+# The fortress of Mangup and other Crimean Gothic strongholds commanded defensible highland positions above the Black Sea coast.
+		local_defensive = 0.15
+	}
+	
+	culture_groups = {
+		greek_group
+	}
+}

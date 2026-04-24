@@ -1,0 +1,202 @@
+aromanian = { 
+	language = romanian_language
+	
+	color = map_aromanian
+	
+	tags = { romanian_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The Aromanians (Vlachs) were transhumant pastoral nomads who herded sheep and goats across the Balkans, from Thessaly to the Pindus.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Aromanian mountain pastures in the Pindus and Rhodope ranges supported extensive sheep herding and dairy production.
+		local_livestock_output_modifier = 0.1
+	}
+
+	opinions = { #ADD
+	}	
+	culture_groups = {
+		romanian_group
+	}
+}
+
+istroromanian = { 
+	language = romanian_language
+	
+	color = map_istroromanian
+	
+	tags = { romanian_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The Istro-Romanians were a small, isolated Vlach community in the Istrian highlands, maintaining pastoral traditions in relative obscurity.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The rugged Istrian karst hills provided natural defensive terrain for the small Istro-Romanian pastoral communities.
+		local_defensive = 0.1
+	}
+
+	opinions = { #ADD
+	}	
+	culture_groups = {
+		romanian_group
+	}
+}
+
+transylvanian = { #TRA
+	language = romanian_language
+	
+	color = map_transylvanian
+	
+	tags = { romanian_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Transylvania's gold and salt mines were among the richest in Central Europe, providing enormous revenue to the Hungarian crown.
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+# Transylvania's extensive salt deposits at Turda, Ocna Sibiului, and Praid were critical mineral resources for the region.
+		local_salt_output_modifier = 0.1
+	}
+
+	opinions = { #ADD
+	}	
+	culture_groups = {
+		romanian_group
+		carpathian_group
+	}
+}
+
+wallachian = { #WAL /romanian in EU4
+	language = romanian_language
+	
+	color = map_wallachian
+	
+	tags = { romanian_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Wallachia's Danubian plains produced abundant grain, and the principality served as a buffer between Hungary and the Ottoman Empire.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Wallachian lowlands along the Danube were fertile agricultural lands, producing grain surpluses for local and regional trade.
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = { #ADD
+	}	
+	culture_groups = {
+		romanian_group
+		carpathian_group
+	}
+}
+
+moldovan = { #MOL /romanian in EU4
+	language = romanian_language
+	
+	color = map_MOL
+	
+	tags = { romanian_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Moldavia's fertile black-earth soils and strategic position between Poland, Hungary, and the steppe made it a significant grain producer.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Moldovan hills and river valleys supported both agriculture and viticulture, with wines traded along Danubian and Black Sea routes.
+		local_wine_output_modifier = 0.1
+	}
+
+	opinions = { #ADD
+	}	
+	culture_groups = {
+		romanian_group
+		carpathian_group
+	}
+}
+
+hungarian = { #HUN
+	language = hungarian_language
+	
+	color = map_hungarian
+	
+	tags = { hungarian_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Hungary's heavy cavalry tradition, inherited from steppe origins and refined by Western influence, made it a major military power in Central Europe.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+# The vast Hungarian Plain (Alföld) was one of Europe's great granaries, its flat fertile lands ideal for both grain and livestock.
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = { 
+		chiyalik_culture = kindred
+		szekely_culture = kindred
+	}	
+	culture_groups = {
+		hungarian_group
+		carpathian_group
+	}
+}
+
+szekely_culture = { #https://en.wikipedia.org/wiki/Sz%C3%A9kelys
+	language = hungarian_language
+	
+	color = color_culture_szekely
+	
+	tags = { hungarian_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The Székelys were a militarized border community in eastern Transylvania, serving as frontier guardians against Tatar and Ottoman incursions.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# The Székely Land's Carpathian mountain passes and fortified communities provided a robust defensive frontier for Transylvania.
+		local_defensive = 0.15
+	}
+
+	opinions = {
+		chiyalik_culture = kindred
+		hungarian = kindred
+	}	
+	culture_groups = {
+		hungarian_group
+		carpathian_group
+	}
+}
+
+chiyalik_culture = { 
+	language = hungarian_language
+	
+	color = map_chiyalik
+	
+	tags = { hungarian_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The Chiyalik were a remnant Hungarian-speaking steppe community east of the Urals, preserving pastoral cavalry traditions.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+# The Chiyalik steppe pastures supported a nomadic pastoral economy centered on horse and livestock herding.
+		local_livestock_output_modifier = 0.1
+	}
+
+	opinions = { 
+		hungarian = kindred
+		szekely_culture = kindred
+	}	
+	culture_groups = {
+		hungarian_group
+	}
+}

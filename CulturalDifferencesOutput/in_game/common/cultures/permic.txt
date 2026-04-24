@@ -1,0 +1,137 @@
+komi = {
+	language = permic_language
+	
+	color = map_komi
+	
+	tags = { finnish_gfx european_gfx }
+
+	country_modifier = {
+# The Komi were skilled fur trappers and traders in the northern Ural forests, supplying valuable pelts to Novgorodian and Muscovite markets.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The vast Komi taiga forests were impenetrable to organized military forces, providing natural protection for their scattered communities.
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+		#besermyan = kindred
+		udmurt = kindred
+	}
+}
+
+besermyan = {
+ 	language = finnish_dialect
+	
+	color = map_besermyan
+	
+	tags = { central_asian_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Besermyans were a small Finno-Ugric people who maintained pastoral and agricultural traditions in the Vyatka river region.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Besermyan homeland in the forested Vyatka region was remote and difficult for outside powers to control or access.
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+		sapmi = kindred
+		komi = kindred
+	}
+}
+
+udmurt = {
+	language = permic_language
+	
+	color = map_udmurt
+	
+	tags = { central_asian_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Udmurts were forest-dwelling agriculturalists and hunters who resisted assimilation into neighboring Turkic and Russian cultures.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Udmurt lands between the Vyatka and Kama rivers were heavily forested, presenting a natural barrier to outside incursions.
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+		udmurt = kindred
+		komi = kindred
+	}
+}
+
+moksha_culture = { #https://en.wikipedia.org/wiki/Mokshas
+	language = mordvinic_language
+	
+	color = map_moksha
+	
+	tags = { central_asian_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Moksha people inhabited the forest-steppe zone of the middle Volga, practicing mixed agriculture and beekeeping.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+# The Moksha homeland in the Volga-Oka interfluve had productive agricultural soils supporting grain cultivation.
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		erzya_culture = kindred
+		meschera_culture = kindred
+	}
+}
+
+erzya_culture = {
+	language = mordvinic_language
+
+	color = map_erzya
+	
+	tags = { central_asian_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Erzya were a Mordvinic people skilled in forest agriculture, beekeeping, and hunting in the Volga forest-steppe.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The dense forests of the Erzya homeland provided natural defenses against both Mongol raiders and Russian expansion.
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+		meschera_culture = kindred
+		moksha_culture = kindred
+	}
+}
+
+meschera_culture = {
+	language = mordvinic_language
+
+	color = map_meschera
+	
+	tags = { central_asian_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Meschera were a forest people of the Oka river lowlands, subsisting on fishing, hunting, and swidden agriculture.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Meschera marshlands and dense forests along the Oka river were notoriously difficult terrain for outside armies to traverse.
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+		erzya_culture = kindred
+		moksha_culture = kindred
+	}
+}

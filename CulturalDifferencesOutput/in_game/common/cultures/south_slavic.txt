@@ -1,0 +1,242 @@
+bosnian = {
+	language = serbian_dialect
+	
+	color = map_bosnian
+	
+	tags = { south_slavic_gfx east_mediterranean_gfx mediterranean_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Bosnia's silver and lead mines at Srebrenica and Olovo were among the most productive in the Balkans, attracting Ragusan and Saxon miners.
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+# Bosnia's rugged mountain terrain made the kingdom extremely difficult to invade, with fortified strongholds controlling narrow passes.
+		local_defensive = 0.15
+	}
+
+	opinions = {
+		croatian = positive
+		turkish_culture = negative
+		hungarian = negative
+		venetian = positive
+	}
+	culture_groups = {
+		slavic_group
+		south_slavic_group
+	}
+}
+
+bulgarian = { 
+	language = bulgarian_language
+	
+	color = map_bulgarian
+	
+	tags = { south_slavic_gfx east_mediterranean_gfx mediterranean_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Bulgaria's Thracian and Danubian plains produced substantial grain surpluses, supporting one of the Balkans' largest populations.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The fertile Thracian lowlands and Danube river valley were the breadbasket of the medieval Bulgarian state.
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		hungarian = negative
+		wallachian = positive
+		venetian = negative
+		greek_culture = negative
+	}
+	culture_groups = {
+		slavic_group
+		south_slavic_group
+	}
+}
+croatian = {
+	language = croatian_dialect
+	
+	color = map_croatian
+	
+	tags = { south_slavic_gfx east_mediterranean_gfx mediterranean_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Croatia's warrior nobility served as a military frontier against the Ottomans, developing skilled border warfare traditions.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# Croatia's Dinaric highlands and fortress chains provided a layered defense system against Ottoman incursions.
+		local_defensive = 0.1
+	}
+
+	opinions = {
+		venetian = negative
+		greek_culture = negative
+		dalmatian = positive
+		hungarian = positive
+	}	
+	culture_groups = {
+		slavic_group
+		south_slavic_group
+	}
+}
+
+serbian = {
+	language = serbian_dialect
+	
+	color = map_serbian
+	
+	tags = { south_slavic_gfx east_mediterranean_gfx mediterranean_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Serbia's mines at Novo Brdo were the richest silver mines in the Balkans, making Despot Stefan Lazarević enormously wealthy.
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+# Serbian mines produced silver, gold, and iron, with Novo Brdo alone rivaling the output of Bohemian silver mines.
+		local_iron_output_modifier = 0.15
+	}
+
+	opinions = {
+		greek_culture = negative
+		bulgarian = negative
+		albanian = positive
+	}
+	culture_groups = {
+		slavic_group
+		south_slavic_group
+	}
+}
+
+sclavene = { 
+	language = serbian_dialect
+	
+	color = map_sclavene
+	
+	tags = { south_slavic_gfx east_mediterranean_gfx mediterranean_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The Sclavene communities preserved the ecclesiastical legacy of medieval Slavic Orthodoxy and the Cyrillic literary tradition.
+		prestige = 5
+	}
+
+	location_modifier = {
+# Sclavene agricultural communities along the southern Balkans maintained productive farming on fertile lowland soils.
+		local_production_efficiency = 0.05
+	}
+
+	opinions = { 
+		greek_culture = positive
+	}	
+	culture_groups = {
+		slavic_group
+		south_slavic_group
+	}
+}
+
+slovene = {
+	language = slovene_dialect
+	
+	color = map_slovene
+	
+	tags = { south_slavic_gfx east_mediterranean_gfx mediterranean_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Slovenia controlled vital Alpine trade routes connecting the Adriatic to the Austrian heartland and Central Europe.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Julian Alps and Karawanks provided natural defensive barriers protecting Slovene-speaking lands.
+		local_defensive = 0.1
+	}
+
+	opinions = { #ADD
+	}	
+	culture_groups = {
+		slavic_group
+		south_slavic_group
+	}
+}
+
+albanian = {
+	language = albanian_language
+	
+	color = map_albanian
+	
+	tags = { east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Albanian mountain warriors under Skanderbeg resisted Ottoman conquest for decades with their fierce light infantry guerrilla tactics.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# Albania's mountainous interior was ideal for guerrilla warfare, imposing devastating attrition on invading Ottoman armies.
+		local_hostile_attrition = 0.15
+	}
+
+	opinions = {
+		arvanite = kindred
+		greek_culture = negative
+		venetian = positive
+		bulgarian = positive
+		serbian = negative
+	}
+}
+
+arvanite = {
+	language = albanian_language
+	
+	color = map_arvanite
+	
+	tags = { east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The Arvanites migrated into the Greek Peloponnese as warrior-settlers, providing military manpower to the Byzantine and later Despotate.
+		global_manpower_modifier = 0.05
+	}
+
+	location_modifier = {
+# Arvanite communities in Greece maintained pastoral traditions, herding sheep and goats in the hills of Attica and the Peloponnese.
+		local_livestock_output_modifier = 0.1
+	}
+
+	opinions = {
+		albanian = kindred
+		greek_culture = positive
+	}
+}
+
+dalmatian = {
+	language = dalmatian_dialect
+	
+	color = map_dalmatian
+	
+	tags = { north_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Dalmatia's city-states of Ragusa, Split, and Zadar produced skilled sailors and merchants who traded across the Adriatic and Mediterranean.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Dalmatian coast's sheltered harbors and Adriatic waters supported a substantial fishing industry alongside maritime trade.
+		local_fish_output_modifier = 0.1
+	}
+
+	opinions = {
+		venetian = negative
+		greek_culture = positive
+		bosnian = positive
+		turkish_culture = positive
+	}
+	
+	culture_groups = {
+		italian_group
+	}
+}

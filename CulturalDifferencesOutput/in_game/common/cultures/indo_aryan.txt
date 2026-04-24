@@ -1,0 +1,1289 @@
+#Dardic
+
+burusho = {
+	language = kashmiri_language #technically should have its own language, which is an isolate
+	
+	color = map_burusho
+	
+	tags = { indian_gfx }
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Hunza valley mountain pastoralism; isolated high-altitude herding sustained Burusho communities
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Karakoram mountain terrain; among the most inaccessible valleys in the world
+		local_defensive = 0.15
+	}
+
+	opinions = {
+		shina_culture = positive
+		kashmiri_culture = positive
+		kohistani = positive
+	}
+	
+}
+
+chitrali = { #Kalasha, etc
+	language = kashmiri_language
+	
+	color = map_chitrali
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Mountain warrior tradition of the Hindu Kush; Chitral defended its passes for centuries
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# Hindu Kush mountain passes; extremely difficult terrain for invading armies
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+		shina_culture = positive
+		kashmiri_culture = positive
+		kohistani = positive
+	}
+	
+}
+
+kashmiri_culture = {
+	language = kashmiri_language
+	
+	color = map_kashmiri
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Renowned Kashmiri shawl weaving; pashmina wool crafts prized across Eurasia by the 1400s
+		global_cloth_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Fertile Kashmir valley floor; irrigated rice and saffron cultivation amid mountain walls
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		shina_culture = positive
+		punjabi = positive
+		kohistani = positive
+	}
+	
+}
+
+kohistani = { #Indus Kohistanis
+	language = kashmiri_language
+	
+	color = map_kohistani
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Mountain herding communities of the upper Indus tributaries; goat and sheep pastoralism
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Rugged mountain terrain of Indus Kohistan; near-impassable gorges and steep valleys
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+		shina_culture = positive
+		kashmiri_culture = positive
+		chitrali = positive
+	}
+	
+}
+
+shina_culture = {
+	language = kashmiri_language
+	
+	color = map_shina
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Gilgit mountain warfare tradition; Shina warriors defended high passes and valley strongholds
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# High mountain terrain of Gilgit-Baltistan; extreme altitude and narrow valleys
+		local_defensive = 0.15
+	}
+
+	opinions = {
+		kashmiri_culture = positive
+		kohistani = positive
+		chitrali = positive
+	}
+	
+}
+
+#East Central
+
+awadhi = {
+	language = hindustani_language
+	
+	color = map_awadhi
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Fertile Gangetic heartland of Awadh; among the richest agricultural regions of Hindustan
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Lush river valley agriculture of the central Ganges plain; well-irrigated alluvial soil
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		dehlavi = positive
+		braji = positive
+	}
+	
+}
+
+bagheli = {
+	language = hindustani_language
+	
+	color = map_bagheli
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Baghelkhand mixed forest and agriculture economy; subsistence farming on hilly terrain
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+# Forested hilly terrain of central India; mixed agriculture and forest resource gathering
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+		bundeli = positive
+	}
+	
+}
+
+chhattisgarhi = { #https://en.wikipedia.org/wiki/Chhattisgarh
+	language = hindustani_language
+	
+	color = map_chhattisgarhi
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Chhattisgarh rice bowl of central India; extensive wet rice cultivation in fertile plains
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Rich rice-growing plains of the Mahanadi basin; productive paddy agriculture
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		bagheli = positive
+		gond = positive
+	}
+	
+}
+
+#Eastern
+
+kamarupi = {
+	language = kamarupi_language
+	
+	color = map_kamarupi_language
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Brahmaputra valley rice cultivation; Kamarupa's fertile floodplains sustained dense population
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Brahmaputra floodplain rice agriculture; annually renewed alluvial soil
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		bengali = negative
+	}
+	
+}
+
+bengali = {
+	language = bengali_language
+	
+	color = map_bengali
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Bengal's vast trade networks; muslin textiles and rice exports made it one of the richest regions
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# Bengal delta rice cultivation; the most productive agricultural region in the subcontinent
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		magahi = positive
+		kamarupi = negative
+	}
+	
+}
+
+bhojpuri_culture = {
+	language = bihari_language
+
+	color = map_bhojpuri
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Bhojpuri martial tradition; the warrior peasantry of the middle Ganges region
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# Middle Gangetic plain agriculture; rich alluvial soil along the Ganges and its tributaries
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+halbi = {
+	language = oriya_language
+	
+	color = map_halbi
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Bastar region forest agriculture; shifting cultivation and forest product gathering
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+# Dense forest resources of the Bastar plateau; timber and forest produce
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+		orissan = kindred
+		chhattisgarhi = positive
+	}
+	
+}
+
+magahi = {
+	language = bihari_language
+	
+	color = map_magahi
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Ancient Magadh, seat of the Maurya and Gupta empires; legacy of imperial learning and culture
+		prestige = 5
+	}
+
+	location_modifier = {
+# Bihar plain agriculture; fertile Gangetic alluvium supporting dense rice cultivation
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		bengali = positive
+	}
+	
+}
+
+maithili_culture = {
+	language = bihari_language
+
+	color = map_maithili
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Mithila tradition of Sanskrit learning; Navadvipa and Mithila were great centres of scholarship
+		prestige = 5
+	}
+
+	location_modifier = {
+# North Bihar alluvial plains; Kosi and Gandak river systems support intensive rice farming
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+nagpuri_culture = { #https://en.wikipedia.org/wiki/Nagpuria_people
+	language = bihari_language
+
+	color = map_nagpuri
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Chota Nagpur plateau mineral wealth; iron ore deposits known since ancient times
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+# Iron-rich Chota Nagpur plateau; extensive deposits of iron ore and other minerals
+		local_iron_output_modifier = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+	
+orissan = {
+	language = oriya_language
+	
+	color = map_orissan
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Jagannath temple culture and Orissan artistic tradition; great temple-building kingdoms
+		prestige = 5
+	}
+
+	location_modifier = {
+# Coastal rice plains of Odisha; Mahanadi delta and coastal strip support intensive cultivation
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		halbi = kindred
+		telugu = positive
+	}
+	
+}
+
+#Northern
+
+garhwali = {
+	language = pahari_language
+	
+	color = map_garhwali
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Garhwali mountain warrior tradition; hill rajas maintained hardy infantry for Himalayan warfare
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# Himalayan terrain of Garhwal; steep mountain passes and deep valleys
+		local_defensive = 0.15
+	}
+
+	opinions = {
+		kumaoni = positive
+		kangri = positive
+	}
+	
+}
+
+kangri = {
+	#Western Pahari cultures grouped here. Kangri, Dogri, Bilaspuri, Chambeali, etc
+	language = pahari_language
+	
+	color = map_kangri
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Dogra warrior tradition; Kangra and Jammu hill kingdoms fielded fierce infantry fighters
+		army_infantry_power = 0.1
+	}
+
+	location_modifier = {
+# Sub-Himalayan hill forts of Kangra; fortified positions in rugged Shiwalik foothills
+		local_defensive = 0.1
+	}
+
+	opinions = {
+		kumaoni = positive
+		garhwali = positive
+		kashmiri_culture = positive
+	}
+	
+}
+
+kumaoni = {
+	language = pahari_language
+	
+	color = map_kumaoni
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Kumaon mountain pastoralism; livestock herding on high Himalayan pastures
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Himalayan terrain of Kumaon; high ridges and forested valleys provide natural defences
+		local_defensive = 0.15
+	}
+
+	opinions = {
+		garhwali = positive
+		kangri = positive
+	}
+	
+}
+
+#Northwestern
+
+punjabi = {
+	language = punjabi_language
+	
+	color = map_punjabi
+	
+	tags = { persianate_gfx indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Punjabi cavalry tradition; the land of five rivers bred hardy horsemen and war horses
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+# Punjab five-rivers agriculture; canal-irrigated alluvial plains produced abundant grain
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		dehlavi = positive
+	}
+	
+}
+
+sindhi = {
+	language = sindhi_language
+	
+	color = map_sindhi
+	
+	tags = { persianate_gfx indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Sindhi Indus river trade; Thatta and Debal were major entrepots linking Central Asia to the sea
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# Indus irrigation agriculture; annual floods renewed fertile silt for wheat and rice cultivation
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		gujarati = positive
+		#persian = positive
+		#baluchi = positive
+	}
+	
+}
+
+#Southern
+
+dhivehi_culture = {
+	language = sinhala_language
+
+	color = map_maldives
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Maldivian island maritime culture; atoll-dwelling sailors and fishermen of the Indian Ocean
+		global_sailors_modifier = 0.15
+	}
+
+	location_modifier = {
+# Indian Ocean fishing grounds; Maldivian tuna and cowrie shell harvesting
+		local_fish_output_modifier = 0.15
+	}
+
+	opinions = {
+
+	}
+}
+
+konkani = {
+	language = marathi_language
+	
+	color = map_konkani
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Konkan coastal seafaring tradition; Konkani sailors navigated the Arabian Sea trade routes
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+# Arabian Sea coast fishing; rich marine resources along the Konkan littoral
+		local_fish_output_modifier = 0.1
+	}
+
+	opinions = {
+		marathi_culture = kindred
+		tuluva = positive
+	}
+	
+	
+}
+
+marathi_culture = {
+	language = marathi_language
+	
+	color = map_maratha
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Maratha warrior tradition; Deccan hill-fort warfare bred resilient infantry and guerrilla fighters
+		army_infantry_power = 0.1
+	}
+
+	location_modifier = {
+# Deccan hill forts of Maharashtra; the Western Ghats and Sahyadri range provided natural strongholds
+		local_defensive = 0.1
+	}
+
+	opinions = {
+		konkani = kindred
+	}
+	
+	
+}
+
+sinhalese = {
+	language = sinhala_language
+	
+	color = map_sinhalese
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Sinhalese Indian Ocean spice trade; Ceylon cinnamon was the most prized spice export
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# Ceylon spice cultivation; cinnamon, pepper, and gem-mining sustained a productive economy
+		local_production_efficiency = 0.1
+	}
+
+	opinions = {
+		tamil = negative
+	}
+	
+}
+
+vedda = { #They are not Indo-Aryan https://en.wikipedia.org/wiki/Vedda
+	language = sinhala_language
+	
+	color = map_vedda
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+	}
+
+	country_modifier = {
+# Vedda forest subsistence; indigenous hunter-gatherers with deep knowledge of the Sri Lankan interior
+		global_livestock_output_modifier = 0.05
+	}
+
+	location_modifier = {
+# Dense Sri Lankan interior forest; intimate knowledge of terrain made pursuit difficult
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+		sinhalese = positive
+	}
+	
+}
+
+#West Central
+
+braji = {
+	language = hindustani_language
+	
+	color = map_braji
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Braj literary and devotional tradition; Mathura-Vrindavan was the heart of Krishna bhakti culture
+		prestige = 5
+	}
+
+	location_modifier = {
+# Yamuna river plain agriculture; well-watered alluvial soil of the Braj region
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		awadhi = positive
+		dhundhari = positive
+		dehlavi = positive
+	}
+	
+}
+
+bundeli = {
+	language = hindustani_language
+	
+	color = map_bundeli
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Bundela Rajput warrior tradition; fierce independence and martial culture of Bundelkhand
+		army_infantry_power = 0.1
+	}
+
+	location_modifier = {
+# Rocky terrain of Bundelkhand; fortified hilltops and broken ground favoured defenders
+		local_defensive = 0.1
+	}
+
+	opinions = {
+		gujarati = positive
+		marathi_culture = positive
+	}
+	
+}
+
+dehlavi = {
+	language = hindustani_language
+	
+	color = map_dehlavi
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Delhi Sultanate imperial legacy; seat of successive empires and centre of Indo-Islamic culture
+		prestige = 5
+	}
+
+	location_modifier = {
+# Imperial capital and administrative hub; Delhi's concentration of power attracted artisans and scholars
+		local_monthly_development = 0.05
+	}
+
+	opinions = {
+		braji = positive
+		punjabi = positive
+		awadhi = positive
+		haryanvi_culture = positive
+		kannauji = positive
+	}
+	
+}
+
+haryanvi_culture = {
+	language = hindustani_language
+
+	color = map_haryanvi
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Haryana plains cavalry tradition; open terrain bred horsemen who served Delhi's armies
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+# Haryana agricultural plains; fertile Indo-Gangetic doab produced abundant wheat and millet
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+kannauji = {
+	language = hindustani_language
+	
+	color = map_kannauji
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Ancient imperial capital of Kannauj; once the most contested city in northern India
+		prestige = 5
+	}
+
+	location_modifier = {
+# Central Gangetic plain agriculture; heart of the fertile Ganges-Yamuna doab
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		gujarati = positive
+		marathi_culture = positive
+	}
+	
+}
+
+#Western
+
+bagri = {
+	language = rajasthani_language
+	
+	color = map_bagri
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Desert-fringe pastoral herding; Bagri communities raised cattle and camels on arid margins
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Semi-arid terrain of the Thar fringe; sparse resources and harsh climate hindered invaders
+		local_hostile_attrition = 0.05
+	}
+
+	opinions = {
+		mewati = positive
+		shekhawati = positive
+	}
+	
+}
+
+banjara = {
+	language = bhili_language
+	
+	color = map_banjara
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Banjara long-distance caravan trade; nomadic carriers who transported grain, salt, and goods across India
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# Itinerant commerce along Deccan trade routes; Banjara camps served as mobile market nodes
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+		kannadiga = positive
+		telugu = positive
+		tamil = positive
+	}
+}
+
+bhil = {
+	language = bhili_language
+	
+	color = map_bhili_language
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Bhil guerrilla warfare tradition; forest and hill ambush tactics against Rajput and Sultanate armies
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# Forested hills and ravines of the Aravalli-Vindhya range; ideal terrain for ambush warfare
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+		gujarati = positive
+		marathi_culture = positive
+	}
+	
+}
+
+dhundhari = {
+	language = malvi_language
+	
+	color = map_dhundhari
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Rajput cavalry tradition of the Amber-Jaipur region; Kachwaha horsemen served Mughal and local armies
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+# Amber-Jaipur craft economy; gemstone cutting, brasswork, and textile production
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+		mewati = positive
+		mewari = positive
+	}
+	
+}
+
+gujarati = {
+	language = gujarati_language
+	
+	color = map_gujarati
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Gujarat maritime trade networks; Cambay and Surat were among the greatest Indian Ocean ports
+		trade_efficiency = 0.15
+	}
+
+	location_modifier = {
+# Gujarat textile production; cotton and silk weaving made Gujarat India's foremost cloth exporter
+		local_cloth_output_modifier = 0.15
+	}
+
+	opinions = {
+		mewari = positive
+		marwari = positive
+	}
+}
+
+harauti = {
+	language = malvi_language
+	
+	color = map_harauti
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Hadoti Rajput martial tradition; Bundi and Kota maintained fierce warrior aristocracies
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+# Chambal valley agriculture of Hadoti; river-irrigated plains amid rocky Rajasthan
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		mewari = positive
+		marwari = negative
+	}
+	
+}
+
+khandeshi = { #Ahirani
+	language = gujarati_language
+	
+	color = map_khandeshi
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Tapti valley mixed agriculture; Khandesh was a productive but frequently contested borderland
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+# Khandesh Tapti river valley; alluvial agriculture between the Satpura and Ajanta ranges
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+		malvi = positive
+		gujarati = positive
+	}
+	
+}
+
+malvi = {
+	language = malvi_language
+	
+	color = map_malvi_language
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Malwa plateau trade routes; strategic crossroads between Gujarat, Delhi, and the Deccan
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# Malwa plateau agriculture; black cotton soil produced rich harvests of wheat and opium
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		gujarati = positive
+		mewari = positive
+		marwari = positive
+		khandeshi = positive
+	}
+	
+	
+}
+
+marwari = {
+	language = rajasthani_language
+	
+	color = map_marwari
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Rathore desert cavalry of Marwar; camel and horse-mounted warriors of the Thar
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+# Thar Desert terrain; scorching sands and waterless expanses devastated invading armies
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+		mewari = negative
+		gujarati = positive
+	}
+	
+}
+
+mewari = {
+	language = rajasthani_language
+	
+	color = map_mewari
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Mewari martial valor and fierce independence; Mewar never fully submitted to Delhi or Mughal rule
+		army_infantry_power = 0.1
+	}
+
+	location_modifier = {
+# Aravalli hill forts of Mewar; Chittorgarh and Kumbhalgarh exemplified impregnable defences
+		local_defensive = 0.15
+	}
+
+	opinions = {
+		marwari = negative
+		harauti = positive
+		gujarati = positive
+	}
+	
+}
+
+mewati = {
+	language = rajasthani_language
+	
+	color = map_mewati
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Mewat light cavalry tradition; raiders and horsemen of the Delhi-Rajasthan borderlands
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+# Semi-arid Mewat agriculture; rain-fed millet and wheat on the Aravalli-Gangetic margin
+		local_grain_output_modifier = 0.05
+	}
+
+	opinions = {
+		shekhawati = positive
+		dhundhari = positive
+	}
+	
+}
+
+nimadi = { #Nimari
+	language = malvi_language
+	
+	color = map_nimadi
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Narmada valley agriculture; Nimar's riverine economy sustained by annual floods
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+# Narmada river valley cultivation; alluvial banks supported cotton, wheat, and millet
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		malvi = positive
+		khandeshi = positive
+	}
+	
+}
+
+shekhawati = {
+	language = rajasthani_language
+	
+	color = map_shekhawati
+	
+	tags = { indian_gfx }
+
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+	}
+
+	country_modifier = {
+# Shekhawati merchant tradition; great Marwari trading families originated from this arid region
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# Semi-arid Shekhawati terrain; sparse rainfall and sandy soil challenged all but local inhabitants
+		local_hostile_attrition = 0.05
+	}
+
+	opinions = {
+		mewati = positive
+		bagri = positive
+	}
+	
+}

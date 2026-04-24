@@ -1,0 +1,162 @@
+lower_egyptian_culture = {
+	language = egyptian_dialect
+	
+	color = color_culture_egyptian
+	
+	tags = { egyptian_gfx middle_east_gfx}
+
+	country_modifier = {
+# The Nile Delta was the most productive agricultural region in the entire Middle East, its annual floods sustaining massive grain exports.
+		global_grain_output_modifier = 0.15
+	}
+
+	location_modifier = {
+# The Nile Delta's rich alluvial soil produced grain surpluses that made Mamluk Egypt the breadbasket of the Eastern Mediterranean.
+		local_grain_output_modifier = 0.15
+	}
+
+	opinions = {
+		upper_egyptian_culture = kindred
+		bedouin_culture = kindred
+		libyan_arabic_culture = kindred
+		coptic_culture = positive
+	}
+	
+	culture_groups = {
+		arabic_group
+	}		
+}
+
+upper_egyptian_culture = { # Upper Egypt
+	language = egyptian_dialect 
+	
+	color = color_culture_saidi
+	
+	tags = { egyptian_gfx middle_east_gfx}
+
+	country_modifier = {
+# The Nile valley of Upper Egypt supported intensive irrigated agriculture, producing grain, sugar cane, and flax.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Upper Egypt's narrow Nile valley was intensively farmed, with irrigation supporting year-round cultivation.
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		lower_egyptian_culture = kindred
+		bedouin_culture = kindred
+		libyan_arabic_culture = kindred
+		coptic_culture = positive
+	}	
+	
+	culture_groups = {
+		arabic_group
+	}	
+}
+
+bedouin_culture = { 
+	language = egyptian_dialect 
+	
+	color = color_culture_bedouin
+	
+	tags = { egyptian_gfx middle_east_gfx}
+
+	country_modifier = {
+# The Bedouin of the Egyptian and Sinai deserts were swift mounted raiders, their camel cavalry dominating desert warfare.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+# The Egyptian deserts on either side of the Nile were lethal to armies without Bedouin knowledge of water sources.
+		local_hostile_attrition = 0.15
+	}
+
+	opinions = {
+		lower_egyptian_culture = kindred
+		upper_egyptian_culture = kindred
+		bedouin_culture = kindred
+		libyan_arabic_culture = kindred
+	}	
+	
+	culture_groups = {
+		arabic_group
+	}	
+}
+
+libyan_arabic_culture = {
+	language = maghrebi_dialect 
+	
+	color = color_culture_libyan_arabic
+	
+	tags = { maghrebi_gfx middle_east_gfx}
+
+	country_modifier = {
+# The Libyan Arab tribes maintained a mounted warrior tradition across the Cyrenaican and Fezzan desert regions.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+# The vast Libyan desert was among the most inhospitable regions on Earth, impassable for conventional armies.
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+		lower_egyptian_culture = kindred
+		upper_egyptian_culture = kindred
+		bedouin_culture = kindred
+		libyan_arabic_culture = kindred
+		coptic_culture = positive
+	}	
+	
+	culture_groups = {
+		arabic_group
+		maghrebi_group
+	}	
+}
+
+toubou_culture = {
+	language = saharan_language 
+	
+	color = color_culture_fezzan
+	
+	tags = { maghrebi_gfx middle_east_gfx}
+
+	country_modifier = {
+# The Toubou were Saharan pastoral nomads who herded camels and goats across the Tibesti and Fezzan regions.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Saharan homeland of the Toubou in the Tibesti mountains and surrounding desert was virtually inaccessible to outsiders.
+		local_hostile_attrition = 0.15
+	}
+
+	opinions = {
+	}
+}
+
+coptic_culture = {
+	language = coptic_language 
+	
+	color = color_language_coptic
+	
+	tags = { egyptian_gfx middle_east_gfx}
+
+	country_modifier = {
+# The Coptic Church preserved one of Christianity's oldest monastic traditions, and Coptic scholars maintained the legacy of ancient Egyptian learning.
+		prestige = 5
+	}
+
+	location_modifier = {
+# Coptic communities in Egypt were skilled artisans, producing fine textiles, metalwork, and maintaining agricultural expertise.
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+		lower_egyptian_culture = positive
+		upper_egyptian_culture = positive
+		libyan_arabic_culture = positive
+	}
+}

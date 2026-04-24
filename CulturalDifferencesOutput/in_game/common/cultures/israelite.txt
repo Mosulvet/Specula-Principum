@@ -1,0 +1,503 @@
+ashkenazi = {
+	language = yiddish_dialect
+	
+	color = map_ashkenazi
+	
+	tags = { jewish_gfx north_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Ashkenazi Jewish communities across Central Europe served as vital financial intermediaries, moneylenders, and long-distance merchants.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# Ashkenazi Jewish quarters in German and Polish cities fostered scholarship, commerce, and skilled craftsmanship.
+		local_monthly_development = 0.03
+	}
+
+	opinions = {
+		beyte_yisrael = kindred
+		gurji = kindred
+		italki = kindred
+		kalimi = kindred
+		kochini = kindred
+		mizrahi = kindred
+		mustaarabi = kindred
+		qayfengi = kindred
+		romanyoti = kindred
+		sephardi = kindred
+		teimani = kindred
+		
+		angrian = positive
+		brandenburgish = positive
+		eastern_pomeranian = positive
+		eastphalian = positive
+		holsatian = positive
+		lower_saxon = positive
+		markish = positive
+		prussian = positive
+		western_pomeranian = positive
+		westphalian = positive
+		east_franconian = positive
+		low_franconian = positive
+		moselle_franconian = positive
+		rhine_franconian = positive
+		ripuarian_franconian = positive
+		saxon = positive
+		danube_bavarian = positive
+		high_alemannic = positive
+		rhine_alemannic = positive
+		southern_bavarian = positive
+		swabian = positive
+		upper_palatine = positive
+		frisian = positive
+		walloon = positive
+	}
+	
+	culture_groups = {
+		german_group
+		jewish_group
+	}
+	
+	use_patronym = yes
+}
+
+beyte_yisrael = { #https://en.wikipedia.org/wiki/Beta_Israel
+	language = agaw_language # Kayla and Qwara
+	
+	color = map_semien
+	
+	tags = { east_african_gfx african_gfx }
+
+	country_modifier = {
+# The Beta Israel of Ethiopia maintained a remarkably cohesive religious and cultural identity in isolation for centuries.
+		stability_cost_modifier = -0.05
+	}
+
+	location_modifier = {
+# The Beta Israel communities in the Simien Mountains practiced pastoral farming and ironworking in the Ethiopian highlands.
+		local_livestock_output_modifier = 0.1
+	}
+
+	opinions = {
+		ashkenazi = kindred
+		gurji = kindred
+		italki = kindred
+		kalimi = kindred
+		kochini = kindred
+		mizrahi = kindred
+		mustaarabi = kindred
+		qayfengi = kindred
+		romanyoti = kindred
+		sephardi = kindred
+		teimani = kindred
+	}	
+	
+	culture_groups = {
+		ethiopian_group
+		jewish_group
+	}
+
+	use_patronym = yes
+}
+
+gurji = {
+	language = georgian_language # Judeo-Georgian
+	
+	color = map_gurji
+	
+	tags = { jewish_gfx caucasian_gfx east_mediterranean_gfx european_gfx }
+
+	opinions = {
+		ashkenazi = kindred
+		italki = kindred
+		kalimi = kindred
+		kochini = kindred
+		mizrahi = kindred
+		mustaarabi = kindred
+		qayfengi = kindred
+		romanyoti = kindred
+		sephardi = kindred
+		teimani = kindred
+
+		georgian_culture = kindred
+	}	
+
+    country_modifier = {
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Georgian Jewish community contributed to Tbilisi's commercial life as merchants and artisans in the Caucasus trade networks.
+		local_production_efficiency = 0.05
+	}
+	
+	culture_groups = {
+		jewish_group
+		caucasian_group
+	}
+
+	use_patronym = yes
+}
+
+italki = {
+	language = lombard_dialect # Italki
+	
+	color = map_italki
+	
+	tags = { jewish_gfx north_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The Italki Jews were among the oldest Jewish communities in Europe, contributing to Italian intellectual and cultural life since Roman times.
+		prestige = 5
+	}
+
+	location_modifier = {
+# Italki Jewish artisans were skilled silk weavers, dyers, and physicians in the cities of central and southern Italy.
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+		ashkenazi = kindred
+		gurji = kindred
+		kalimi = kindred
+		beyte_yisrael = kindred
+		kochini = kindred
+		mizrahi = kindred
+		mustaarabi = kindred
+		qayfengi = kindred
+		romanyoti = kindred
+		sephardi = kindred
+		teimani = kindred
+	}	
+	
+	culture_groups = {
+		jewish_group
+		italian_group
+	}
+
+	use_patronym = yes
+}
+
+kalimi = {
+	language = persian_language # Judeo-Persian
+	
+	color = map_kalimi
+	
+	tags = { jewish_gfx persian_gfx persianate_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Kalimi (Persian Jews) were skilled merchants and artisans who played important roles in Persian commerce and silk production.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# Persian Jewish communities were renowned for silk weaving and textile production, particularly in Isfahan and Shiraz.
+		local_cloth_output_modifier = 0.1
+	}
+
+	opinions = {
+		ashkenazi = kindred
+		gurji = kindred
+		italki = kindred
+		kochini = kindred
+		mizrahi = kindred
+		mustaarabi = kindred
+		qayfengi = kindred
+		romanyoti = kindred
+		sephardi = kindred
+		teimani = kindred
+
+		farsi_culture = kindred
+	}	
+	
+	culture_groups = {
+		iranian_group
+		jewish_group
+	}
+
+	use_patronym = yes
+}
+
+kochini = {
+	language = malayalam_language # kochini
+	
+	color = map_kochini
+	
+	tags = { indian_gfx }
+
+	country_modifier = {
+# The Cochin Jews of Malabar were important spice trade intermediaries, connecting Indian pepper producers with Middle Eastern and European markets.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# The Cochin Jewish community's expertise in spice trading and processing made them valuable to the Malabar economy.
+		local_production_efficiency = 0.1
+	}
+
+	opinions = {
+		ashkenazi = kindred
+		beyte_yisrael = kindred
+		gurji = kindred
+		italki = kindred
+		kalimi = kindred
+		mizrahi = kindred
+		mustaarabi = kindred
+		qayfengi = kindred
+		romanyoti = kindred
+		sephardi = kindred
+		teimani = kindred
+	}	
+	
+	culture_groups = {
+		jewish_group
+		indian_group
+	}
+
+	use_patronym = yes
+}
+
+mizrahi = {
+	language = levantine_dialect
+	
+	color = map_ISR
+	
+	tags = { jewish_gfx middle_east_gfx }
+
+	country_modifier = {
+# Mizrahi Jewish communities across the Middle East served as merchants, physicians, and administrators in Islamic societies.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# Mizrahi Jewish artisans and merchants contributed to the commercial life of major Middle Eastern cities like Baghdad and Damascus.
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+		ashkenazi = kindred
+		beyte_yisrael = kindred
+		gurji = kindred
+		italki = kindred
+		kalimi = kindred
+		kochini = kindred
+		mustaarabi = kindred
+		qayfengi = kindred
+		romanyoti = kindred
+		sephardi = kindred
+		teimani = kindred
+	}	
+	
+	culture_groups = {
+		arabic_group
+		jewish_group
+	}
+	
+	use_patronym = yes
+}
+
+mustaarabi = {
+	language = egyptian_dialect
+	
+	color = map_mustaarabi
+	
+	tags = { jewish_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Musta'arabi Jews of North Africa were deeply integrated into Maghrebi commercial networks and Mediterranean trade.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# Musta'arabi Jewish communities in North Africa were skilled metalworkers, jewelers, and textile artisans.
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+		ashkenazi = kindred
+		beyte_yisrael = kindred
+		gurji = kindred
+		italki = kindred
+		kalimi = kindred
+		kochini = kindred
+		mizrahi = kindred
+		qayfengi = kindred
+		romanyoti = kindred
+		sephardi = kindred
+		teimani = kindred
+	}	
+	
+	culture_groups = {
+		jewish_group
+		maghrebi_group
+	}
+	
+	use_patronym = yes
+}
+
+qayfengi = {
+	language = southern_mandarin_dialect
+	
+	color = map_qayfengi
+	
+	tags = { east_asian_gfx }
+
+	country_modifier = {
+# The Kaifeng Jews participated in the commercial life of one of China's great trading cities on the Grand Canal.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Kaifeng Jewish community's mercantile skills contributed to the bustling commerce of this Song-era trading hub.
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+		ashkenazi = kindred
+		beyte_yisrael = kindred
+		gurji = kindred
+		italki = kindred
+		kalimi = kindred
+		mizrahi = kindred
+		mustaarabi = kindred
+		kochini = kindred
+		romanyoti = kindred
+		sephardi = kindred
+		teimani = kindred
+		
+		yan_culture = positive
+		hui_muslim_culture = positive
+		jilu_culture = positive
+		jiaodong_culture = positive
+		liang_culture = positive
+		jianghuai_culture = positive
+		shu_culture = positive		
+	}	
+	
+	culture_groups = {
+		jewish_group
+		chinese_group
+	}
+
+	use_patronym = yes
+}
+
+romanyoti = {
+	language = greek_language # Romanyoti
+	
+	color = map_romanyoti
+	
+	tags = { jewish_gfx greek_gfx east_mediterranean_gfx mediterranean_gfx european_gfx }
+
+	country_modifier = {
+# The Romaniote Jews preserved the oldest continuous Jewish liturgical tradition in Europe, predating the Ashkenazi and Sephardi rites.
+		prestige = 5
+	}
+
+	location_modifier = {
+# Romaniote Jewish communities in Byzantine Greek cities were skilled silk weavers, dyers, and tanners.
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+		ashkenazi = kindred
+		beyte_yisrael = kindred
+		gurji = kindred
+		italki = kindred
+		kalimi = kindred
+		kochini = kindred
+		mizrahi = kindred
+		mustaarabi = kindred
+		qayfengi = kindred
+		sephardi = kindred
+		teimani = kindred
+	}	
+	
+	culture_groups = {
+		jewish_group
+		greek_group
+	}
+
+	use_patronym = yes
+}
+
+sephardi = {
+	language = ladino_dialect # Ladin
+	
+	color = map_sephardi
+	
+	tags = { jewish_gfx castilian_gfx iberian_gfx west_mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The Sephardi Jews of Iberia were among the most culturally sophisticated and commercially connected communities in medieval Europe.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# Sephardi scholars, physicians, and merchants made Iberian Jewish quarters centers of learning and commerce.
+		local_monthly_development = 0.03
+	}
+
+	opinions = {
+		ashkenazi = kindred
+		beyte_yisrael = kindred
+		gurji = kindred
+		italki = kindred
+		kalimi = kindred
+		kochini = kindred
+		mizrahi = kindred
+		mustaarabi = kindred
+		qayfengi = kindred
+		romanyoti = kindred
+		teimani = kindred
+	}	
+	
+	culture_groups = {
+		jewish_group
+		iberian_group
+	}
+	
+	use_patronym = yes
+}
+
+teimani = {
+	language = peninsular_dialect # Judeo-Yemeni
+	
+	color = map_teimani
+	
+	tags = { jewish_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Yemenite Jews maintained one of the oldest and most isolated Jewish communities, preserving ancient liturgical traditions.
+		stability_cost_modifier = -0.05
+	}
+
+	location_modifier = {
+# Teimanim were skilled silversmiths and artisans, producing fine jewelry and metalwork prized across Yemen.
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+		ashkenazi = kindred
+		beyte_yisrael = kindred
+		gurji = kindred
+		italki = kindred
+		kalimi = kindred
+		kochini = kindred
+		mizrahi = kindred
+		mustaarabi = kindred
+		qayfengi = kindred
+		romanyoti = kindred
+		sephardi = kindred
+		yemeni_culture = positive
+	}	
+	
+	culture_groups = {
+		jewish_group
+		arabian_group
+		arabic_group
+	}
+	
+	use_patronym = yes
+}

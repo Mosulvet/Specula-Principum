@@ -1,0 +1,519 @@
+kurdish_culture = { #https://en.wikipedia.org/wiki/Kurds
+	language = kurdish_language #https://en.wikipedia.org/wiki/kurdish_languages
+	
+	color = color_culture_kurdish
+	
+	tags = { persian_gfx persianate_gfx middle_east_gfx }
+
+	country_modifier = {
+# Kurdish mountain cavalry were renowned fighters, serving as mercenaries and raiders across the Ottoman-Persian borderlands.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+# The Kurdish highlands of the Zagros were rugged terrain where outside armies suffered from guerrilla attacks and supply difficulties.
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+
+	}	
+	culture_groups = {
+		iranian_group
+	}
+}
+
+farsi_culture = { 
+	language = persian_language 
+	
+	color = map_persian
+
+	tags = { persian_gfx persianate_gfx middle_east_gfx }
+
+	country_modifier = {
+# Persian civilization was the foremost cultural influence of the Islamic East, with Farsi as the lingua franca of courts from Delhi to Istanbul.
+		prestige = 5
+	}
+
+	location_modifier = {
+# The great Persian cities of Isfahan, Shiraz, and Tabriz were centers of learning, poetry, and architectural achievement.
+		local_monthly_development = 0.03
+	}
+
+	opinions = {
+
+	}	
+	culture_groups = {
+		iranian_group
+	}
+
+	use_patronym = yes
+}
+
+khorasani_culture = {
+	language = persian_language
+	
+	color = map_khorasani
+	
+	tags = { persian_gfx persianate_gfx middle_east_gfx }
+
+	country_modifier = {
+# Khorasan sat astride the Silk Road, with cities like Nishapur and Merv serving as major caravan trading centers.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The irrigated oases of Khorasan produced substantial grain harvests in an otherwise arid landscape.
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+
+	}	
+	culture_groups = {
+		iranian_group
+	}
+
+	use_patronym = yes
+}
+
+tajik_culture = { 
+	language = persian_language 
+	
+	color = map_tajik
+	
+	tags = { persian_gfx persianate_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Tajik merchant communities of Samarkand and Bukhara were the commercial heart of Central Asian Silk Road trade.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# Tajik artisans in the cities of Transoxiana produced fine silk, paper, and ceramics exported across the Islamic world.
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+
+	}	
+	culture_groups = {
+		iranian_group
+	}
+
+	use_patronym = yes
+
+}
+
+adhari_culture = { # Tat people https://en.wikipedia.org/wiki/Tat_people_(Caucasus)
+	language = persian_language 
+	
+	color = map_tat
+	
+	tags = { persian_gfx persianate_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Tat/Adhari communities served as commercial intermediaries between the Caucasus, Persia, and the Caspian trade networks.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# Adhari settlements combined agriculture with skilled craftsmanship in metalwork and textiles.
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+
+	}	
+	culture_groups = {
+		iranian_group
+	}
+
+	use_patronym = yes
+
+}
+
+baloch_culture = {
+	language = balochi_language 
+	
+	color = map_balochi
+	
+	tags = { persian_gfx persianate_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Baloch tribal warriors were fierce desert fighters whose raiding cavalry operated across vast arid distances.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+# The Balochistan desert was one of the most inhospitable regions in the world, lethal to invading armies.
+		local_hostile_attrition = 0.15
+	}
+
+	opinions = {
+
+	}	
+	culture_groups = {
+		iranian_group
+	}
+}
+
+dehwar_culture = {
+	language = persian_language 
+	
+	color = map_dehwar
+	
+	tags = { persian_gfx persianate_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Dehwar were settled Persian-speaking farmers in Afghanistan, practicing irrigated agriculture in river valleys.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+# Dehwar irrigation systems supported productive agriculture in the river valleys of Afghanistan.
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+
+	}	
+	culture_groups = {
+		iranian_group
+	}
+
+	use_patronym = yes
+
+}
+
+afghan_culture = {
+	language = afghani_language 
+	
+	color = map_afghani
+	
+	tags = { persian_gfx persianate_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Pashtun tribal warriors were among the fiercest fighters in the region, their mountain warfare skills making them nearly unconquerable.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# The Hindu Kush and Sulaiman mountain ranges were among the world's most difficult military terrain, as countless invaders discovered.
+		local_hostile_attrition = 0.15
+	}
+
+	opinions = {
+
+	}	
+	culture_groups = {
+		iranian_group
+	}
+
+	use_patronym = yes
+
+}
+
+zaza_culture = { 
+ 	language = kurdish_language 
+	
+	color = map_zaza
+	
+ 	tags = { persian_gfx persianate_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Zaza were semi-nomadic pastoralists in the eastern Anatolian highlands, herding sheep and goats across seasonal pastures.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Zaza homeland in the rugged Dersim mountains provided natural defensive terrain against outside powers.
+		local_defensive = 0.1
+	}
+
+	opinions = {
+
+ 	}	
+	culture_groups = {
+		iranian_group
+	}
+}
+
+gilak_culture = {
+	language = tabaristani_language
+	
+	color = map_gilak
+	
+	tags = { persian_gfx persianate_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Gilaki people of the Caspian coast were skilled fishermen, exploiting the rich Caspian sturgeon and freshwater fisheries.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Caspian coast of Gilan provided some of the richest fishing in the Persian world, including prized sturgeon.
+		local_fish_output_modifier = 0.15
+	}
+
+	opinions = {
+
+	}	
+	culture_groups = {
+		iranian_group
+	}
+}
+
+mazanderani_culture = {
+	language = tabaristani_language
+	
+	color = map_mazanderani
+	
+	tags = { persian_gfx persianate_gfx middle_east_gfx }
+
+	country_modifier = {
+# The lush Caspian lowlands of Mazandaran produced rice, citrus, and silk in a climate unique within Iran's arid landscape.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The fertile Caspian coast of Mazandaran was Iran's most productive agricultural region, its moisture supporting diverse crops.
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+
+	}	
+	culture_groups = {
+		iranian_group
+	}
+}
+
+semnani_culture = {
+	language = tabaristani_language
+	
+	color = map_semnani
+	
+	tags = { persian_gfx persianate_gfx middle_east_gfx }
+
+	country_modifier = {
+# Semnan's position on the Silk Road between Tehran and Khorasan made it a natural caravan stop and trading post.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# Semnani settlements served as rest points and small manufacturing centers along the great eastern trade route.
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+
+	}	
+	culture_groups = {
+		iranian_group
+	}
+}
+
+lur_culture = {
+	language = persian_language
+	
+	color = map_lur
+	
+	tags = { persian_gfx persianate_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Lurs were transhumant pastoralists in the central Zagros Mountains, herding sheep and goats between seasonal pastures.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Luristan mountains of the Zagros were extremely difficult terrain, protecting Lur communities from centralized control.
+		local_defensive = 0.1
+	}
+
+	opinions = {
+
+	}	
+	culture_groups = {
+		iranian_group
+	}
+
+	use_patronym = yes
+}
+
+pamiri_culture = {
+	language = afghani_language
+	
+	color = map_pamiri
+	
+	tags = { persian_gfx persianate_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Pamiri peoples of the Roof of the World maintained pastoral economies centered on yak, sheep, and goat herding at extreme altitudes.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Pamir Mountains were among the highest and most inaccessible inhabited regions on Earth, a natural fortress.
+		local_defensive = 0.15
+	}
+
+	opinions = {
+
+	}	
+	culture_groups = {
+		iranian_group
+	}
+
+	use_patronym = yes
+}
+
+talysh_culture = {
+	language = tabaristani_language
+	
+	color = map_talysh
+	
+	tags = { persian_gfx persianate_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Talysh coastal communities along the southwestern Caspian depended on fishing and rice cultivation in the humid lowlands.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Talysh Caspian coast and river estuaries provided productive fishing grounds and rice paddies.
+		local_fish_output_modifier = 0.1
+	}
+
+	opinions = {
+
+	}	
+	culture_groups = {
+		iranian_group
+	}
+}
+
+hazara_culture = {
+	language = persian_language
+	
+	color = map_hazara
+	
+	tags = { persian_gfx persianate_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Hazara were highland pastoralists in the central Afghan mountains, herding sheep, goats, and yaks in the Hazarajat.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Hazarajat's rugged central Afghan highlands provided natural defensive isolation for the Hazara communities.
+		local_defensive = 0.1
+	}
+
+	opinions = {
+
+	}		
+	culture_groups = {
+		iranian_group
+	}
+}
+
+pashayi_culture = {
+	language = kashmiri_language
+	
+	color = map_pashayi
+	
+	tags = { persian_gfx persianate_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Pashayi were agro-pastoral communities in the Hindu Kush foothills, combining terraced farming with animal husbandry.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The forested Hindu Kush valleys of the Pashayi homeland were difficult terrain for outside armies to penetrate.
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+
+	}	
+	culture_groups = {
+		indo_aryan_group
+	}	
+}
+
+nuristani_culture = {
+	language = kashmiri_language
+	
+	color = map_kafir
+	
+	tags = { persian_gfx persianate_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Nuristani (Kafir) mountain warriors fiercely maintained their independence and pagan traditions against Islamic neighbors for centuries.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# The steep, forested valleys of Kafiristan (Nuristan) were among the most inaccessible regions in all of Central Asia.
+		local_hostile_attrition = 0.15
+	}
+
+	opinions = {
+
+	}		
+	culture_groups = {
+		indo_aryan_group
+	}
+}
+
+ormur_culture = {
+	language = afghani_language
+	
+	color = map_ormur
+	
+	tags = { persian_gfx persianate_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Ormur were a small Iranian-speaking pastoral community in the eastern Afghan mountains.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote mountain valleys of the Ormur homeland were difficult to access for outside powers.
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+
+	}		
+	culture_groups = {
+		iranian_group
+	}
+}
+
+achomi_culture = {
+	language = persian_language
+	
+	color = map_achomi
+	
+	tags = { persian_gfx persianate_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Achomi of the Persian Gulf coast engaged in fishing, pearling, and maritime trade across the Gulf.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Persian Gulf waters off the Achomi coast supported fishing and pearl diving as primary economic activities.
+		local_fish_output_modifier = 0.1
+	}
+
+	opinions = {
+
+	}		
+	culture_groups = {
+		iranian_group
+	}
+}
