@@ -705,8 +705,8 @@ kabiye = { #https://en.wikipedia.org/wiki/Kabye_people
 
 
 	country_modifier = {
-		# This Voltaic people practiced intensive grain farming in the West African savanna.
-		global_grain_output_modifier = 0.1
+		# The Kabye were mountain warriors of northern Togo, famous for their resistance from fortified positions.
+		land_morale = 0.05
 	}
 
 	location_modifier = {
@@ -826,8 +826,8 @@ ajan = {
 
 
 	country_modifier = {
-		# The Aja were the founding people of the Dahomey and Allada kingdoms of the Slave Coast.
-		global_grain_output_modifier = 0.1
+		# The Aja people of the Slave Coast were active in regional trade networks connecting coastal and inland markets.
+		trade_efficiency = 0.05
 	}
 
 	location_modifier = {
@@ -987,8 +987,8 @@ bantoid = {
 
 
 	country_modifier = {
-		# This Middle Belt Nigerian people practiced mixed farming of grains, yams, and other crops.
-		global_grain_output_modifier = 0.1
+		# The Cross River Bantoid peoples were known warriors who maintained strong military traditions.
+		army_infantry_power = 0.05
 	}
 
 	location_modifier = {
@@ -1010,8 +1010,8 @@ benue = {
 
 
 	country_modifier = {
-		# This Middle Belt Nigerian people practiced mixed farming of grains, yams, and other crops.
-		global_grain_output_modifier = 0.1
+		# The Benue River valley peoples facilitated trade between the Niger Delta and the interior Sahel.
+		trade_efficiency = 0.05
 	}
 
 	location_modifier = {
@@ -1079,8 +1079,8 @@ gbari = { #https://en.wikipedia.org/wiki/Gbagyi_people
 
 
 	country_modifier = {
-		# This Middle Belt Nigerian people practiced mixed farming of grains, yams, and other crops.
-		global_grain_output_modifier = 0.1
+		# The Gbari (Gwari) were skilled warriors and craftspeople of central Nigeria.
+		army_infantry_power = 0.05
 	}
 
 	location_modifier = {

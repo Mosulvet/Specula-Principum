@@ -198,13 +198,13 @@ guarijio_culture = { #Macurawe  https://en.wikipedia.org/wiki/Guarijio_people
 
 
 	country_modifier = {
-		# This Sierra Madre people practiced mountain farming and foraging in the rugged western Mexican highlands.
-		global_grain_output_modifier = 0.05
+		# The Guarijio (Warihio) were mountain warriors of the Sierra Madre, renowned for their fierce independence.
+		land_morale = 0.05
 	}
 
 	location_modifier = {
-		# The steep Sierra Madre canyons and mountains were extremely difficult terrain.
-		local_hostile_attrition = 0.1
+		# The Sierra Madre canyons provided the Guarijio with naturally defensive mountain terrain.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -735,13 +735,13 @@ totorame_culture = {  #https://indigenousmexico.org/sinaloa/the-original-indigen
 
 
 	country_modifier = {
-		# This Sierra Madre people practiced mountain farming and foraging in the rugged western Mexican highlands.
-		global_grain_output_modifier = 0.05
+		# The Totorame were a coastal Nayarit people who combined Pacific fishing with agriculture.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The steep Sierra Madre canyons and mountains were extremely difficult terrain.
-		local_hostile_attrition = 0.1
+		# The Pacific coast of Nayarit provided rich marine fishing and shellfish resources.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -783,13 +783,13 @@ tahue_culture = {  #https://es.wikipedia.org/wiki/Tahues
 
 
 	country_modifier = {
-		# This Sierra Madre people practiced mountain farming and foraging in the rugged western Mexican highlands.
-		global_grain_output_modifier = 0.05
+		# The Tahue of lowland Sinaloa participated in regional exchange networks linking coast and highland peoples.
+		trade_efficiency = 0.05
 	}
 
 	location_modifier = {
-		# The steep Sierra Madre canyons and mountains were extremely difficult terrain.
-		local_hostile_attrition = 0.1
+		# The lowland Sinaloa river valleys served as natural exchange corridors between coast and highland peoples.
+		local_trade_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -807,13 +807,13 @@ guasave_culture = {  #https://es.wikipedia.org/wiki/Guasaves
 
 
 	country_modifier = {
-		# This Sierra Madre people practiced mountain farming and foraging in the rugged western Mexican highlands.
-		global_grain_output_modifier = 0.05
+		# The Guasave inhabited the Sinaloa coast, combining fishing with riverine agriculture.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The steep Sierra Madre canyons and mountains were extremely difficult terrain.
-		local_hostile_attrition = 0.1
+		# The Sinaloa coast and river estuaries provided productive fishing and shellfish gathering.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}

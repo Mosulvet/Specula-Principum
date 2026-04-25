@@ -12,8 +12,8 @@
 	}
 
 	location_modifier = {
-		# The Caribbean waters around Hispaniola and Puerto Rico provided abundant fishing alongside Taino agriculture.
-		local_fish_output_modifier = 0.1
+		# The Taino cultivated extensive conucos (raised beds) growing cassava, corn, and sweet potato as their agricultural base.
+		local_grain_output_modifier = 0.15
 	}
 	opinions = {
 	}	
@@ -31,13 +31,13 @@ macorix_culture = {#https://en.wikipedia.org/wiki/Indigenous_peoples_of_the_Cari
 
 
 	country_modifier = {
-		# The Macorix were fishing and farming people of eastern Hispaniola, likely related to earlier Caribbean settlers.
-		global_fish_output_modifier = 0.1
+		# The Macorix were a distinct Hispaniola people who traded with neighboring Taino communities.
+		trade_efficiency = 0.05
 	}
 
 	location_modifier = {
-		# The northeastern coast of Hispaniola provided rich fishing grounds for the Macorix.
-		local_fish_output_modifier = 0.1
+		# The Macorix participated in inter-island exchange networks across Hispaniola and the Greater Antilles.
+		local_trade_output_modifier = 0.1
 	}
 	opinions = {
 	}	
@@ -55,8 +55,8 @@ lucayo = { #https://en.wikipedia.org/wiki/Lucayan_people
 
 
 	country_modifier = {
-		# The Lucayan Taino of the Bahamas were expert fishermen and divers in the shallow Caribbean waters.
-		global_fish_output_modifier = 0.15
+		# The Lucayan maintained peaceful, well-ordered communities across the Bahamas archipelago.
+		stability_cost_modifier = -0.05
 	}
 
 	location_modifier = {
@@ -132,8 +132,8 @@ carib = { #https://en.wikipedia.org/wiki/Kalinago
 	}
 
 	location_modifier = {
-		# The Lesser Antilles chain provided rich fishing grounds and staging points for Carib maritime expeditions.
-		local_fish_output_modifier = 0.1
+		# The Island Caribs defended their territories fiercely against both European and rival indigenous attacks.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}	
@@ -156,8 +156,8 @@ igneri = { #https://en.wikipedia.org/wiki/Igneri
 	}
 
 	location_modifier = {
-		# The Lesser Antilles island waters provided abundant fishing for Igneri coastal communities.
-		local_fish_output_modifier = 0.1
+		# The Igneri (early Arawakan settlers) were skilled agriculturalists who brought cassava cultivation to the Lesser Antilles.
+		local_grain_output_modifier = 0.1
 	}
 	opinions = {
 	}	
@@ -175,8 +175,8 @@ ciguayo_culture = { #https://en.wikipedia.org/wiki/Ciguayos
 
 
 	country_modifier = {
-		# The Ciguayo were a distinct indigenous people of northeastern Hispaniola, living by fishing and agriculture.
-		global_fish_output_modifier = 0.1
+		# The Ciguayo fiercely resisted Columbus's landing in the Gulf of Arrows in 1493, renowned as warriors.
+		army_infantry_power = 0.05
 	}
 
 	location_modifier = {

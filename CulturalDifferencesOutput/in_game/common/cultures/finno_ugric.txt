@@ -1,4 +1,4 @@
-finnish = {
+﻿finnish = {
 	language = finnish_dialect
 	
 	color = map_finnish
@@ -29,13 +29,13 @@ tavastian = {
 	tags = { finnish_gfx eastern_european_gfx european_gfx }
 
 	country_modifier = {
-# The Tavastians of the Finnish interior maintained a mixed economy of slash-and-burn agriculture and animal husbandry.
-		global_livestock_output_modifier = 0.1
+		# The Tavastians were settled Finnish agriculturalists known for stable farming communities in the interior.
+		stability_cost_modifier = -0.05
 	}
 
 	location_modifier = {
-# Tavastia's dense boreal forests and lake-riddled terrain made it difficult for invading armies to operate.
-		local_hostile_attrition = 0.1
+		# The Tavastian interior of Finland supported settled agriculture with rye and barley cultivation.
+		local_grain_output_modifier = 0.1
 	}
 
 	culture_groups = {
@@ -56,8 +56,8 @@ savonian = {
 	}
 
 	location_modifier = {
-# Savo's wilderness of forests, lakes, and marshes was ideal for defensive guerrilla-style border warfare.
-		local_hostile_attrition = 0.1
+		# The Savonian frontier region's dense forests and slash-and-burn clearings provided natural defensive terrain.
+		local_defensive = 0.1
 	}
 
 	culture_groups = {
@@ -100,8 +100,8 @@ bjarmian = {
 	}
 
 	location_modifier = {
-# The remote White Sea and northern taiga regions were virtually inaccessible to outside military forces.
-		local_hostile_attrition = 0.1
+		# Bjarmia (Bjarmaland) on the White Sea was a key trading post for Norse-Finnic exchange of furs, walrus ivory, and metals.
+		local_trade_output_modifier = 0.1
 	}
 
 	culture_groups = {
@@ -124,8 +124,8 @@ karelian = {
 	}
 
 	location_modifier = {
-# Karelia's vast forests and lakes formed a natural barrier between Novgorodian and Swedish spheres of influence.
-		local_hostile_attrition = 0.1
+		# Karelia's vast lake systems (Ladoga, Onega) provided productive freshwater fishing alongside forestry.
+		local_fish_output_modifier = 0.1
 	}
 
 	culture_groups = {
@@ -141,12 +141,12 @@ sapmi = {
 	tags = { sami_gfx finnish_gfx eastern_european_gfx european_gfx }
 
 	country_modifier = {
-# The Sámi developed one of the world's most sophisticated reindeer herding cultures, essential for survival in the Arctic.
+# The SÃ¡mi developed one of the world's most sophisticated reindeer herding cultures, essential for survival in the Arctic.
 		global_livestock_output_modifier = 0.15
 	}
 
 	location_modifier = {
-# The Arctic tundra and subarctic forests of Sápmi were among the most inhospitable terrains on Earth for invading armies.
+# The Arctic tundra and subarctic forests of SÃ¡pmi were among the most inhospitable terrains on Earth for invading armies.
 		local_hostile_attrition = 0.15
 	}
 	
@@ -224,13 +224,13 @@ mari_culture = {
 	tags = { central_asian_gfx middle_east_gfx }
 
 	country_modifier = {
-# The Mari people of the middle Volga maintained a forest-dwelling culture based on animal husbandry and bee-keeping.
-		global_livestock_output_modifier = 0.1
+		# The Mari practiced slash-and-burn agriculture along the Volga, growing rye, oats, and buckwheat.
+		global_grain_output_modifier = 0.05
 	}
 
 	location_modifier = {
-# The dense forests of the Mari El region provided natural shelter against steppe raiders and Russian expansion.
-		local_hostile_attrition = 0.1
+		# The Volga Mari region supported productive slash-and-burn agriculture in the forest clearings.
+		local_grain_output_modifier = 0.1
 	}
 
 
@@ -243,13 +243,13 @@ merya_culture = {
 	tags = { finnish_gfx eastern_european_gfx european_gfx }
 
 	country_modifier = {
-# The Merya were a Finno-Ugric forest people of the upper Volga, practicing pastoral farming and hunting.
-		global_livestock_output_modifier = 0.1
+		# The Merya inhabited the upper Volga region and participated in long-distance Volga-Baltic trade networks.
+		trade_efficiency = 0.05
 	}
 
 	location_modifier = {
-# The Merya homeland in the forests north of the Volga was remote and difficult to penetrate militarily.
-		local_hostile_attrition = 0.1
+		# The Merya territories along the upper Volga were key nodes in the Volga fur and amber trade routes.
+		local_trade_output_modifier = 0.1
 	}
 
 

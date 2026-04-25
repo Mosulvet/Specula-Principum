@@ -37,8 +37,8 @@ nahua_culture = { #https://en.wikipedia.org/wiki/Nahuas
 	}
 
 	location_modifier = {
-		# The chinampa floating gardens of the Valley of Mexico were among the most productive agricultural systems ever devised.
-		local_grain_output_modifier = 0.15
+		# The Basin of Mexico supported vast trade networks centered on Tlatelolco, the greatest market in the Americas.
+		local_trade_output_modifier = 0.15
 	}
 	opinions = {
 	}
@@ -62,8 +62,8 @@ tolimec_culture = {
 	}
 
 	location_modifier = {
-		# The central Mexican valleys supported productive maize, bean, and squash cultivation.
-		local_grain_output_modifier = 0.1
+		# The Tolimec produced high-quality craft goods in their Guerrero highland workshops.
+		local_production_efficiency = 0.05
 	}
 	opinions = {
 	}
@@ -87,8 +87,8 @@ pochutec_culture = { #https://en.wikipedia.org/wiki/Pochutec_language
 	}
 
 	location_modifier = {
-		# The central Mexican valleys supported productive maize, bean, and squash cultivation.
-		local_grain_output_modifier = 0.1
+		# The Pacific coast of Oaxaca provided productive fishing alongside agricultural terracing.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -138,8 +138,8 @@ cuitlatec_culture = { #https://es.wikipedia.org/wiki/Idioma_cuitlateco
 	}
 
 	location_modifier = {
-		# The central Mexican valleys supported productive maize, bean, and squash cultivation.
-		local_grain_output_modifier = 0.1
+		# The Cuitlatec river valleys of Guerrero supported skilled artisanal production including metalwork.
+		local_production_efficiency = 0.1
 	}
 	opinions = {
 	}
@@ -163,8 +163,8 @@ otomanguean_culture = {
 	}
 
 	location_modifier = {
-		# The semi-arid central Mexican plateau supported intensive maguey and maize cultivation.
-		local_grain_output_modifier = 0.1
+		# The Otomi highland territories provided natural defensive terrain in the central Mexican mountains.
+		local_hostile_attrition = 0.1
 	}
 	opinions = {
 	}
@@ -188,8 +188,8 @@ matlatzinca_culture = { #https://es.wikipedia.org/wiki/Pueblo_matlatzinca
 	}
 
 	location_modifier = {
-		# The Valley of Toluca's high altitude supported productive maize farming.
-		local_grain_output_modifier = 0.1
+		# The fortified Matlatzinca settlements in the Toluca Valley provided strong defensive positions.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -263,8 +263,8 @@ popoloca_culture = { #https://en.wikipedia.org/wiki/Popoloca_languages
 	}
 
 	location_modifier = {
-		# The mountainous terrain of southern Mexico supported terraced and milpa agriculture.
-		local_grain_output_modifier = 0.1
+		# The Tehuacan Valley's defensible hilltop settlements protected the Popoloca from neighboring aggression.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -338,8 +338,8 @@ totonac_culture = { #https://en.wikipedia.org/wiki/Totonac
 	}
 
 	location_modifier = {
-		# The Gulf Coast lowlands of Veracruz were highly productive tropical agricultural lands.
-		local_grain_output_modifier = 0.1
+		# Veracruz's El Tajin was a major Mesoamerican trade center, connecting Gulf Coast goods with the highlands.
+		local_trade_output_modifier = 0.15
 	}
 	opinions = {
 	}
@@ -609,13 +609,13 @@ toltec_culture = { #https://en.wikipedia.org/wiki/Toltec
 	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx aztec_coa_gfx }
 
 	country_modifier = {
-		# This Nahua-related people practiced intensive maize agriculture in the central Mexican highlands.
-		global_grain_output_modifier = 0.1
+		# The Toltec warrior tradition influenced all subsequent Mesoamerican military culture and statecraft.
+		army_infantry_power = 0.1
 	}
 
 	location_modifier = {
-		# The central Mexican valleys supported productive maize, bean, and squash cultivation.
-		local_grain_output_modifier = 0.1
+		# Tula's workshops produced obsidian tools, ceramics, and luxury goods traded across Mesoamerica.
+		local_production_efficiency = 0.15
 	}
 	opinions = {
 	}
@@ -638,8 +638,8 @@ ikoot_culture = { #https://es.wikipedia.org/wiki/Ikoots
 	}
 
 	location_modifier = {
-		# The mountainous terrain of southern Mexico supported terraced and milpa agriculture.
-		local_grain_output_modifier = 0.1
+		# The Huave (Ikoot) of the Oaxaca lagoons were primarily fishers, harvesting the lagoon's rich marine life.
+		local_fish_output_modifier = 0.15
 	}
 	opinions = {
 	}
@@ -759,8 +759,8 @@ chontal_culture = { #Yoko t'aanob #https://es.wikipedia.org/wiki/Chontales_de_Ta
 	}
 
 	location_modifier = {
-		# The Maya homeland's tropical soils supported productive maize agriculture.
-		local_grain_output_modifier = 0.1
+		# The Gulf Coast Chontal Maya combined lagoon fishing with cacao cultivation and canoe trade.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -779,8 +779,8 @@ poqom_culture = { #https://en.wikipedia.org/wiki/Poqomam_people
 	
 
 	country_modifier = {
-		# This Maya-speaking people maintained the agricultural and cultural traditions of one of the Americas' greatest civilizations.
-		global_grain_output_modifier = 0.1
+		# The Poqom were highland Maya warriors known for defending their territories against Kiche expansion.
+		army_infantry_power = 0.05
 	}
 
 	location_modifier = {
@@ -853,8 +853,8 @@ mam_culture = { #https://es.wikipedia.org/wiki/Mam_(etnia)
 	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx maya_coa_gfx }
 
 	country_modifier = {
-		# This Maya-speaking people maintained the agricultural and cultural traditions of one of the Americas' greatest civilizations.
-		global_grain_output_modifier = 0.1
+		# The Mam maintained stable highland communities in western Guatemala with sophisticated governance.
+		stability_cost_modifier = -0.05
 	}
 
 	location_modifier = {
@@ -974,8 +974,8 @@ chol_culture = { #Chʼol #https://en.wikipedia.org/wiki/Ch%CA%BCol_people
 	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx maya_coa_gfx }
 
 	country_modifier = {
-		# This Maya-speaking people maintained the agricultural and cultural traditions of one of the Americas' greatest civilizations.
-		global_grain_output_modifier = 0.1
+		# The Chol Maya were active traders in the western Maya lowlands, linking highland and lowland economies.
+		trade_efficiency = 0.05
 	}
 
 	location_modifier = {
@@ -1123,8 +1123,8 @@ toquegua_culture = { #https://en.wikipedia.org/wiki/Toquegua
 	}
 
 	location_modifier = {
-		# The Maya homeland's tropical soils supported productive maize agriculture.
-		local_grain_output_modifier = 0.1
+		# The remote mountain terrain of the Toquegua homeland was difficult for outsiders to traverse.
+		local_hostile_attrition = 0.1
 	}
 	opinions = {
 	}
@@ -1190,13 +1190,13 @@ huastec_culture = {
 	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx huastec_coa_gfx }
 
 	country_modifier = {
-		# The Huastec were a Maya-speaking people isolated in northeastern Mexico, developing a distinct cultural tradition.
-		global_grain_output_modifier = 0.1
+		# The Huastec maintained a Gulf Coast trading culture connecting the Maya world and central Mexico.
+		trade_efficiency = 0.1
 	}
 
 	location_modifier = {
-		# The Huastec Gulf Coast lowlands supported productive tropical agriculture.
-		local_grain_output_modifier = 0.1
+		# The Gulf Coast Huasteca region provided rich fishing and shellfish resources alongside agriculture.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}

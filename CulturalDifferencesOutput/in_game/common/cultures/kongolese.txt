@@ -7,8 +7,8 @@
 
 
 	country_modifier = {
-		# This equatorial forest people practiced shifting cultivation and traded forest products including ivory and rubber.
-		global_grain_output_modifier = 0.05
+		# The Myene (Omiene) of the OgoouÃ© River combined fishing with trade along Gabon's major waterway.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
@@ -29,8 +29,8 @@ mitsogo = {
 
 
 	country_modifier = {
-		# This equatorial forest people practiced shifting cultivation and traded forest products including ivory and rubber.
-		global_grain_output_modifier = 0.05
+		# The Tsogo were the founders of the Bwiti spiritual tradition, maintaining exceptional cultural cohesion.
+		stability_cost_modifier = -0.05
 	}
 
 	location_modifier = {
@@ -52,8 +52,8 @@ eshira = {
 
 
 	country_modifier = {
-		# This equatorial forest people practiced shifting cultivation and traded forest products including ivory and rubber.
-		global_grain_output_modifier = 0.05
+		# The Eshira (Shira) of southern Gabon were active in regional trade networks along river systems.
+		trade_efficiency = 0.05
 	}
 
 	location_modifier = {
@@ -122,8 +122,8 @@ bandjabi = {
 
 
 	country_modifier = {
-		# This equatorial forest people practiced shifting cultivation and traded forest products including ivory and rubber.
-		global_grain_output_modifier = 0.05
+		# The Ndjabi were skilled forest warriors of southern Gabon, defending their territories effectively.
+		land_morale = 0.05
 	}
 
 	location_modifier = {
@@ -145,8 +145,8 @@ kota_gabun = {
 
 
 	country_modifier = {
-		# This equatorial forest people practiced shifting cultivation and traded forest products including ivory and rubber.
-		global_grain_output_modifier = 0.05
+		# The Kota were renowned warriors and metalworkers of northeastern Gabon, famous for reliquary guardian figures.
+		army_infantry_power = 0.05
 	}
 
 	location_modifier = {
@@ -168,8 +168,8 @@ mbaka = {
 
 
 	country_modifier = {
-		# This equatorial forest people practiced shifting cultivation and traded forest products including ivory and rubber.
-		global_grain_output_modifier = 0.05
+		# The Mbaka were riverside traders along the Ubangi River, facilitating exchange between forest and savanna.
+		trade_efficiency = 0.05
 	}
 
 	location_modifier = {
@@ -191,8 +191,8 @@ vili = { #https://en.wikipedia.org/wiki/Vili_people
 
 
 	country_modifier = {
-		# This Kongo-related people practiced agriculture in the tropical forests and savannas of the Congo basin.
-		global_grain_output_modifier = 0.1
+		# The Vili of the Loango coast were major long-distance traders, connecting the interior with European maritime commerce.
+		trade_efficiency = 0.1
 	}
 
 	location_modifier = {
@@ -214,8 +214,8 @@ bakele = {
 
 
 	country_modifier = {
-		# This equatorial forest people practiced shifting cultivation and traded forest products including ivory and rubber.
-		global_grain_output_modifier = 0.05
+		# The Kele warriors of the Gabonese interior were known for their military prowess in forest warfare.
+		army_infantry_power = 0.05
 	}
 
 	location_modifier = {
@@ -283,8 +283,8 @@ basingui = {
 
 
 	country_modifier = {
-		# This equatorial forest people practiced shifting cultivation and traded forest products including ivory and rubber.
-		global_grain_output_modifier = 0.05
+		# The Ngiri maintained stable forest communities with well-organized social structures along the Congo tributaries.
+		stability_cost_modifier = -0.05
 	}
 
 	location_modifier = {
@@ -375,8 +375,8 @@ cabinda = {
 
 
 	country_modifier = {
-		# This Kongo-related people practiced agriculture in the tropical forests and savannas of the Congo basin.
-		global_grain_output_modifier = 0.1
+		# Cabinda's coastal position made it a key node in Atlantic trade networks connecting Congo interior goods.
+		trade_efficiency = 0.05
 	}
 
 	location_modifier = {
@@ -403,8 +403,8 @@ bwende = {
 	}
 
 	location_modifier = {
-		# The fertile tropical soils supported productive agriculture of cassava, yams, and plantains.
-		local_grain_output_modifier = 0.1
+		# The Bwende (Sonde) produced distinctive cloth and ceremonial objects for regional trade.
+		local_production_efficiency = 0.05
 	}
 	opinions = {
 	}
@@ -421,8 +421,8 @@ wumbu = {
 
 
 	country_modifier = {
-		# This equatorial forest people practiced shifting cultivation and traded forest products including ivory and rubber.
-		global_grain_output_modifier = 0.05
+		# The Wumbu (Lumbu) of southwestern Gabon had strong community organization and social stability.
+		stability_cost_modifier = -0.05
 	}
 
 	location_modifier = {
@@ -467,8 +467,8 @@ kakongo = {
 
 
 	country_modifier = {
-		# This Kongo-related people practiced agriculture in the tropical forests and savannas of the Congo basin.
-		global_grain_output_modifier = 0.1
+		# Kakongo was a coastal trading state that profited from commerce between the interior and Atlantic coast.
+		trade_efficiency = 0.1
 	}
 
 	location_modifier = {
@@ -702,8 +702,8 @@ owambo_culture = {
 	}
 
 	location_modifier = {
-		# The Owambo floodplain of northern Namibia supported productive farming during the seasonal rains.
-		local_grain_output_modifier = 0.1
+		# The Ovambo kept large cattle herds alongside millet cultivation in northern Namibia.
+		local_livestock_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -931,8 +931,8 @@ dinga = {
 	}
 
 	location_modifier = {
-		# The western Congo basin's tropical soils supported productive agriculture.
-		local_grain_output_modifier = 0.1
+		# The remote Kasai region forests were difficult terrain for outside forces to penetrate.
+		local_hostile_attrition = 0.1
 	}
 	opinions = {
 	}
@@ -1131,8 +1131,8 @@ hemba = {
 	}
 
 	location_modifier = {
-		# The fertile Congo basin soils supported productive tropical agriculture.
-		local_grain_output_modifier = 0.1
+		# The Hemba were master sculptors, producing some of Central Africa's finest ancestor figures and ceremonial art.
+		local_production_efficiency = 0.1
 	}
 	opinions = {
 	}
@@ -1177,8 +1177,8 @@ tabwa = {
 	}
 
 	location_modifier = {
-		# The southern Central African savanna supported productive grain agriculture.
-		local_grain_output_modifier = 0.1
+		# The Tabwa on the shores of Lake Tanganyika were productive freshwater fishers.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -1383,8 +1383,8 @@ bashilele = {
 	}
 
 	location_modifier = {
-		# The western Congo basin's tropical soils supported productive agriculture.
-		local_grain_output_modifier = 0.1
+		# The Lele were renowned cloth producers, weaving raffia textiles traded across the Kasai region.
+		local_production_efficiency = 0.1
 	}
 	opinions = {
 	}

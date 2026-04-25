@@ -36,8 +36,8 @@ chewa_culture = { #Bantu Group N https://en.wikipedia.org/wiki/Chewa_people
 	}
 
 	location_modifier = {
-		# The Shire Valley and Lake Malawi shore supported productive Chewa farming communities.
-		local_grain_output_modifier = 0.1
+		# The Chewa were skilled ironworkers and potters with strong artisanal production traditions.
+		local_production_efficiency = 0.05
 	}
 	opinions = {
 	}
@@ -73,13 +73,13 @@ luhya_culture = { #Bantu Group J https://en.wikipedia.org/wiki/Luhya_people
 
 
 	country_modifier = {
-		# The Luhya were settled agriculturalists of western Kenya, growing millet, sorghum, and beans.
-		global_grain_output_modifier = 0.1
+		# The Luhya maintained well-organized agricultural communities with strong social institutions in western Kenya.
+		stability_cost_modifier = -0.05
 	}
 
 	location_modifier = {
-		# The fertile highlands of western Kenya provided productive farmland for Luhya communities.
-		local_grain_output_modifier = 0.1
+		# The Luhya region of western Kenya supported cattle-keeping alongside agriculture.
+		local_livestock_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -94,13 +94,13 @@ makhuwa_culture = { #Bantu Group P (now S) https://en.wikipedia.org/wiki/Makua_p
 
 
 	country_modifier = {
-		# This Bantu-speaking people practiced mixed agriculture, growing sorghum, millet, and other crops.
-		global_grain_output_modifier = 0.1
+		# The Makhuwa of coastal Mozambique combined fishing and trade along the Indian Ocean seaboard.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The East African coastal and inland regions supported productive mixed farming.
-		local_grain_output_modifier = 0.1
+		# The Mozambique coast provided productive Indian Ocean fishing and maritime resources.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -120,8 +120,8 @@ matuumbi_culture = { #Bantu Group P https://en.wikipedia.org/wiki/Matumbi_people
 	}
 
 	location_modifier = {
-		# The East African coastal and inland regions supported productive mixed farming.
-		local_grain_output_modifier = 0.1
+		# The remote southeastern Tanzania forests provided natural defensive cover.
+		local_hostile_attrition = 0.1
 	}
 	opinions = {
 	}
@@ -283,13 +283,13 @@ sena_culture = { #Bantu Group N https://en.wikipedia.org/wiki/Sena_people
 
 
 	country_modifier = {
-		# This Bantu-speaking people practiced mixed agriculture, growing sorghum, millet, and other crops.
-		global_grain_output_modifier = 0.1
+		# The Sena controlled key positions on the Zambezi River, participating in gold and ivory trade.
+		trade_efficiency = 0.05
 	}
 
 	location_modifier = {
-		# The East African coastal and inland regions supported productive mixed farming.
-		local_grain_output_modifier = 0.1
+		# The Zambezi River valley was a key trade corridor for gold, ivory, and salt exchange.
+		local_trade_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -309,8 +309,8 @@ seuta_culture = { #Bantu Group G
 	}
 
 	location_modifier = {
-		# The East African coastal and inland regions supported productive mixed farming.
-		local_grain_output_modifier = 0.1
+		# The coastal regions near the Swahili trading cities supported productive fishing.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -393,8 +393,8 @@ tumbuka_culture = { #Bantu Group N https://en.wikipedia.org/wiki/Tumbuka_people
 	}
 
 	location_modifier = {
-		# The East African coastal and inland regions supported productive mixed farming.
-		local_grain_output_modifier = 0.1
+		# The remote northern Malawi highlands were difficult terrain for outsiders to penetrate.
+		local_hostile_attrition = 0.1
 	}
 	opinions = {
 	}

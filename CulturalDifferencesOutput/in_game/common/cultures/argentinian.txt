@@ -25,8 +25,8 @@ selknam_culture = {  #Selk'nam  https://es.wikipedia.org/wiki/Selknam
 	}
 
 	location_modifier = {
-		# Tierra del Fuego's bitter cold, constant winds, and isolation made it extremely inhospitable.
-		local_hostile_attrition = 0.15
+		# The Selk'nam defended their Tierra del Fuego hunting grounds against all outsiders.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -51,8 +51,8 @@ yaghan_culture = {  #https://en.wikipedia.org/wiki/Yahgan_people
 	}
 
 	location_modifier = {
-		# The Beagle Channel's sub-Antarctic waters and extreme weather made it Earth's most remote inhabited coastline.
-		local_hostile_attrition = 0.15
+		# The YÃ¡mana were expert canoe-borne marine hunters and fishers in the Beagle Channel and surrounding waters.
+		local_fish_output_modifier = 0.15
 	}
 	opinions = {
 	}
@@ -76,8 +76,8 @@ kawesqar_culture = {  #https://en.wikipedia.org/wiki/Kaw%C3%A9sqar
 	}
 
 	location_modifier = {
-		# The Chilean fjords' extreme storms and icy waters were deadly to unprepared outsiders.
-		local_hostile_attrition = 0.15
+		# The KawÃ©sqar were marine nomads of the western Patagonian channels, living primarily from shellfish and fish.
+		local_fish_output_modifier = 0.15
 	}
 	opinions = {
 	}
@@ -101,8 +101,8 @@ aonikenk_culture = {  #https://es.wikipedia.org/wiki/Tehuelches
 	}
 
 	location_modifier = {
-		# The windswept Patagonian steppe was one of the most desolate inhabited regions on Earth.
-		local_hostile_attrition = 0.15
+		# The vast windswept Patagonian steppe was naturally defensive territory that outsiders struggled to traverse.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -201,8 +201,8 @@ mapuche_culture = {  #https://es.wikipedia.org/wiki/Pueblo_mapuche
 	}
 
 	location_modifier = {
-		# The Mapuche homeland's forests, rivers, and mountains were ideal terrain for their guerrilla resistance.
-		local_hostile_attrition = 0.15
+		# The Mapuche built fortified pukaras and used the Araucanian forests as natural defensive terrain against Inca and Spanish.
+		local_defensive = 0.15
 	}
 	opinions = {
 	}
@@ -226,8 +226,8 @@ quirandi_culture = {  #https://es.wikipedia.org/wiki/Querand%C3%ADes
 	}
 
 	location_modifier = {
-		# The vast Argentine Pampas were difficult terrain for outsiders unfamiliar with the featureless grasslands.
-		local_hostile_attrition = 0.1
+		# The QuerandÃ­ controlled the Pampas grasslands with mobile guerrilla warfare tactics.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -301,8 +301,8 @@ pikumche_culture = {  #https://es.wikipedia.org/wiki/Picunches
 	}
 
 	location_modifier = {
-		# The dense Valdivian temperate rainforests and mountains were difficult for invaders.
-		local_hostile_attrition = 0.1
+		# The Picunche farmed the fertile central Chilean valleys, growing maize, squash, and potatoes.
+		local_grain_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -326,8 +326,8 @@ williche_culture = {  #https://es.wikipedia.org/wiki/Huilliches
 	}
 
 	location_modifier = {
-		# The dense Valdivian temperate rainforests and mountains were difficult for invaders.
-		local_hostile_attrition = 0.1
+		# The Huilliche cultivated potatoes and grains in the fertile valleys of southern Chile.
+		local_grain_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -801,8 +801,8 @@ enlhet_culture = {  #https://es.wikipedia.org/wiki/Enlhet
 	}
 
 	location_modifier = {
-		# The Gran Chaco's dense thornbush, extreme heat, and limited water made it inhospitable to outsiders.
-		local_hostile_attrition = 0.1
+		# The Enlhet cultivated garden plots in the Chaco alongside hunting and gathering.
+		local_grain_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -826,8 +826,8 @@ enxet_culture = {  #https://es.wikipedia.org/wiki/Pueblo_enxet
 	}
 
 	location_modifier = {
-		# The Gran Chaco's dense thornbush, extreme heat, and limited water made it inhospitable to outsiders.
-		local_hostile_attrition = 0.1
+		# The Enxet practiced seasonal agriculture in the central Paraguayan Chaco.
+		local_grain_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -851,8 +851,8 @@ guana_culture = {  #https://es.wikipedia.org/wiki/Guan%C3%A1s
 	}
 
 	location_modifier = {
-		# The Gran Chaco's dense thornbush, extreme heat, and limited water made it inhospitable to outsiders.
-		local_hostile_attrition = 0.1
+		# The Guana were skilled agriculturalists of the Chaco, growing crops for both themselves and the MbayÃ¡ elite.
+		local_grain_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -1051,8 +1051,8 @@ baure_culture = {  #https://es.wikipedia.org/wiki/Baures
 	}
 
 	location_modifier = {
-		# The Bolivian tropical lowlands were remote and difficult to access from the highlands.
-		local_hostile_attrition = 0.1
+		# The Moxos floodplain and river systems of eastern Bolivia provided productive freshwater fishing.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -1176,8 +1176,8 @@ itonama_culture = {  #https://es.wikipedia.org/wiki/Itonamas
 	}
 
 	location_modifier = {
-		# The Bolivian tropical lowlands were remote and difficult to access from the highlands.
-		local_hostile_attrition = 0.1
+		# The Moxos floodplain and river systems of eastern Bolivia provided productive freshwater fishing.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -1201,8 +1201,8 @@ movima_culture = {  #https://es.wikipedia.org/wiki/Movimas
 	}
 
 	location_modifier = {
-		# The Bolivian tropical lowlands were remote and difficult to access from the highlands.
-		local_hostile_attrition = 0.1
+		# The Moxos floodplain and river systems of eastern Bolivia provided productive freshwater fishing.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -1226,8 +1226,8 @@ cayubaba_culture = {  #https://es.wikipedia.org/wiki/Cayubabas
 	}
 
 	location_modifier = {
-		# The Bolivian tropical lowlands were remote and difficult to access from the highlands.
-		local_hostile_attrition = 0.1
+		# The Moxos floodplain and river systems of eastern Bolivia provided productive freshwater fishing.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -1328,8 +1328,8 @@ het_culture = {  #https://es.wikipedia.org/wiki/Hets
 	}
 
 	location_modifier = {
-		# The vast Argentine Pampas were difficult terrain for outsiders unfamiliar with the featureless grasslands.
-		local_hostile_attrition = 0.1
+		# The Het (QuerandÃ­-related) lived on the fertile Pampas with seasonal cultivation.
+		local_grain_output_modifier = 0.1
 	}
 	opinions = {
 	}

@@ -1,4 +1,4 @@
-komi = {
+﻿komi = {
 	language = permic_language
 	
 	color = map_komi
@@ -6,13 +6,13 @@ komi = {
 	tags = { finnish_gfx european_gfx }
 
 	country_modifier = {
-# The Komi were skilled fur trappers and traders in the northern Ural forests, supplying valuable pelts to Novgorodian and Muscovite markets.
+		# The Komi were active participants in the Pechora fur trade, exchanging pelts with Novgorodian merchants.
 		trade_efficiency = 0.05
 	}
 
 	location_modifier = {
-# The vast Komi taiga forests were impenetrable to organized military forces, providing natural protection for their scattered communities.
-		local_hostile_attrition = 0.1
+		# The Pechora and Vychegda rivers provided freshwater fishing alongside the fur trade.
+		local_fish_output_modifier = 0.1
 	}
 
 	opinions = {
@@ -29,8 +29,8 @@ besermyan = {
 	tags = { central_asian_gfx middle_east_gfx }
 
 	country_modifier = {
-# The Besermyans were a small Finno-Ugric people who maintained pastoral and agricultural traditions in the Vyatka river region.
-		global_livestock_output_modifier = 0.1
+		# The Besermyan maintained unique cultural identity through stable community practices blending Turkic and Finno-Ugric traditions.
+		stability_cost_modifier = -0.05
 	}
 
 	location_modifier = {
@@ -57,8 +57,8 @@ udmurt = {
 	}
 
 	location_modifier = {
-# The Udmurt lands between the Vyatka and Kama rivers were heavily forested, presenting a natural barrier to outside incursions.
-		local_hostile_attrition = 0.1
+		# The Udmurt territory along the Kama River supported productive agriculture with rye and barley.
+		local_grain_output_modifier = 0.1
 	}
 
 	opinions = {

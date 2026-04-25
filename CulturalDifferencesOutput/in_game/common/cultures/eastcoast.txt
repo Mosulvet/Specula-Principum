@@ -306,13 +306,13 @@ powhatan_culture = {
 
 
 	country_modifier = {
-		# The Powhatan Confederacy was the most powerful alliance in the mid-Atlantic, uniting dozens of tribes under a paramount chief.
-		prestige = 5
+		# The Powhatan Confederacy combined Chesapeake Bay fishing and shellfish gathering with farming.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The Chesapeake Bay tidewater supported productive farming and abundant shellfish.
-		local_grain_output_modifier = 0.1
+		# The tidewater coast provided productive fishing, shellfish gathering, and marine resources.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -330,12 +330,12 @@ pamlico_culture = {
 
 
 	country_modifier = {
-		# This coastal Southeastern people combined farming with fishing and shellfish gathering.
-		global_grain_output_modifier = 0.05
+		# This coastal people combined fishing, shellfish gathering, and farming in the tidewater lowlands.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The southeastern Atlantic coast provided rich fishing and shellfish resources.
+		# The tidewater coast provided productive fishing, shellfish gathering, and marine resources.
 		local_fish_output_modifier = 0.1
 	}
 	opinions = {
@@ -354,8 +354,8 @@ doeg_culture = {
 
 
 	country_modifier = {
-		# This Algonquian people practiced settled agriculture and fishing in the Mid-Atlantic coastal zone.
-		global_grain_output_modifier = 0.1
+		# The Doeg (Dogue) were Potomac River people who combined tidewater fishing with farming.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
@@ -766,8 +766,8 @@ monacan_culture = {
 	}
 
 	location_modifier = {
-		# The Piedmont river valleys supported productive Three Sisters farming.
-		local_grain_output_modifier = 0.1
+		# The defensive terrain of hills and river bluffs provided natural fortification positions.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -790,8 +790,8 @@ tutelo_culture = {
 	}
 
 	location_modifier = {
-		# The Piedmont river valleys supported productive Three Sisters farming.
-		local_grain_output_modifier = 0.1
+		# The defensive terrain of hills and river bluffs provided natural fortification positions.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -814,8 +814,8 @@ catawba_culture = {
 	}
 
 	location_modifier = {
-		# The Piedmont river valleys supported productive Three Sisters farming.
-		local_grain_output_modifier = 0.1
+		# The defensive terrain of hills and river bluffs provided natural fortification positions.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -838,8 +838,8 @@ waccamaw_culture = {
 	}
 
 	location_modifier = {
-		# The Piedmont river valleys supported productive Three Sisters farming.
-		local_grain_output_modifier = 0.1
+		# The defensive terrain of hills and river bluffs provided natural fortification positions.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -857,13 +857,13 @@ issati_culture = {
 
 
 	country_modifier = {
-		# This Siouan people were warrior-farmers of the prairie-woodland border, combining bison hunting with maize agriculture.
+		# The Mdewakanton (Issati) Dakota were skilled hunters and warriors of the Great Lakes-Plains frontier.
 		army_infantry_power = 0.05
 	}
 
 	location_modifier = {
-		# The Missouri and Ohio River valleys supported productive farming alongside prairie hunting.
-		local_grain_output_modifier = 0.1
+		# The Great Lakes wild rice beds and bison-rich prairie margins provided diverse food resources.
+		local_livestock_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -886,8 +886,8 @@ moneton_culture = {
 	}
 
 	location_modifier = {
-		# The Piedmont river valleys supported productive Three Sisters farming.
-		local_grain_output_modifier = 0.1
+		# The defensive terrain of hills and river bluffs provided natural fortification positions.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -910,8 +910,8 @@ kansa_culture = {
 	}
 
 	location_modifier = {
-		# The Missouri and Ohio River valleys supported productive farming alongside prairie hunting.
-		local_grain_output_modifier = 0.1
+		# The Great Plains bison herds provided the primary food resource for these Siouan peoples.
+		local_livestock_output_modifier = 0.15
 	}
 	opinions = {
 		osage_culture = kindred
@@ -938,8 +938,8 @@ osage_culture = { #https://en.wikipedia.org/wiki/Osage_Nation
 	}
 
 	location_modifier = {
-		# The Missouri and Ohio River valleys supported productive farming alongside prairie hunting.
-		local_grain_output_modifier = 0.1
+		# The Great Plains bison herds provided the primary food resource for these Siouan peoples.
+		local_livestock_output_modifier = 0.15
 	}
 	opinions = {
 		kansa_culture = kindred
@@ -966,8 +966,8 @@ quapaw_culture = {
 	}
 
 	location_modifier = {
-		# The Missouri and Ohio River valleys supported productive farming alongside prairie hunting.
-		local_grain_output_modifier = 0.1
+		# The Great Plains bison herds provided the primary food resource for these Siouan peoples.
+		local_livestock_output_modifier = 0.15
 	}
 	opinions = {
 		osage_culture = kindred
@@ -994,8 +994,8 @@ omaha_culture = {
 	}
 
 	location_modifier = {
-		# The Missouri and Ohio River valleys supported productive farming alongside prairie hunting.
-		local_grain_output_modifier = 0.1
+		# The Great Plains bison herds provided the primary food resource for these Siouan peoples.
+		local_livestock_output_modifier = 0.15
 	}
 	opinions = {
 		osage_culture = kindred
@@ -1022,8 +1022,8 @@ ponca_culture = {
 	}
 
 	location_modifier = {
-		# The Missouri and Ohio River valleys supported productive farming alongside prairie hunting.
-		local_grain_output_modifier = 0.1
+		# The Great Plains bison herds provided the primary food resource for these Siouan peoples.
+		local_livestock_output_modifier = 0.15
 	}
 	opinions = {
 		osage_culture = kindred
@@ -1045,12 +1045,12 @@ cusabo_culture = {
 
 
 	country_modifier = {
-		# This coastal Southeastern people combined farming with fishing and shellfish gathering.
-		global_grain_output_modifier = 0.05
+		# This coastal people combined fishing, shellfish gathering, and farming in the tidewater lowlands.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The southeastern Atlantic coast provided rich fishing and shellfish resources.
+		# The tidewater coast provided productive fishing, shellfish gathering, and marine resources.
 		local_fish_output_modifier = 0.1
 	}
 	opinions = {
@@ -1097,12 +1097,12 @@ guale_culture = {
 
 
 	country_modifier = {
-		# This coastal Southeastern people combined farming with fishing and shellfish gathering.
-		global_grain_output_modifier = 0.05
+		# This coastal people combined fishing, shellfish gathering, and farming in the tidewater lowlands.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The southeastern Atlantic coast provided rich fishing and shellfish resources.
+		# The tidewater coast provided productive fishing, shellfish gathering, and marine resources.
 		local_fish_output_modifier = 0.1
 	}
 	opinions = {
@@ -1121,12 +1121,12 @@ yamasee_culture = {
 
 
 	country_modifier = {
-		# This coastal Southeastern people combined farming with fishing and shellfish gathering.
-		global_grain_output_modifier = 0.05
+		# This coastal people combined fishing, shellfish gathering, and farming in the tidewater lowlands.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The southeastern Atlantic coast provided rich fishing and shellfish resources.
+		# The tidewater coast provided productive fishing, shellfish gathering, and marine resources.
 		local_fish_output_modifier = 0.1
 	}
 	opinions = {
@@ -1305,13 +1305,13 @@ choctaw_culture = {
 
 
 	country_modifier = {
-		# The Choctaw were the largest nation of the Southeast, known as master farmers producing enormous maize surpluses.
-		global_grain_output_modifier = 0.1
+		# The Choctaw were skilled diplomats and traders who maintained extensive exchange networks across the Southeast.
+		trade_efficiency = 0.1
 	}
 
 	location_modifier = {
-		# The Choctaw heartland's rich Mississippi bottomlands supported intensive maize agriculture.
-		local_grain_output_modifier = 0.15
+		# The Mississippi and Gulf Coast trade corridors facilitated extensive exchange of salt, shells, copper, and food.
+		local_trade_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -1329,13 +1329,13 @@ chickasaw_culture = {
 
 
 	country_modifier = {
-		# The Chickasaw were among the most formidable warriors in the Southeast, never defeated in their homeland.
-		army_infantry_power = 0.05
+		# The Chickasaw were among the most feared warriors in the Southeast, never conquered by European colonial powers.
+		army_infantry_power = 0.1
 	}
 
 	location_modifier = {
-		# The Chickasaw homeland's prairies and woodlands supported mixed farming and hunting.
-		local_grain_output_modifier = 0.1
+		# The defensive terrain of hills and river bluffs provided natural fortification positions.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -1353,13 +1353,13 @@ natchez_culture = {
 
 
 	country_modifier = {
-		# The Natchez maintained the last great Mississippian chiefdom, with a divine Sun King and elaborate temple mound ceremonialism.
+		# The Natchez maintained a complex chiefdom with the Great Sun as paramount leader, a unique hierarchical society.
 		prestige = 5
 	}
 
 	location_modifier = {
-		# The Natchez bluffs above the Mississippi supported productive farming.
-		local_grain_output_modifier = 0.1
+		# The defensive terrain of hills and river bluffs provided natural fortification positions.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -1377,13 +1377,13 @@ tunica_culture = { #https://en.wikipedia.org/wiki/Tunica_people
 
 
 	country_modifier = {
-		# This Mississippi Valley people practiced mound-building and intensive floodplain agriculture.
-		global_grain_output_modifier = 0.1
+		# The Tunica controlled the salt trade along the lower Mississippi, a crucial commodity in the Southeast.
+		trade_efficiency = 0.1
 	}
 
 	location_modifier = {
-		# The Mississippi River floodplains supported productive farming for settled communities.
-		local_grain_output_modifier = 0.1
+		# The Mississippi and Gulf Coast trade corridors facilitated extensive exchange of salt, shells, copper, and food.
+		local_trade_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -1401,13 +1401,13 @@ acolapissa_culture = {
 
 
 	country_modifier = {
-		# This Mississippi Valley people practiced mound-building and intensive floodplain agriculture.
-		global_grain_output_modifier = 0.1
+		# The Acolapissa were Lower Mississippi traders who facilitated exchange between Gulf Coast and interior peoples.
+		trade_efficiency = 0.05
 	}
 
 	location_modifier = {
-		# The Mississippi River floodplains supported productive farming for settled communities.
-		local_grain_output_modifier = 0.1
+		# The Mississippi and Gulf Coast trade corridors facilitated extensive exchange of salt, shells, copper, and food.
+		local_trade_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -1425,13 +1425,13 @@ mobile_culture = {
 
 
 	country_modifier = {
-		# This Mississippi Valley people practiced mound-building and intensive floodplain agriculture.
-		global_grain_output_modifier = 0.1
+		# This coastal people combined fishing, shellfish gathering, and farming in the tidewater lowlands.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The Mississippi River floodplains supported productive farming for settled communities.
-		local_grain_output_modifier = 0.1
+		# The Mississippi and Gulf Coast trade corridors facilitated extensive exchange of salt, shells, copper, and food.
+		local_trade_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -1449,13 +1449,13 @@ chatot_culture = {
 
 
 	country_modifier = {
-		# This Mississippi Valley people practiced mound-building and intensive floodplain agriculture.
-		global_grain_output_modifier = 0.1
+		# This coastal people combined fishing, shellfish gathering, and farming in the tidewater lowlands.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The Mississippi River floodplains supported productive farming for settled communities.
-		local_grain_output_modifier = 0.1
+		# The Mississippi and Gulf Coast trade corridors facilitated extensive exchange of salt, shells, copper, and food.
+		local_trade_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -1473,12 +1473,12 @@ timucua_culture = {
 
 
 	country_modifier = {
-		# The Timucua were the largest indigenous group in Florida, combining farming with fishing and gathering.
-		global_grain_output_modifier = 0.1
+		# This coastal people combined fishing, shellfish gathering, and farming in the tidewater lowlands.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The Florida interior and coast supported both farming and abundant fishing.
+		# The tidewater coast provided productive fishing, shellfish gathering, and marine resources.
 		local_fish_output_modifier = 0.1
 	}
 	opinions = {
@@ -1598,8 +1598,8 @@ chalahgawtha_culture = {
 	}
 
 	location_modifier = {
-		# The Ohio Valley supported productive farming for Shawnee communities.
-		local_grain_output_modifier = 0.1
+		# The Shawnee warriors defended their Ohio Valley territories with guerrilla warfare from forest cover.
+		local_defensive = 0.1
 	}
 	opinions = {
 		mekoche_culture = kindred
@@ -1626,8 +1626,8 @@ mekoche_culture = {
 	}
 
 	location_modifier = {
-		# The Ohio Valley supported productive farming for Shawnee communities.
-		local_grain_output_modifier = 0.1
+		# The Mekoche Shawnee maintained productive garden settlements along Ohio River tributaries.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 		chalahgawtha_culture = kindred
@@ -1654,8 +1654,8 @@ kispoko_culture = {
 	}
 
 	location_modifier = {
-		# The Ohio Valley supported productive farming for Shawnee communities.
-		local_grain_output_modifier = 0.1
+		# The Kispoko Shawnee were the warrior division, controlling defensive positions along the Ohio Valley.
+		local_defensive = 0.1
 	}
 	opinions = {
 		chalahgawtha_culture = kindred
@@ -1842,13 +1842,13 @@ kahokiaki_culture = {
 
 
 	country_modifier = {
-		# This Mississippi Valley people practiced mound-building and intensive floodplain agriculture.
-		global_grain_output_modifier = 0.1
+		# The Cahokia cultural tradition built the largest pre-Columbian settlement north of Mexico, a major urban center.
+		prestige = 5
 	}
 
 	location_modifier = {
-		# The Mississippi River floodplains supported productive farming for settled communities.
-		local_grain_output_modifier = 0.1
+		# The Great Lakes and upper Mississippi waterways provided productive freshwater fishing.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 		peewareewa_culture = kindred
@@ -1875,8 +1875,8 @@ cahokia_culture = {
 	}
 
 	location_modifier = {
-		# The American Bottom floodplain near Cahokia was one of the most productive agricultural zones in eastern North America.
-		local_grain_output_modifier = 0.15
+		# The Great Lakes and upper Mississippi waterways provided productive freshwater fishing.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -1899,8 +1899,8 @@ kaskankaham_culture = {
 	}
 
 	location_modifier = {
-		# The Mississippi River floodplains supported productive farming for settled communities.
-		local_grain_output_modifier = 0.1
+		# The Great Lakes and upper Mississippi waterways provided productive freshwater fishing.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 		peewareewa_culture = kindred
@@ -1921,13 +1921,13 @@ hocak_culture = {
 
 
 	country_modifier = {
-		# The Ho-Chunk (Winnebago) were powerful farmer-warriors of Wisconsin, maintaining influence between the Great Lakes and Plains.
-		global_grain_output_modifier = 0.1
+		# The Ho-Chunk (Winnebago) were renowned warriors and orators of the Great Lakes region.
+		army_infantry_power = 0.05
 	}
 
 	location_modifier = {
-		# The Wisconsin River valley supported productive farming for Ho-Chunk communities.
-		local_grain_output_modifier = 0.1
+		# The Great Lakes and upper Mississippi waterways provided productive freshwater fishing.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -1950,8 +1950,8 @@ baxoje_culture = {
 	}
 
 	location_modifier = {
-		# The Iowa and Missouri prairies supported farming alongside seasonal hunting.
-		local_grain_output_modifier = 0.1
+		# The Great Lakes and upper Mississippi waterways provided productive freshwater fishing.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -2118,8 +2118,8 @@ cherokee_culture = {
 	}
 
 	location_modifier = {
-		# The Southern Appalachian valleys supported intensive Cherokee farming of maize, beans, and squash.
-		local_grain_output_modifier = 0.1
+		# The southern Appalachian mountains provided the Cherokee with naturally defensive terrain.
+		local_defensive = 0.15
 	}
 	opinions = {
 		otali_culture = kindred
@@ -2307,13 +2307,13 @@ accomac_culture = {
 
 
 	country_modifier = {
-		# This Algonquian people practiced settled agriculture and fishing in the Mid-Atlantic coastal zone.
-		global_grain_output_modifier = 0.1
+		# This coastal people combined fishing, shellfish gathering, and farming in the tidewater lowlands.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The Mid-Atlantic river valleys and coastline supported farming and fishing.
-		local_grain_output_modifier = 0.1
+		# The tidewater coast provided productive fishing, shellfish gathering, and marine resources.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -2337,8 +2337,8 @@ nansemond_culture = {
 	}
 
 	location_modifier = {
-		# The Mid-Atlantic river valleys and coastline supported farming and fishing.
-		local_grain_output_modifier = 0.1
+		# The tidewater coast provided productive fishing, shellfish gathering, and marine resources.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -2361,8 +2361,8 @@ rappahannock_culture = {
 	}
 
 	location_modifier = {
-		# The Mid-Atlantic river valleys and coastline supported farming and fishing.
-		local_grain_output_modifier = 0.1
+		# The tidewater coast provided productive fishing, shellfish gathering, and marine resources.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -2380,12 +2380,12 @@ croatan_culture = {
 
 
 	country_modifier = {
-		# This coastal Southeastern people combined farming with fishing and shellfish gathering.
-		global_grain_output_modifier = 0.05
+		# This coastal people combined fishing, shellfish gathering, and farming in the tidewater lowlands.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The southeastern Atlantic coast provided rich fishing and shellfish resources.
+		# The tidewater coast provided productive fishing, shellfish gathering, and marine resources.
 		local_fish_output_modifier = 0.1
 	}
 	opinions = {
@@ -2612,8 +2612,8 @@ muscogee_culture = { #https://en.wikipedia.org/wiki/Muscogee
 	}
 
 	location_modifier = {
-		# The Creek homeland's river valleys supported intensive maize agriculture.
-		local_grain_output_modifier = 0.1
+		# The Muscogee (Creek) controlled productive trade networks connecting Gulf Coast and interior peoples.
+		local_trade_output_modifier = 0.1
 	}
 	opinions = {
 	}

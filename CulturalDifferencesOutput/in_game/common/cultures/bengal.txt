@@ -1,4 +1,4 @@
-dimasa_culture = { #https://en.wikipedia.org/wiki/Dimasa_people
+﻿dimasa_culture = { #https://en.wikipedia.org/wiki/Dimasa_people
 	language = brahmaputran_language
 
 	color = map_dimasa
@@ -480,8 +480,8 @@ tharu_culture = {
 	}
 
 	country_modifier = {
-# Terai forest dwellers; Tharu warriors adapted to jungle warfare in the malarial lowlands
-		army_infantry_power = 0.05
+		# The Tharu were Terai plains agriculturalists, expert rice paddy farmers in the fertile Gangetic lowlands.
+		global_grain_output_modifier = 0.1
 	}
 
 	location_modifier = {
@@ -506,8 +506,8 @@ karbi_culture = { #https://en.wikipedia.org/wiki/Karbi_people
 	}
 
 	country_modifier = {
-# Karbi hill warriors; fighters of the Karbi Anglong plateau maintained independence through martial skill
-		army_infantry_power = 0.05
+		# The Karbi practiced mixed farming with livestock, shifting cultivation, and forest management in the Assam hills.
+		global_livestock_output_modifier = 0.1
 	}
 
 	location_modifier = {

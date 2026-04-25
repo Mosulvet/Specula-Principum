@@ -35,8 +35,8 @@ nhanta_culture = {
 	}
 
 	location_modifier = {
-		# The Australian landscape was intimately known to its Aboriginal inhabitants, hostile terrain for outsiders.
-		local_hostile_attrition = 0.1
+		# The Nhanta territory along the WA coast provided marine resources and shellfish gathering.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -101,8 +101,8 @@ baiyungu_culture = {
 	}
 
 	location_modifier = {
-		# The Australian landscape was intimately known to its Aboriginal inhabitants, hostile terrain for outsiders.
-		local_hostile_attrition = 0.1
+		# Shark Bay (Baiyungu territory) was one of Australia's richest marine environments for fishing and shellfish.
+		local_fish_output_modifier = 0.15
 	}
 	opinions = {
 	}
@@ -123,8 +123,8 @@ thalanyji_culture = {
 	}
 
 	location_modifier = {
-		# The Australian landscape was intimately known to its Aboriginal inhabitants, hostile terrain for outsiders.
-		local_hostile_attrition = 0.1
+		# The Thalanyji coast near Onslow provided tidal fishing and shellfish gathering.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -145,8 +145,8 @@ nhuwala_culture = {
 	}
 
 	location_modifier = {
-		# The Australian landscape was intimately known to its Aboriginal inhabitants, hostile terrain for outsiders.
-		local_hostile_attrition = 0.1
+		# The Pilbara coast provided productive tidal fishing and shellfish gathering for the Nhuwala.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -167,8 +167,8 @@ martuthunira_culture = {
 	}
 
 	location_modifier = {
-		# The Australian landscape was intimately known to its Aboriginal inhabitants, hostile terrain for outsiders.
-		local_hostile_attrition = 0.1
+		# The Fortescue River gorges provided the Martuthunira with naturally defensive rocky terrain.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -585,8 +585,8 @@ jaminjung_culture = {
 	}
 
 	location_modifier = {
-		# The Australian Western Desert was one of the harshest inhabited environments on Earth.
-		local_hostile_attrition = 0.15
+		# The Jaminjung territory's river systems and gorges provided natural defensive positions.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -954,13 +954,13 @@ mingin_culture = {
 
 
 	country_modifier = {
-		# This Gulf Country Aboriginal people combined fishing in the Gulf of Carpentaria with inland hunting and gathering.
-		global_fish_output_modifier = 0.1
+		# This Gulf Country Aboriginal people were expert hunters and gatherers of the seasonally-flooded inland plains.
+		land_morale = 0.05
 	}
 
 	location_modifier = {
-		# The remote Gulf Country was harsh, seasonally flooded terrain difficult for outsiders.
-		local_hostile_attrition = 0.1
+		# The Gulf Country river systems provided seasonal fishing alongside hunting on the inland plains.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -976,8 +976,8 @@ kukatj_culture = {
 
 
 	country_modifier = {
-		# This Gulf Country Aboriginal people combined fishing in the Gulf of Carpentaria with inland hunting and gathering.
-		global_fish_output_modifier = 0.1
+		# This Gulf Country Aboriginal people were expert hunters and gatherers of the seasonally-flooded inland plains.
+		land_morale = 0.05
 	}
 
 	location_modifier = {
@@ -998,8 +998,8 @@ kuthant_culture = {
 
 
 	country_modifier = {
-		# This Gulf Country Aboriginal people combined fishing in the Gulf of Carpentaria with inland hunting and gathering.
-		global_fish_output_modifier = 0.1
+		# This Gulf Country Aboriginal people were expert hunters and gatherers of the seasonally-flooded inland plains.
+		land_morale = 0.05
 	}
 
 	location_modifier = {
@@ -1020,8 +1020,8 @@ kurtjar_culture = {
 
 
 	country_modifier = {
-		# This Gulf Country Aboriginal people combined fishing in the Gulf of Carpentaria with inland hunting and gathering.
-		global_fish_output_modifier = 0.1
+		# This Gulf Country Aboriginal people were expert hunters and gatherers of the seasonally-flooded inland plains.
+		land_morale = 0.05
 	}
 
 	location_modifier = {
@@ -1042,13 +1042,13 @@ yir_yoront_culture = {
 
 
 	country_modifier = {
-		# This Gulf Country Aboriginal people combined fishing in the Gulf of Carpentaria with inland hunting and gathering.
-		global_fish_output_modifier = 0.1
+		# The Yir Yoront of Cape York maintained elaborate ceremonial exchange networks trading stone axes and other goods.
+		trade_efficiency = 0.05
 	}
 
 	location_modifier = {
-		# The remote Gulf Country was harsh, seasonally flooded terrain difficult for outsiders.
-		local_hostile_attrition = 0.1
+		# The Yir Yoront territory along the Mitchell River provided seasonal fishing and aquatic resources.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -1069,8 +1069,8 @@ wik_culture = {
 	}
 
 	location_modifier = {
-		# The remote Gulf Country was harsh, seasonally flooded terrain difficult for outsiders.
-		local_hostile_attrition = 0.1
+		# The Wik peoples of western Cape York managed their territories through sophisticated fire-stick farming practices.
+		local_grain_output_modifier = 0.05
 	}
 	opinions = {
 	}
@@ -1086,13 +1086,13 @@ anguthimri_culture = {
 
 
 	country_modifier = {
-		# This Cape York Aboriginal people combined tropical fishing with hunting and gathering in northern Queensland.
-		global_fish_output_modifier = 0.1
+		# This Cape York Aboriginal people maintained sophisticated land management through fire-stick farming.
+		land_morale = 0.05
 	}
 
 	location_modifier = {
-		# Cape York's remote tropical wilderness was difficult terrain for outsiders.
-		local_hostile_attrition = 0.1
+		# The Cape York peninsula's tropical forests and monsoon woodlands provided natural defensive cover.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -1108,13 +1108,13 @@ anggamudi_culture = {
 
 
 	country_modifier = {
-		# This Cape York Aboriginal people combined tropical fishing with hunting and gathering in northern Queensland.
-		global_fish_output_modifier = 0.1
+		# This Cape York Aboriginal people maintained sophisticated land management through fire-stick farming.
+		land_morale = 0.05
 	}
 
 	location_modifier = {
-		# Cape York's remote tropical wilderness was difficult terrain for outsiders.
-		local_hostile_attrition = 0.1
+		# The Cape York peninsula's tropical forests and monsoon woodlands provided natural defensive cover.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -1135,8 +1135,8 @@ yadhaigana_culture = {
 	}
 
 	location_modifier = {
-		# Cape York's remote tropical wilderness was difficult terrain for outsiders.
-		local_hostile_attrition = 0.1
+		# The Cape York peninsula's tropical forests and monsoon woodlands provided natural defensive cover.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -1262,8 +1262,8 @@ mutumui_culture = {
 
 
 	country_modifier = {
-		# This Cape York Aboriginal people combined tropical fishing with hunting and gathering in northern Queensland.
-		global_fish_output_modifier = 0.1
+		# This Cape York Aboriginal people maintained sophisticated land management through fire-stick farming.
+		land_morale = 0.05
 	}
 
 	location_modifier = {
@@ -1328,8 +1328,8 @@ djabuganjdji_culture = {
 
 
 	country_modifier = {
-		# This tropical Queensland Aboriginal people combined reef fishing with rainforest foraging.
-		global_fish_output_modifier = 0.1
+		# The Djabugay were rainforest people of the Atherton Tablelands, with sophisticated forest management knowledge.
+		stability_cost_modifier = -0.05
 	}
 
 	location_modifier = {
@@ -1372,8 +1372,8 @@ djirbalngan_culture = {
 
 
 	country_modifier = {
-		# This tropical Queensland Aboriginal people combined reef fishing with rainforest foraging.
-		global_fish_output_modifier = 0.1
+		# The Dyirbal rainforest people developed one of the most complex language systems of any Aboriginal culture.
+		stability_cost_modifier = -0.05
 	}
 
 	location_modifier = {
@@ -1394,8 +1394,8 @@ wargamaygan_culture = {
 
 
 	country_modifier = {
-		# This tropical Queensland Aboriginal people combined reef fishing with rainforest foraging.
-		global_fish_output_modifier = 0.1
+		# The Wargamay were rainforest people who managed their tropical forest territories through controlled burning.
+		land_morale = 0.05
 	}
 
 	location_modifier = {
@@ -1553,8 +1553,8 @@ guwinmal_culture = {
 	}
 
 	location_modifier = {
-		# The semi-arid Australian interior was harsh, waterless terrain deadly to unprepared outsiders.
-		local_hostile_attrition = 0.15
+		# The Guwinmal territory's hills and ranges provided natural defensive terrain.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -1575,8 +1575,8 @@ darumbal_culture = {
 	}
 
 	location_modifier = {
-		# The semi-arid Australian interior was harsh, waterless terrain deadly to unprepared outsiders.
-		local_hostile_attrition = 0.15
+		# The Darumbal coast near Rockhampton provided productive fishing and shellfish.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -1944,8 +1944,8 @@ boon_wurrung_culture = {
 
 
 	country_modifier = {
-		# This Victorian Aboriginal people combined fishing, eel-trapping, and hunting with sophisticated land management.
-		global_fish_output_modifier = 0.1
+		# The Boonwurrung managed their coastal and wetland territories through sophisticated fire-stick burning practices.
+		land_morale = 0.05
 	}
 
 	location_modifier = {
@@ -2455,8 +2455,8 @@ kija_culture = {
 	}
 
 	location_modifier = {
-		# The Australian Western Desert was one of the harshest inhabited environments on Earth.
-		local_hostile_attrition = 0.15
+		# The Kija territory in the East Kimberley included the Bungle Bungles and provided defensive rocky terrain.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -3726,8 +3726,8 @@ yorta_yorta_culture = {
 
 
 	country_modifier = {
-		# This Victorian Aboriginal people combined fishing, eel-trapping, and hunting with sophisticated land management.
-		global_fish_output_modifier = 0.1
+		# The Yorta Yorta of the Murray-Goulburn confluence were part of major inter-tribal trade and ceremonial networks.
+		trade_efficiency = 0.05
 	}
 
 	location_modifier = {
@@ -3748,8 +3748,8 @@ ngurraiillam_culture = {
 
 
 	country_modifier = {
-		# This Victorian Aboriginal people combined fishing, eel-trapping, and hunting with sophisticated land management.
-		global_fish_output_modifier = 0.1
+		# The Ngurai-Illam Wurrung participated in trade networks exchanging greenstone axes and other goods.
+		trade_efficiency = 0.05
 	}
 
 	location_modifier = {
@@ -3792,8 +3792,8 @@ gulidjan_culture = {
 
 
 	country_modifier = {
-		# This Victorian Aboriginal people combined fishing, eel-trapping, and hunting with sophisticated land management.
-		global_fish_output_modifier = 0.1
+		# The Gulidjan of western Victoria's lakes district managed their territories through careful land stewardship.
+		land_morale = 0.05
 	}
 
 	location_modifier = {

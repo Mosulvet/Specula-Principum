@@ -315,13 +315,13 @@ gxana_culture = {
 
 
 	country_modifier = {
-		# The San were expert hunters and trackers whose knowledge of the harsh Kalahari environment was unmatched.
-		land_morale = 0.05
+		# The G||ana San of the Okavango region combined foraging with seasonal fishing in the Delta waterways.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The arid Kalahari and Karoo were extremely harsh environments where only the San could thrive.
-		local_hostile_attrition = 0.15
+		# The Okavango Delta provided seasonal fish, aquatic plants, and floodplain foraging resources.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -381,13 +381,13 @@ amkoe_culture = {
 
 
 	country_modifier = {
-		# The San were expert hunters and trackers whose knowledge of the harsh Kalahari environment was unmatched.
-		land_morale = 0.05
+		# The Amkoe (N|oha) San maintained remarkably egalitarian societies with sophisticated conflict resolution.
+		stability_cost_modifier = -0.05
 	}
 
 	location_modifier = {
-		# The arid Kalahari and Karoo were extremely harsh environments where only the San could thrive.
-		local_hostile_attrition = 0.15
+		# The Amkoe knew every water source and seasonal food patch in their semi-arid territory.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -403,8 +403,8 @@ hai_om_culture = {
 
 
 	country_modifier = {
-		# The San were expert hunters and trackers whose knowledge of the harsh Kalahari environment was unmatched.
-		land_morale = 0.05
+		# The Hai||om maintained trade connections with neighboring Ovambo and Herero herding peoples.
+		trade_efficiency = 0.05
 	}
 
 	location_modifier = {
@@ -430,8 +430,8 @@ xam_culture = {
 	}
 
 	location_modifier = {
-		# The arid Kalahari and Karoo were extremely harsh environments where only the San could thrive.
-		local_hostile_attrition = 0.15
+		# The /Xam possessed sophisticated knowledge of Karoo plants, creating tools, poisons, and medicines.
+		local_production_efficiency = 0.05
 	}
 	opinions = {
 	}

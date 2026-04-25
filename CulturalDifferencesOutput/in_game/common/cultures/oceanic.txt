@@ -13,8 +13,8 @@ maori_culture = { #https://en.wikipedia.org/wiki/M%C4%81ori_people
 	}
 
 	location_modifier = {
-		# New Zealand's coastal waters and rivers provided rich fishing alongside Maori agriculture.
-		local_fish_output_modifier = 0.1
+		# The Maori built sophisticated pa (fortified settlements) with palisades, ditches, and fighting stages.
+		local_defensive = 0.15
 	}
 	opinions = {
 	}	
@@ -47,8 +47,8 @@ mwotlap_culture = { #https://en.wikipedia.org/wiki/Mwotlap_language
 	}
 
 	location_modifier = {
-		# Vanuatu's coral reefs and coastal waters provided abundant fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
 	opinions = {
 
@@ -208,8 +208,8 @@ tagata_samoa_culture = { #https://en.wikipedia.org/wiki/Samoans
 	}
 
 	location_modifier = {
-		# Samoa's tropical waters and reefs provided abundant fishing.
-		local_fish_output_modifier = 0.1
+		# Samoa was a key node in the Polynesian trade network, exchanging fine mats, tools, and ceremonial goods.
+		local_trade_output_modifier = 0.1
 	}
         opinions = {
 
@@ -260,8 +260,8 @@ enana_culture = { #https://en.wikipedia.org/wiki/Marquesas_Islands
 	}
 
 	location_modifier = {
-		# The Marquesas Islands' deep waters provided fishing for these remote Polynesian communities.
-		local_fish_output_modifier = 0.1
+		# The Marquesans built massive stone platforms (me'ae) and fortified ridgeline settlements for defense.
+		local_defensive = 0.1
 	}
         opinions = {
 
@@ -286,8 +286,8 @@ tonga_oceania_culture = { #https://en.wikipedia.org/wiki/Demographics_of_Tonga
 	}
 
 	location_modifier = {
-		# The Tongan islands' coral reefs supported productive fishing for the empire.
-		local_fish_output_modifier = 0.1
+		# The Tu'i Tonga maritime empire controlled vast Pacific trade networks spanning Fiji, Samoa, and beyond.
+		local_trade_output_modifier = 0.15
 	}
         opinions = {
 
@@ -365,8 +365,8 @@ natugu_culture = { #https://en.wikipedia.org/wiki/Santa_Cruz_language
 	}
 
 	location_modifier = {
-		# Vanuatu's coral reefs and coastal waters provided abundant fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -576,8 +576,8 @@ yap_culture = { #https://en.wikipedia.org/wiki/Yapese_people
 	}
 
 	location_modifier = {
-		# Yap's coastal waters and lagoon supported productive fishing.
-		local_fish_output_modifier = 0.1
+		# Yap's famous stone money (rai) system and extensive inter-island trade network were unique in the Pacific.
+		local_trade_output_modifier = 0.15
 	}
         opinions = {
 
@@ -655,8 +655,8 @@ valpei_culture = { #https://en.wikipedia.org/wiki/Valpei_language
 	}
 
 	location_modifier = {
-		# Vanuatu's coral reefs and coastal waters provided abundant fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -680,8 +680,8 @@ akei_culture = { #https://en.wikipedia.org/wiki/Akei_language
 	}
 
 	location_modifier = {
-		# Vanuatu's coral reefs and coastal waters provided abundant fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -705,8 +705,8 @@ tamambo_culture = { #https://en.wikipedia.org/wiki/Tamambo_language
 	}
 
 	location_modifier = {
-		# Vanuatu's coral reefs and coastal waters provided abundant fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -730,8 +730,8 @@ sakao_culture = { #https://en.wikipedia.org/wiki/Sakao_language
 	}
 
 	location_modifier = {
-		# Vanuatu's coral reefs and coastal waters provided abundant fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -755,8 +755,8 @@ tolomako_culture = { #https://en.wikipedia.org/wiki/Tolomako_language
 	}
 
 	location_modifier = {
-		# Vanuatu's coral reefs and coastal waters provided abundant fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -780,8 +780,8 @@ ambae_culture = { #https://en.wikipedia.org/wiki/West_Ambae_language
 	}
 
 	location_modifier = {
-		# Vanuatu's coral reefs and coastal waters provided abundant fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -805,8 +805,8 @@ maewo_culture = { #https://en.wikipedia.org/wiki/Central_Maewo_language
 	}
 
 	location_modifier = {
-		# Vanuatu's coral reefs and coastal waters provided abundant fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -830,8 +830,8 @@ apma_culture = { #https://en.wikipedia.org/wiki/Apma_language
 	}
 
 	location_modifier = {
-		# Vanuatu's coral reefs and coastal waters provided abundant fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -855,8 +855,8 @@ malakula_culture = { #https://en.wikipedia.org/wiki/Malakula_languages
 	}
 
 	location_modifier = {
-		# Vanuatu's coral reefs and coastal waters provided abundant fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -880,8 +880,8 @@ ambrym_culture = { #https://en.wikipedia.org/wiki/North_Ambrym_language
 	}
 
 	location_modifier = {
-		# Vanuatu's coral reefs and coastal waters provided abundant fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -905,8 +905,8 @@ nakanamanga_culture = { #https://en.wikipedia.org/wiki/Nakanamanga_language
 	}
 
 	location_modifier = {
-		# Vanuatu's coral reefs and coastal waters provided abundant fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -930,8 +930,8 @@ lewo_culture = { #https://en.wikipedia.org/wiki/Lewo_language
 	}
 
 	location_modifier = {
-		# Vanuatu's coral reefs and coastal waters provided abundant fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -955,8 +955,8 @@ sie_culture = { #https://en.wikipedia.org/wiki/Sie_language
 	}
 
 	location_modifier = {
-		# Vanuatu's coral reefs and coastal waters provided abundant fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -980,8 +980,8 @@ lenakel_culture = { #https://en.wikipedia.org/wiki/Lenakel_language
 	}
 
 	location_modifier = {
-		# Vanuatu's coral reefs and coastal waters provided abundant fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -1005,8 +1005,8 @@ anejom_culture = { #https://en.wikipedia.org/wiki/Anejom_language
 	}
 
 	location_modifier = {
-		# Vanuatu's coral reefs and coastal waters provided abundant fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -1138,8 +1138,8 @@ tiri_culture = { #https://en.wikipedia.org/wiki/T%C3%AEr%C3%AE_language
 	}
 
 	location_modifier = {
-		# New Caledonia's barrier reef, the world's largest lagoon, provided extraordinary fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -1164,8 +1164,8 @@ paici_culture = { #https://en.wikipedia.org/wiki/Paic%C3%AE_language
 	}
 
 	location_modifier = {
-		# New Caledonia's barrier reef, the world's largest lagoon, provided extraordinary fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -1190,8 +1190,8 @@ ajie_culture = { #https://en.wikipedia.org/wiki/Aji%C3%AB_language
 	}
 
 	location_modifier = {
-		# New Caledonia's barrier reef, the world's largest lagoon, provided extraordinary fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -1216,8 +1216,8 @@ xaracuu_culture = { #https://en.wikipedia.org/wiki/X%C3%A2r%C3%A2c%C3%B9%C3%B9
 	}
 
 	location_modifier = {
-		# New Caledonia's barrier reef, the world's largest lagoon, provided extraordinary fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -1242,8 +1242,8 @@ cemuhi_culture = { #https://en.wikipedia.org/wiki/C%C3%A8muh%C3%AE_language
 	}
 
 	location_modifier = {
-		# New Caledonia's barrier reef, the world's largest lagoon, provided extraordinary fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -1268,8 +1268,8 @@ yuanga_culture = { #https://en.wikipedia.org/wiki/Yuanga_language
 	}
 
 	location_modifier = {
-		# New Caledonia's barrier reef, the world's largest lagoon, provided extraordinary fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -1294,8 +1294,8 @@ numee_culture = { #https://en.wikipedia.org/wiki/Num%C3%A8%C3%A8_language
 	}
 
 	location_modifier = {
-		# New Caledonia's barrier reef, the world's largest lagoon, provided extraordinary fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -1320,8 +1320,8 @@ nyelayu_culture = { #https://en.wikipedia.org/wiki/Ny%C3%A2layu_language
 	}
 
 	location_modifier = {
-		# New Caledonia's barrier reef, the world's largest lagoon, provided extraordinary fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -1346,8 +1346,8 @@ ndrumbea_culture = { #https://en.wikipedia.org/wiki/Ndrumbea_language
 	}
 
 	location_modifier = {
-		# New Caledonia's barrier reef, the world's largest lagoon, provided extraordinary fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -1372,8 +1372,8 @@ fwai_culture = { #https://en.wikipedia.org/wiki/Fw%C3%A2i_language
 	}
 
 	location_modifier = {
-		# New Caledonia's barrier reef, the world's largest lagoon, provided extraordinary fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -1398,8 +1398,8 @@ drehu_culture = { #https://en.wikipedia.org/wiki/Drehu_language
 	}
 
 	location_modifier = {
-		# New Caledonia's barrier reef, the world's largest lagoon, provided extraordinary fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -1424,8 +1424,8 @@ nengone_culture = { #https://en.wikipedia.org/wiki/Nengone_language
 	}
 
 	location_modifier = {
-		# New Caledonia's barrier reef, the world's largest lagoon, provided extraordinary fishing.
-		local_fish_output_modifier = 0.1
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -1504,8 +1504,8 @@ roviana_culture = { #https://en.wikipedia.org/wiki/Roviana_language
 	}
 
 	location_modifier = {
-		# The New Georgia lagoon provided rich fishing and staging for Roviana war fleets.
-		local_fish_output_modifier = 0.1
+		# The Roviana chiefdom in the New Georgia group controlled inter-island trade and raiding networks.
+		local_trade_output_modifier = 0.1
 	}
         opinions = {
 

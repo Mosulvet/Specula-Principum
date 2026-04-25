@@ -135,13 +135,13 @@ kuot_culture = { #https://en.wikipedia.org/wiki/Kuot_language
 
 
 	country_modifier = {
-		# This New Britain highland people practiced taro and yam farming in the volcanic interior.
-		global_grain_output_modifier = 0.05
+		# The Kuot of New Ireland were warriors who defended their island territories against neighboring groups.
+		army_infantry_power = 0.05
 	}
 
 	location_modifier = {
-		# New Britain's rugged volcanic mountains and dense forests were difficult for outsiders.
-		local_hostile_attrition = 0.1
+		# The rugged terrain of mountains, gorges, and dense jungle provided natural defensive positions.
+		local_defensive = 0.1
 	}
         opinions = {
 
@@ -240,13 +240,13 @@ baining_culture = { #https://en.wikipedia.org/wiki/Baining_languages
 
 
 	country_modifier = {
-		# This New Britain highland people practiced taro and yam farming in the volcanic interior.
-		global_grain_output_modifier = 0.05
+		# The Baining maintained remarkable cultural cohesion through their elaborate fire dance ceremonies and rituals.
+		stability_cost_modifier = -0.05
 	}
 
 	location_modifier = {
-		# New Britain's rugged volcanic mountains and dense forests were difficult for outsiders.
-		local_hostile_attrition = 0.1
+		# The rugged terrain of mountains, gorges, and dense jungle provided natural defensive positions.
+		local_defensive = 0.1
 	}
         opinions = {
 
@@ -833,8 +833,8 @@ maiwa_papua_culture = { #https://en.wikipedia.org/wiki/Maiwa_language_(Papuan)
 	}
 
 	location_modifier = {
-		# The dense interior swamp forests were among the most impenetrable environments on Earth.
-		local_hostile_attrition = 0.15
+		# The Maiwa highland gardens produced abundant sweet potato and taro crops at moderate elevations.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -854,8 +854,8 @@ manubara_culture = { #https://en.wikipedia.org/wiki/Maria_language_(Papua_New_Gu
 	}
 
 	location_modifier = {
-		# The dense interior swamp forests were among the most impenetrable environments on Earth.
-		local_hostile_attrition = 0.15
+		# The Manubara coastal lowlands supported productive sweet potato and taro garden cultivation.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -917,7 +917,7 @@ baruga_culture = { #https://en.wikipedia.org/wiki/Baruga_language
 	}
 
 	location_modifier = {
-		# The northern Papua lowlands and foothills supported root-crop agriculture.
+		# The Baruga homeland's fertile coastal lowlands supported productive garden agriculture.
 		local_grain_output_modifier = 0.1
 	}
         opinions = {
@@ -933,13 +933,13 @@ orokaiva_culture = { #https://en.wikipedia.org/wiki/Orokaiva_language
 
 
 	country_modifier = {
-		# This northern Papuan people practiced taro and yam farming in the coastal lowlands and foothills.
-		global_grain_output_modifier = 0.05
+		# The Orokaiva were fierce warriors of the Northern Province, renowned for their fighting prowess.
+		army_infantry_power = 0.1
 	}
 
 	location_modifier = {
-		# The northern Papua lowlands and foothills supported root-crop agriculture.
-		local_grain_output_modifier = 0.1
+		# The rugged terrain of mountains, gorges, and dense jungle provided natural defensive positions.
+		local_defensive = 0.1
 	}
         opinions = {
 
@@ -959,8 +959,8 @@ binandere_culture = { #https://en.wikipedia.org/wiki/Binandere_language
 	}
 
 	location_modifier = {
-		# The northern Papua lowlands and foothills supported root-crop agriculture.
-		local_grain_output_modifier = 0.1
+		# The rugged terrain of mountains, gorges, and dense jungle provided natural defensive positions.
+		local_defensive = 0.1
 	}
         opinions = {
 
@@ -980,7 +980,7 @@ suena_culture = { #https://en.wikipedia.org/wiki/Suena_language
 	}
 
 	location_modifier = {
-		# The northern Papua lowlands and foothills supported root-crop agriculture.
+		# The Suena territory in the northern lowlands supported productive taro and sweet potato cultivation.
 		local_grain_output_modifier = 0.1
 	}
         opinions = {
@@ -1001,7 +1001,7 @@ wampar_culture = { #https://en.wikipedia.org/wiki/Wampar_language
 	}
 
 	location_modifier = {
-		# The northern Papua lowlands and foothills supported root-crop agriculture.
+		# The Wampar territory along the Markham Valley supported productive taro and sweet potato gardens.
 		local_grain_output_modifier = 0.1
 	}
         opinions = {
@@ -1022,8 +1022,8 @@ iwal_culture = { #https://en.wikipedia.org/wiki/Iwal_language
 	}
 
 	location_modifier = {
-		# The northern Papua lowlands and foothills supported root-crop agriculture.
-		local_grain_output_modifier = 0.1
+		# The Iwal coastal territory provided productive fishing from the Huon Gulf waters.
+		local_fish_output_modifier = 0.1
 	}
         opinions = {
 
@@ -1043,8 +1043,8 @@ kumalu_culture = { #https://en.wikipedia.org/wiki/Mumeng_language
 	}
 
 	location_modifier = {
-		# The northern Papua lowlands and foothills supported root-crop agriculture.
-		local_grain_output_modifier = 0.1
+		# The Kumalu territory along the Markham River provided productive freshwater fishing.
+		local_fish_output_modifier = 0.1
 	}
         opinions = {
 
@@ -1064,8 +1064,8 @@ koiali_culture = { #https://en.wikipedia.org/wiki/Mountain_Koiali_language
 	}
 
 	location_modifier = {
-		# The dense interior swamp forests were among the most impenetrable environments on Earth.
-		local_hostile_attrition = 0.15
+		# The rugged terrain of mountains, gorges, and dense jungle provided natural defensive positions.
+		local_defensive = 0.1
 	}
         opinions = {
 
@@ -1085,8 +1085,8 @@ waima_culture = { #https://en.wikipedia.org/wiki/Waima_language
 	}
 
 	location_modifier = {
-		# The dense interior swamp forests were among the most impenetrable environments on Earth.
-		local_hostile_attrition = 0.15
+		# The highland garden terraces supported intensive sweet potato, taro, and yam cultivation.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -1127,8 +1127,8 @@ hamtai_culture = { #https://en.wikipedia.org/wiki/Hamtai_language
 	}
 
 	location_modifier = {
-		# The dense interior swamp forests were among the most impenetrable environments on Earth.
-		local_hostile_attrition = 0.15
+		# The highland garden terraces supported intensive sweet potato, taro, and yam cultivation.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -1232,8 +1232,8 @@ beami_culture = { #https://en.wikipedia.org/wiki/Beami_language
 	}
 
 	location_modifier = {
-		# The dense interior swamp forests were among the most impenetrable environments on Earth.
-		local_hostile_attrition = 0.15
+		# The highland garden terraces supported intensive sweet potato, taro, and yam cultivation.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 
@@ -1253,8 +1253,8 @@ aekyom_culture = { #https://en.wikipedia.org/wiki/Awin_language
 	}
 
 	location_modifier = {
-		# The dense interior swamp forests were among the most impenetrable environments on Earth.
-		local_hostile_attrition = 0.15
+		# The highland garden terraces supported intensive sweet potato, taro, and yam cultivation.
+		local_grain_output_modifier = 0.1
 	}
         opinions = {
 

@@ -8,13 +8,13 @@ dakelh_culture = {  #https://en.wikipedia.org/wiki/Dakelh
 	
 
 	country_modifier = {
-		# This northern Athabaskan people of interior BC combined salmon fishing with caribou and moose hunting.
-		global_fish_output_modifier = 0.1
+		# The Dakelh (Carrier) people were central to interior British Columbia's fur trade networks.
+		trade_efficiency = 0.05
 	}
 
 	location_modifier = {
-		# The interior BC boreal forests were remote and harsh terrain.
-		local_hostile_attrition = 0.1
+		# The Dakelh territory's river systems (Fraser, Nechako) provided productive salmon fishing.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -37,8 +37,8 @@ wetsuweten_culture = {  #https://en.wikipedia.org/wiki/Wet%CA%BCsuwet%CA%BCen
 	}
 
 	location_modifier = {
-		# The interior BC boreal forests were remote and harsh terrain.
-		local_hostile_attrition = 0.1
+		# The Bulkley and Morice rivers provided legendary salmon runs for the Wet'suwet'en.
+		local_fish_output_modifier = 0.15
 	}
 	opinions = {
 	}
@@ -61,8 +61,8 @@ sekani_culture = {  #https://en.wikipedia.org/wiki/Sekani
 	}
 
 	location_modifier = {
-		# The interior BC boreal forests were remote and harsh terrain.
-		local_hostile_attrition = 0.1
+		# The Sekani's Rocky Mountain terrain provided natural defensive positions along mountain passes.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -80,13 +80,13 @@ dunezza_culture = {
 	
 
 	country_modifier = {
-		# This northern Athabaskan people of interior BC combined salmon fishing with caribou and moose hunting.
-		global_fish_output_modifier = 0.1
+		# The Dane-zaa (Beaver) people managed vast hunting territories through sophisticated stewardship practices.
+		stability_cost_modifier = -0.05
 	}
 
 	location_modifier = {
-		# The interior BC boreal forests were remote and harsh terrain.
-		local_hostile_attrition = 0.1
+		# The Peace River region provided seasonal fishing alongside extensive hunting grounds.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -639,8 +639,8 @@ ogul_culture = {
 	}
 
 	location_modifier = {
-		# The western Alaskan tundra and coast were extremely remote and harsh terrain.
-		local_hostile_attrition = 0.15
+		# Rich salmon runs and marine resources along the western Alaska coast sustained large seasonal fishing camps.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -663,8 +663,8 @@ nushag_culture = {
 	}
 
 	location_modifier = {
-		# The western Alaskan tundra and coast were extremely remote and harsh terrain.
-		local_hostile_attrition = 0.15
+		# Rich salmon runs and marine resources along the western Alaska coast sustained large seasonal fishing camps.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -687,8 +687,8 @@ togiag_culture = {
 	}
 
 	location_modifier = {
-		# The western Alaskan tundra and coast were extremely remote and harsh terrain.
-		local_hostile_attrition = 0.15
+		# Rich salmon runs and marine resources along the western Alaska coast sustained large seasonal fishing camps.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -711,8 +711,8 @@ kuskokwag_culture = {
 	}
 
 	location_modifier = {
-		# The western Alaskan tundra and coast were extremely remote and harsh terrain.
-		local_hostile_attrition = 0.15
+		# Rich salmon runs and marine resources along the western Alaska coast sustained large seasonal fishing camps.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -735,8 +735,8 @@ nunivag_culture = {
 	}
 
 	location_modifier = {
-		# The western Alaskan tundra and coast were extremely remote and harsh terrain.
-		local_hostile_attrition = 0.15
+		# Rich salmon runs and marine resources along the western Alaska coast sustained large seasonal fishing camps.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -783,8 +783,8 @@ magemiut_culture = {
 	}
 
 	location_modifier = {
-		# The western Alaskan tundra and coast were extremely remote and harsh terrain.
-		local_hostile_attrition = 0.15
+		# Rich salmon runs and marine resources along the western Alaska coast sustained large seasonal fishing camps.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -831,8 +831,8 @@ unalig_culture = {
 	}
 
 	location_modifier = {
-		# The western Alaskan tundra and coast were extremely remote and harsh terrain.
-		local_hostile_attrition = 0.15
+		# Rich salmon runs and marine resources along the western Alaska coast sustained large seasonal fishing camps.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -855,8 +855,8 @@ malemiut_culture = {
 	}
 
 	location_modifier = {
-		# The Arctic coast of Alaska was one of the harshest environments inhabited by humans.
-		local_hostile_attrition = 0.15
+		# Rich salmon runs and marine resources along the western Alaska coast sustained large seasonal fishing camps.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -874,8 +874,8 @@ kaviag_culture = {
 
 
 	country_modifier = {
-		# This Inupiat people were expert Arctic hunters of whales, seals, and caribou in the extreme north.
-		global_fish_output_modifier = 0.1
+		# The Kaviagmiut (King Island Inuit) were expert coastal navigators and walrus hunters of the Bering Strait.
+		global_sailors_modifier = 0.1
 	}
 
 	location_modifier = {
@@ -946,13 +946,13 @@ inuinnait_culture = {
 
 
 	country_modifier = {
-		# This Inupiat people were expert Arctic hunters of whales, seals, and caribou in the extreme north.
-		global_fish_output_modifier = 0.1
+		# The Copper Inuit were legendary Arctic survivors, crafting tools from native copper deposits.
+		expand_rgo_mining_cost_modifier = -0.1
 	}
 
 	location_modifier = {
-		# The Arctic coast of Alaska was one of the harshest environments inhabited by humans.
-		local_hostile_attrition = 0.15
+		# The Copper Inuit territory contained native copper deposits that were traded across the Arctic.
+		local_iron_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -970,13 +970,13 @@ inupiaq_culture = {
 
 
 	country_modifier = {
-		# This Inupiat people were expert Arctic hunters of whales, seals, and caribou in the extreme north.
-		global_fish_output_modifier = 0.1
+		# The Inupiat were among the greatest Arctic survivalists, enduring extreme conditions through communal resilience.
+		land_morale = 0.05
 	}
 
 	location_modifier = {
-		# The Arctic coast of Alaska was one of the harshest environments inhabited by humans.
-		local_hostile_attrition = 0.15
+		# The North Slope's vast treeless tundra was naturally defensive terrain, impossible for outsiders to traverse.
+		local_defensive = 0.15
 	}
 	opinions = {
 	}

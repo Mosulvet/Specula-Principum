@@ -1,4 +1,4 @@
-ashkenazi = {
+﻿ashkenazi = {
 	language = yiddish_dialect
 	
 	color = map_ashkenazi
@@ -123,13 +123,14 @@ gurji = {
 		georgian_culture = kindred
 	}	
 
-    country_modifier = {
-		trade_efficiency = 0.05
+	country_modifier = {
+		# Georgian Jews maintained remarkably cohesive communities for centuries under Georgian royal protection.
+		stability_cost_modifier = -0.05
 	}
 
 	location_modifier = {
-# The Georgian Jewish community contributed to Tbilisi's commercial life as merchants and artisans in the Caucasus trade networks.
-		local_production_efficiency = 0.05
+		# Georgian Jewish communities in Tiflis and other cities were active in local trade and commerce.
+		local_trade_output_modifier = 0.1
 	}
 	
 	culture_groups = {
@@ -266,8 +267,8 @@ mizrahi = {
 	tags = { jewish_gfx middle_east_gfx }
 
 	country_modifier = {
-# Mizrahi Jewish communities across the Middle East served as merchants, physicians, and administrators in Islamic societies.
-		trade_efficiency = 0.05
+		# Mizrahi Jews served as administrators and scholars across the Islamic world, contributing to governance.
+		diplomatic_reputation = 1
 	}
 
 	location_modifier = {
@@ -310,8 +311,8 @@ mustaarabi = {
 	}
 
 	location_modifier = {
-# Musta'arabi Jewish communities in North Africa were skilled metalworkers, jewelers, and textile artisans.
-		local_production_efficiency = 0.05
+		# The Musta'arabi (Arabized Jews) of the Levant were merchants active in Mediterranean and overland trade.
+		local_trade_output_modifier = 0.1
 	}
 
 	opinions = {
@@ -344,13 +345,13 @@ qayfengi = {
 	tags = { east_asian_gfx }
 
 	country_modifier = {
-# The Kaifeng Jews participated in the commercial life of one of China's great trading cities on the Grand Canal.
-		trade_efficiency = 0.05
+		# Kaifeng Jews in Song/Ming China integrated into the agricultural economy as farmers and civil officials.
+		global_grain_output_modifier = 0.05
 	}
 
 	location_modifier = {
-# The Kaifeng Jewish community's mercantile skills contributed to the bustling commerce of this Song-era trading hub.
-		local_production_efficiency = 0.05
+		# Kaifeng in the Yellow River plain was one of China's most productive agricultural regions.
+		local_grain_output_modifier = 0.1
 	}
 
 	opinions = {

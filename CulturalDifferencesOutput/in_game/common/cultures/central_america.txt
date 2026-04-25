@@ -8,13 +8,13 @@ cueva_culture = {  #https://es.wikipedia.org/wiki/Indios_cueva
 
 
 	country_modifier = {
-		# This Central American people practiced tropical agriculture, growing maize, root crops, and tree fruits.
-		global_grain_output_modifier = 0.05
+		# The Cueva controlled the Panama isthmus, a natural corridor connecting Atlantic and Pacific trade networks.
+		trade_efficiency = 0.1
 	}
 
 	location_modifier = {
-		# The dense tropical forests and mountains of Central America were difficult terrain for outsiders.
-		local_hostile_attrition = 0.1
+		# The Panama isthmus was a natural trade corridor linking Caribbean and Pacific commerce routes.
+		local_trade_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -149,13 +149,13 @@ rama_culture = {  #https://es.wikipedia.org/wiki/Rama_(etnia)
 	
 
 	country_modifier = {
-		# This Central American people practiced tropical agriculture, growing maize, root crops, and tree fruits.
-		global_grain_output_modifier = 0.05
+		# The Rama were river and coastal people of southeastern Nicaragua, expert fishers and canoe builders.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The dense tropical forests and mountains of Central America were difficult terrain for outsiders.
-		local_hostile_attrition = 0.1
+		# The Rama territory along Nicaragua's rivers and Caribbean coast supported productive fishing.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -224,13 +224,13 @@ kukra_culture = { #https://es.wikipedia.org/wiki/Kukra_Hill
 	
 
 	country_modifier = {
-		# This Central American people practiced tropical agriculture, growing maize, root crops, and tree fruits.
-		global_grain_output_modifier = 0.05
+		# The Kukra inhabited the Caribbean Mosquito Coast, subsisting primarily on coastal and river fishing.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The dense tropical forests and mountains of Central America were difficult terrain for outsiders.
-		local_hostile_attrition = 0.1
+		# The Caribbean Mosquito Coast provided rich coastal and estuary fishing resources.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -249,8 +249,8 @@ mayangna_culture = { #https://es.wikipedia.org/wiki/Mayangna
 	
 
 	country_modifier = {
-		# This Central American people practiced tropical agriculture, growing maize, root crops, and tree fruits.
-		global_grain_output_modifier = 0.05
+		# The Mayangna (Sumo) were formidable rainforest warriors of the Nicaraguan interior highlands.
+		land_morale = 0.05
 	}
 
 	location_modifier = {
@@ -274,8 +274,8 @@ pech_culture = { #https://es.wikipedia.org/wiki/Pech
 	
 
 	country_modifier = {
-		# This Central American people practiced tropical agriculture, growing maize, root crops, and tree fruits.
-		global_grain_output_modifier = 0.05
+		# The Pech were resilient mountain people of northeastern Honduras, renowned for their endurance and resistance.
+		land_morale = 0.05
 	}
 
 	location_modifier = {
@@ -349,8 +349,8 @@ ngabe_culture = { #https://en.wikipedia.org/wiki/Ng%C3%A4be
 	
 
 	country_modifier = {
-		# This Central American people practiced tropical agriculture, growing maize, root crops, and tree fruits.
-		global_grain_output_modifier = 0.05
+		# The Ngabe were highland people of western Panama, maintaining strong warrior traditions in mountain terrain.
+		land_morale = 0.05
 	}
 
 	location_modifier = {
@@ -374,13 +374,13 @@ naso_culture = { #https://en.wikipedia.org/wiki/Naso_people
 	
 
 	country_modifier = {
-		# This Central American people practiced tropical agriculture, growing maize, root crops, and tree fruits.
-		global_grain_output_modifier = 0.05
+		# The Naso (Teribe) lived along the Teribe River in Bocas del Toro, expert river fishers and canoe navigators.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The dense tropical forests and mountains of Central America were difficult terrain for outsiders.
-		local_hostile_attrition = 0.1
+		# The Teribe River basin in Bocas del Toro provided abundant freshwater fishing.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -424,8 +424,8 @@ boruca_culture = { #https://en.wikipedia.org/wiki/Boruca
 	
 
 	country_modifier = {
-		# This Central American people practiced tropical agriculture, growing maize, root crops, and tree fruits.
-		global_grain_output_modifier = 0.05
+		# The Boruca were skilled warriors of southern Costa Rica known for their fierce resistance to Spanish colonization.
+		army_infantry_power = 0.05
 	}
 
 	location_modifier = {
@@ -449,13 +449,13 @@ chorotega_culture = { #https://es.wikipedia.org/wiki/Chorotegas
 	
 
 	country_modifier = {
-		# The Chorotega were Oto-Manguean people who brought Mesoamerican agriculture and pottery to Central America.
-		global_grain_output_modifier = 0.1
+		# The Chorotega ran sophisticated cacao-based market economies in northwestern Costa Rica and Nicaragua.
+		trade_efficiency = 0.1
 	}
 
 	location_modifier = {
-		# The Chorotega homeland in northwestern Costa Rica and Nicaragua supported maize farming.
-		local_grain_output_modifier = 0.1
+		# The Nicoya Peninsula and Pacific lowlands supported active cacao trade markets and exchange networks.
+		local_trade_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -474,8 +474,8 @@ chiapanec_culture = { #https://en.wikipedia.org/wiki/Chiapanec_people
 	
 
 	country_modifier = {
-		# This Mesoamerican-influenced people practiced intensive maize agriculture.
-		global_grain_output_modifier = 0.1
+		# The Chiapanec were fierce warriors who resisted both Aztec and Spanish expansion from their Chiapas strongholds.
+		army_infantry_power = 0.05
 	}
 
 	location_modifier = {
@@ -626,8 +626,8 @@ tolupan_culture = { #https://es.wikipedia.org/wiki/Tolupanes
 	
 
 	country_modifier = {
-		# This Central American people practiced tropical agriculture, growing maize, root crops, and tree fruits.
-		global_grain_output_modifier = 0.05
+		# The Tolupan (Jicaque) were highland warriors of northern Honduras who fiercely resisted outside incursion.
+		land_morale = 0.05
 	}
 
 	location_modifier = {

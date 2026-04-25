@@ -174,8 +174,8 @@ ava_culture = {  #https://pib.socioambiental.org/pt/Povo:Guarani
 	}
 
 	location_modifier = {
-		# The dense Brazilian rainforest was extremely difficult terrain for outside military forces.
-		local_hostile_attrition = 0.1
+		# The Ava-Guarani managed productive agricultural clearings in the forest with maize and manioc gardens.
+		local_grain_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -281,8 +281,8 @@ kren_culture = {  #https://pib.socioambiental.org/pt/Povo:Krenak
 	}
 
 	location_modifier = {
-		# The vast Brazilian cerrado was remote and difficult terrain for outside forces.
-		local_hostile_attrition = 0.1
+		# The Kren-YÃª (Canela) homeland's cerrado savanna provided natural defensive terrain for their large circular villages.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -327,13 +327,13 @@ awaete_culture = {  #https://en.wikipedia.org/wiki/Aweti
 
 
 	country_modifier = {
-		# This Tupi-speaking people practiced swidden agriculture, growing manioc and maize in forest clearings.
-		global_grain_output_modifier = 0.05
+		# This Brazilian people maintained fierce warrior traditions and strong territorial defense in the interior.
+		land_morale = 0.05
 	}
 
 	location_modifier = {
-		# The dense Brazilian rainforest was extremely difficult terrain for outside military forces.
-		local_hostile_attrition = 0.1
+		# The dense Amazonian rainforest provided natural defensive cover for indigenous warriors.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -359,8 +359,8 @@ timbira_culture = {  #https://pib.socioambiental.org/es/Povo:Timbira
 	}
 
 	location_modifier = {
-		# The vast Brazilian cerrado was remote and difficult terrain for outside forces.
-		local_hostile_attrition = 0.1
+		# The Timbira built defensive circular villages in the cerrado savanna with natural fire-break clearings.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -476,13 +476,13 @@ kambeba_culture = {  #https://pib.socioambiental.org/es/Povo:Kambeba
 
 
 	country_modifier = {
-		# This Tupi-speaking people practiced swidden agriculture, growing manioc and maize in forest clearings.
-		global_grain_output_modifier = 0.05
+		# This Amazonian people combined river fishing with forest foraging along the great river systems of Brazil.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The dense Brazilian rainforest was extremely difficult terrain for outside military forces.
-		local_hostile_attrition = 0.1
+		# The great Amazonian river systems provided productive fishing and aquatic resource gathering.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -501,13 +501,13 @@ miranha_culture = {  #https://pib.socioambiental.org/es/Povo:Miranha
 
 
 	country_modifier = {
-		# This small Amazonian people practiced swidden agriculture and forest foraging in the deep interior.
-		global_grain_output_modifier = 0.05
+		# This Amazonian people combined river fishing with forest foraging along the great river systems of Brazil.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The remote Amazon interior was virtually impenetrable to outside forces.
-		local_hostile_attrition = 0.1
+		# The great Amazonian river systems provided productive fishing and aquatic resource gathering.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -531,8 +531,8 @@ kinja_culture = {  #https://pib.socioambiental.org/es/Povo:Waimiri_Atroari
 	}
 
 	location_modifier = {
-		# The dense Amazon interior was extremely remote and difficult to penetrate.
-		local_hostile_attrition = 0.1
+		# The great Amazonian river systems provided productive fishing and aquatic resource gathering.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -556,8 +556,8 @@ akwe_culture = {  #Akwê https://pib.socioambiental.org/en/Povo:Xerente
 	}
 
 	location_modifier = {
-		# The vast Brazilian cerrado was remote and difficult terrain for outside forces.
-		local_hostile_attrition = 0.1
+		# The Akwáº½-Xerente's cerrado territory supported hunting and gathering in managed savanna landscapes.
+		local_grain_output_modifier = 0.05
 	}
 	opinions = {
 	}
@@ -580,13 +580,13 @@ apyawa_culture = {  #Apyãwa https://pib.socioambiental.org/es/Povo:Tapirap%C3%A
 
 
 	country_modifier = {
-		# This Tupi-speaking people practiced swidden agriculture, growing manioc and maize in forest clearings.
-		global_grain_output_modifier = 0.05
+		# This Brazilian people maintained fierce warrior traditions and strong territorial defense in the interior.
+		land_morale = 0.05
 	}
 
 	location_modifier = {
-		# The dense Brazilian rainforest was extremely difficult terrain for outside military forces.
-		local_hostile_attrition = 0.1
+		# The dense Amazonian rainforest provided natural defensive cover for indigenous warriors.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -610,8 +610,8 @@ panara_culture = {  #https://pib.socioambiental.org/pt/Povo:Panar%C3%A1
 	}
 
 	location_modifier = {
-		# The vast Brazilian cerrado was remote and difficult terrain for outside forces.
-		local_hostile_attrition = 0.1
+		# The PanarÃ¡ maintained well-defended circular village compounds in their Mato Grosso forest territory.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -680,13 +680,13 @@ ikpeng_culture = {  #https://pib.socioambiental.org/es/Povo:Ikpeng
 
 
 	country_modifier = {
-		# This Cariban people practiced swidden farming and hunting in the Amazon forest interior.
-		global_grain_output_modifier = 0.05
+		# This Amazonian people were renowned warriors who aggressively defended their forest territories.
+		army_infantry_power = 0.05
 	}
 
 	location_modifier = {
-		# The dense Amazon interior was extremely remote and difficult to penetrate.
-		local_hostile_attrition = 0.1
+		# The dense Amazonian rainforest provided natural defensive cover for indigenous warriors.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -704,13 +704,13 @@ rikbaktsa_culture = {  #https://pib.socioambiental.org/es/Povo:Rikbakts%C3%A1
 
 
 	country_modifier = {
-		# This small Amazonian people practiced swidden agriculture and forest foraging in the deep interior.
-		global_grain_output_modifier = 0.05
+		# This Amazonian people were renowned warriors who aggressively defended their forest territories.
+		army_infantry_power = 0.05
 	}
 
 	location_modifier = {
-		# The remote Amazon interior was virtually impenetrable to outside forces.
-		local_hostile_attrition = 0.1
+		# The dense Amazonian rainforest provided natural defensive cover for indigenous warriors.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -753,12 +753,12 @@ haliti_culture = {  #https://pib.socioambiental.org/pt/Povo:Pares%C3%AD
 
 
 	country_modifier = {
-		# This Arawakan people practiced manioc farming and fishing in the interior Brazilian river systems.
-		global_grain_output_modifier = 0.05
+		# The Haliti (ParesÃ­) participated in extensive trade networks linking Amazon, Pantanal, and Chaco peoples.
+		trade_efficiency = 0.05
 	}
 
 	location_modifier = {
-		# The interior river valleys supported productive manioc cultivation.
+		# The cultivated garden clearings and managed forest provided agricultural food production.
 		local_grain_output_modifier = 0.1
 	}
 	opinions = {
@@ -1189,12 +1189,12 @@ terena_culture = {  #https://pib.socioambiental.org/pt/Povo:Terena
 
 
 	country_modifier = {
-		# This Arawakan people practiced manioc farming and fishing in the interior Brazilian river systems.
-		global_grain_output_modifier = 0.05
+		# The Terena were skilled diplomats and traders who maintained exchange networks across the southern Pantanal.
+		trade_efficiency = 0.05
 	}
 
 	location_modifier = {
-		# The interior river valleys supported productive manioc cultivation.
+		# The cultivated garden clearings and managed forest provided agricultural food production.
 		local_grain_output_modifier = 0.1
 	}
 	opinions = {
@@ -1248,13 +1248,13 @@ nambikwara_culture = {  #https://pib.socioambiental.org/pt/Povo:Nambikwara
 
 
 	country_modifier = {
-		# This small Amazonian people practiced swidden agriculture and forest foraging in the deep interior.
-		global_grain_output_modifier = 0.05
+		# This Brazilian people maintained fierce warrior traditions and strong territorial defense in the interior.
+		land_morale = 0.05
 	}
 
 	location_modifier = {
-		# The remote Amazon interior was virtually impenetrable to outside forces.
-		local_hostile_attrition = 0.1
+		# The cultivated garden clearings and managed forest provided agricultural food production.
+		local_grain_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -1412,13 +1412,13 @@ kagwahiva_culture = {  #https://en.wikipedia.org/wiki/Kawahiva
 
 
 	country_modifier = {
-		# This Tupi-speaking people practiced swidden agriculture, growing manioc and maize in forest clearings.
-		global_grain_output_modifier = 0.05
+		# This Amazonian people were renowned warriors who aggressively defended their forest territories.
+		army_infantry_power = 0.05
 	}
 
 	location_modifier = {
-		# The dense Brazilian rainforest was extremely difficult terrain for outside military forces.
-		local_hostile_attrition = 0.1
+		# The dense Amazonian rainforest provided natural defensive cover for indigenous warriors.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -1451,8 +1451,8 @@ txapakura_culture = {  #https://pib.socioambiental.org/pt/Povo:Wari%27
 	}
 
 	location_modifier = {
-		# The remote Amazon interior was virtually impenetrable to outside forces.
-		local_hostile_attrition = 0.1
+		# The great Amazonian river systems provided productive fishing and aquatic resource gathering.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -1507,8 +1507,8 @@ kura_culture = {  #https://pib.socioambiental.org/pt/Povo:Bakairi
 
 
 	country_modifier = {
-		# This small Amazonian people practiced swidden agriculture and forest foraging in the deep interior.
-		global_grain_output_modifier = 0.05
+		# The Kura-Bakairi had knowledge of mineral resources in the Mato Grosso cerrado uplands.
+		expand_rgo_mining_cost_modifier = -0.1
 	}
 
 	location_modifier = {
@@ -1534,8 +1534,8 @@ djeoromitxi_culture = {  #https://pib.socioambiental.org/pt/Povo:Djeoromitx%C3%A
 
 
 	country_modifier = {
-		# This small Amazonian people practiced swidden agriculture and forest foraging in the deep interior.
-		global_grain_output_modifier = 0.05
+		# The DjeoromitxÃ­ (JabutÃ­) processed mineral and stone resources in the RondÃ´nia uplands.
+		expand_rgo_mining_cost_modifier = -0.1
 	}
 
 	location_modifier = {
@@ -1614,13 +1614,13 @@ paiter_culture = {  #https://pib.socioambiental.org/pt/Povo:Surui_Paiter
 
 
 	country_modifier = {
-		# This small Amazonian people practiced swidden agriculture and forest foraging in the deep interior.
-		global_grain_output_modifier = 0.05
+		# This Amazonian people were renowned warriors who aggressively defended their forest territories.
+		army_infantry_power = 0.05
 	}
 
 	location_modifier = {
-		# The remote Amazon interior was virtually impenetrable to outside forces.
-		local_hostile_attrition = 0.1
+		# The dense Amazonian rainforest provided natural defensive cover for indigenous warriors.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -1694,13 +1694,13 @@ enawene_nawe_culture = {  #https://pib.socioambiental.org/pt/Povo:Enawen%C3%AA-n
 
 
 	country_modifier = {
-		# This small Amazonian people practiced swidden agriculture and forest foraging in the deep interior.
-		global_grain_output_modifier = 0.05
+		# The EnawenÃª-NawÃª maintained remarkable social cohesion through elaborate ritual cycles and fish-dam ceremonies.
+		stability_cost_modifier = -0.05
 	}
 
 	location_modifier = {
-		# The remote Amazon interior was virtually impenetrable to outside forces.
-		local_hostile_attrition = 0.1
+		# The cultivated garden clearings and managed forest provided agricultural food production.
+		local_grain_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -1801,13 +1801,13 @@ kaapor_culture = {  #https://pib.socioambiental.org/pt/Povo:Ka%27apor
 
 
 	country_modifier = {
-		# This Tupi-speaking people practiced swidden agriculture, growing manioc and maize in forest clearings.
-		global_grain_output_modifier = 0.05
+		# This Amazonian people combined river fishing with forest foraging along the great river systems of Brazil.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The dense Brazilian rainforest was extremely difficult terrain for outside military forces.
-		local_hostile_attrition = 0.1
+		# The great Amazonian river systems provided productive fishing and aquatic resource gathering.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -1855,13 +1855,13 @@ tenetehara_culture = {  #https://pib.socioambiental.org/es/Povo:Guajajara
 
 
 	country_modifier = {
-		# This Tupi-speaking people practiced swidden agriculture, growing manioc and maize in forest clearings.
-		global_grain_output_modifier = 0.05
+		# The Tenetehara (Guajajara) maintained trade connections between eastern Amazon and MaranhÃ£o coast peoples.
+		trade_efficiency = 0.05
 	}
 
 	location_modifier = {
-		# The dense Brazilian rainforest was extremely difficult terrain for outside military forces.
-		local_hostile_attrition = 0.1
+		# The cultivated garden clearings and managed forest provided agricultural food production.
+		local_grain_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -1882,13 +1882,13 @@ zoe_culture = {  #Zo'é https://pib.socioambiental.org/es/Povo:Zo%27%C3%A9
 
 
 	country_modifier = {
-		# This Tupi-speaking people practiced swidden agriculture, growing manioc and maize in forest clearings.
-		global_grain_output_modifier = 0.05
+		# This Amazonian people combined river fishing with forest foraging along the great river systems of Brazil.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The dense Brazilian rainforest was extremely difficult terrain for outside military forces.
-		local_hostile_attrition = 0.1
+		# The great Amazonian river systems provided productive fishing and aquatic resource gathering.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -1907,13 +1907,13 @@ waiwai_culture = {  #https://pib.socioambiental.org/es/Povo:Waiwai
 
 
 	country_modifier = {
-		# This Arawakan people practiced manioc farming and fishing in the interior Brazilian river systems.
-		global_grain_output_modifier = 0.05
+		# The Waiwai had sophisticated social organization, uniting scattered communities through elaborate trading festivals.
+		stability_cost_modifier = -0.05
 	}
 
 	location_modifier = {
-		# The interior river valleys supported productive manioc cultivation.
-		local_grain_output_modifier = 0.1
+		# The dense Amazonian rainforest provided natural defensive cover for indigenous warriors.
+		local_defensive = 0.1
 	}
 	opinions = {
 	}
@@ -1939,13 +1939,13 @@ satere_mawe_culture = {  #https://pib.socioambiental.org/es/Povo:Sater%C3%A9_Maw
 
 
 	country_modifier = {
-		# This Tupi-speaking people practiced swidden agriculture, growing manioc and maize in forest clearings.
-		global_grain_output_modifier = 0.05
+		# This Amazonian people combined river fishing with forest foraging along the great river systems of Brazil.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The dense Brazilian rainforest was extremely difficult terrain for outside military forces.
-		local_hostile_attrition = 0.1
+		# The great Amazonian river systems provided productive fishing and aquatic resource gathering.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -1991,13 +1991,13 @@ bare_culture = {  #https://pib.socioambiental.org/pt/Povo:Bar%C3%A9
 
 
 	country_modifier = {
-		# This Arawakan people practiced manioc farming and fishing in the interior Brazilian river systems.
-		global_grain_output_modifier = 0.05
+		# This Amazonian people combined river fishing with forest foraging along the great river systems of Brazil.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The interior river valleys supported productive manioc cultivation.
-		local_grain_output_modifier = 0.1
+		# The great Amazonian river systems provided productive fishing and aquatic resource gathering.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -2016,13 +2016,13 @@ mura_culture = {  #https://pib.socioambiental.org/pt/Povo:Mura
 
 
 	country_modifier = {
-		# This small Amazonian people practiced swidden agriculture and forest foraging in the deep interior.
-		global_grain_output_modifier = 0.05
+		# This Amazonian people combined river fishing with forest foraging along the great river systems of Brazil.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The remote Amazon interior was virtually impenetrable to outside forces.
-		local_hostile_attrition = 0.1
+		# The great Amazonian river systems provided productive fishing and aquatic resource gathering.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -2041,13 +2041,13 @@ arua_culture = {  #https://pt.wikipedia.org/wiki/Aru%C3%A1s
 
 
 	country_modifier = {
-		# This Arawakan people practiced manioc farming and fishing in the interior Brazilian river systems.
-		global_grain_output_modifier = 0.05
+		# This Amazonian people combined river fishing with forest foraging along the great river systems of Brazil.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The interior river valleys supported productive manioc cultivation.
-		local_grain_output_modifier = 0.1
+		# The great Amazonian river systems provided productive fishing and aquatic resource gathering.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -2067,13 +2067,13 @@ tremembe_culture = {  #https://pib.socioambiental.org/pt/Povo:Trememb%C3%A9
 
 
 	country_modifier = {
-		# This northeastern Brazilian people combined farming with foraging in the caatinga scrubland and coastal regions.
-		global_grain_output_modifier = 0.05
+		# This Atlantic coast people were expert fishers and shellfish gatherers along the Brazilian seaboard.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The caatinga dry scrubland of northeastern Brazil was harsh terrain.
-		local_hostile_attrition = 0.1
+		# The Brazilian Atlantic coast provided productive fishing and shellfish gathering.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -2127,8 +2127,8 @@ kaete_culture = {  #https://pt.wikipedia.org/wiki/Caet%C3%A9s_(tribo)
 	}
 
 	location_modifier = {
-		# The caatinga dry scrubland of northeastern Brazil was harsh terrain.
-		local_hostile_attrition = 0.1
+		# The Brazilian Atlantic coast provided productive fishing and shellfish gathering.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -2277,13 +2277,13 @@ guaitaka_culture = {  #guaîtaká https://pt.wikipedia.org/wiki/Goitac%C3%A1s
 
 
 	country_modifier = {
-		# This northeastern Brazilian people combined farming with foraging in the caatinga scrubland and coastal regions.
-		global_grain_output_modifier = 0.05
+		# This Atlantic coast people were expert fishers and shellfish gatherers along the Brazilian seaboard.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The caatinga dry scrubland of northeastern Brazil was harsh terrain.
-		local_hostile_attrition = 0.1
+		# The Brazilian Atlantic coast provided productive fishing and shellfish gathering.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -2328,13 +2328,13 @@ catagua_culture = {  #https://pt.wikipedia.org/wiki/Catagu%C3%A1s
 
 
 	country_modifier = {
-		# This northeastern Brazilian people combined farming with foraging in the caatinga scrubland and coastal regions.
-		global_grain_output_modifier = 0.05
+		# This Atlantic coast people were expert fishers and shellfish gatherers along the Brazilian seaboard.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The caatinga dry scrubland of northeastern Brazil was harsh terrain.
-		local_hostile_attrition = 0.1
+		# The Brazilian Atlantic coast provided productive fishing and shellfish gathering.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}

@@ -83,13 +83,13 @@ waunana_culture = { #https://es.wikipedia.org/wiki/Waunana
 
 
 	country_modifier = {
-		# This Colombian lowland people practiced swidden agriculture and fishing in the tropical forests.
-		global_grain_output_modifier = 0.05
+		# This coastal/riverine people combined fishing with agriculture along Colombia/Venezuela's waterways.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The dense Colombian rainforest was difficult terrain for outside forces.
-		local_hostile_attrition = 0.1
+		# The river systems and coastal waters provided productive fishing and marine resources.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -108,8 +108,8 @@ guahibo_culture = { #https://es.wikipedia.org/wiki/Guah%C3%ADbo
 	
 
 	country_modifier = {
-		# This Colombian lowland people practiced swidden agriculture and fishing in the tropical forests.
-		global_grain_output_modifier = 0.05
+		# This people were renowned warriors who fiercely resisted Spanish colonial expansion in Colombia/Venezuela.
+		army_infantry_power = 0.05
 	}
 
 	location_modifier = {
@@ -133,8 +133,8 @@ guayupe_culture = { #https://en.wikipedia.org/wiki/Guayupe
 	
 
 	country_modifier = {
-		# This Colombian lowland people practiced swidden agriculture and fishing in the tropical forests.
-		global_grain_output_modifier = 0.05
+		# The Guayupe were llanos warriors, adapted to the vast Venezuelan-Colombian plains.
+		land_morale = 0.05
 	}
 
 	location_modifier = {
@@ -158,8 +158,8 @@ caquetio_culture = { #https://en.wikipedia.org/wiki/Caquetio
 
 
 	country_modifier = {
-		# This Arawakan people practiced manioc farming and fishing in the tropical lowlands.
-		global_grain_output_modifier = 0.1
+		# This people participated in extensive trade networks exchanging gold, salt, emeralds, and textiles.
+		trade_efficiency = 0.05
 	}
 
 	location_modifier = {
@@ -212,13 +212,13 @@ sinu_culture = { #https://es.wikipedia.org/wiki/Zen%C3%BA
 	
 
 	country_modifier = {
-		# This Colombian lowland people practiced swidden agriculture and fishing in the tropical forests.
-		global_grain_output_modifier = 0.05
+		# This coastal/riverine people combined fishing with agriculture along Colombia/Venezuela's waterways.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The dense Colombian rainforest was difficult terrain for outside forces.
-		local_hostile_attrition = 0.1
+		# The river systems and coastal waters provided productive fishing and marine resources.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -286,8 +286,8 @@ pemon_culture = { #https://en.wikipedia.org/wiki/Pemon
 	
 
 	country_modifier = {
-		# The Pemon were farmers and hunters of the Guiana Highlands and the tepui table-top mountains.
-		global_grain_output_modifier = 0.05
+		# The Pemon maintained stable communities across the Gran Sabana tepui highlands with strong social cohesion.
+		stability_cost_modifier = -0.05
 	}
 
 	location_modifier = {
@@ -586,8 +586,8 @@ panche_culture = { #https://es.wikipedia.org/wiki/Panche
 	
 
 	country_modifier = {
-		# This Colombian lowland people practiced swidden agriculture and fishing in the tropical forests.
-		global_grain_output_modifier = 0.05
+		# This people were renowned warriors who fiercely resisted Spanish colonial expansion in Colombia/Venezuela.
+		army_infantry_power = 0.05
 	}
 
 	location_modifier = {
@@ -610,8 +610,8 @@ muzo_culture = { #https://en.wikipedia.org/wiki/Muzo_people
 	
 
 	country_modifier = {
-		# This Colombian lowland people practiced swidden agriculture and fishing in the tropical forests.
-		global_grain_output_modifier = 0.05
+		# This people were renowned warriors who fiercely resisted Spanish colonial expansion in Colombia/Venezuela.
+		army_infantry_power = 0.05
 	}
 
 	location_modifier = {
@@ -634,8 +634,8 @@ tahami_culture = { #https://es.wikipedia.org/wiki/Taham%C3%ADes
 	
 
 	country_modifier = {
-		# This Colombian lowland people practiced swidden agriculture and fishing in the tropical forests.
-		global_grain_output_modifier = 0.05
+		# This people participated in extensive trade networks exchanging gold, salt, emeralds, and textiles.
+		trade_efficiency = 0.05
 	}
 
 	location_modifier = {
@@ -658,8 +658,8 @@ nutabe_culture = { #https://en.wikipedia.org/wiki/Nutabe
 	
 
 	country_modifier = {
-		# This Colombian lowland people practiced swidden agriculture and fishing in the tropical forests.
-		global_grain_output_modifier = 0.05
+		# This people participated in extensive trade networks exchanging gold, salt, emeralds, and textiles.
+		trade_efficiency = 0.05
 	}
 
 	location_modifier = {
@@ -682,13 +682,13 @@ malibu_culture = { #https://es.wikipedia.org/wiki/Lenguas_malib%C3%BA
 	
 
 	country_modifier = {
-		# This Colombian lowland people practiced swidden agriculture and fishing in the tropical forests.
-		global_grain_output_modifier = 0.05
+		# This coastal/riverine people combined fishing with agriculture along Colombia/Venezuela's waterways.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The dense Colombian rainforest was difficult terrain for outside forces.
-		local_hostile_attrition = 0.1
+		# The river systems and coastal waters provided productive fishing and marine resources.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -706,8 +706,8 @@ pijao_culture = { #https://en.wikipedia.org/wiki/Pijao_people
 	
 
 	country_modifier = {
-		# This Colombian lowland people practiced swidden agriculture and fishing in the tropical forests.
-		global_grain_output_modifier = 0.05
+		# This people were renowned warriors who fiercely resisted Spanish colonial expansion in Colombia/Venezuela.
+		army_infantry_power = 0.05
 	}
 
 	location_modifier = {
@@ -876,8 +876,8 @@ barbakoan_culture = { #https://es.wikipedia.org/wiki/Lenguas_barbacoanas
 	
 
 	country_modifier = {
-		# This Colombian lowland people practiced swidden agriculture and fishing in the tropical forests.
-		global_grain_output_modifier = 0.05
+		# This people participated in extensive trade networks exchanging gold, salt, emeralds, and textiles.
+		trade_efficiency = 0.05
 	}
 
 	location_modifier = {
@@ -1022,13 +1022,13 @@ chaima_culture = { #https://es.wikipedia.org/wiki/Chaima
 	
 
 	country_modifier = {
-		# This Colombian lowland people practiced swidden agriculture and fishing in the tropical forests.
-		global_grain_output_modifier = 0.05
+		# This coastal/riverine people combined fishing with agriculture along Colombia/Venezuela's waterways.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The dense Colombian rainforest was difficult terrain for outside forces.
-		local_hostile_attrition = 0.1
+		# The river systems and coastal waters provided productive fishing and marine resources.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -1047,8 +1047,8 @@ yukpa_culture = { #https://es.wikipedia.org/wiki/Pueblo_yukpa
 	
 
 	country_modifier = {
-		# This Colombian lowland people practiced swidden agriculture and fishing in the tropical forests.
-		global_grain_output_modifier = 0.05
+		# This people were renowned warriors who fiercely resisted Spanish colonial expansion in Colombia/Venezuela.
+		army_infantry_power = 0.05
 	}
 
 	location_modifier = {
@@ -1146,13 +1146,13 @@ tumaco_culture = { #https://es.wikipedia.org/wiki/Cultura_Tumaco-La_Tolita
 	
 
 	country_modifier = {
-		# This Colombian lowland people practiced swidden agriculture and fishing in the tropical forests.
-		global_grain_output_modifier = 0.05
+		# This coastal/riverine people combined fishing with agriculture along Colombia/Venezuela's waterways.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
-		# The dense Colombian rainforest was difficult terrain for outside forces.
-		local_hostile_attrition = 0.1
+		# The river systems and coastal waters provided productive fishing and marine resources.
+		local_fish_output_modifier = 0.1
 	}
 	opinions = {
 	}
@@ -1196,8 +1196,8 @@ enepas_culture = { #https://es.wikipedia.org/wiki/Etnia_E%27%C3%B1ep%C3%A1_o_Pan
 	
 
 	country_modifier = {
-		# This Colombian lowland people practiced swidden agriculture and fishing in the tropical forests.
-		global_grain_output_modifier = 0.05
+		# This coastal/riverine people combined fishing with agriculture along Colombia/Venezuela's waterways.
+		global_fish_output_modifier = 0.1
 	}
 
 	location_modifier = {
