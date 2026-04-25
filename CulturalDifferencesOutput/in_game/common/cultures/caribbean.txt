@@ -1,0 +1,191 @@
+﻿taino_culture = {#https://en.wikipedia.org/wiki/Ta%C3%ADno
+	language = taino_language
+	
+	color = map_taino
+	
+	tags = { south_american_gfx american_gfx caribbean_coa_gfx }
+
+
+	country_modifier = {
+		# The Taino were skilled farmers who developed intensive cassava and maize cultivation, supporting the largest population in the pre-Columbian Caribbean.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Taino cultivated extensive conucos (raised beds) growing cassava, corn, and sweet potato as their agricultural base.
+		local_grain_output_modifier = 0.15
+	}
+	opinions = {
+	}	
+	culture_groups = {
+		ta_arawakan_group
+	}
+}
+
+macorix_culture = {#https://en.wikipedia.org/wiki/Indigenous_peoples_of_the_Caribbean#Macorix
+	language = ciguayo_language
+	
+	color = map_macorix
+	
+	tags = { native_american_tag south_american_gfx american_gfx caribbean_coa_gfx }
+
+
+	country_modifier = {
+		# The Macorix were a distinct Hispaniola people who traded with neighboring Taino communities.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The Macorix participated in inter-island exchange networks across Hispaniola and the Greater Antilles.
+		local_trade_output_modifier = 0.1
+	}
+	opinions = {
+	}	
+	culture_groups = {
+		ta_arawakan_group
+	}
+}
+
+lucayo = { #https://en.wikipedia.org/wiki/Lucayan_people
+	language = taino_language
+	
+	color = map_lucayo
+	
+	tags = { native_american_tag south_american_gfx american_gfx caribbean_coa_gfx }
+
+
+	country_modifier = {
+		# The Lucayan maintained peaceful, well-ordered communities across the Bahamas archipelago.
+		stability_cost_modifier = -0.05
+	}
+
+	location_modifier = {
+		# The shallow Bahamian banks and coral reefs supported exceptionally abundant marine life.
+		local_fish_output_modifier = 0.15
+	}
+	opinions = {
+	}	
+	culture_groups = {
+		ta_arawakan_group
+	}
+}
+
+ciboney = { #https://en.wikipedia.org/wiki/Ciboney
+	language = ciguayo_language
+	
+	color = map_ciboney
+	
+	tags = { native_american_tag south_american_gfx american_gfx caribbean_coa_gfx }
+
+
+	country_modifier = {
+		# The Ciboney were among the earliest Caribbean peoples, subsisting primarily on fishing and shellfish gathering.
+		global_fish_output_modifier = 0.15
+	}
+
+	location_modifier = {
+		# The Cuban and Hispaniolan coastlines provided abundant shellfish and fishing for Ciboney communities.
+		local_fish_output_modifier = 0.15
+	}
+	opinions = {
+	}	
+	culture_groups = {
+		ta_arawakan_group
+	}
+}
+
+guanahatabey = { #https://en.wikipedia.org/wiki/Guanahatabey
+	language = ciguayo_language
+	
+	color = map_guanahatabey
+	
+	tags = { native_american_tag south_american_gfx american_gfx caribbean_coa_gfx }
+
+
+	country_modifier = {
+		# The Guanahatabey were the oldest known inhabitants of Cuba, living as coastal fishermen and gatherers.
+		global_fish_output_modifier = 0.15
+	}
+
+	location_modifier = {
+		# Western Cuba's coastal caves and shores supported the Guanahatabey fishing and gathering economy.
+		local_fish_output_modifier = 0.15
+	}
+	opinions = {
+	}	
+	culture_groups = {
+		ta_arawakan_group
+	}
+}
+
+carib = { #https://en.wikipedia.org/wiki/Kalinago
+	language = ta_arawakan_language
+	
+	color = map_carib
+	
+	tags = { native_american_tag south_american_gfx american_gfx caribbean_coa_gfx }
+
+
+	country_modifier = {
+		# The Island Caribs (Kalinago) were fearsome warrior-seafarers who conquered the Lesser Antilles through seaborne raids.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Island Caribs defended their territories fiercely against both European and rival indigenous attacks.
+		local_defensive = 0.1
+	}
+	opinions = {
+	}	
+	culture_groups = {
+		caribe_group
+	}
+}
+
+igneri = { #https://en.wikipedia.org/wiki/Igneri
+	language = ta_arawakan_language
+	
+	color = map_igneri
+	
+	tags = { native_american_tag south_american_gfx american_gfx caribbean_coa_gfx }
+
+
+	country_modifier = {
+		# The Igneri were Arawakan farming and fishing people of the Lesser Antilles, predecessors of the Island Caribs.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Igneri (early Arawakan settlers) were skilled agriculturalists who brought cassava cultivation to the Lesser Antilles.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}	
+	culture_groups = {
+		ta_arawakan_group
+	}
+}
+
+ciguayo_culture = { #https://en.wikipedia.org/wiki/Ciguayos
+	language = ciguayo_language
+	
+	color = map_ciguayo
+	
+	tags = { native_american_tag south_american_gfx american_gfx caribbean_coa_gfx }
+
+
+	country_modifier = {
+		# The Ciguayo fiercely resisted Columbus's landing in the Gulf of Arrows in 1493, renowned as warriors.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The northeastern Hispaniola coast and Samana Bay provided rich fishing for Ciguayo communities.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}	
+	culture_groups = {
+		ta_arawakan_group
+	}
+}

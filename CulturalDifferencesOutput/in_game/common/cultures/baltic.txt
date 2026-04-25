@@ -1,0 +1,285 @@
+aukstaitian = { #Baltic https://en.wikipedia.org/wiki/Lithuanians
+	language = lithuanian_dialect
+	
+	color = map_LIT
+	
+	tags = { baltic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Lithuanian cavalry was the backbone of the Grand Duchy's military, combining heavy cavalry tradition with steppe warfare skills.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+# The Lithuanian lowlands supported productive agriculture that fed the Grand Duchy's growing population.
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		latvian = kindred
+		prussian = enemy
+		pruthenian = kindred
+		samogitian = kindred
+		sudovian = kindred
+	}
+
+	culture_groups = {
+		lithuanian_group
+		baltic_group
+	}
+}
+
+curonian = { #Baltic
+	language = western_baltic_dialect
+	
+	color = map_curonian
+	
+	tags = { baltic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The Curonians were feared Baltic pirates and seafarers before the Northern Crusades, raiding Scandinavian and Danish shores.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Curonian Baltic coast supported fishing communities dependent on herring and other Baltic fish.
+		local_fish_output_modifier = 0.1
+	}
+
+	opinions = {
+		aukstaitian = kindred
+		german_baltic = enemy
+		latvian = kindred
+		prussian = enemy
+		pruthenian = kindred
+		samogitian = kindred
+		sudovian = kindred
+	}
+
+	culture_groups = {
+		baltic_group
+	}
+}
+
+estonian = { #https://en.wikipedia.org/wiki/Estonians
+	language = estonian_dialect
+	
+	color = map_estonian
+	
+	tags = { finnish_gfx baltic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Estonian coastal communities were skilled Baltic fishermen, with fishing a central part of the island and mainland economy.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Estonian islands and coast provided abundant herring, salmon, and seal hunting grounds.
+		local_fish_output_modifier = 0.15
+	}
+
+	opinions = {
+		german_baltic = negative
+		latvian = positive
+		liv = kindred
+	}
+	
+	culture_groups = {
+		finnic_group
+		baltic_group
+	}
+}
+
+latvian = {  #Baltic https://en.wikipedia.org/wiki/Latvians
+	language = latvian_dialect
+	
+	color = map_latvian	
+	
+	tags = { baltic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Latvian communities maintained a mixed agricultural economy with substantial cattle and pig herding alongside grain farming.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The fertile Latvian lowlands along the Daugava supported productive cereal agriculture.
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		aukstaitian = kindred
+		curonian = kindred
+		german_baltic = negative
+		estonian = positive
+		liv = positive
+		samogitian = kindred
+	}
+	
+	culture_groups = {
+		baltic_group
+	}
+	
+}
+
+liv = {  #Finnic https://en.wikipedia.org/wiki/Livonians
+	language = estonian_dialect
+	
+	color = map_liv
+	
+	tags = { baltic_gfx finnish_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The Livonians occupied a strategic position on the Baltic trade routes, serving as intermediaries between Russian and Western merchants.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Livonian coast of the Gulf of Riga provided substantial fishing resources for local communities.
+		local_fish_output_modifier = 0.1
+	}
+
+	opinions = {
+		curonian = positive
+		estonian = kindred
+		german_baltic = negative
+		latvian = positive
+	}
+	
+	culture_groups = {
+		baltic_group
+	}
+}
+
+samogitian = { #Baltic
+	language = lithuanian_dialect
+	
+	color = map_samogitian
+	
+	tags = { baltic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The Samogitians were the last pagan people in Europe, fiercely resisting the Teutonic Knights for over a century with fanatical determination.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+# Samogitia's dense forests and marshes made it a nightmare for Crusader armies attempting to subjugate the region.
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+		aukstaitian = kindred
+		curonian = kindred
+		latvian = kindred
+		prussian = enemy
+		sudovian = kindred
+	}
+
+	culture_groups = {
+		lithuanian_group
+		baltic_group
+	}
+}
+
+sudovian = { #Baltic
+	language = western_baltic_dialect
+	
+	color = map_sudovian
+	
+	tags = { baltic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The Sudovians were renowned Baltic warriors who fought prolonged resistance against the Teutonic Order's conquest.
+		global_manpower_modifier = 0.05
+	}
+
+	location_modifier = {
+# The dense Sudovian wilderness of forests and lakes made penetration by organized armies extremely difficult.
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+		aukstaitian = kindred
+		curonian = kindred
+		prussian = enemy
+		pruthenian = kindred
+		samogitian = kindred
+	}
+
+	culture_groups = {
+		baltic_group
+	}
+}
+
+pruthenian = { #Baltic
+	language = western_baltic_dialect
+	
+	color = map_western_baltic
+	
+	tags = { baltic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The Old Prussians were fierce Baltic warriors whose resistance to Christianization provoked decades of Crusader warfare.
+		global_manpower_modifier = 0.05
+	}
+
+	location_modifier = {
+# The Prussian Baltic lowlands and Vistula delta provided productive agricultural land and amber-rich coastline.
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		aukstaitian = kindred
+		curonian = kindred
+		prussian = enemy
+		samogitian = kindred
+		sudovian = kindred
+	}
+
+	culture_groups = {
+		baltic_group
+	}
+}
+
+german_baltic = { #Baltic https://en.wikipedia.org/wiki/Baltic_Germans
+	language = low_german_dialect
+	
+	color = map_baltic_german
+	
+	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The Baltic German merchant elite controlled the commerce of Riga, Reval, and Dorpat, integrating the region into Hanseatic trade networks.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# German-founded Baltic cities like Riga and Reval became major trading hubs with advanced urban infrastructure.
+		local_monthly_development = 0.03
+	}
+
+	opinions = {
+		danube_bavarian = positive
+		holsatian = positive
+		saxon = positive
+		markish = positive
+		western_pomeranian = positive
+		eastern_pomeranian = positive
+		lower_saxon = positive
+		rhine_franconian = positive
+		prussian = positive
+		westphalian = positive
+		danube_bavarian = positive
+		east_franconian = positive
+		high_alemannic = positive
+		rhine_alemannic = positive
+		swabian = positive
+		german_silesian = positive
+	}
+
+	culture_groups = {
+		german_group
+		baltic_group
+	}
+}

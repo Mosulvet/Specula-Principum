@@ -1,0 +1,679 @@
+﻿dimasa_culture = { #https://en.wikipedia.org/wiki/Dimasa_people
+	language = brahmaputran_language
+
+	color = map_dimasa
+
+	tags = { indian_gfx }
+	culture_groups = {
+		indian_group
+		tibeto_burman_group
+	}
+
+	country_modifier = {
+# Dimasa hill warriors; Kachari kingdom fighters defended the Cachar hills for centuries
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# Cachar hills forests; dense jungle terrain of the Barail range hinders invading forces
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+bodo_culture = {
+	language = brahmaputran_language
+
+	color = map_bodo
+	
+	tags = { indian_gfx }
+	culture_groups = {
+		indian_group
+		tibeto_burman_group
+	}
+
+	country_modifier = {
+# Bodo pastoral farming; livestock husbandry sustained communities across the Brahmaputra plains
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Assam forest lowlands; dense riverine jungle and marshes slow advancing armies
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+		kamarupi = positive
+	}
+}
+
+garo_culture = {
+	language = brahmaputran_language
+
+	color = map_garo
+	
+	tags = { indian_gfx }
+	culture_groups = {
+		indian_group
+		tibeto_burman_group
+	}
+
+	country_modifier = {
+# Garo hill warriors; fierce defenders of the Meghalaya highlands with strong martial culture
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# Garo Hills terrain; rugged forested hills of western Meghalaya provide natural fortifications
+		local_defensive = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+khasi_culture = {
+	language = khasi_language
+
+	color = map_khasi
+	
+	tags = { indian_gfx }
+	culture_groups = {
+		austroasiatic_group
+		indian_group
+	}
+
+	country_modifier = {
+# Khasi hill warriors; Khasi confederacy fighters controlled the strategic Meghalaya plateau
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# Khasi Hills plateau; elevated terrain and monsoon forests form strong defensive positions
+		local_defensive = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+santal_culture = {
+	language = munda_language
+
+	color = map_santal
+	
+	tags = { indian_gfx }
+	culture_groups = {
+		austroasiatic_group
+		indian_group
+	}
+
+	country_modifier = {
+# Santal iron-working tradition; skilled iron smelters of the Chota Nagpur plateau since antiquity
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+# Chota Nagpur iron deposits; rich laterite ores exploited by tribal smiths for generations
+		local_iron_output_modifier = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+munda_culture = {
+	language = munda_language
+
+	color = map_munda
+	
+	tags = { indian_gfx }
+	culture_groups = {
+		austroasiatic_group
+		indian_group
+	}
+
+	country_modifier = {
+# Munda iron smelting heritage; tribal metallurgists of Chota Nagpur pioneered forest iron-working
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+# Chota Nagpur iron and copper ores; mineral-rich plateau sustained tribal mining communities
+		local_iron_output_modifier = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+kharia_culture = { #https://en.wikipedia.org/wiki/Kharia_people
+	language = munda_language
+
+	color = map_kharia
+	
+	tags = { indian_gfx }
+	culture_groups = {
+		austroasiatic_group
+		indian_group
+	}
+
+	country_modifier = {
+# Forest tribal pastoralism; Kharia communities sustained herding in the Chota Nagpur woodlands
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Dense Chota Nagpur forests; thick sal woodland hinders movement of outside armies
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+ho_culture = {
+	language = munda_language
+
+	color = map_ho
+	
+	tags = { indian_gfx }
+	culture_groups = {
+		austroasiatic_group
+		indian_group
+	}
+
+	country_modifier = {
+# Ho iron-working tradition; skilled tribal smiths exploited the rich ores of Singhbhum
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+# Singhbhum iron deposits; among the richest iron ore fields in the Indian subcontinent
+		local_iron_output_modifier = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+korku_culture = {
+	language = munda_language
+
+	color = map_korku
+	
+	tags = { indian_gfx }
+	culture_groups = {
+		austroasiatic_group
+		indian_group
+	}
+
+	country_modifier = {
+# Forest tribal economy; Korku herders sustained livestock in the Satpura range woodlands
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Satpura forest terrain; dense jungle and hill country devastates invading forces
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+juang_culture = { #https://en.wikipedia.org/wiki/Juang_people
+	language = munda_language
+
+	color = map_juang
+	
+	tags = { indian_gfx }
+	culture_groups = {
+		austroasiatic_group
+		indian_group
+	}
+
+	country_modifier = {
+# Forest tribal subsistence; Juang communities practiced small-scale herding in Odisha highlands
+		global_livestock_output_modifier = 0.05
+	}
+
+	location_modifier = {
+# Odisha forest highlands; remote jungle terrain of the Keonjhar hills slows enemy advances
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+sora_culture = { #https://en.wikipedia.org/wiki/Sora_people
+	language = munda_language
+
+	color = map_sora
+	
+	tags = { indian_gfx }
+	culture_groups = {
+		austroasiatic_group
+		indian_group
+	}
+
+	country_modifier = {
+# Forest tribal economy; Sora communities maintained small herds in the Eastern Ghats foothills
+		global_livestock_output_modifier = 0.05
+	}
+
+	location_modifier = {
+# Eastern Ghats forests; rugged hill jungle of southern Odisha impedes invading armies
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+rabha_culture = { #https://en.wikipedia.org/wiki/Rabha_people
+	language = brahmaputran_language
+
+	color = map_rabha
+	
+	tags = { indian_gfx }
+	culture_groups = {
+		indian_group
+		tibeto_burman_group
+	}
+
+	country_modifier = {
+# Forest tribal subsistence; Rabha communities sustained small-scale herding in Assam foothills
+		global_livestock_output_modifier = 0.05
+	}
+
+	location_modifier = {
+# Assam foothill forests; dense subtropical jungle terrain hinders outside military operations
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+deori_culture = { #https://en.wikipedia.org/wiki/Deori_people
+	language = brahmaputran_language
+
+	color = map_deori
+	
+	tags = { indian_gfx }
+	culture_groups = {
+		indian_group
+		tibeto_burman_group
+	}
+
+	country_modifier = {
+# Forest tribal pastoralism; Deori herders sustained livestock along Brahmaputra tributaries
+		global_livestock_output_modifier = 0.05
+	}
+
+	location_modifier = {
+# Brahmaputra riverine forests; dense alluvial jungle and marshes impede invading forces
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+tiwa_culture = { #https://en.wikipedia.org/wiki/Tiwa_people_(India)
+	language = brahmaputran_language
+
+	color = map_tiwa
+	
+	tags = { indian_gfx }
+	culture_groups = {
+		indian_group
+		tibeto_burman_group
+	}
+
+	country_modifier = {
+# Hill tribal economy; Tiwa communities sustained livestock in the Assam-Meghalaya borderlands
+		global_livestock_output_modifier = 0.05
+	}
+
+	location_modifier = {
+# Assam hill forests; rugged terrain between plains and Meghalaya plateau slows enemy advances
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+koch_culture = { #https://en.wikipedia.org/wiki/Koch_people
+	language = brahmaputran_language
+
+	color = map_koch
+	
+	tags = { indian_gfx }
+	culture_groups = {
+		indian_group
+		tibeto_burman_group
+	}
+
+	country_modifier = {
+# Koch Kingdom military tradition; Koch dynasty raised formidable infantry from the Kamata region
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# Kamata region terrain; forested foothills of the Duars provide natural defensive positions
+		local_defensive = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+chutia_culture = { #https://en.wikipedia.org/wiki/Chutia_people
+	language = brahmaputran_language
+
+	color = map_chutia
+	
+	tags = { indian_gfx }
+	culture_groups = {
+		indian_group
+		tibeto_burman_group
+	}
+
+	country_modifier = {
+# Chutia Kingdom warriors; fighters of the upper Brahmaputra valley resisted Ahom expansion
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# Upper Assam hills; forested terrain of the Patkai foothills provides strong defensive ground
+		local_defensive = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+tripuri_culture = { #https://en.wikipedia.org/wiki/Tripuri_culture
+	language = brahmaputran_language
+
+	color = map_tripuri
+	
+	tags = { indian_gfx }
+	culture_groups = {
+		indian_group
+		tibeto_burman_group
+	}
+
+	country_modifier = {
+# Tripura hill warriors; Manikya dynasty fighters defended the forested hills for centuries
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# Tripura hill terrain; densely forested ridges of the Lushai Hills provide natural defenses
+		local_defensive = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+khas_culture = {
+	language = nepali_language
+
+	color = map_khas
+	
+	tags = { indian_gfx }
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+		nepali_group
+	}
+
+	country_modifier = {
+# Gurkha warrior tradition; Khas infantry renowned as among the fiercest mountain fighters in Asia
+		army_infantry_power = 0.1
+	}
+
+	location_modifier = {
+# Himalayan mountain terrain; extreme elevation and narrow passes devastate invading armies
+		local_defensive = 0.15
+	}
+
+	opinions = {
+
+	}
+}
+
+tharu_culture = {
+	language = bihari_language
+
+	color = map_tharu
+	
+	tags = { indian_gfx }
+	culture_groups = {
+		indian_group
+		indo_aryan_group
+		nepali_group
+	}
+
+	country_modifier = {
+		# The Tharu were Terai plains agriculturalists, expert rice paddy farmers in the fertile Gangetic lowlands.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Terai marshland and jungle; malarial swamps and dense forests devastate outside armies
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+karbi_culture = { #https://en.wikipedia.org/wiki/Karbi_people
+	language = meitei_language
+
+	color = map_karbi
+	
+	tags = { indian_gfx }
+	culture_groups = {
+		indian_group
+		tibeto_burman_group
+	}
+
+	country_modifier = {
+		# The Karbi practiced mixed farming with livestock, shifting cultivation, and forest management in the Assam hills.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Karbi Anglong hills; rugged forested plateau terrain hinders movement of invading forces
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+newar_culture = {
+	language = tibetan_language
+
+	color = map_newar
+	
+	tags = { tibetan_gfx east_asian_gfx }
+	culture_groups = {
+		indian_group
+		nepali_group
+		tibeto_burman_group
+	}
+
+	country_modifier = {
+# Kathmandu Valley trade; Newar merchants dominated trans-Himalayan commerce between India and Tibet
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# Kathmandu urbanism; Newar city-states of Kathmandu, Patan, and Bhaktapur fostered dense urban culture
+		local_monthly_development = 0.03
+	}
+
+	opinions = {
+
+	}
+}
+
+magar_culture = {
+	language = tibetan_language
+
+	color = map_magar
+	
+	tags = { tibetan_gfx east_asian_gfx }
+	culture_groups = {
+		nepali_group
+		tibeto_burman_group
+	}
+
+	country_modifier = {
+# Gurkha warrior tradition; Magar soldiers formed the backbone of Nepal's legendary fighting forces
+		army_infantry_power = 0.1
+	}
+
+	location_modifier = {
+# Nepal mid-hills terrain; steep forested ridges of the Magar homeland provide strong defenses
+		local_defensive = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+tamang_culture = {
+	language = tibetan_language
+
+	color = map_tamang
+	
+	tags = { tibetan_gfx east_asian_gfx }
+	culture_groups = {
+		nepali_group
+		tibeto_burman_group
+	}
+
+	country_modifier = {
+# Mountain infantry tradition; Tamang hill fighters served as soldiers across Himalayan kingdoms
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# Himalayan foothills; rugged terrain of the central Nepal hills provides natural fortification
+		local_defensive = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+gurung_culture = {
+	language = tibetan_language
+
+	color = map_gurung
+	
+	tags = { tibetan_gfx east_asian_gfx }
+	culture_groups = {
+		nepali_group
+		tibeto_burman_group
+	}
+
+	country_modifier = {
+# Gurkha warrior tradition; Gurung soldiers renowned for courage and skill in mountain warfare
+		army_infantry_power = 0.1
+	}
+
+	location_modifier = {
+# Annapurna region hills; steep Himalayan terrain of the Gurung homeland forms natural defenses
+		local_defensive = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+limbu_culture = {
+	language = tibetan_language
+
+	color = map_LWA
+	
+	tags = { tibetan_gfx east_asian_gfx }
+	culture_groups = {
+		nepali_group
+		tibetan_group
+		tibeto_burman_group
+	}
+
+	country_modifier = {
+# Kirant warrior heritage; Limbu fighters defended eastern Nepal's hills with fierce independence
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# Eastern Nepal hills; steep forested ridges of the Limbuwan region provide natural defenses
+		local_defensive = 0.1
+	}
+
+	opinions = {
+
+	}
+}
+
+chakma_culture = {
+	language = bengali_language
+
+	color = map_chakma
+	
+	tags = { indian_gfx }
+	culture_groups = {
+		indian_group
+		tibeto_burman_group
+	}
+
+	country_modifier = {
+# Chittagong Hill Tracts warriors; Chakma fighters skilled in jungle warfare of the eastern hills
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# Chittagong hill forests; dense bamboo jungle and steep ridges devastate invading forces
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+
+	}
+}

@@ -1,0 +1,190 @@
+#Turkic ethnic group https://en.wikipedia.org/wiki/Turkic_peoples
+
+turkish_culture = { #https://en.wikipedia.org/wiki/Turkish_people
+	language = turkish_dialect #https://en.wikipedia.org/wiki/turkish_language
+	
+	color = color_culture_turkish
+	
+	tags = { turkish_gfx turkic_gfx persianate_gfx central_asian_gfx middle_east_gfx }
+
+	opinions = {
+		greek_culture = negative
+	}	
+
+    country_modifier = {
+		tolerance_own = 1
+		tolerance_heretic = -1
+	}
+
+	location_modifier = {
+# Anatolia's diverse geography supported rich agriculture, with fertile valleys producing grain, cotton, and fruit for Ottoman markets.
+		local_production_efficiency = 0.1
+	}
+
+	culture_groups = {
+		turkic_group
+	}
+	
+	use_patronym = yes
+
+	dynasty_name_type = descendant	
+}
+
+turkoman_culture = {
+	language = turkmen_dialect
+	
+	color = color_culture_turkoman
+	
+	tags = { turkic_gfx persianate_gfx central_asian_gfx middle_east_gfx }
+
+	opinions = {
+
+	}	
+	
+    country_modifier = {
+		army_tradition_decay = -0.0025
+	}
+
+	location_modifier = {
+# The Turkoman tribal lands of eastern Anatolia and northern Iraq featured rugged terrain ideal for pastoral nomadism and guerrilla warfare.
+		local_hostile_attrition = 0.1
+	}
+	
+	culture_groups = {
+		turkic_group
+	}
+
+}
+
+turkmen_culture = {
+	language = turkmen_dialect
+	
+	color = color_culture_turkmen
+	
+	tags = { turkic_gfx persianate_gfx central_asian_gfx middle_east_gfx }
+
+	opinions = {
+
+	}	
+
+	country_modifier = {
+# The Turkmen of Central Asia were superb horse-warriors whose cavalry tradition made them feared raiders and mercenaries across the Islamic world.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+# The Turkmen steppe supported vast herds of horses, sheep, and camels, with horse breeding being a prized cultural tradition.
+		local_livestock_output_modifier = 0.15
+	}
+
+	culture_groups = {
+		turkic_group
+	}
+
+}
+
+azeri_culture = {
+	language = azeri_dialect
+	
+	color = map_azeri
+	
+	tags = { turkic_gfx persianate_gfx central_asian_gfx middle_east_gfx }
+
+	opinions = {
+
+	}
+
+    country_modifier = {
+		global_merchant_power = 0.1
+	}
+
+	location_modifier = {
+# Azerbaijan's position between the Caspian and the Caucasus made it a vital crossroads for Silk Road trade between Persia and the steppe.
+		local_production_efficiency = 0.05
+	}
+	
+	culture_groups = {
+		turkic_group
+	}
+
+}
+
+uzbek_culture = {
+	language = kipchak_language
+	
+	color = map_uzbek
+	
+	tags = { turkic_gfx persianate_gfx central_asian_gfx middle_east_gfx }
+
+	opinions = {
+
+	}	
+
+	country_modifier = {
+# The Uzbek tribal confederacy combined steppe cavalry tactics with the administrative traditions of Timur's empire.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+# The Uzbek-controlled oases of Transoxiana were major agricultural centers surrounded by pastoral steppe lands.
+		local_livestock_output_modifier = 0.1
+	}
+
+	culture_groups = {
+		turkic_group
+	}
+
+}
+
+khorezmian_culture = {
+	language = karluk_language
+	
+	color = map_CHG
+	
+	tags = { turkic_gfx persianate_gfx central_asian_gfx middle_east_gfx }
+
+	opinions = {
+
+	}	
+
+	country_modifier = {
+# Khwarezm controlled the vital Oxus River trade routes connecting Persia, India, and the northern steppe.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# The irrigated oases of Khwarezm along the Amu Darya were among the most productive agricultural lands in Central Asia.
+		local_monthly_development = 0.03
+	}
+
+	culture_groups = {
+		turkic_group
+	}
+
+}
+
+qashqai_culture = {
+	language = turkmen_dialect
+	
+	color = map_qashqai
+	
+	tags = { turkic_gfx persianate_gfx central_asian_gfx middle_east_gfx }
+
+	opinions = {
+
+	}		
+
+	country_modifier = {
+# The Qashqai were nomadic Turkic pastoralists in the Zagros Mountains, skilled horse-riders who served Persian rulers as cavalry.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+# The Qashqai nomadic routes through the Zagros mountains supported extensive sheep and goat herding.
+		local_livestock_output_modifier = 0.1
+	}
+
+	culture_groups = {
+		turkic_group
+	}
+}

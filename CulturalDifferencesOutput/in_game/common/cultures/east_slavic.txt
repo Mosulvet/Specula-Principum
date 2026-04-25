@@ -1,0 +1,435 @@
+novgorodian = {
+	language = novgorodian_dialect	
+	color = map_NOV
+	
+	tags = { russian_gfx east_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Novgorod the Great was the foremost fur-trading republic of Eastern Europe, with commercial links from the Baltic to Central Asia.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# Novgorod's wealth from fur, wax, and honey trade made it one of the largest and most prosperous cities in medieval Russia.
+		local_monthly_development = 0.03
+	}
+
+	opinions = {
+		polatskian_culture = positive
+		smolenskian_culture = positive
+		pomor = kindred  
+	}
+
+	culture_groups = {
+		russian_group
+		slavic_group
+	}
+}
+
+muscovite = {
+	language = russian_dialect
+	color = map_MOS
+	
+	tags = { russian_gfx east_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Muscovy's princes forged a centralized military state, unifying Russian lands through disciplined campaigns against both Mongol and rival principalities.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+# The fertile lands around Moscow supported a growing agricultural base that fueled Muscovite expansion.
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		smolenskian_culture = positive
+		ryazanian = kindred
+		crimean = negative
+		mishar = enemy
+		astrakhani = negative
+		kazani = enemy  
+		mongolian_culture = enemy
+	}
+
+	culture_groups = {
+		russian_group
+		slavic_group
+	}
+}
+
+ryazanian = {
+	language = russian_dialect
+	color = map_RYA
+	
+	tags = { russian_gfx east_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Ryazan's position on the steppe frontier demanded constant military readiness, producing a martial population hardened by Tatar raids.
+		global_manpower_modifier = 0.05
+	}
+
+	location_modifier = {
+# The Oka river valley's black earth provided rich farmland despite the constant threat of steppe incursions.
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		severian = positive
+		muscovite = kindred
+		crimean = negative
+		mishar = enemy
+		astrakhani = enemy
+		kazani = enemy
+		mongolian_culture = enemy
+	}
+
+	culture_groups = {
+		russian_group
+		slavic_group
+	}
+}
+
+ruthenian = { #KIE
+	language = ukrainian_dialect
+	color = map_ruthenian
+	
+	tags = { ukrainian_gfx ruthenian_gfx east_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The black-earth lands of Rus' produced bountiful grain harvests, sustaining large populations and trade in agricultural goods.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Kyiv and its surrounding lands maintained productive agriculture and river-borne trade along the Dnieper.
+		local_production_efficiency = 0.05
+	}
+ 
+	opinions = {
+		severian = positive
+		polesian_culture = kindred
+		halychian_culture = positive
+		volhynian_culture = positive
+		rusyn_culture = positive
+		polatskian_culture = positive
+		smolenskian_culture = positive
+		cossack_culture = kindred
+		crimean = enemy
+		mishar = enemy
+		astrakhani = negative
+		mongolian_culture = enemy
+	}
+
+	culture_groups = {
+		russian_group
+		slavic_group
+	}
+}
+
+pomor = {
+	language = novgorodian_dialect
+	color = map_pomor
+	
+	tags = { russian_gfx east_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The Pomors were skilled Arctic mariners, navigating the White Sea and Arctic coast for fishing, sealing, and fur trading.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+# The White Sea's rich fishing grounds provided the Pomors' primary livelihood and a major export commodity.
+		local_fish_output_modifier = 0.15
+	}
+	
+	opinions = {
+		novgorodian = kindred  
+	}	
+
+	culture_groups = {
+		russian_group
+		slavic_group
+	}
+}
+
+severian = {
+	language = ukrainian_dialect
+	color = map_CHR
+ 
+	tags = { ukrainian_gfx ruthenian_gfx east_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The Severians of Chernigov were a frontier people, long accustomed to defending against steppe nomads and raising levies for war.
+		global_manpower_modifier = 0.05
+	}
+
+	location_modifier = {
+# The Severian black-earth lands along the Desna river were among the most fertile in the Kievan Rus' successor states.
+		local_grain_output_modifier = 0.1
+	}
+ 
+	opinions = {
+		ruthenian = positive
+		ryazanian = positive
+		polesian_culture = kindred
+		halychian_culture = positive
+		volhynian_culture = positive
+		polatskian_culture = positive
+		smolenskian_culture = kindred
+		cossack_culture = positive
+		crimean = enemy
+		mishar = enemy
+		astrakhani = negative
+		mongolian_culture = enemy
+	}
+
+	culture_groups = {
+		russian_group
+		slavic_group
+	}
+}
+
+cossack_culture = {
+	language = ukrainian_dialect
+	color = map_cossack
+	
+	tags = { cossack_gfx ukrainian_gfx ruthenian_gfx east_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The Cossack hosts developed unmatched steppe cavalry skills, raiding Tatar and Ottoman territories with devastating speed and boldness.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+# The vast Cossack-controlled steppe was hostile terrain for invading armies, with guerrilla raids and scorched-earth tactics.
+		local_hostile_attrition = 0.15
+	}
+	
+	opinions = {
+		ruthenian = kindred
+		severian = positive
+		polesian_culture = positive
+		halychian_culture = positive
+		volhynian_culture = positive
+		crimean = enemy
+		mishar = enemy
+		astrakhani = enemy
+		mongolian_culture = enemy
+	}
+
+	culture_groups = {
+		russian_group
+		slavic_group
+	}
+}
+
+polatskian_culture = { 
+	language = belarusian_dialect
+	color = map_polatskian
+	
+	tags = { belarusian_gfx ruthenian_gfx east_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Polotsk controlled the Western Dvina trade route, connecting the Baltic to the Russian interior and profiting from river commerce.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Polotsk region's river system supported both agriculture and transit trade between Baltic and interior markets.
+		local_production_efficiency = 0.05
+	}
+ 
+	opinions = {
+		ruthenian = positive
+		severian = positive
+		polesian_culture = kindred
+		halychian_culture = positive
+		volhynian_culture = positive
+		smolenskian_culture = kindred
+		novgorodian = positive
+		crimean = negative
+		mongolian_culture = enemy
+	}
+
+	culture_groups = {
+		russian_group
+		slavic_group
+	}
+}
+
+smolenskian_culture = { 
+	language = belarusian_dialect
+	color = map_smolenskian
+	
+	tags = { belarusian_gfx ruthenian_gfx east_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Smolensk sat at the crossroads of major trade routes between Moscow, Lithuania, and Novgorod, profiting from transit commerce.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# Smolensk's strategic position on the Dnieper headwaters made it a productive agricultural and commercial center.
+		local_production_efficiency = 0.05
+	}
+ 
+	opinions = {
+		ruthenian = positive
+		severian = kindred
+		polesian_culture = positive
+		halychian_culture = positive
+		volhynian_culture = positive
+		polatskian_culture = kindred
+		novgorodian = positive
+		muscovite = positive
+		cossack_culture = positive
+		crimean = negative
+		mongolian_culture = enemy
+	}
+
+	culture_groups = {
+		russian_group
+		slavic_group
+	}
+}
+
+volhynian_culture = { 
+	language = ukrainian_dialect
+	color = map_volhynian
+	
+	tags = { ukrainian_gfx ruthenian_gfx east_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Volhynia's fertile western Ukrainian lands produced abundant grain, making the region one of the breadbaskets of Eastern Europe.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The rich loess soils of Volhynia yielded substantial cereal harvests, supporting both local populations and grain export.
+		local_grain_output_modifier = 0.1
+	}
+ 
+	opinions = {
+		ruthenian = positive
+		severian = positive
+		polesian_culture = kindred
+		halychian_culture = kindred
+		smolenskian_culture = positive
+		rusyn_culture = kindred
+		polatskian_culture = positive
+		cossack_culture = positive
+		crimean = enemy
+		mishar = negative
+		astrakhani = negative
+		mongolian_culture = enemy
+	}
+
+	culture_groups = {
+		russian_group
+		slavic_group
+	}
+}
+
+halychian_culture = { 
+	language = ukrainian_dialect
+	color = map_halychian
+	
+	tags = { ukrainian_gfx ruthenian_gfx east_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Halych controlled the salt mines of the Carpathian foothills, one of the most valuable mineral resources in Eastern Europe.
+		global_salt_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Drohobych and Bochnia salt deposits made Galicia a major salt-producing region, enriching its princely rulers.
+		local_salt_output_modifier = 0.1
+	}
+ 
+	opinions = {
+		ruthenian = positive
+		severian = positive
+		polesian_culture = positive
+		volhynian_culture = kindred
+		rusyn_culture = kindred
+		polatskian_culture = positive
+		cossack_culture = positive
+		crimean = enemy
+		mishar = negative
+		astrakhani = negative
+		mongolian_culture = enemy
+	}
+
+	culture_groups = {
+		russian_group
+		slavic_group
+	}
+}
+
+polesian_culture = { 
+	language = belarusian_dialect
+	color = map_polesian
+	
+	tags = { belarusian_gfx ruthenian_gfx east_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The vast Pripyat marshlands of Polesia supported cattle herding and beekeeping in its forest-steppe environment.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Polesia's impenetrable marshes and forests made the region a natural fortress, impossible for large armies to traverse.
+		local_hostile_attrition = 0.1
+	}
+ 
+	opinions = {
+		ruthenian = kindred
+		severian = kindred
+		halychian_culture = positive
+		volhynian_culture = kindred
+		smolenskian_culture = positive
+		polatskian_culture = kindred
+		cossack_culture = positive
+		crimean = negative
+		mishar = negative
+		mongolian_culture = enemy
+	}
+
+	culture_groups = {
+		russian_group
+		slavic_group
+	}
+}
+
+rusyn_culture = { 
+	language = ukrainian_dialect
+	color = map_rusyn
+	
+	tags = { ukrainian_gfx ruthenian_gfx east_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The Rusyn communities of the Carpathian highlands maintained a pastoral economy centered on sheep and cattle herding.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Carpathian mountain passes and forested valleys provided natural fortifications for the Rusyn highland communities.
+		local_defensive = 0.1
+	}
+ 
+	opinions = {
+		ruthenian = positive
+		volhynian_culture = positive
+		halychian_culture = kindred
+		cossack_culture = positive
+		crimean = negative
+		mongolian_culture = enemy
+	}
+
+	culture_groups = {
+		russian_group
+		slavic_group
+		carpathian_group
+	}
+}

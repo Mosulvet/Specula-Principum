@@ -1,0 +1,422 @@
+#Arabized
+algerian = {
+	language = maghrebi_dialect
+	
+	color = map_algiers
+	
+	tags = { maghrebi_gfx middle_east_gfx }
+
+	country_modifier = {
+# Algerian corsairs were feared across the Mediterranean, their naval raids reaching as far as Iceland and the English Channel.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Algerian Mediterranean coast supported fishing communities alongside the corsair ports of Algiers and Bejaia.
+		local_fish_output_modifier = 0.1
+	}
+
+	opinions = {
+		aragonese = negative
+		zenati = negative
+		kabyle = negative
+		moroccan = positive
+		tunisian = positive
+		andalusi = positive
+	}		
+	
+	use_patronym = yes
+	
+	culture_groups = {
+		arabic_group
+		maghrebi_group
+	}
+}
+
+hassaniya = {
+	language = maghrebi_dialect
+	
+	color = map_hassaniya
+	
+	tags = { maghrebi_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Hassaniya Moors were skilled desert horsemen and camel warriors who dominated the western Saharan trade routes.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+# The Saharan and Sahel regions of Hassaniya settlement were extremely difficult for outside forces to traverse.
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {	
+		moroccan = positive	
+		algerian = positive
+		tunisian = positive
+	}	
+	
+	use_patronym = yes	
+	
+	culture_groups = {
+		arabic_group
+		maghrebi_group
+	}
+}
+
+moroccan = {
+	language = maghrebi_dialect
+	
+	color = map_morocco
+	
+	tags = { maghrebi_gfx middle_east_gfx }
+
+	country_modifier = {
+# Morocco controlled the western terminus of trans-Saharan gold trade routes, with Fez as a major commercial and intellectual center.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# Fez was famous for its leather-working, pottery, and textile production, with the Fez tanneries renowned across the Mediterranean.
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+		castilian = negative
+		portuguese = negative
+		zenati = positive
+		algerian = positive
+		tunisian = positive
+		andalusi = kindred
+	}		
+	
+	use_patronym = yes
+	
+	culture_groups = {
+		arabic_group
+		maghrebi_group
+	}
+}
+
+tunisian = {
+	language = maghrebi_dialect
+	
+	color = map_tunis
+	
+	tags = { maghrebi_gfx middle_east_gfx }
+
+	country_modifier = {
+# Tunis was one of the great ports of the medieval Mediterranean, controlling trade between the Maghreb, Sicily, and the Levant.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# Tunis and its port were among the most developed urban centers in North Africa, rivaling Cairo in commercial significance.
+		local_monthly_development = 0.03
+	}
+
+	opinions = {	
+		sicilian = negative
+		neapolitan = negative
+		eastern_amazigh = negative
+		kabyle = positive
+		moroccan = positive
+		algerian = positive
+		andalusi = positive
+	}		
+	
+	use_patronym = yes
+	
+	culture_groups = {
+		arabic_group
+		maghrebi_group
+	}
+}
+
+#Amazigh
+chaoui = {
+	language = tamazight_language
+	
+	color = map_chaoui
+	
+	tags = { middle_east_gfx amazigh_gfx }
+
+	country_modifier = {
+# The Chaoui Berbers of the Aurès Mountains were pastoral herders maintaining flocks in the rugged Atlas highlands.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Aurès Mountains provided the Chaoui with formidable natural defenses, as the Romans and Arabs both discovered.
+		local_defensive = 0.1
+	}
+
+	opinions = {	
+		algerian = negative
+		eastern_amazigh = kindred
+		kabyle = positive
+		mozabite = kindred
+		tunisian = positive
+		zenati = kindred
+	}		
+	
+	use_patronym = yes
+
+	culture_groups = {
+		amazigh_group
+		maghrebi_group
+	}
+}
+
+eastern_amazigh = {
+	language = tamazight_language
+	
+	color = map_eastern_amazigh
+	
+	tags = { middle_east_gfx amazigh_gfx }
+
+	country_modifier = {
+# The eastern Amazigh communities of Libya were primarily pastoral, herding sheep, goats, and camels across the pre-desert steppe.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The arid pre-Saharan steppe of eastern Amazigh territory was harsh terrain for outside military operations.
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+		chaoui = kindred
+		mozabite = kindred
+		tunisian = negative
+		zenati = kindred
+	}		
+	
+	use_patronym = yes
+	
+	culture_groups = {
+		amazigh_group
+		maghrebi_group
+	}
+}
+
+guanche = {
+	language = tamazight_language
+	
+	color = map_guanche  
+
+	tags = { european_gfx amazigh_gfx }
+
+	country_modifier = {
+# The Guanche people of the Canary Islands depended heavily on fishing and goat herding on their volcanic island home.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The rich Atlantic waters around the Canary Islands provided abundant fishing for the Guanche islanders.
+		local_fish_output_modifier = 0.15
+	}
+
+	opinions = {		
+	}	
+	
+	use_patronym = yes	
+	
+	culture_groups = {
+		amazigh_group
+		maghrebi_group
+	}
+}
+
+kabyle = {
+	language = tamazight_language
+	
+	color = map_kabyle
+	
+	tags = { middle_east_gfx amazigh_gfx }
+
+	country_modifier = {
+# The Kabyle Berbers were fierce mountain warriors who fiercely resisted every foreign power that attempted to subdue their highlands.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# The Kabylie Mountains of Algeria were virtually impregnable, with dense forests and steep valleys providing ideal defensive terrain.
+		local_defensive = 0.15
+	}
+
+	opinions = {	
+		algerian = negative
+		chaoui = positive
+		sanhaja = kindred
+		tunisian = positive
+		tuareg = kindred
+	}		
+	
+	use_patronym = yes
+
+	culture_groups = {
+		amazigh_group
+		maghrebi_group
+	}
+}
+
+masmuda = {
+	language = tamazight_language
+	
+	color = map_masmuda
+	
+	tags = { middle_east_gfx amazigh_gfx }
+
+	country_modifier = {
+# The Masmuda Berbers of the High Atlas were pastoral herders and the base of the Almohad dynasty that conquered the entire Maghreb.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The High Atlas Mountains of the Masmuda homeland were formidable natural fortifications rising above the Moroccan plains.
+		local_defensive = 0.1
+	}
+
+	opinions = {
+		sanhaja = positive
+	}		
+	
+	use_patronym = yes
+
+	culture_groups = {
+		amazigh_group
+		maghrebi_group
+	}
+}
+
+mozabite = {
+	language = tamazight_language
+	
+	color = map_mozabite
+	
+	tags = { middle_east_gfx amazigh_gfx }
+
+	country_modifier = {
+# The Mozabite Ibadi communities of the M'zab valley developed a strong commercial tradition, trading across the Sahara.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The M'zab oasis valley sustained a productive economy based on date palm cultivation and skilled craftsmanship.
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+		chaoui = kindred
+		eastern_amazigh = kindred
+		tunisian = negative
+		zenati = kindred
+	}		
+	
+	use_patronym = yes
+	
+	culture_groups = {
+		amazigh_group
+		maghrebi_group
+	}
+}
+
+sanhaja = {
+	language = tamazight_language
+	
+	color = map_sanhaja
+	
+	tags = { middle_east_gfx amazigh_gfx }
+
+	country_modifier = {
+# The Sanhaja controlled key Saharan caravan routes and were the founders of the Almoravid empire that united West Africa and Iberia.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Saharan routes controlled by the Sanhaja were punishing for armies, with vast distances between water sources.
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {	
+		kabyle = kindred
+		masmuda = positive
+		tuareg = kindred
+	}		
+	
+	use_patronym = yes
+
+	culture_groups = {
+		amazigh_group
+		maghrebi_group
+	}
+}
+
+tuareg = {
+	language = tamazight_language
+	
+	color = map_tuareg
+	
+	tags = { middle_east_gfx saharan_gfx }
+
+	country_modifier = {
+# The Tuareg were the lords of the central Saharan caravan routes, controlling the vital trade in gold, salt, and slaves between West Africa and the Mediterranean.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# The central Sahara controlled by the Tuareg was among the most extreme desert environments on Earth, lethal to unprepared outsiders.
+		local_hostile_attrition = 0.15
+	}
+
+	opinions = {	
+		kabyle = kindred
+		sanhaja = kindred
+		zenati = positive
+	}		
+	
+	use_patronym = yes
+
+	culture_groups = {
+		amazigh_group
+		maghrebi_group
+	}
+}
+
+zenati = {
+	language = tamazight_language
+	
+	color = map_tlemcen
+	
+	tags = { middle_east_gfx amazigh_gfx }
+
+	country_modifier = {
+# The Zenata Berbers were renowned warriors of the western Maghreb, providing military manpower for multiple North African dynasties.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# The Zenati homeland in the Rif and Atlas border regions offered mountainous terrain well-suited to defensive warfare.
+		local_defensive = 0.1
+	}
+
+	opinions = {	
+		castilian = negative
+		portuguese = negative
+		aragonese = negative
+		algerian = negative
+		chaoui = kindred
+		eastern_amazigh = kindred
+		mozabite = kindred
+		moroccan = positive
+		tuareg = positive
+	}	
+	
+	use_patronym = yes
+	
+	culture_groups = {
+		amazigh_group
+		maghrebi_group
+	}
+}

@@ -1,0 +1,439 @@
+﻿finnish = {
+	language = finnish_dialect
+	
+	color = map_finnish
+	
+	tags = { finnish_gfx swedish_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Finland's vast lake system and long Baltic coastline made fishing a central part of the Finnish economy and diet.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Finnish coastal waters and thousands of inland lakes provided abundant freshwater and saltwater fishing.
+		local_fish_output_modifier = 0.1
+	}
+
+	culture_groups = {
+		finnic_group
+		scandinavian_group
+	}
+}
+
+tavastian = {
+	language = finnish_dialect
+	
+	color = map_tavastian
+	
+	tags = { finnish_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+		# The Tavastians were settled Finnish agriculturalists known for stable farming communities in the interior.
+		stability_cost_modifier = -0.05
+	}
+
+	location_modifier = {
+		# The Tavastian interior of Finland supported settled agriculture with rye and barley cultivation.
+		local_grain_output_modifier = 0.1
+	}
+
+	culture_groups = {
+		finnic_group
+	}
+}
+
+savonian = {
+	language = finnish_dialect
+	
+	color = map_savonian
+	
+	tags = { finnish_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The Savonians were frontier settlers and warriors, gradually expanding Finnish settlement eastward into Karelian borderlands.
+		global_manpower_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Savonian frontier region's dense forests and slash-and-burn clearings provided natural defensive terrain.
+		local_defensive = 0.1
+	}
+
+	culture_groups = {
+		finnic_group
+	}
+}
+
+kvens = {
+	language = finnish_dialect
+	
+	color = map_kvens
+	
+	tags = { finnish_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The Kvens were skilled fishermen and traders of the northern Baltic and Arctic Norwegian coast.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Kven communities along the northern coast depended on fishing in Arctic and sub-Arctic waters.
+		local_fish_output_modifier = 0.1
+	}
+
+	culture_groups = {
+		finnic_group
+	}
+}
+
+bjarmian = {
+	language = finnish_dialect
+	
+	color = map_bjarmian
+	
+	tags = { finnish_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The Bjarmians traded furs, walrus ivory, and other Arctic goods with Norse and Novgorodian merchants.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# Bjarmia (Bjarmaland) on the White Sea was a key trading post for Norse-Finnic exchange of furs, walrus ivory, and metals.
+		local_trade_output_modifier = 0.1
+	}
+
+	culture_groups = {
+		finnic_group
+	}
+
+}
+
+
+karelian = {
+	language = finnish_dialect
+	
+	color = map_karelian
+	
+	tags = { finnish_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Karelians served as intermediaries in the fur trade between Novgorod and the Finnish/Scandinavian world.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# Karelia's vast lake systems (Ladoga, Onega) provided productive freshwater fishing alongside forestry.
+		local_fish_output_modifier = 0.1
+	}
+
+	culture_groups = {
+		finnic_group
+	}
+}
+
+sapmi = {
+	language = sami_language
+	
+	color = map_sapmi
+	
+	tags = { sami_gfx finnish_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The SÃ¡mi developed one of the world's most sophisticated reindeer herding cultures, essential for survival in the Arctic.
+		global_livestock_output_modifier = 0.15
+	}
+
+	location_modifier = {
+# The Arctic tundra and subarctic forests of SÃ¡pmi were among the most inhospitable terrains on Earth for invading armies.
+		local_hostile_attrition = 0.15
+	}
+	
+}
+
+ingrian = {
+	language = finnish_dialect
+	
+	color = map_ingrian
+	
+	tags = { finnish_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Ingrian communities around the Neva and Lake Ladoga were skilled fishermen exploiting rich freshwater resources.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Neva delta and Lake Ladoga shores provided abundant fishing grounds for Ingrian communities.
+		local_fish_output_modifier = 0.1
+	}
+	
+	culture_groups = {
+		finnic_group
+	}
+}
+
+vepsian = {
+	language = finnish_dialect	
+	color = map_vepsian
+	
+	tags = { finnish_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The Veps lived around Lakes Onega and Ladoga, depending heavily on lake fishing for their livelihood.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Vepsian homeland between the great lakes offered rich freshwater fishing in Onega and Ladoga.
+		local_fish_output_modifier = 0.1
+	}
+
+	culture_groups = {
+		finnic_group
+	}
+}
+
+votian = {#https://en.wikipedia.org/wiki/Votians
+	language = finnish_dialect	
+	color = map_votian
+	
+	tags = { finnish_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The Votians of the Gulf of Finland coast were fishermen and farmers in the Novgorodian sphere.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Votian coast along the Gulf of Finland provided productive fishing grounds.
+		local_fish_output_modifier = 0.1
+	}
+
+	culture_groups = {
+		finnic_group
+	}
+
+}
+
+mari_culture = {
+	language = mari_language	
+	color = map_mari
+	
+	tags = { central_asian_gfx middle_east_gfx }
+
+	country_modifier = {
+		# The Mari practiced slash-and-burn agriculture along the Volga, growing rye, oats, and buckwheat.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Volga Mari region supported productive slash-and-burn agriculture in the forest clearings.
+		local_grain_output_modifier = 0.1
+	}
+
+
+}
+
+merya_culture = {
+	language = mari_language	
+	color = map_merya
+	
+	tags = { finnish_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+		# The Merya inhabited the upper Volga region and participated in long-distance Volga-Baltic trade networks.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The Merya territories along the upper Volga were key nodes in the Volga fur and amber trade routes.
+		local_trade_output_modifier = 0.1
+	}
+
+
+}
+
+nenets_culture = {
+	language = nenets_language
+	color = map_nenets
+	
+	tags = { finnish_gfx eastern_european_gfx european_gfx ugrian_coa_gfx }
+
+	country_modifier = {
+# The Nenets were expert reindeer herders of the Arctic tundra, managing vast herds across enormous migratory routes.
+		global_livestock_output_modifier = 0.15
+	}
+
+	location_modifier = {
+# The Nenets Arctic tundra was one of the most hostile environments on Earth, lethal to unprepared outsiders.
+		local_hostile_attrition = 0.15
+	}
+
+	opinions = {
+		udmurt = kindred
+		komi = kindred
+	}
+}
+
+enets_culture = {
+	language = nenets_language
+	color = map_enets
+	
+	tags = { finnish_gfx eastern_european_gfx european_gfx ugrian_coa_gfx }
+
+	country_modifier = {
+# The Enets herded reindeer across the Yenisei tundra, adapting to one of Siberia's harshest Arctic environments.
+		global_livestock_output_modifier = 0.15
+	}
+
+	location_modifier = {
+# The Enets homeland in the Yenisei tundra was brutally cold and inaccessible to outside forces.
+		local_hostile_attrition = 0.15
+	}
+
+
+	opinions = {
+		udmurt = kindred
+		komi = kindred
+	}
+}
+
+tavgi_culture = {
+	language = nenets_language
+	color = map_tavgi
+	
+	tags = { finnish_gfx eastern_european_gfx european_gfx ugrian_coa_gfx }
+
+	country_modifier = {
+# The Tavgi were tundra nomads subsisting on reindeer herding and hunting in the remote Taimyr region.
+		global_livestock_output_modifier = 0.15
+	}
+
+	location_modifier = {
+# The Taimyr Peninsula was among the most remote and hostile regions in all of Siberia.
+		local_hostile_attrition = 0.15
+	}
+
+
+	opinions = {
+		udmurt = kindred
+		komi = kindred
+	}
+}
+
+nganasan_culture = {
+	language = nenets_language
+	color = map_nganasan
+	
+	tags = { finnish_gfx eastern_european_gfx european_gfx ugrian_coa_gfx }
+
+	country_modifier = {
+# The Nganasan were the northernmost people in Eurasia, surviving through expert reindeer herding in extreme Arctic conditions.
+		global_livestock_output_modifier = 0.15
+	}
+
+	location_modifier = {
+# The Nganasan lands on the Taimyr Peninsula represented some of the most extreme Arctic terrain inhabited by humans.
+		local_hostile_attrition = 0.15
+	}
+
+
+	opinions = {
+		udmurt = kindred
+		komi = kindred
+	}
+}
+
+ket_culture = {
+	language = yeniseian_language
+	color = map_ket
+	
+	tags = { finnish_gfx eastern_european_gfx european_gfx ugrian_coa_gfx }
+
+	country_modifier = {
+# The Ket were skilled hunters and fishermen of the Yenisei River, the last surviving Yeniseian-speaking people.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The deep Siberian taiga along the Yenisei was impassable for large organized military forces.
+		local_hostile_attrition = 0.15
+	}
+
+
+	opinions = {
+		sapmi = kindred
+		finnish = kindred
+	}
+}
+
+khanty_culture = {
+	language = ugrian_language
+	color = map_khanty
+	
+	tags = { finnish_gfx eastern_european_gfx european_gfx ugrian_coa_gfx }
+
+	country_modifier = {
+# The Khanty were skilled hunters and fishermen of the Ob River basin, trading furs with both Russian and Central Asian merchants.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The vast Western Siberian taiga and marshlands of the Ob basin were nearly impenetrable to outsiders.
+		local_hostile_attrition = 0.15
+	}
+
+
+	opinions = {
+		udmurt = kindred
+		komi = kindred
+	}
+}
+
+mansi_culture = {
+	language = ugrian_language	
+	color = map_mansi
+	
+	tags = { finnish_gfx eastern_european_gfx european_gfx ugrian_coa_gfx }
+
+	country_modifier = {
+# The Mansi of the eastern Urals were hunters and reindeer herders who controlled valuable fur-trapping territories.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Ural Mountains and dense taiga of the Mansi homeland formed a formidable natural barrier.
+		local_hostile_attrition = 0.15
+	}
+
+
+	opinions = {
+		sapmi = kindred
+		finnish = kindred
+	}
+}
+
+selkup_culture = {
+	language = nenets_language
+	color = map_selkup
+	
+	tags = { finnish_gfx eastern_european_gfx european_gfx ugrian_coa_gfx }
+
+	country_modifier = {
+# The Selkup were semi-nomadic hunters and fishermen of the Ob-Irtysh basin in Western Siberia.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Selkup territories in the Western Siberian taiga were among the most remote and inaccessible regions of Eurasia.
+		local_hostile_attrition = 0.15
+	}
+
+
+	opinions = {
+		udmurt = kindred
+		komi = kindred
+	}
+}

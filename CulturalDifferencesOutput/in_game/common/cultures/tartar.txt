@@ -1,0 +1,563 @@
+crimean = { #https://en.wikipedia.org/wiki/Crimean_Tatars
+	language = kipchak_language	
+	color = map_CRI	
+	tags = { central_asian_gfx middle_east_gfx }
+
+	opinions = {
+		cuman_culture = kindred
+	}
+
+	country_modifier = {
+# The Crimean Khanate fielded devastating light cavalry that terrorized Eastern Europe with slave-raiding expeditions for centuries.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+# The Crimean steppe supported herds of horses and livestock, while coastal towns engaged in trade across the Black Sea.
+		local_livestock_output_modifier = 0.1
+	}
+
+	culture_groups = {
+		tatar_group
+		turkic_group
+	}
+}
+
+cuman_culture = { #https://en.wikipedia.org/wiki/Cumans
+	language = kipchak_language	
+	color = map_cuman
+	tags = { central_asian_gfx middle_east_gfx }
+
+	opinions = {
+		crimean = kindred
+	}
+
+	country_modifier = {
+# The Cumans were among the most formidable steppe cavalry peoples, their mounted archery making them feared across Eastern Europe and Byzantium.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+# The Cuman-controlled Pontic steppe was ideal grazing land for their enormous horse and sheep herds.
+		local_livestock_output_modifier = 0.1
+	}
+
+	culture_groups = {
+		carpathian_group
+		turkic_group
+	}
+
+}
+
+kazani = {
+	language = kipchak_language	
+	color = map_KAZ
+	tags = { central_asian_gfx middle_east_gfx }
+
+	opinions = {
+	}
+
+	country_modifier = {
+# The Kazan Khanate controlled the vital Volga-Kama trade junction, profiting from river commerce between Russia, Central Asia, and Siberia.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Volga-Kama confluence region provided fertile agricultural lands supporting the Kazan Khanate's settled population.
+		local_grain_output_modifier = 0.1
+	}
+
+	culture_groups = {
+		tatar_group
+		turkic_group
+	}
+}
+
+astrakhani = {
+	language = kipchak_language	
+	color = map_AST	
+	tags = { central_asian_gfx middle_east_gfx }
+
+	opinions = {
+	}
+
+	country_modifier = {
+# Astrakhan commanded the Volga delta and Caspian trade routes, serving as a major entrepôt for goods flowing between Russia, Persia, and Central Asia.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# The Volga delta at Astrakhan was one of the richest fishing grounds in Eurasia, producing caviar and sturgeon for export.
+		local_fish_output_modifier = 0.15
+	}
+
+	culture_groups = {
+		tatar_group
+		turkic_group
+	}
+}
+
+bashkir = {
+	language = kipchak_language	
+	color = map_BSH	
+	tags = { central_asian_gfx middle_east_gfx altai_coa_gfx }
+
+	opinions = {
+	}
+
+	country_modifier = {
+# The Bashkirs were semi-nomadic steppe warriors skilled in mounted archery, serving as auxiliary cavalry for various empires.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+# The southern Urals steppe and foothills provided extensive pastures for Bashkir horse and sheep herding.
+		local_livestock_output_modifier = 0.1
+	}
+
+	culture_groups = {
+		turkic_group
+	}
+}
+
+mishar = {
+	language = kipchak_language	
+	color = map_GOL		
+	tags = { central_asian_gfx middle_east_gfx }
+
+	opinions = {
+	}
+
+	country_modifier = {
+# The Mishar Tatars were skilled horsemen who served as cavalry auxiliaries for the Golden Horde and its successor states.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+# The Mishar settlements in the Volga-Oka interfluve combined pastoral herding with settled agriculture.
+		local_grain_output_modifier = 0.1
+	}
+
+	culture_groups = {
+		tatar_group
+		turkic_group
+	}
+}
+
+nogai = {
+	language = kipchak_language	
+	color = map_NOG	
+	tags = { central_asian_gfx middle_east_gfx }
+
+	opinions = {
+	}
+
+	country_modifier = {
+# The Nogai Horde fielded vast numbers of light cavalry, raiding from the Volga to the Danube across the Pontic steppe.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+# The Nogai controlled enormous steppe pastures, maintaining some of the largest horse herds in the Eurasian steppe.
+		local_livestock_output_modifier = 0.15
+	}
+
+	culture_groups = {
+		tatar_group
+		turkic_group
+	}
+}
+
+kumyk_culture = {
+	language = kipchak_language
+	
+	color = map_kumyk
+	
+	tags = { central_asian_gfx middle_east_gfx }
+	
+	opinions = {
+
+	}
+
+    country_modifier = {
+		cultures_capacity_modifier = 0.5
+	}
+
+	location_modifier = {
+# The Kumyk lowlands of northern Dagestan were among the most fertile agricultural lands in the Caucasus region.
+		local_grain_output_modifier = 0.1
+	}
+	
+	culture_groups = {
+		turkic_group
+	}
+}
+
+karachay_culture = {
+	language = kipchak_language
+	
+	color = map_karachay
+	
+	tags = { central_asian_gfx middle_east_gfx }
+	
+	opinions = {
+
+	}
+
+    country_modifier = {
+		global_horses_output_modifier = 0.25
+	}
+
+	location_modifier = {
+# The Karachay highland pastures in the northwestern Caucasus were ideal for horse breeding and livestock herding.
+		local_livestock_output_modifier = 0.1
+	}
+	
+	culture_groups = {
+		turkic_group
+	}
+}
+
+balkar_culture = {
+	language = kipchak_language
+	
+	color = map_balkar
+	
+	tags = { central_asian_gfx middle_east_gfx }
+	
+	opinions = {
+		circassian_culture = kindred
+	}	
+	
+    country_modifier = {
+		land_unit_attrition = -0.2
+	}
+
+	location_modifier = {
+# The Balkar mountain valleys in the central Caucasus provided defensible positions and alpine pastures for livestock.
+		local_defensive = 0.1
+	}
+	
+	culture_groups = {
+		turkic_group
+	}
+}
+
+chuvash_culture = {
+	language = oghuric_language
+	
+	color = map_chuvash
+	
+	tags = { central_asian_gfx middle_east_gfx }
+	
+	opinions = {
+		bolghar_culture = kindred
+	}	
+
+	country_modifier = {
+# The Chuvash were settled agriculturalists in the middle Volga region, practicing intensive grain farming and hop cultivation.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Chuvash homeland in the Volga-Sura interfluve featured fertile black-earth soils ideal for cereal agriculture.
+		local_grain_output_modifier = 0.1
+	}
+
+	culture_groups = {
+		turkic_group
+	}
+}
+
+bolghar_culture = {
+	language = oghuric_language
+	
+	color = map_bolghar
+	
+	tags = { central_asian_gfx middle_east_gfx }
+	
+	opinions = {
+		chuvash_culture = kindred
+	}	
+
+	country_modifier = {
+# Volga Bulgaria was a major medieval trading state, its capital Bolghar a crossroads of Viking, Islamic, and steppe commerce.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# The city of Bolghar was one of the largest urban centers of the medieval Volga region, rivaling many European cities in size.
+		local_monthly_development = 0.03
+	}
+
+	culture_groups = {
+		turkic_group
+	}
+}
+
+sakha_culture = {	#Yakuts
+	language = turkic_language
+
+	color = map_sakha
+	
+	tags = { central_asian_gfx middle_east_gfx altai_coa_gfx }
+	
+	opinions = {
+
+	}	
+
+	country_modifier = {
+# The Sakha (Yakuts) were the northernmost Turkic cattle and horse breeders, adapting pastoral traditions to extreme Siberian cold.
+		global_livestock_output_modifier = 0.15
+	}
+
+	location_modifier = {
+# The Yakut homeland in central Siberia featured some of the coldest inhabited temperatures on Earth, lethal to unprepared outsiders.
+		local_hostile_attrition = 0.15
+	}
+
+	culture_groups = {
+		turkic_group
+	}
+
+}
+
+soyot_culture = {
+	language = turkic_language
+
+	color = map_soyot
+	
+	tags = { central_asian_gfx middle_east_gfx }
+	
+	opinions = {
+
+	}	
+
+	country_modifier = {
+# The Soyot were reindeer herders and hunters in the Sayan Mountains of southern Siberia.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The remote Sayan mountain terrain was difficult to access for outside military forces.
+		local_hostile_attrition = 0.1
+	}
+
+	culture_groups = {
+		turkic_group
+	}
+
+}
+
+khakas_culture = {	#Includes Yenisei Kyrgyz
+	language = turkic_language
+
+	color = map_khakas
+	
+	tags = { central_asian_gfx middle_east_gfx altai_coa_gfx }
+	
+	opinions = {
+
+	}	
+
+	country_modifier = {
+# The Khakas (Yenisei Kyrgyz) maintained a steppe cavalry tradition in the Minusinsk Basin of southern Siberia.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+# The Minusinsk Basin's river valleys provided productive pasture and agricultural land in an otherwise harsh Siberian environment.
+		local_livestock_output_modifier = 0.1
+	}
+
+	culture_groups = {
+		turkic_group
+	}
+
+}
+
+telengit_culture = {
+	language = kipchak_language
+
+	color = map_telengit
+	
+	tags = { central_asian_gfx middle_east_gfx altai_coa_gfx }
+	
+	opinions = {
+
+	}	
+
+	country_modifier = {
+# The Telengit were nomadic herders of the southeastern Altai Mountains, managing yak, horse, and sheep herds.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The high Altai mountain passes and valleys were extremely difficult for outside armies to penetrate.
+		local_hostile_attrition = 0.1
+	}
+
+	culture_groups = {
+		turkic_group
+	}
+}
+
+teleut_culture = {
+	language = kipchak_language
+
+	color = map_teleut
+	
+	tags = { central_asian_gfx middle_east_gfx altai_coa_gfx }
+	
+	opinions = {
+
+	}	
+
+	country_modifier = {
+# The Teleut were pastoral nomads of the northern Altai steppe-forest zone, herding horses and cattle.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Teleut steppe and forest-steppe pastures supported productive livestock herding in the Altai foothills.
+		local_livestock_output_modifier = 0.1
+	}
+
+	culture_groups = {
+		turkic_group
+	}
+}
+
+chelkans_culture = {
+	language = turkic_language
+
+	color = map_chelkans
+	
+	tags = { central_asian_gfx middle_east_gfx altai_coa_gfx }
+	
+	opinions = {
+
+	}	
+
+	country_modifier = {
+# The Chelkans were forest-dwelling hunters and small-scale herders in the northern Altai Mountains.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Chelkan homeland in the forested Altai valleys was remote and difficult to access.
+		local_hostile_attrition = 0.1
+	}
+
+	culture_groups = {
+		turkic_group
+	}
+
+}
+
+kumandin_culture = {
+	language = turkic_language
+
+	color = map_kumandin
+	
+	tags = { central_asian_gfx middle_east_gfx altai_coa_gfx }
+	
+	opinions = {
+
+	}	
+
+	country_modifier = {
+# The Kumandin were forest Turkic people of the northern Altai, combining hunting with small-scale animal husbandry.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Kumandin forest territories in the Altai foothills were remote and naturally protected.
+		local_hostile_attrition = 0.1
+	}
+
+	culture_groups = {
+		turkic_group
+	}
+
+}
+
+tubalar_culture = {
+	language = turkic_language
+
+	color = map_tubalar
+	
+	tags = { central_asian_gfx middle_east_gfx altai_coa_gfx }
+	
+	opinions = {
+
+	}	
+
+	country_modifier = {
+# The Tubalar were semi-nomadic hunters and gatherers in the Altai Mountain forests.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Tubalar inhabited dense mountain forests of the Altai that were nearly impassable for organized forces.
+		local_hostile_attrition = 0.1
+	}
+
+	culture_groups = {
+		turkic_group
+	}
+
+}
+
+shor_culture = {
+	language = turkic_language
+
+	color = map_shor
+	
+	tags = { central_asian_gfx middle_east_gfx altai_coa_gfx }
+	
+	opinions = {
+
+	}	
+
+	country_modifier = {
+# The Shor were renowned blacksmiths and iron-workers of the Kuznetsk Alatau mountains, their name meaning 'people of iron.'
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+# The Kuznetsk Alatau contained substantial iron deposits that the Shor exploited for local metalworking.
+		local_iron_output_modifier = 0.1
+	}
+
+	culture_groups = {
+		turkic_group
+	}
+
+}
+
+yerle_qaliq_culture = {	#https://en.wikipedia.org/wiki/Siberian_Tatars
+	language = kipchak_language
+
+	color = map_SIB
+
+	tags = { central_asian_gfx middle_east_gfx altai_coa_gfx }
+
+	opinions = {
+
+	}	
+
+	country_modifier = {
+# The Siberian Tatars controlled fur trade routes across the Irtysh and Ob river basins, acting as intermediaries between Siberian peoples and Central Asian markets.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The vast Western Siberian taiga and river systems made the Siberian Tatar homeland difficult to conquer from outside.
+		local_hostile_attrition = 0.1
+	}
+
+	culture_groups = {
+		turkic_group
+	}
+}

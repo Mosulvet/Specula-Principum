@@ -1,0 +1,214 @@
+andalusi = {
+	language = andalusi_dialect
+
+	color = map_GRA
+
+	tags = { andalusi_gfx iberian_gfx west_mediterranean_gfx mediterranean_gfx }
+
+	country_modifier = {
+# Al-Andalus was a center of Islamic scholarship, preserving and transmitting Greek and Arabic knowledge to Europe through translation.
+		prestige = 5
+	}
+
+	location_modifier = {
+# Andalusi irrigation systems (acequias) and advanced agriculture produced abundant citrus, silk, and sugar, far exceeding northern European yields.
+		local_production_efficiency = 0.1
+	}
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		iberian_group
+	}
+}
+
+aragonese = {
+	language = aragonese_dialect
+	
+	color = map_ARG
+	
+	tags = { iberian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The Crown of Aragon's Mediterranean empire, spanning Sicily, Sardinia, and Naples, gave it enormous naval and diplomatic reach.
+		diplomatic_reputation = 1
+	}
+
+	location_modifier = {
+# The Aragonese Pyrenean foothills provided natural defensive barriers and supported pastoral herding economies.
+		local_defensive = 0.1
+	}
+
+	opinions = {
+		catalan = positive
+		castilian = positive
+	}
+	
+	culture_groups = {
+		iberian_group
+		pyrenean_group
+	}
+}
+
+basque = {
+	language = basque_dialect
+	
+	color = map_NAV
+	
+	tags = { iberian_gfx pyrenean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Basque whalers and fishermen were among the most skilled Atlantic sailors, ranging as far as Newfoundland and Iceland.
+		global_sailors_modifier = 0.15
+	}
+
+	location_modifier = {
+# The Basque iron-working tradition, centered on the Bizkaia region, produced high-quality iron tools and weapons for centuries.
+		local_iron_output_modifier = 0.15
+	}
+
+	opinions = {
+		gascon = positive
+	}
+	
+	culture_groups = {
+		iberian_group
+		pyrenean_group
+	}
+}
+
+castilian = {
+	language = castilian_dialect
+	
+	color = map_CAS
+	
+	tags = { iberian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Castile's centuries-long Reconquista forged a warrior aristocracy and military culture of exceptional resilience and aggression.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+# The Castilian Meseta's vast open plains were ideal for the Mesta's immense transhumant sheep flocks, producing world-famous merino wool.
+		local_wool_output_modifier = 0.15
+	}
+
+	opinions = {
+		leonese = kindred
+		aragonese = positive
+	}
+	
+	culture_groups = {
+		iberian_group
+	}
+}
+
+catalan = {
+	language = catalan_dialect
+	
+	color = map_CAT
+	
+	tags = { iberian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Barcelona was one of the great commercial ports of the medieval Mediterranean, with Catalan merchants trading from Tunis to Constantinople.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# Catalonia's Mediterranean ports and fertile coastal hinterland supported both vigorous trade and productive agriculture.
+		local_monthly_development = 0.03
+	}
+
+	opinions = {
+		aragonese = positive
+		provencal = positive
+		languedocien = positive
+	}
+	
+	culture_groups = {
+		iberian_group
+	}
+}
+
+galician = {
+	language = galician_dialect
+	
+	color = map_GAL
+	
+	tags = { iberian_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Galicia's Atlantic coastline supported a major fishing fleet, and Santiago de Compostela drew pilgrims from across Christendom.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Galician rías (coastal inlets) provided sheltered harbors ideal for fishing, and the region's rainfall supported lush pastoral farming.
+		local_fish_output_modifier = 0.15
+	}
+
+	opinions = {
+		portuguese = kindred
+		leonese = positive
+	}
+	
+	culture_groups = {
+		iberian_group
+	}
+}
+
+leonese = {
+	language = leonese_dialect
+	
+	color = map_LEO
+	
+	tags = { iberian_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The Kingdom of León was one of the earliest Christian kingdoms of the Reconquista, with a strong tradition of royal authority and law.
+		stability_cost_modifier = -0.05
+	}
+
+	location_modifier = {
+# The Leonese highlands supported extensive sheep grazing, while the Bierzo region's mines yielded gold since Roman times.
+		local_wool_output_modifier = 0.1
+	}
+
+	opinions = {
+		castilian = kindred
+		galician = positive
+	}
+	
+	culture_groups = {
+		iberian_group
+	}
+}
+
+portuguese = {
+	language = portuguese_dialect
+	
+	color = map_POR
+	
+	tags = { iberian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Portugal was the pioneer of Atlantic exploration, with navigational innovations and state-sponsored voyages under Prince Henry the Navigator.
+		global_sailors_modifier = 0.15
+	}
+
+	location_modifier = {
+# The Tagus estuary and Algarve coast provided natural harbors for Portugal's Atlantic fishing and trading fleets.
+		local_naval_supplies_output_modifier = 0.15
+	}
+
+	opinions = {
+		galician = kindred
+	}
+	
+	culture_groups = {
+		iberian_group
+	}
+}

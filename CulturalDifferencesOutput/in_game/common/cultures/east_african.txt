@@ -1,0 +1,1170 @@
+﻿#Bantu groups have been decided mostly using the Guthrie Classification, updated by Maho. https://en.wikipedia.org/wiki/Guthrie_classification_of_Bantu_languages
+
+
+bena_culture = { #Bantu Group G https://en.wikipedia.org/wiki/Bena_people
+	language = nyamwezi_language
+	
+	color = color_culture_bena
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu-speaking people practiced mixed agriculture, growing sorghum, millet, and other crops.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The East African coastal and inland regions supported productive mixed farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+}
+
+chewa_culture = { #Bantu Group N https://en.wikipedia.org/wiki/Chewa_people
+	language = nyasa_language
+	
+	color = color_culture_chewa
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Chewa/Maravi built a large empire in what is now Malawi and Mozambique, known for their agricultural productivity.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Chewa were skilled ironworkers and potters with strong artisanal production traditions.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+}
+
+haya_culture = { #Bantu Group J https://en.wikipedia.org/wiki/Haya_people
+	language = rwanda_language
+	
+	color = color_culture_haya
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Great Lakes Bantu people practiced intensive agriculture, growing bananas, millet, and sorghum.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The fertile Great Lakes region's reliable rainfall supported productive agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+}
+
+luhya_culture = { #Bantu Group J https://en.wikipedia.org/wiki/Luhya_people
+	language = rwanda_language
+	
+	color = color_culture_luhya
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Luhya maintained well-organized agricultural communities with strong social institutions in western Kenya.
+		stability_cost_modifier = -0.05
+	}
+
+	location_modifier = {
+		# The Luhya region of western Kenya supported cattle-keeping alongside agriculture.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+}
+
+makhuwa_culture = { #Bantu Group P (now S) https://en.wikipedia.org/wiki/Makua_people
+	language = makhuwa_dialect
+	
+	color = color_culture_makhuwa
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Makhuwa of coastal Mozambique combined fishing and trade along the Indian Ocean seaboard.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Mozambique coast provided productive Indian Ocean fishing and maritime resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+}
+
+matuumbi_culture = { #Bantu Group P https://en.wikipedia.org/wiki/Matumbi_people
+	language = rufiji_ruvuma_language
+	
+	color = color_culture_matuumbi
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu-speaking people practiced mixed agriculture, growing sorghum, millet, and other crops.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The remote southeastern Tanzania forests provided natural defensive cover.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+}
+
+mbugu_culture = { #Bantu Group G
+	language = swahili_language
+	
+	color = color_culture_mbugu
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Mbugu (Ma'a) were a small mixed-language community in the Usambara Mountains of Tanzania.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Usambara Mountains provided natural defensive terrain for small communities.
+		local_defensive = 0.1
+	}
+	opinions = {
+	}
+}
+
+nyamwezi_culture = { #Bantu Group F https://en.wikipedia.org/wiki/Nyamwezi_people
+	language = nyamwezi_language
+	
+	color = color_culture_nyamwezi
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Nyamwezi were the greatest long-distance traders of interior East Africa, organizing caravan routes to the coast.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+		# The Nyamwezi homeland in central Tanzania supported agriculture alongside their trading economy.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+}
+
+rutara_culture = { #https://en.wikipedia.org/wiki/Rutara_people
+	language = rwanda_language
+	
+	color = color_culture_nyoro
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Great Lakes Bantu people practiced intensive agriculture, growing bananas, millet, and sorghum.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The fertile Great Lakes region's reliable rainfall supported productive agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+}
+
+baganda_culture = { #https://en.wikipedia.org/wiki/Baganda
+	language = rwanda_language
+	
+	color = map_baganda
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Kingdom of Buganda was one of the most centralized and sophisticated states in the African Great Lakes region.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# The fertile shores of Lake Victoria supported intensive banana cultivation that fed Buganda's large population.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+}
+
+rukwa_culture = { #Bantu Group M https://en.wikipedia.org/wiki/Rukwa_languages
+	language = rukwa_language
+	
+	color = color_culture_rukwa
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Great Lakes Bantu people practiced intensive agriculture, growing bananas, millet, and sorghum.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The fertile Great Lakes region's reliable rainfall supported productive agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+}
+
+ruvu_culture = { #Bantu Group G
+	language = swahili_language
+	
+	color = color_culture_ruvu
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu-speaking people practiced mixed agriculture, growing sorghum, millet, and other crops.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The East African coastal and inland regions supported productive mixed farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+}
+
+rwanda_culture = { #Bantu Group J https://en.wikipedia.org/wiki/Banyarwanda
+	language = rwanda_language
+	
+	color = color_culture_rwanda
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Kingdom of Rwanda maintained one of the most disciplined military systems in the Great Lakes region.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# Rwanda's terraced hillsides supported intensive agriculture despite the mountainous terrain.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+}
+
+sena_culture = { #Bantu Group N https://en.wikipedia.org/wiki/Sena_people
+	language = nyasa_language
+	
+	color = color_culture_sena
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Sena controlled key positions on the Zambezi River, participating in gold and ivory trade.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The Zambezi River valley was a key trade corridor for gold, ivory, and salt exchange.
+		local_trade_output_modifier = 0.1
+	}
+	opinions = {
+	}
+}
+
+seuta_culture = { #Bantu Group G
+	language = swahili_language
+	
+	color = color_culture_seuta
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu-speaking people practiced mixed agriculture, growing sorghum, millet, and other crops.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The coastal regions near the Swahili trading cities supported productive fishing.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+}
+
+shona_culture = { #Bantu Group S https://en.wikipedia.org/wiki/Shona_people
+	language = shona_dialect
+	
+	color = color_culture_shona
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Shona built Great Zimbabwe and the Mutapa Empire, controlling the gold trade of southeastern Africa.
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+		# The Zimbabwe plateau contained rich gold and iron deposits exploited by Shona miners and smiths.
+		local_iron_output_modifier = 0.1
+	}
+	opinions = {
+	}
+}
+
+swahili_culture = { #Bantu Group G https://en.wikipedia.org/wiki/Swahili_people
+	language = swahili_language
+	
+	color = color_culture_swahili
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Swahili city-states of Kilwa, Mombasa, and Zanzibar were among the greatest trading centers of the Indian Ocean world.
+		trade_efficiency = 0.15
+	}
+
+	location_modifier = {
+		# The Swahili coast combined rich Indian Ocean fishing with the lucrative gold, ivory, and slave trades.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+}
+
+tsonga_culture = { #Bantu Group S https://en.wikipedia.org/wiki/Tsonga_people
+	language = tswa_ronga_dialect
+	
+	color = color_culture_tsonga
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Tsonga were traders and farmers of coastal Mozambique, intermediaries between the interior and the Indian Ocean trade.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The Mozambican coast provided rich fishing grounds alongside agricultural production.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+}
+
+tumbuka_culture = { #Bantu Group N https://en.wikipedia.org/wiki/Tumbuka_people
+	language = nyasa_language
+	
+	color = color_culture_tumbuka
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu-speaking people practiced mixed agriculture, growing sorghum, millet, and other crops.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The remote northern Malawi highlands were difficult terrain for outsiders to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+}
+
+yao_culture = { #Bantu Group P https://en.wikipedia.org/wiki/Yao_people_(East_Africa)
+	language = rufiji_ruvuma_language
+	
+	color = color_culture_yao
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Yao were skilled long-distance traders of southeastern Africa, linking the interior to the Swahili coast.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The Yao homeland between Lake Malawi and the coast supported mixed agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+}
+
+kalenjin_culture = { #https://en.wikipedia.org/wiki/Kalenjin_people
+	language = kalenjin_language
+	
+	color = color_culture_kalenjin
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Kalenjin were agro-pastoralists of the Kenyan Rift Valley, combining cattle herding with highland agriculture.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Kenyan Rift Valley highlands provided excellent grazing and farming conditions.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+}
+
+luo_culture = { #https://en.wikipedia.org/wiki/Luo_peoples
+	language = luo_language
+	
+	color = color_culture_luo
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Luo were Nilotic fishermen and farmers who settled around Lake Victoria, the largest lake in Africa.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Lake Victoria provided abundant freshwater fishing for Luo lakeside communities.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+}
+
+singa_culture = { #https://en.wikipedia.org/wiki/Singa_language
+	language = rwanda_language
+	
+	color = map_singa
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This pastoral people herded cattle and small stock across the East African savanna.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The East African grasslands supported pastoral herding economies.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+}
+
+maasai_culture = { #https://en.wikipedia.org/wiki/Maasai_people
+	language = lotuko_language
+	
+	color = color_culture_maasai
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Maasai were the most feared warriors of East Africa, their moran warrior system producing elite fighters.
+		army_infantry_power = 0.1
+	}
+
+	location_modifier = {
+		# The Maasai Mara and Serengeti grasslands supported enormous cattle herds central to Maasai identity.
+		local_livestock_output_modifier = 0.15
+	}
+	opinions = {
+	}
+}
+
+ongamo_culture = { #https://en.wikipedia.org/wiki/Ngasa_language
+	language = lotuko_language
+	
+	color = color_culture_ongamo
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This pastoral people herded cattle and small stock across the East African savanna.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The East African grasslands supported pastoral herding economies.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+}
+
+turkana_culture = { #https://en.wikipedia.org/wiki/Turkana_people
+	language = lotuko_language
+	
+	color = color_culture_turkana
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Turkana were fierce nomadic pastoralists of the arid northwest Kenyan borderlands.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Turkana homeland around Lake Turkana was one of the most arid inhabited regions in East Africa.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+}
+
+tatoga_culture = { #https://en.wikipedia.org/wiki/Datooga_people
+	language = kalenjin_language
+	
+	color = color_culture_tatoga
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This pastoral people herded cattle and small stock across the East African savanna.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The East African grasslands supported pastoral herding economies.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+}
+
+dahalo_culture = { #https://en.wikipedia.org/wiki/Dahalo_language
+	language = dahalo_dialect
+	
+	color = color_culture_dahalo
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Dahalo were coastal hunter-gatherers and fishermen of the Kenyan coast.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Kenyan coast provided fishing for the small Dahalo community.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+}
+
+dhaasanac_culture = { #https://en.wikipedia.org/wiki/Daasanach_people
+	language = daasanach_dialect
+	
+	color = color_culture_dhaasanac
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Cushitic pastoral people herded camels, cattle, and goats in the arid Horn of Africa borderlands.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The semi-arid lowlands of the Kenya-Ethiopia-Somalia borderlands were harsh, dry terrain.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+}
+
+rendille_culture = { #https://en.wikipedia.org/wiki/Rendille_people
+	language = rendille_dialect
+	
+	color = color_culture_rendille
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Cushitic pastoral people herded camels, cattle, and goats in the arid Horn of Africa borderlands.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The semi-arid lowlands of the Kenya-Ethiopia-Somalia borderlands were harsh, dry terrain.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+}
+
+sandawe_culture = { #https://en.wikipedia.org/wiki/Khoisan
+	language = khoe_language
+	
+	color = color_culture_khoisan
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Sandawe were ancient hunter-gatherers of central Tanzania, speaking a click language related to the Khoisan.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The dry central Tanzanian bush was difficult terrain for outsiders to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+}
+
+hadza_culture = {
+	language = khoe_language
+	
+	color = map_hadza
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Hadza were among the last pure hunter-gatherer peoples in Africa, surviving for millennia around Lake Eyasi.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Lake Eyasi rift valley was remote terrain where only the Hadza could thrive.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+}
+
+vezo_culture = { #https://en.wikipedia.org/wiki/Vezo_people
+	language = malagasy_language
+	
+	color = map_vezo
+	
+	tags = { malagasy_gfx east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Vezo were expert seafaring fishermen of Madagascar's southwest coast, their identity defined by the sea.
+		global_fish_output_modifier = 0.15
+	}
+
+	location_modifier = {
+		# The warm waters of the Mozambique Channel provided abundant fishing for the Vezo.
+		local_fish_output_modifier = 0.15
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		malagasy_group
+	}
+}
+
+tsimihety_culture = { #https://en.wikipedia.org/wiki/Tsimihety_people
+	language = malagasy_language
+	
+	color = map_tsimihety
+	
+	tags = { malagasy_gfx east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Malagasy people descended from Austronesian seafarers who crossed the Indian Ocean, practicing rice cultivation.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Madagascar's varied terrain supported rice cultivation in the highlands and other crops in the coastal lowlands.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		malagasy_group
+	}
+}
+
+zafiraminia_culture = { #https://en.wikipedia.org/wiki/Zafiraminia
+	language = malagasy_language
+	
+	color = map_zafiraminia
+	
+	tags = { indochina_gfx east_asian_gfx malagasy_gfx east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Zafiraminia claimed Arab/Islamic ancestry and were among the earliest Muslim trading communities on Madagascar.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The northeastern Madagascar coast supported both fishing and maritime trade connections.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		malagasy_group
+	}
+}
+
+tanala_culture = { #https://en.wikipedia.org/wiki/Tanala
+	language = malagasy_language
+	
+	color = map_tanala
+	
+	tags = { malagasy_gfx east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Malagasy people descended from Austronesian seafarers who crossed the Indian Ocean, practicing rice cultivation.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Madagascar's varied terrain supported rice cultivation in the highlands and other crops in the coastal lowlands.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		malagasy_group
+	}
+}
+
+sakalava_culture = { #https://en.wikipedia.org/wiki/Sakalava_people
+	language = malagasy_language
+	
+	color = map_sakalava
+	
+	tags = { malagasy_gfx east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Sakalava founded a powerful kingdom on Madagascar's west coast, controlling cattle-herding and Indian Ocean trade.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Western Madagascar's dry plains supported large cattle herds central to Sakalava culture.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		malagasy_group
+	}
+}
+
+mahafaly_culture = { #https://en.wikipedia.org/wiki/Mahafaly
+	language = malagasy_language
+	
+	color = map_mahafaly
+	
+	tags = { malagasy_gfx east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Malagasy people descended from Austronesian seafarers who crossed the Indian Ocean, practicing rice cultivation.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Madagascar's varied terrain supported rice cultivation in the highlands and other crops in the coastal lowlands.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		malagasy_group
+	}
+}
+
+bezanozano_culture = { #https://en.wikipedia.org/wiki/Bezanozano
+	language = malagasy_language
+	
+	color = map_bezanozano
+	
+	tags = { malagasy_gfx east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Malagasy people descended from Austronesian seafarers who crossed the Indian Ocean, practicing rice cultivation.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Madagascar's varied terrain supported rice cultivation in the highlands and other crops in the coastal lowlands.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		malagasy_group
+	}
+}
+
+betsimisaraka_culture = { #https://en.wikipedia.org/wiki/Betsimisaraka_people
+	language = malagasy_language
+	
+	color = map_betsimisaraka
+	
+	tags = { malagasy_gfx east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Malagasy people descended from Austronesian seafarers who crossed the Indian Ocean, practicing rice cultivation.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Madagascar's varied terrain supported rice cultivation in the highlands and other crops in the coastal lowlands.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		malagasy_group
+	}
+}
+
+bara_culture = { #https://en.wikipedia.org/wiki/Bara_people
+	language = malagasy_language
+	
+	color = map_bara
+	
+	tags = { malagasy_gfx east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Malagasy people descended from Austronesian seafarers who crossed the Indian Ocean, practicing rice cultivation.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Madagascar's varied terrain supported rice cultivation in the highlands and other crops in the coastal lowlands.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		malagasy_group
+	}
+}
+
+antanosy_culture = { #https://en.wikipedia.org/wiki/Antanosy_people
+	language = malagasy_language
+	
+	color = map_antanosy
+	
+	tags = { malagasy_gfx east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Malagasy people descended from Austronesian seafarers who crossed the Indian Ocean, practicing rice cultivation.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Madagascar's varied terrain supported rice cultivation in the highlands and other crops in the coastal lowlands.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		malagasy_group
+	}
+}
+
+antankarana_culture = { #https://en.wikipedia.org/wiki/Antankarana
+	language = malagasy_language
+	
+	color = map_antankarana
+	
+	tags = { malagasy_gfx east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Malagasy people descended from Austronesian seafarers who crossed the Indian Ocean, practicing rice cultivation.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Madagascar's varied terrain supported rice cultivation in the highlands and other crops in the coastal lowlands.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		malagasy_group
+	}
+}
+
+tandroy_culture = { #https://en.wikipedia.org/wiki/Antandroy
+	language = malagasy_language
+	
+	color = map_tandroy
+	
+	tags = { malagasy_gfx east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Malagasy people descended from Austronesian seafarers who crossed the Indian Ocean, practicing rice cultivation.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Madagascar's varied terrain supported rice cultivation in the highlands and other crops in the coastal lowlands.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		malagasy_group
+	}
+}
+
+antambahoaka_culture = { #https://en.wikipedia.org/wiki/Antambahoaka
+	language = malagasy_language
+	
+	color = map_antambahoaka
+	
+	tags = { malagasy_gfx east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Malagasy people descended from Austronesian seafarers who crossed the Indian Ocean, practicing rice cultivation.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Madagascar's varied terrain supported rice cultivation in the highlands and other crops in the coastal lowlands.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		malagasy_group
+	}
+}
+
+antaisaka_culture = { #https://en.wikipedia.org/wiki/Antaisaka_people
+	language = malagasy_language
+	
+	color = map_antaisaka
+	
+	tags = { malagasy_gfx east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Malagasy people descended from Austronesian seafarers who crossed the Indian Ocean, practicing rice cultivation.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Madagascar's varied terrain supported rice cultivation in the highlands and other crops in the coastal lowlands.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		malagasy_group
+	}
+}
+
+antaifasy_culture = { #https://en.wikipedia.org/wiki/Antaifasy
+	language = malagasy_language
+	
+	color = map_antaifasy
+	
+	tags = { malagasy_gfx east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Malagasy people descended from Austronesian seafarers who crossed the Indian Ocean, practicing rice cultivation.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Madagascar's varied terrain supported rice cultivation in the highlands and other crops in the coastal lowlands.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		malagasy_group
+	}
+}
+
+betsileo_culture = { #https://en.wikipedia.org/wiki/Betsileo_people
+	language = malagasy_language
+	
+	color = map_betsileo
+	
+	tags = { malagasy_gfx east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Malagasy people descended from Austronesian seafarers who crossed the Indian Ocean, practicing rice cultivation.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Madagascar's varied terrain supported rice cultivation in the highlands and other crops in the coastal lowlands.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		malagasy_group
+	}
+}
+
+vazimba_culture = { #https://en.wikipedia.org/wiki/Vazimba
+	language = malagasy_language
+	
+	color = map_vazimba
+	
+	tags = { malagasy_gfx east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Malagasy people descended from Austronesian seafarers who crossed the Indian Ocean, practicing rice cultivation.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Madagascar's varied terrain supported rice cultivation in the highlands and other crops in the coastal lowlands.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		malagasy_group
+	}
+}
+
+sihanaka_culture = { #https://en.wikipedia.org/wiki/Sihanaka
+	language = malagasy_language
+	
+	color = map_sihanaka
+	
+	tags = { malagasy_gfx east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Malagasy people descended from Austronesian seafarers who crossed the Indian Ocean, practicing rice cultivation.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Madagascar's varied terrain supported rice cultivation in the highlands and other crops in the coastal lowlands.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		malagasy_group
+	}
+}
+
+merina_culture = { #https://en.wikipedia.org/wiki/Merina_people
+	language = malagasy_language
+	
+	color = map_merina
+	
+	tags = { malagasy_gfx east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Merina Kingdom of highland Madagascar was the island's most powerful state, with sophisticated wet-rice agriculture and ironworking.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# The Merina homeland in the central Madagascar highlands supported intensive wet-rice terraces.
+		local_grain_output_modifier = 0.15
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		malagasy_group
+	}
+}
+
+south_cushitic_culture = { #https://en.wikipedia.org/wiki/South_Cushitic_languages
+	language = south_cushitic_language
+	
+	color = color_culture_south_cushitic
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Cushitic pastoral people herded camels, cattle, and goats in the arid Horn of Africa borderlands.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The semi-arid lowlands of the Kenya-Ethiopia-Somalia borderlands were harsh, dry terrain.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+}

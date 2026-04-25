@@ -1,0 +1,1721 @@
+﻿# New Zealand Māori and Cook Islands Māori
+maori_culture = { #https://en.wikipedia.org/wiki/M%C4%81ori_people
+	language = maori_language
+	
+	color = map_maori
+	
+	tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+
+	country_modifier = {
+		# The Maori were among the most formidable warriors in the Pacific, their haka war dance and pa fortifications legendary.
+		army_infantry_power = 0.1
+	}
+
+	location_modifier = {
+		# The Maori built sophisticated pa (fortified settlements) with palisades, ditches, and fighting stages.
+		local_defensive = 0.15
+	}
+	opinions = {
+	}	
+
+	culture_groups = {
+		polynesian_group
+	}
+
+	use_patronym = yes
+
+	dynasty_name_type = descendant
+}
+
+#Mwotlap  
+mwotlap_culture = { #https://en.wikipedia.org/wiki/Mwotlap_language
+	language = mwotlap_language
+	
+	color = map_mwotlap
+	
+	tags = { polynesian_gfx austronesian_gfx indian_gfx }
+	
+	culture_groups = {
+		polynesian_group
+	}
+
+
+	country_modifier = {
+		# This ni-Vanuatu people practiced root-crop farming and fishing on the volcanic islands of Vanuatu.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+
+	}
+}
+
+#Niuean 
+niuean_culture = { #https://en.wikipedia.org/wiki/Niuean_language
+	language = tongic_language
+	
+	color = map_niuean
+	
+	tags = { polynesian_gfx austronesian_gfx indian_gfx }
+	
+	culture_groups = {
+		polynesian_group
+	}
+
+
+	country_modifier = {
+		# This Polynesian people were expert seafarers and fishermen, navigating the vast Pacific Ocean.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Pacific island coral reefs and surrounding waters provided abundant marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+
+	}
+}
+
+#Tuamotus
+tuamotus_culture = { #https://en.wikipedia.org/wiki/Tuamotus
+	language = paumotu_language
+	
+	color = map_tuamotus
+	
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+	
+	culture_groups = {
+		polynesian_group
+	}
+        
+
+	country_modifier = {
+		# This Polynesian people were expert seafarers and fishermen, navigating the vast Pacific Ocean.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Pacific island coral reefs and surrounding waters provided abundant marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+
+	}
+}
+
+
+#Tahitians / Kānaka Maoli 
+maohi_culture = { #https://en.wikipedia.org/wiki/Tahitians
+	language = reo_maohi_language
+	
+	color = map_maohi
+	
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+	
+	culture_groups = {
+		polynesian_group
+	}
+        
+
+	country_modifier = {
+		# The Maohi (Tahitians) were master navigators and seafarers, their double-hulled canoes crossing vast Pacific distances.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Tahiti's coral reefs and surrounding waters provided abundant fishing and marine resources.
+		local_fish_output_modifier = 0.15
+	}
+	opinions = {
+
+	}
+}
+
+#Hawaiian / Kānaka Maoli 
+kanaka_maoli_culture = { #https://en.wikipedia.org/wiki/Native_Hawaiians
+	language = olelo_hawaii_language
+	
+	color = map_hawaiian
+	
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+	
+	culture_groups = {
+		polynesian_group
+	}
+        
+
+	country_modifier = {
+		# The Kanaka Maoli (Hawaiians) built one of the most complex Polynesian civilizations, with intensive irrigated taro farming.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Hawaii's volcanic soils and irrigated lo'i taro paddies were extraordinarily productive.
+		local_grain_output_modifier = 0.15
+	}
+	opinions = {
+
+	}
+}
+#Tokelau
+tokelauan_culture = { #https://en.wikipedia.org/wiki/Tokelauan_people
+        language = tokelauan_language
+        
+        color = map_tokelauan
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		polynesian_group
+	}
+        
+
+	country_modifier = {
+		# This Polynesian people were expert seafarers and fishermen, navigating the vast Pacific Ocean.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Pacific island coral reefs and surrounding waters provided abundant marine resources.
+		local_fish_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+#Samoans
+tagata_samoa_culture = { #https://en.wikipedia.org/wiki/Samoans
+        language = gagana_faa_samoa_language
+        
+        color = map_tagata_samoa
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		polynesian_group
+	}
+        
+
+	country_modifier = {
+		# The Samoans were among the Pacific's greatest navigators, maintaining the oldest continuous Polynesian culture.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Samoa was a key node in the Polynesian trade network, exchanging fine mats, tools, and ceremonial goods.
+		local_trade_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+#Rapa Nui people
+rapa_nui_culture = { #https://en.wikipedia.org/wiki/Rapa_Nui_people
+        language = rapa_nui_language
+        
+        color = map_rapa_nui
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		polynesian_group
+	}
+        
+
+	country_modifier = {
+		# The Rapa Nui built the legendary moai statues of Easter Island, one of the most remarkable achievements of any Polynesian culture.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# The remote Easter Island's surrounding waters provided fishing for the isolated community.
+		local_fish_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+#Marquesas Islands / ʻEnana
+enana_culture = { #https://en.wikipedia.org/wiki/Marquesas_Islands
+        language = eo_enana_language
+        
+        color = map_enana
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		polynesian_group
+	}
+        
+
+	country_modifier = {
+		# The Enana (Marquesans) were fierce Polynesian warriors, their elaborate tattoo art reflecting martial culture.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Marquesans built massive stone platforms (me'ae) and fortified ridgeline settlements for defense.
+		local_defensive = 0.1
+	}
+        opinions = {
+
+        }
+}
+#Tonga
+tonga_oceania_culture = { #https://en.wikipedia.org/wiki/Demographics_of_Tonga
+        language = tongic_language
+        
+        color = map_tonga_oceania
+        
+	tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		polynesian_group
+	}
+        
+
+	country_modifier = {
+		# The Tu'i Tonga Empire was the greatest maritime empire in Polynesia, ruling a vast oceanic domain from Fiji to Samoa.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# The Tu'i Tonga maritime empire controlled vast Pacific trade networks spanning Fiji, Samoa, and beyond.
+		local_trade_output_modifier = 0.15
+	}
+        opinions = {
+
+        }
+}
+#Mangareva
+mangareva_culture = { #https://en.wikipedia.org/wiki/Mangareva_language
+        language = mangareva_language
+        
+        color = map_mangareva
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		polynesian_group
+	}
+        
+
+	country_modifier = {
+		# This Polynesian people were expert seafarers and fishermen, navigating the vast Pacific Ocean.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Pacific island coral reefs and surrounding waters provided abundant marine resources.
+		local_fish_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+#Tuvalu
+tuvaluan_culture = { #https://en.wikipedia.org/wiki/Demographics_of_Tuvalu
+        language = tuvaluan_language
+        
+        color = map_tuvaluan
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		polynesian_group
+	}
+        
+
+	country_modifier = {
+		# This Polynesian people were expert seafarers and fishermen, navigating the vast Pacific Ocean.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Pacific island coral reefs and surrounding waters provided abundant marine resources.
+		local_fish_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+#natugu
+natugu_culture = { #https://en.wikipedia.org/wiki/Santa_Cruz_language
+        language = natugu_language
+        
+        color = map_natugu
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		polynesian_group
+	}
+        
+
+	country_modifier = {
+		# This ni-Vanuatu people practiced root-crop farming and fishing on the volcanic islands of Vanuatu.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+# ----------- Micronesia ----------
+
+#Fiji
+itaukei_culture = { #https://en.wikipedia.org/wiki/Fijians
+        language = vosa_vaka_viti_language
+        
+        color = map_itaukei
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# The iTaukei (Fijians) built one of the most complex societies in Melanesia, with hierarchical chiefdoms and productive agriculture.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Fiji's volcanic soils supported productive farming of taro, yams, and other tropical crops.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+# Marshallese people
+kajoor_ri_majel_culture = { #https://en.wikipedia.org/wiki/Micronesians
+        language = kajin_majel_language
+        
+        color = map_kajoor_ri_majel
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Micronesian people were expert navigators and fishermen of the central Pacific islands.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Micronesian islands' surrounding waters provided productive fishing.
+		local_fish_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+# Chuuk
+chuukese_culture = { #https://en.wikipedia.org/wiki/Chuukese_people
+        language = chuukese_language
+        
+        color = map_chuukese
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Micronesian people were expert navigators and fishermen of the central Pacific islands.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Micronesian islands' surrounding waters provided productive fishing.
+		local_fish_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+# Pohnpei
+pohnpeian_culture = { #https://en.wikipedia.org/wiki/Micronesians#Pohnpeian_people
+        language = pohnpeian_language
+        
+        color = map_pohnpeian
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# The Pohnpeians built the mysterious stone city of Nan Madol, one of the most remarkable architectural achievements in the Pacific.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# Pohnpei's fringing reef and lagoon provided abundant fishing.
+		local_fish_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+# Palau
+belauan_culture = { #https://en.wikipedia.org/wiki/Micronesians#Palauan_people
+        language = belauan_language
+        
+        color = map_palauan
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# The Belauan (Palauans) built sophisticated stone money economies and terraced hillsides for taro farming.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Palau's pristine coral reefs were among the richest marine environments in the Pacific.
+		local_fish_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+# Kiribati
+i_kiribati_culture = { #https://en.wikipedia.org/wiki/Micronesians#Kiribati_people
+        language = i_kiribati_language
+        
+        color = map_i_kiribati
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# The I-Kiribati were master ocean navigators and fishermen, surviving on some of the most remote atolls on Earth.
+		global_fish_output_modifier = 0.15
+	}
+
+	location_modifier = {
+		# The Kiribati atolls' surrounding ocean teemed with tuna and other pelagic fish.
+		local_fish_output_modifier = 0.15
+	}
+        opinions = {
+
+        }
+}
+# Kosrae
+kosrae_culture = { #https://en.wikipedia.org/wiki/Kosraean_language
+        language = kosrae_language
+        
+        color = map_kosrae
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Micronesian people were expert navigators and fishermen of the central Pacific islands.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Micronesian islands' surrounding waters provided productive fishing.
+		local_fish_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+# Yap
+yap_culture = { #https://en.wikipedia.org/wiki/Yapese_people
+        language = thin_nu_waab_language
+        
+        color = map_yap
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# The Yapese created the famous stone money (rai) economy and maintained a vast trading network across Micronesia.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+		# Yap's famous stone money (rai) system and extensive inter-island trade network were unique in the Pacific.
+		local_trade_output_modifier = 0.15
+	}
+        opinions = {
+
+        }
+}
+# Guam and Mariana Islands
+chamoru_culture = { #https://en.wikipedia.org/wiki/Chamorro_people
+        language = chamoru_language
+        
+        color = map_chamoru
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# The Chamoru (Chamorros) of Guam and the Marianas built the ancient latte stone civilization, skilled seafarers.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Mariana Islands' reef systems provided abundant fishing for the Chamoru.
+		local_fish_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+# Northern Marianas
+refaluwasch_culture = { #https://en.wikipedia.org/wiki/Carolinian_people
+        language = refaluwasch_language
+        
+        color = map_refaluwasch
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Micronesian people were expert navigators and fishermen of the central Pacific islands.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Micronesian islands' surrounding waters provided productive fishing.
+		local_fish_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+#Vanuatu
+valpei_culture = { #https://en.wikipedia.org/wiki/Valpei_language
+        language = valpei_language
+        
+        color = map_valpei
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This ni-Vanuatu people practiced root-crop farming and fishing on the volcanic islands of Vanuatu.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+akei_culture = { #https://en.wikipedia.org/wiki/Akei_language
+        language = akei_language
+        
+        color = map_akei
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This ni-Vanuatu people practiced root-crop farming and fishing on the volcanic islands of Vanuatu.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+tamambo_culture = { #https://en.wikipedia.org/wiki/Tamambo_language
+        language = tamambo_language
+        
+        color = map_tamambo
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This ni-Vanuatu people practiced root-crop farming and fishing on the volcanic islands of Vanuatu.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+sakao_culture = { #https://en.wikipedia.org/wiki/Sakao_language
+        language = sakao_language
+        
+        color = map_sakao
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This ni-Vanuatu people practiced root-crop farming and fishing on the volcanic islands of Vanuatu.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+tolomako_culture = { #https://en.wikipedia.org/wiki/Tolomako_language
+        language = tolomako_language
+        
+        color = map_tolomako
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This ni-Vanuatu people practiced root-crop farming and fishing on the volcanic islands of Vanuatu.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+ambae_culture = { #https://en.wikipedia.org/wiki/West_Ambae_language
+        language = ambae_language
+        
+        color = map_ambae
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This ni-Vanuatu people practiced root-crop farming and fishing on the volcanic islands of Vanuatu.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+maewo_culture = { #https://en.wikipedia.org/wiki/Central_Maewo_language
+        language = maewo_language
+        
+        color = map_maewo
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This ni-Vanuatu people practiced root-crop farming and fishing on the volcanic islands of Vanuatu.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+apma_culture = { #https://en.wikipedia.org/wiki/Apma_language
+        language = apma_language
+        
+        color = map_apma
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This ni-Vanuatu people practiced root-crop farming and fishing on the volcanic islands of Vanuatu.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+malakula_culture = { #https://en.wikipedia.org/wiki/Malakula_languages
+        language = malakula_language
+        
+        color = map_malakula
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This ni-Vanuatu people practiced root-crop farming and fishing on the volcanic islands of Vanuatu.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+ambrym_culture = { #https://en.wikipedia.org/wiki/North_Ambrym_language
+        language = ambrym_language
+        
+        color = map_ambrym
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This ni-Vanuatu people practiced root-crop farming and fishing on the volcanic islands of Vanuatu.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+nakanamanga_culture = { #https://en.wikipedia.org/wiki/Nakanamanga_language
+        language = nakanamanga_language
+        
+        color = map_nakanamanga
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This ni-Vanuatu people practiced root-crop farming and fishing on the volcanic islands of Vanuatu.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+lewo_culture = { #https://en.wikipedia.org/wiki/Lewo_language
+        language = lewo_language
+        
+        color = map_lewo
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This ni-Vanuatu people practiced root-crop farming and fishing on the volcanic islands of Vanuatu.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+sie_culture = { #https://en.wikipedia.org/wiki/Sie_language
+        language = sie_language
+        
+        color = map_sie
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This ni-Vanuatu people practiced root-crop farming and fishing on the volcanic islands of Vanuatu.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+lenakel_culture = { #https://en.wikipedia.org/wiki/Lenakel_language
+        language = lenakel_language
+        
+        color = map_lenakel
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This ni-Vanuatu people practiced root-crop farming and fishing on the volcanic islands of Vanuatu.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+anejom_culture = { #https://en.wikipedia.org/wiki/Anejom_language
+        language = anejom_language
+        
+        color = map_anejom
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This ni-Vanuatu people practiced root-crop farming and fishing on the volcanic islands of Vanuatu.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+#Polynesian, Futunic https://en.wikipedia.org/wiki/Futunic_languages
+futuna_culture = { #https://en.wikipedia.org/wiki/Futuna-Aniwan_language
+        language = futuna_language
+        
+        color = map_futuna
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Polynesian people were expert seafarers and fishermen, navigating the vast Pacific Ocean.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Pacific island coral reefs and surrounding waters provided abundant marine resources.
+		local_fish_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+#Solomon Islands, Malaita https://en.wikipedia.org/wiki/Malaita#Demographics_and_culture
+saa_culture = { #https://en.wikipedia.org/wiki/Sa%27a_language
+        language = saa_language
+        
+        color = map_saa
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Solomon Islands people combined fishing with root-crop farming in the tropical island environment.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Solomon Islands' coral reefs provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+kwaio_culture = { #https://en.wikipedia.org/wiki/Kwaio_people
+        #https://en.wikipedia.org/wiki/Kwaio_language
+        language = kwaio_language
+        
+        color = map_kwaio
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Solomon Islands people combined fishing with root-crop farming in the tropical island environment.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Solomon Islands' coral reefs provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+kwaraae_culture = { #https://en.wikipedia.org/wiki/Kwara%27ae_language
+        language = kwaraae_language
+        
+        color = map_kwaraae
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Solomon Islands people combined fishing with root-crop farming in the tropical island environment.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Solomon Islands' coral reefs provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+#New Caledonia https://en.wikipedia.org/wiki/Kanak_people
+tiri_culture = { #https://en.wikipedia.org/wiki/T%C3%AEr%C3%AE_language
+        language = tiri_language
+        
+        color = map_tiri
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Kanak people of New Caledonia practiced irrigated taro farming and fishing on the Melanesian island.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+paici_culture = { #https://en.wikipedia.org/wiki/Paic%C3%AE_language
+        language = paici_language
+        
+        color = map_paici
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Kanak people of New Caledonia practiced irrigated taro farming and fishing on the Melanesian island.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+ajie_culture = { #https://en.wikipedia.org/wiki/Aji%C3%AB_language
+        language = ajie_language
+        
+        color = map_ajie
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Kanak people of New Caledonia practiced irrigated taro farming and fishing on the Melanesian island.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+xaracuu_culture = { #https://en.wikipedia.org/wiki/X%C3%A2r%C3%A2c%C3%B9%C3%B9
+        language = xaracuu_language
+        
+        color = map_xaracuu
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Kanak people of New Caledonia practiced irrigated taro farming and fishing on the Melanesian island.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+cemuhi_culture = { #https://en.wikipedia.org/wiki/C%C3%A8muh%C3%AE_language
+        language = cemuhi_language
+        
+        color = map_cemuhi
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Kanak people of New Caledonia practiced irrigated taro farming and fishing on the Melanesian island.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+yuanga_culture = { #https://en.wikipedia.org/wiki/Yuanga_language
+        language = yuanga_language
+        
+        color = map_yuanga
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Kanak people of New Caledonia practiced irrigated taro farming and fishing on the Melanesian island.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+numee_culture = { #https://en.wikipedia.org/wiki/Num%C3%A8%C3%A8_language
+        language = numee_language
+        
+        color = map_numee
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Kanak people of New Caledonia practiced irrigated taro farming and fishing on the Melanesian island.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+nyelayu_culture = { #https://en.wikipedia.org/wiki/Ny%C3%A2layu_language
+        language = nyelayu_language
+        
+        color = map_nyelayu
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Kanak people of New Caledonia practiced irrigated taro farming and fishing on the Melanesian island.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+ndrumbea_culture = { #https://en.wikipedia.org/wiki/Ndrumbea_language
+        language = ndrumbea_language
+        
+        color = map_ndrumbea
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Kanak people of New Caledonia practiced irrigated taro farming and fishing on the Melanesian island.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+fwai_culture = { #https://en.wikipedia.org/wiki/Fw%C3%A2i_language
+        language = fwai_language
+        
+        color = map_fwai
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Kanak people of New Caledonia practiced irrigated taro farming and fishing on the Melanesian island.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+drehu_culture = { #https://en.wikipedia.org/wiki/Drehu_language
+        language = drehu_language
+        
+        color = map_drehu
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Kanak people of New Caledonia practiced irrigated taro farming and fishing on the Melanesian island.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+nengone_culture = { #https://en.wikipedia.org/wiki/Nengone_language
+        language = nengone_language
+        
+        color = map_nengone
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Kanak people of New Caledonia practiced irrigated taro farming and fishing on the Melanesian island.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# Melanesian volcanic islands supported intensive taro, yam, and breadfruit cultivation as the primary food source.
+		local_grain_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+#Choiseul #https://es.wikipedia.org/wiki/Isla_Choiseul
+
+vaghua_culture = { #https://en.wikipedia.org/wiki/Vaghua_language
+        language = vaghua_language
+        
+        color = map_vaghua
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Solomon Islands people combined fishing with root-crop farming in the tropical island environment.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Solomon Islands' coral reefs provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+cheke_holo_culture = { #https://en.wikipedia.org/wiki/Cheke_Holo_language
+        language = cheke_holo_language
+        
+        color = map_cheke_holo
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Solomon Islands people combined fishing with root-crop farming in the tropical island environment.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Solomon Islands' coral reefs provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+roviana_culture = { #https://en.wikipedia.org/wiki/Roviana_language
+        language = roviana_language
+        
+        color = map_roviana
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# The Roviana were the most feared headhunting raiders of the western Solomon Islands, building large war canoes.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Roviana chiefdom in the New Georgia group controlled inter-island trade and raiding networks.
+		local_trade_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+nduke_culture = { #https://en.wikipedia.org/wiki/Duke_language
+        language = nduke_language
+        
+        color = map_nduke
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Solomon Islands people combined fishing with root-crop farming in the tropical island environment.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Solomon Islands' coral reefs provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+marovo_culture = { #https://en.wikipedia.org/wiki/Marovo_language
+        language = marovo_language
+        
+        color = map_marovo
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Solomon Islands people combined fishing with root-crop farming in the tropical island environment.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Solomon Islands' coral reefs provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+ughele_culture = { #https://en.wikipedia.org/wiki/Ughele_language
+        language = ughele_language
+        
+        color = map_ughele
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Solomon Islands people combined fishing with root-crop farming in the tropical island environment.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Solomon Islands' coral reefs provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+vangunu_culture = { #https://en.wikipedia.org/wiki/Vangunu_language
+        language = vangunu_language
+        
+        color = map_vangunu
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Solomon Islands people combined fishing with root-crop farming in the tropical island environment.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Solomon Islands' coral reefs provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+ghari_culture = { #https://en.wikipedia.org/wiki/Ghari_language
+        language = ghari_language
+        
+        color = map_ghari
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Solomon Islands people combined fishing with root-crop farming in the tropical island environment.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Solomon Islands' coral reefs provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+gela_culture = { #https://en.wikipedia.org/wiki/Gela_language
+        language = gela_language
+        
+        color = map_gela
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Solomon Islands people combined fishing with root-crop farming in the tropical island environment.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Solomon Islands' coral reefs provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+arosi_culture = { #https://en.wikipedia.org/wiki/Arosi_language
+        language = arosi_language
+        
+        color = map_arosi
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Solomon Islands people combined fishing with root-crop farming in the tropical island environment.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Solomon Islands' coral reefs provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}
+
+mu_ngava_culture = { #https://en.wikipedia.org/wiki/Rennellese_language
+        language = mu_ngava_language
+        
+        color = map_mu_ngava
+        
+        tags = { polynesian_gfx austronesian_gfx indian_gfx }
+
+	culture_groups = {
+		micronesian_group
+	}
+        
+
+	country_modifier = {
+		# This Solomon Islands people combined fishing with root-crop farming in the tropical island environment.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Solomon Islands' coral reefs provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+        opinions = {
+
+        }
+}

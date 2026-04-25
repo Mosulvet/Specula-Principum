@@ -1,0 +1,1460 @@
+﻿omiene = { 
+	language = tsogo_language
+	
+	color = map_omiene
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Myene (Omiene) of the OgoouÃ© River combined fishing with trade along Gabon's major waterway.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The dense equatorial rainforest was difficult terrain for outside forces to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}	
+	
+}
+
+mitsogo = { 
+	language = tsogo_language
+	
+	color = map_mitsogo
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Tsogo were the founders of the Bwiti spiritual tradition, maintaining exceptional cultural cohesion.
+		stability_cost_modifier = -0.05
+	}
+
+	location_modifier = {
+		# The dense equatorial rainforest was difficult terrain for outside forces to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+eshira = { 
+	language = tsogo_language
+	
+	color = map_eshira
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Eshira (Shira) of southern Gabon were active in regional trade networks along river systems.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The dense equatorial rainforest was difficult terrain for outside forces to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+chokwe = {  
+	language = chokwe_language
+	
+	color = map_chokwe
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Chokwe were skilled hunters, traders, and renowned woodcarvers who expanded across a vast area of Central Africa.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The Chokwe homeland supported hunting, farming, and renowned artistic production.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	
+	
+}
+
+songye = {  
+	language = luba_language
+	
+	color = map_songye
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Songye were powerful warriors of the central Congo, known for their fierce military resistance and sophisticated carvings.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Songye homeland in the eastern Kasai supported agriculture and iron production.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+
+bandjabi = { 
+	language = tsogo_language
+	
+	color = map_bandjabi
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Ndjabi were skilled forest warriors of southern Gabon, defending their territories effectively.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The dense equatorial rainforest was difficult terrain for outside forces to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+kota_gabun = {
+	language = tsogo_language
+	
+ 	color = map_kota_gabun
+	
+	tags = { african_gfx }
+
+
+	country_modifier = {
+		# The Kota were renowned warriors and metalworkers of northeastern Gabon, famous for reliquary guardian figures.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The dense equatorial rainforest was difficult terrain for outside forces to penetrate.
+		local_hostile_attrition = 0.1
+	}
+ 	opinions = {
+	}
+	
+	
+}
+
+mbaka = { 
+	language = ubangian_language
+	
+	color = map_mbaka
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Mbaka were riverside traders along the Ubangi River, facilitating exchange between forest and savanna.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The dense equatorial rainforest was difficult terrain for outside forces to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+vili = { #https://en.wikipedia.org/wiki/Vili_people
+	language = kongo_language
+	
+	color = map_vili
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Vili of the Loango coast were major long-distance traders, connecting the interior with European maritime commerce.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+		# The fertile tropical soils supported productive agriculture of cassava, yams, and plantains.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+bakele = { 
+	language = tsogo_language
+	
+	color = map_bakele
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Kele warriors of the Gabonese interior were known for their military prowess in forest warfare.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The dense equatorial rainforest was difficult terrain for outside forces to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+kuyu = { 
+	language = bangi_language
+	
+	color = map_kuyu
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Congo River people controlled riverine trade, ferrying goods between upstream and downstream markets.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The Congo River system provided abundant freshwater fishing and trade transport.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+fang_gabun = { 
+	language = bassa_language
+	
+	color = map_fang_gabun
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Fang were formidable warriors of equatorial Africa, expanding through military prowess across a vast forest territory.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The dense Gabonese and Cameroonian rainforest gave Fang warriors a defensive advantage.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+basingui = { 
+	language = bangi_language
+	
+	color = map_basingui
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Ngiri maintained stable forest communities with well-organized social structures along the Congo tributaries.
+		stability_cost_modifier = -0.05
+	}
+
+	location_modifier = {
+		# The dense equatorial rainforest was difficult terrain for outside forces to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+bangi = { #https://en.wikipedia.org/wiki/Bangi_language
+	language = bangi_language
+	
+	color = map_ngala
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Congo River people controlled riverine trade, ferrying goods between upstream and downstream markets.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The Congo River system provided abundant freshwater fishing and trade transport.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+teke = { #https://en.wikipedia.org/wiki/Teke_people
+	language = tsogo_language
+	
+	color = map_teke
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Teke Kingdom controlled trade along the Congo River, serving as middlemen between the coast and interior.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The Congo River and its tributaries provided abundant fishing for riverside communities.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+yombe = { 
+	language = kongo_language
+	
+	color = map_yombe
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Kongo-related people practiced agriculture in the tropical forests and savannas of the Congo basin.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The fertile tropical soils supported productive agriculture of cassava, yams, and plantains.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+cabinda = { 
+	language = kongo_language
+	
+	color = map_cabinda
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# Cabinda's coastal position made it a key node in Atlantic trade networks connecting Congo interior goods.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The fertile tropical soils supported productive agriculture of cassava, yams, and plantains.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+bwende = { 
+	language = kongo_language
+	
+	color = map_bwende
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Kongo-related people practiced agriculture in the tropical forests and savannas of the Congo basin.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Bwende (Sonde) produced distinctive cloth and ceremonial objects for regional trade.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	
+	
+}
+
+wumbu = { 
+	language = tsogo_language
+	
+	color = map_wumbu
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Wumbu (Lumbu) of southwestern Gabon had strong community organization and social stability.
+		stability_cost_modifier = -0.05
+	}
+
+	location_modifier = {
+		# The dense equatorial rainforest was difficult terrain for outside forces to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+nsudi = { 
+	language = kongo_language
+	
+	color = map_nsudi
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Kongo-related people practiced agriculture in the tropical forests and savannas of the Congo basin.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The fertile tropical soils supported productive agriculture of cassava, yams, and plantains.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+kakongo = { 
+	language = kongo_language
+	
+	color = map_kakongo
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# Kakongo was a coastal trading state that profited from commerce between the interior and Atlantic coast.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+		# The fertile tropical soils supported productive agriculture of cassava, yams, and plantains.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+mboma = { 
+	language = kongo_language
+	
+	color = map_mboma
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Kongo-related people practiced agriculture in the tropical forests and savannas of the Congo basin.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The fertile tropical soils supported productive agriculture of cassava, yams, and plantains.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+solongo = { 
+	language = kongo_language
+	
+	color = map_solongo
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Kongo-related people practiced agriculture in the tropical forests and savannas of the Congo basin.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The fertile tropical soils supported productive agriculture of cassava, yams, and plantains.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+kongo = { 
+	language = kongo_language
+	
+	color = map_kongo
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Kingdom of Kongo was one of the largest and most centralized states in sub-Saharan Africa, with sophisticated administration.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# The Kongo heartland's tropical climate and fertile soils supported productive agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+bazombo = { 
+	language = kongo_language
+	
+	color = map_bazombo
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Kongo-related people practiced agriculture in the tropical forests and savannas of the Congo basin.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The fertile tropical soils supported productive agriculture of cassava, yams, and plantains.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+mushikongo = { 
+	language = kongo_language
+	
+	color = map_mushikongo
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Kongo-related people practiced agriculture in the tropical forests and savannas of the Congo basin.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The fertile tropical soils supported productive agriculture of cassava, yams, and plantains.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+ambundu = { #https://en.wikipedia.org/wiki/Ambundu
+	language = kongo_language
+	
+	color = map_ambundu
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Ambundu Kingdom of Ndongo controlled iron production and trade in western Central Africa.
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+		# The Ambundu homeland contained significant iron deposits exploited for tools, weapons, and trade.
+		local_iron_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+ovimbundu = { 
+	language = kavango_language
+	
+	color = map_ovimbundu
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Ovimbundu were the greatest long-distance traders of Angola, organizing caravans deep into the interior.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+		# The Benguela Highland of Angola provided productive farmland for the Ovimbundu.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+haneka_humbe = { 
+	language = kavango_language
+	
+	color = map_haneka_humbe
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu people of the southern Congo-Angola region combined farming with cattle herding.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The southern Angolan and Zambian savanna supported pastoral herding alongside agriculture.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+herero = { 
+	language = kavango_language
+	
+	color = map_herero
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Herero were quintessential pastoral cattle herders, their entire social organization built around cattle wealth.
+		global_livestock_output_modifier = 0.15
+	}
+
+	location_modifier = {
+		# The semi-arid grasslands of Namibia supported large Herero cattle herds.
+		local_livestock_output_modifier = 0.15
+	}
+	opinions = {
+	}
+	
+	
+}
+
+owambo_culture = { 
+	language = kavango_language
+	
+	color = map_ambo
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Owambo were settled agro-pastoralists of northern Namibia, the most populous group in the region.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Ovambo kept large cattle herds alongside millet cultivation in northern Namibia.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+mbunda = { #https://en.wikipedia.org/wiki/Mbunda_language
+	language = chokwe_language
+	
+	color = map_ganguela
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu people of the southern Congo-Angola region combined farming with cattle herding.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The southern Angolan and Zambian savanna supported pastoral herding alongside agriculture.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+luchazi_culture = { #https://en.wikipedia.org/wiki/Luchazi
+	language = chokwe_language
+	
+	color = map_luchazi
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu people of the southern Congo-Angola region combined farming with cattle herding.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The southern Angolan and Zambian savanna supported pastoral herding alongside agriculture.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+luvale = { 
+	language = chokwe_language
+	
+	color = map_luvale
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu people of the southern Congo-Angola region combined farming with cattle herding.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The southern Angolan and Zambian savanna supported pastoral herding alongside agriculture.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+tonga = { 
+	language = rukwa_language
+	
+	color = map_tonga
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu-speaking people practiced mixed farming of grains and cattle in the southern savanna.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The southern Central African savanna supported productive grain agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+lunda = { 
+	language = luba_language
+	
+	color = map_lunda
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Lunda Empire spread across a vast territory through a sophisticated system of client chieftainships and tribute.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# The Lunda homeland in the Katanga-Kasai region supported farming and trade networks.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+luba = { 
+	language = luba_language
+	
+	color = map_luba
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Luba Empire developed one of Central Africa's most sophisticated political systems, the bulopwe sacred kingship.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# The Luba heartland on the Katanga plateau supported productive agriculture alongside copper mining.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+bena_lwalwa = { 
+	language = luba_language
+	
+	color = map_bena_lwalwa
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu people of the Congo basin practiced agriculture and participated in regional trade networks.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The fertile Congo basin soils supported productive tropical agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+lwalwa = { 
+	language = luba_language
+	
+	color = map_lwalwa
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu people of the Congo basin practiced agriculture and participated in regional trade networks.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The fertile Congo basin soils supported productive tropical agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+pende = { 
+	language = luba_language
+	
+	color = map_pende
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu people of the Congo basin practiced agriculture and participated in regional trade networks.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The fertile Congo basin soils supported productive tropical agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+dinga = { 
+	language = tsogo_language
+	
+	color = map_dinga
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu people of the western Congo practiced agriculture and participated in regional trade.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The remote Kasai region forests were difficult terrain for outside forces to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+kusu_culture = { 
+	language = bangi_language
+	
+	color = map_kusu_culture
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu people of the Congo basin practiced agriculture and participated in regional trade networks.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The fertile Congo basin soils supported productive tropical agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+lega = { 
+	language = lega_language
+	
+	color = map_lega
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This eastern Congo people practiced agriculture in the forests and highlands near the Great Rift.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The mountainous eastern Congo terrain provided natural defensive positions.
+		local_defensive = 0.1
+	}
+	opinions = {
+	}	
+}
+
+twa_culture = { #https://en.wikipedia.org/wiki/Great_Lakes_Twa
+	language = rwanda_language
+	
+	color = map_twa
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Twa (Pygmy) were forest hunter-gatherers with unmatched knowledge of the equatorial rainforest.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The dense Ituri and Kivu forests were virtually impenetrable to outsiders.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}	
+}
+
+shi_culture = { #https://en.wikipedia.org/wiki/Shi_language
+	language = rwanda_language
+	
+	color = map_shi
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This eastern Congo people practiced agriculture in the forests and highlands near the Great Rift.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The mountainous eastern Congo terrain provided natural defensive positions.
+		local_defensive = 0.1
+	}
+	opinions = {
+	}	
+}
+
+bembe = { 
+ 	language = lega_language
+	
+	color = map_bembe
+	
+ 	tags = { african_gfx }
+
+
+	country_modifier = {
+		# This eastern Congo people practiced agriculture in the forests and highlands near the Great Rift.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The mountainous eastern Congo terrain provided natural defensive positions.
+		local_defensive = 0.1
+	}
+	opinions = {
+ 	}
+	
+}
+
+komo = { 
+	language = lega_language
+	
+	color = map_komo
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This eastern Congo people practiced agriculture in the forests and highlands near the Great Rift.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The mountainous eastern Congo terrain provided natural defensive positions.
+		local_defensive = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+kuba = { 
+	language = bangi_language
+	
+	color = map_kuba
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Kuba Kingdom was renowned for its extraordinary artistic traditions, producing some of Africa's finest textiles, carvings, and metalwork.
+		global_production_efficiency = 0.1
+	}
+
+	location_modifier = {
+		# The Kuba homeland between the Kasai and Sankuru rivers supported both agriculture and artisan production.
+		local_production_efficiency = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+kunda = { 
+	language = luba_language
+	
+	color = map_kunda
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu-speaking people practiced mixed farming of grains and cattle in the southern savanna.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The southern Central African savanna supported productive grain agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+hemba = { 
+	language = luba_language
+	
+	color = map_hemba
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu people of the Congo basin practiced agriculture and participated in regional trade networks.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Hemba were master sculptors, producing some of Central Africa's finest ancestor figures and ceremonial art.
+		local_production_efficiency = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+bemba = { 
+	language = rukwa_language
+	
+	color = map_bemba
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Bemba were expansionist warriors of the Zambian plateau, building a powerful military chieftainship.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Bemba heartland's miombo woodland supported shifting cultivation of millet.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+tabwa = { 
+	language = rukwa_language
+	
+	color = map_tabwa
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu-speaking people practiced mixed farming of grains and cattle in the southern savanna.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Tabwa on the shores of Lake Tanganyika were productive freshwater fishers.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+nsenga = { 
+	language = rukwa_language
+	
+	color = map_nsenga
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu-speaking people practiced mixed farming of grains and cattle in the southern savanna.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The southern Central African savanna supported productive grain agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+kasayi = { 
+	language = luba_language
+	
+ 	color = map_kasayi
+	
+ 	tags = { african_gfx }
+
+
+	country_modifier = {
+		# This Bantu people of the Congo basin practiced agriculture and participated in regional trade networks.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The fertile Congo basin soils supported productive tropical agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+ 	}
+	
+}
+
+bindji = { 
+	language = luba_language
+	
+	color = map_bindji
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu people of the Congo basin practiced agriculture and participated in regional trade networks.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The fertile Congo basin soils supported productive tropical agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+kete = { 
+	language = luba_language
+	
+	color = map_kete
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu people of the Congo basin practiced agriculture and participated in regional trade networks.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The fertile Congo basin soils supported productive tropical agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+suku = { 
+	language = kongo_language
+	
+	color = map_suku
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu people of the western Congo practiced agriculture and participated in regional trade.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The western Congo basin's tropical soils supported productive agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+yaka = { 
+	language = kongo_language
+	
+	color = map_yaka
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu people of the western Congo practiced agriculture and participated in regional trade.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The western Congo basin's tropical soils supported productive agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+kolo_culture = { 
+	language = bangi_language
+	
+	color = map_kolo
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu people of the western Congo practiced agriculture and participated in regional trade.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The western Congo basin's tropical soils supported productive agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+mbala = { 
+	language = luba_language
+	
+	color = map_mbala
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu people of the western Congo practiced agriculture and participated in regional trade.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The western Congo basin's tropical soils supported productive agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+bashilele = { 
+	language = bangi_language
+	
+	color = map_bashilele
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu people of the western Congo practiced agriculture and participated in regional trade.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Lele were renowned cloth producers, weaving raffia textiles traded across the Kasai region.
+		local_production_efficiency = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+mbuun = { 
+	language = tsogo_language
+	
+	color = map_mbuun
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu people of the western Congo practiced agriculture and participated in regional trade.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The western Congo basin's tropical soils supported productive agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+lozi_culture = { #https://en.wikipedia.org/wiki/Lozi_people
+	language = sotho_dialect
+	
+	color = map_lozi
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Lozi (Barotse) Kingdom managed the Zambezi floodplain with sophisticated flood-retreat agriculture and canal systems.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Zambezi floodplain's annual floods deposited rich alluvial soils ideal for agriculture.
+		local_grain_output_modifier = 0.15
+	}
+	opinions = {
+	}
+	
+	
+}
+
+xindonga = { 
+	language = kavango_language
+	
+	color = map_xindonga
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Bantu people of the southern Congo-Angola region combined farming with cattle herding.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The southern Angolan and Zambian savanna supported pastoral herding alongside agriculture.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+}

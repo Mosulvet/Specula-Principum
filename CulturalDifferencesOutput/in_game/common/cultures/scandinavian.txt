@@ -1,0 +1,158 @@
+swedish = {
+	language = swedish_dialect
+	
+	color = map_SWE
+	
+	tags = { scandinavian_gfx nordic_gfx northern_european_gfx european_gfx }
+
+	country_modifier = {
+# Sweden's vast forests and rich iron deposits in Bergslagen made it a major producer of high-quality iron and copper.
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+# The Bergslagen mining district's abundant iron ore deposits supported one of medieval Europe's most important metalworking industries.
+		local_iron_output_modifier = 0.15
+	}
+
+	opinions = {
+		gutnish = kindred
+	}
+	
+	culture_groups = {
+		scandinavian_group
+	}
+}
+
+gutnish = {
+	language = swedish_dialect
+	
+	color = map_gutnish
+	
+	tags = { scandinavian_gfx nordic_gfx northern_european_gfx european_gfx }
+
+	country_modifier = {
+# Gotland's Gutnish merchants dominated Baltic trade for centuries, with Visby rivaling the greatest Hanseatic ports in wealth.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# Visby on Gotland was the premier Baltic trading hub, its harbor drawing merchants from Germany, Russia, and beyond.
+		local_monthly_development = 0.03
+	}
+
+	opinions = {
+		swedish = kindred
+	}
+	
+	culture_groups = {
+		scandinavian_group
+	}
+}
+
+danish = {
+	language = danish_dialect
+	
+	color = map_DEN
+	
+	tags = { scandinavian_gfx nordic_gfx northern_european_gfx european_gfx }
+
+	country_modifier = {
+# Denmark's control of the Øresund strait and its long naval tradition gave it dominance over Baltic maritime trade.
+		global_sailors_modifier = 0.15
+	}
+
+	location_modifier = {
+# Denmark's flat, fertile lands of Zealand and Scania produced substantial grain surpluses, among the richest farmland in Scandinavia.
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		scandinavian_group
+	}
+}
+
+norwegian = {
+	language = norwegian_dialect
+	
+	color = map_NOR
+	
+	tags = { scandinavian_gfx nordic_gfx northern_european_gfx european_gfx }
+
+	country_modifier = {
+# Norway's fjord-dwelling population produced the finest shipbuilders and deep-water sailors in medieval Northern Europe.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+# Norway's fjords, forests, and mountains made the country nearly impossible to conquer by land, providing natural fortifications.
+		local_defensive = 0.15
+	}
+
+	opinions = {
+		icelandic = positive
+		norn_culture = positive
+	}
+	
+	culture_groups = {
+		scandinavian_group
+	}
+}
+
+icelandic = {
+	language = icelandic_dialect
+	
+	color = map_ICE
+	
+	tags = { scandinavian_gfx nordic_gfx northern_european_gfx european_gfx }
+
+	country_modifier = {
+# Iceland's Althing, established in 930, was one of the world's oldest parliaments, and the sagas preserved a rich literary tradition.
+		prestige = 5
+	}
+
+	location_modifier = {
+# Iceland's rich fishing grounds in the North Atlantic provided the island's primary source of wealth and protein.
+		local_fish_output_modifier = 0.2
+	}
+
+	opinions = {
+		norwegian = positive
+		norn_culture = positive
+	}
+	
+	culture_groups = {
+		scandinavian_group
+	}
+}
+
+norn_culture = {
+	language = norse_dialect
+	
+	color = map_norn
+	
+	tags = { scandinavian_gfx nordic_gfx northern_european_gfx european_gfx }
+
+	country_modifier = {
+# The Norse settlers of Orkney and Shetland maintained strong maritime traditions, controlling vital sea lanes between Scotland and Norway.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Norn-speaking islands of Orkney and Shetland were surrounded by some of the richest fishing waters in the North Atlantic.
+		local_fish_output_modifier = 0.15
+	}
+
+	opinions = {
+		norwegian = positive
+		icelandic = positive
+		norse_gael = positive
+	}
+	
+	culture_groups = {
+		scandinavian_group
+	}
+}

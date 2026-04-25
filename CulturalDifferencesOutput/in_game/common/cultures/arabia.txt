@@ -1,0 +1,277 @@
+najdi_culture = { 
+	language = peninsular_dialect
+	
+	color = map_najidi
+	
+	tags = { arabian_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Najdi Bedouin were legendary horsemen and camel riders, their mounted raiding tradition dominating central Arabian warfare.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+# The Najd's desert pastures supported prized Arabian horse and camel breeding.
+		local_livestock_output_modifier = 0.1
+	}
+
+	opinions = {
+	}
+	culture_groups = {
+		arabian_group
+		arabic_group
+	}
+}
+
+kaliji_culture = { 
+	language = peninsular_dialect
+	
+	color = map_kaliji
+	
+	tags = { arabian_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Khaliji people of the Gulf coast were skilled pearl divers and seafarers, trading across the Indian Ocean.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Gulf coast waters supported pearl diving and fishing as primary economic activities.
+		local_fish_output_modifier = 0.1
+	}
+
+	opinions = {
+	}
+	culture_groups = {
+		arabian_group
+		arabic_group
+	}
+}
+
+bahrani_culture = { 
+	language = peninsular_dialect
+	
+	color = map_baharna
+	
+	tags = { arabian_gfx middle_east_gfx }
+
+	country_modifier = {
+# Bahrain was a major pearling center and trading entrepôt connecting the Gulf, India, and East Africa.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The pearl banks around Bahrain were among the richest in the world, sustaining a valuable luxury trade.
+		local_fish_output_modifier = 0.1
+	}
+
+	opinions = {
+	}
+	culture_groups = {
+		arabian_group
+		arabic_group
+	}
+}
+
+hijazi_culture = { 
+	language = peninsular_dialect
+	
+	color = map_hijazi
+	
+	tags = { arabian_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Hijaz contained the holy cities of Mecca and Medina, the most sacred sites in Islam, commanding enormous spiritual prestige.
+		prestige = 5
+	}
+
+	location_modifier = {
+# The Hajj pilgrimage brought enormous wealth to the Hijaz, sustaining cities, caravanserais, and trade.
+		local_monthly_development = 0.03
+	}
+
+	opinions = {
+	}
+	culture_groups = {
+		arabian_group
+		arabic_group
+	}
+}
+
+hadhrami_culture = { 
+	language = peninsular_dialect
+	
+	color = map_hadhrami
+	
+	tags = { arabian_gfx middle_east_gfx }
+
+	country_modifier = {
+# Hadrami sailors and merchants built a vast maritime trading diaspora across the Indian Ocean, from East Africa to Southeast Asia.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Hadhrami coast supported fishing communities that also served as bases for Indian Ocean maritime trade.
+		local_fish_output_modifier = 0.1
+	}
+
+	opinions = {
+	}
+	culture_groups = {
+		arabian_group
+		arabic_group
+	}
+}
+
+omani_culture = { 
+	language = peninsular_dialect
+	
+	color = map_omani
+	
+	tags = { arabian_gfx middle_east_gfx }
+
+	country_modifier = {
+# Oman built a formidable maritime empire, its sailors controlling trade routes from the Gulf to East Africa and India.
+		global_sailors_modifier = 0.15
+	}
+
+	location_modifier = {
+# The Omani coast and its strategic position at the mouth of the Gulf supported both fishing and long-distance maritime trade.
+		local_fish_output_modifier = 0.15
+	}
+
+	opinions = {
+	}
+	culture_groups = {
+		arabian_group
+		arabic_group
+	}
+}
+
+shihhi_culture = { 
+	language = peninsular_dialect
+	
+	color = map_shihhi
+	
+	tags = { arabian_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Shihhi were mountain pastoral people of the Musandam Peninsula, herding goats in the rugged limestone peaks.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Musandam Peninsula's sheer cliffs and isolated mountain valleys provided natural fortifications.
+		local_defensive = 0.1
+	}
+
+	opinions = {
+	}
+	culture_groups = {
+		arabian_group
+		arabic_group
+	}
+}
+
+dhofari_culture = { 
+	language = peninsular_dialect
+	
+	color = map_dhofari
+	
+	tags = { arabian_gfx middle_east_gfx }
+
+	country_modifier = {
+# Dhofar was the ancient land of frankincense, producing the most prized aromatic resin traded across the ancient and medieval worlds.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The monsoon-touched Dhofar coast produced frankincense from its unique climate, a luxury export since antiquity.
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+	}
+	culture_groups = {
+		arabian_group
+		arabic_group
+	}
+	
+}
+
+mehri_culture = { 
+	language = south_arabic_language
+	
+	color = map_mehri
+	
+	tags = { arabian_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Mahri were semi-nomadic pastoralists of the barren Mahra coast, herding camels and goats in extreme aridity.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The desolate Mahra desert coast was among the most inhospitable regions of Arabia, nearly impassable for outside forces.
+		local_hostile_attrition = 0.1
+	}
+
+	opinions = {
+	}
+	culture_groups = {
+		arabian_group
+		arabic_group
+	}
+	
+}
+
+soqotri_culture = { 
+	language = south_arabic_language
+	
+	color = map_soqotri
+	
+	tags = { arabian_gfx middle_east_gfx }
+
+	country_modifier = {
+# The Soqotri islanders of Socotra were skilled fishermen, their remote island a vital waystation on Indian Ocean trade routes.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The rich waters around Socotra supported extensive fishing, the island's primary economic activity.
+		local_fish_output_modifier = 0.15
+	}
+
+	opinions = {
+	}
+	culture_groups = {
+		arabian_group
+		arabic_group
+	}
+}
+
+yemeni_culture = {
+	language = peninsular_dialect
+	
+	color = color_culture_yemeni
+	
+	tags = { arabian_gfx middle_east_gfx }
+
+	country_modifier = {
+# Yemen controlled the Bab el-Mandeb strait and was a crucial node in Indian Ocean trade, connecting Africa, India, and the Mediterranean.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# Yemen's terraced mountain agriculture and Mocha port made it one of the most productive regions of the Arabian peninsula.
+		local_production_efficiency = 0.1
+	}
+
+	opinions = {
+		teimani = kindred
+	}
+	culture_groups = {
+		arabian_group
+		arabic_group
+	}		
+}

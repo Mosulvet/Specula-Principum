@@ -1,0 +1,291 @@
+czech = {
+	language = czech_dialect
+	
+	color = map_BOH
+	
+	tags = { czech_gfx west_slavic_gfx slavic_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Bohemian silver mines at Kutná Hora were among the richest in medieval Europe, funding the Czech crown's enormous wealth.
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+# Prague under Charles IV was one of Europe's grandest cities, with a university, Gothic architecture, and thriving commerce.
+		local_monthly_development = 0.03
+	}
+
+	opinions = {		
+		moravian = kindred
+		silesian = kindred
+		slovak = kindred
+	}	
+	culture_groups = {
+		bohemian_group
+		german_group
+		slavic_group
+	}
+}
+
+greater_polish = {
+	language = polish_dialect
+	
+	color = map_greater_polish
+	
+	tags = { polish_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Greater Poland's vast plains produced abundant grain, making it the agricultural heartland of the Polish kingdom.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The flat, fertile Wielkopolska lowlands supported large-scale cereal cultivation and grain export.
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		lesser_polish = kindred
+		mazovian = kindred
+		silesian = kindred
+	}
+	culture_groups = {
+		polish_group
+		slavic_group
+	}
+}
+
+kashubian = {
+	language = kashubian_dialect
+	
+	color = map_kashubian
+	
+	tags = { polish_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The Kashubian coastal communities of Pomerania were skilled Baltic fishermen with a long maritime tradition.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Kashubian Baltic coastline provided rich herring and cod fishing grounds.
+		local_fish_output_modifier = 0.15
+	}
+
+	opinions = {
+		greater_polish = kindred
+		polabian = kindred
+	}
+	culture_groups = {
+		polish_group
+		slavic_group
+	}
+}
+
+lesser_polish = {
+	language = polish_dialect
+	
+	color = map_lesser_polish
+	
+	tags = { polish_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Kraków was a major trading center on the route between the Baltic and the Mediterranean, hosting one of Central Europe's foremost markets.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Wieliczka and Bochnia salt mines near Kraków were among the most productive in Europe, generating enormous crown revenue.
+		local_salt_output_modifier = 0.15
+	}
+
+	opinions = {
+		greater_polish = kindred
+		mazovian = kindred
+		silesian = kindred
+	}
+	culture_groups = {
+		polish_group
+		slavic_group
+	}
+}
+
+mazovian = {
+	language = polish_dialect
+	
+	color = map_MAZ
+	
+	tags = { polish_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Mazovia's dense network of small noble estates produced a large class of petty warriors willing to serve in the levy.
+		global_manpower_modifier = 0.05
+	}
+
+	location_modifier = {
+# The Vistula and Bug river valleys of Mazovia supported productive agriculture despite sandy soils.
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		greater_polish = kindred
+		lesser_polish = kindred
+	}
+	culture_groups = {
+		polish_group
+		slavic_group
+	}
+}
+
+moravian = {
+	language = czech_dialect
+	
+	color = map_moravian
+	
+	tags = { czech_gfx west_slavic_gfx slavic_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Moravia's southern slopes produced excellent wines, a tradition dating to the Great Moravian Empire.
+		global_wine_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Hanna lowlands and Moravian Gate region were fertile agricultural lands producing grain and livestock.
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		czech = kindred
+		silesian = kindred
+		slovak = kindred
+	}
+	culture_groups = {
+		bohemian_group
+		slavic_group
+	}
+}
+
+polabian = {
+	language = polabian_dialect
+
+	color = map_polabian
+
+	tags = { polish_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The Polabian Slavs, remnants of once-powerful tribes, maintained a fierce warrior tradition despite increasing German pressure.
+		global_manpower_modifier = 0.05
+	}
+
+	location_modifier = {
+# The Polabian homeland along the Elbe and Baltic coast supported fishing communities and river trade.
+		local_fish_output_modifier = 0.1
+	}
+
+	opinions = {
+		kashubian = kindred
+		sorbian = kindred
+	}
+	culture_groups = {
+		slavic_group
+	}
+}
+
+#polish_gfx = {
+#	language = polish_dialect
+#	
+#	color = map_POL
+#	
+#	tags = { polish_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+#
+#	opinions = {
+#	}
+#	culture_groups = {
+#		slavic_group
+#	}
+#}
+
+silesian = {
+	language = silesian_dialect
+	
+	color = map_SIL
+	
+	tags = { czech_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# Silesian mines produced iron, copper, and precious metals, and German colonists brought advanced mining techniques.
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+# The Silesian Sudetes contained substantial iron and copper deposits exploited since the medieval colonization.
+		local_iron_output_modifier = 0.1
+	}
+
+	opinions = {
+		czech = kindred
+		greater_polish = kindred
+		lesser_polish = kindred
+		sorbian = kindred
+	}
+	culture_groups = {
+		bohemian_group
+		polish_group
+		slavic_group
+	}
+}
+
+slovak = { #SLO
+	language = slovak_dialect
+	
+	color = map_slovak
+	
+	tags = { czech_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The Slovak mining towns of Banská Štiavnica and Kremnica were major producers of silver and gold in Central Europe.
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+# The Carpathian mineral belt running through Slovakia yielded silver, gold, copper, and iron.
+		local_iron_output_modifier = 0.1
+	}
+
+	opinions = { #ADD
+		czech = kindred
+		moravian = kindred
+	}	
+	culture_groups = {
+		carpathian_group
+		slavic_group
+	}
+}
+
+sorbian = {
+	language = sorbian_dialect
+	
+	color = map_sorbian
+	
+	tags = { czech_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	country_modifier = {
+# The Sorbs maintained their Slavic identity and communal traditions despite centuries of German cultural pressure and political subjugation.
+		stability_cost_modifier = -0.05
+	}
+
+	location_modifier = {
+# The Lusatian lowlands of Sorbian settlement produced grain and supported a resilient agricultural economy.
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		czech = positive
+		polabian = kindred
+		silesian = kindred
+	}
+	culture_groups = {
+		bohemian_group
+		slavic_group
+	}
+}

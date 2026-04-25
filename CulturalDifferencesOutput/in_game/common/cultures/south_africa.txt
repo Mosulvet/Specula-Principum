@@ -1,0 +1,505 @@
+﻿xhosa_culture = { 
+	language = nguni_dialect
+	
+	color = map_xhosa
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Nguni peoples were pastoral cattle-herders whose wealth was measured in cattle, forming the foundation of their social system.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The grasslands of southeastern Africa provided excellent grazing for large Nguni cattle herds.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+nguni_culture = { 
+	language = nguni_dialect
+	
+	color = map_nguni
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Nguni peoples were pastoral cattle-herders whose wealth was measured in cattle, forming the foundation of their social system.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The grasslands of southeastern Africa provided excellent grazing for large Nguni cattle herds.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+tswana_culture = { 
+	language = sotho_dialect
+	
+	color = map_tswana
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Sotho-Tswana peoples were settled agro-pastoralists, combining cattle herding with grain cultivation on the highveld.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The South African highveld supported both cattle grazing and sorghum/millet agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+sotho_culture = { 
+	language = sotho_dialect
+	
+	color = map_sotho
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Sotho-Tswana peoples were settled agro-pastoralists, combining cattle herding with grain cultivation on the highveld.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The South African highveld supported both cattle grazing and sorghum/millet agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+venda_culture = { 
+	language = shona_dialect
+	
+	color = map_venda
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Venda were cattle-herding people of the Limpopo region, maintaining trade connections with the Zimbabwe plateau.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Limpopo River valley provided grazing and agricultural land for Venda communities.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+kalanga_culture = { 
+	language = shona_dialect
+	
+	color = map_kalanga
+	
+	tags = { bantu_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Kalanga were connected to the Great Zimbabwe trading civilization, with knowledge of gold mining and metalworking.
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+		# The Zimbabwe plateau region contained significant gold and iron deposits exploited by the Kalanga.
+		local_iron_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+nama_culture = { 
+	language = khoe_language
+	
+	color = map_nama
+	
+	tags = { african_gfx }
+
+
+	country_modifier = {
+		# The Khoikhoi were pastoral herders of cattle and sheep, the first pastoralists of southern Africa.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The semi-arid grasslands and scrublands of southern Africa supported Khoikhoi pastoral herding.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+damara_culture = { 
+	language = khoe_language
+	
+	color = map_damara
+	
+	tags = { african_gfx }
+
+
+	country_modifier = {
+		# The Khoikhoi were pastoral herders of cattle and sheep, the first pastoralists of southern Africa.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The semi-arid grasslands and scrublands of southern Africa supported Khoikhoi pastoral herding.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+gonaqua_culture = { 
+	language = khoe_language
+	
+	color = map_gonaqua
+	
+	tags = { african_gfx }
+
+
+	country_modifier = {
+		# The Khoikhoi were pastoral herders of cattle and sheep, the first pastoralists of southern Africa.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The semi-arid grasslands and scrublands of southern Africa supported Khoikhoi pastoral herding.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+khoemana_culture = { 
+	language = khoe_language
+	
+	color = map_khoemana
+	
+	tags = { african_gfx }
+
+
+	country_modifier = {
+		# The Khoikhoi were pastoral herders of cattle and sheep, the first pastoralists of southern Africa.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The semi-arid grasslands and scrublands of southern Africa supported Khoikhoi pastoral herding.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+naro_culture = { 
+	language = khoe_language
+	
+	color = map_naro
+	
+	tags = { african_gfx }
+
+
+	country_modifier = {
+		# The San were expert hunters and trackers whose knowledge of the harsh Kalahari environment was unmatched.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid Kalahari and Karoo were extremely harsh environments where only the San could thrive.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+shua_culture = { 
+	language = khoe_language
+	
+	color = map_shua
+	
+	tags = { african_gfx }
+
+
+	country_modifier = {
+		# The San were expert hunters and trackers whose knowledge of the harsh Kalahari environment was unmatched.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid Kalahari and Karoo were extremely harsh environments where only the San could thrive.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+tshwa_culture = { 
+	language = khoe_language
+	
+	color = map_tshwua
+	
+	tags = { african_gfx }
+
+
+	country_modifier = {
+		# The San were expert hunters and trackers whose knowledge of the harsh Kalahari environment was unmatched.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid Kalahari and Karoo were extremely harsh environments where only the San could thrive.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+khwe_culture = { 
+	language = khoe_language
+	
+	color = map_khwe
+	
+	tags = { african_gfx }
+
+
+	country_modifier = {
+		# The San were expert hunters and trackers whose knowledge of the harsh Kalahari environment was unmatched.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid Kalahari and Karoo were extremely harsh environments where only the San could thrive.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+gxana_culture = { 
+	language = khoe_language
+	
+	color = map_gxana
+	
+	tags = { african_gfx }
+
+
+	country_modifier = {
+		# The G||ana San of the Okavango region combined foraging with seasonal fishing in the Delta waterways.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Okavango Delta provided seasonal fish, aquatic plants, and floodplain foraging resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+xuukhoe_culture = { 
+	language = khoe_language
+	
+	color = map_xuukhoe
+	
+	tags = { african_gfx }
+
+
+	country_modifier = {
+		# The San were expert hunters and trackers whose knowledge of the harsh Kalahari environment was unmatched.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid Kalahari and Karoo were extremely harsh environments where only the San could thrive.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+kung_culture = { 
+	language = kxa_language
+	
+	color = map_kung
+	
+	tags = { african_gfx }
+
+
+	country_modifier = {
+		# The San were expert hunters and trackers whose knowledge of the harsh Kalahari environment was unmatched.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid Kalahari and Karoo were extremely harsh environments where only the San could thrive.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+amkoe_culture = { 
+	language = kxa_language
+	
+	color = map_amkoe
+	
+	tags = { african_gfx }
+
+
+	country_modifier = {
+		# The Amkoe (N|oha) San maintained remarkably egalitarian societies with sophisticated conflict resolution.
+		stability_cost_modifier = -0.05
+	}
+
+	location_modifier = {
+		# The Amkoe knew every water source and seasonal food patch in their semi-arid territory.
+		local_defensive = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+hai_om_culture = { 
+	language = kxa_language
+	
+	color = map_hai_om
+	
+	tags = { african_gfx }
+
+
+	country_modifier = {
+		# The Hai||om maintained trade connections with neighboring Ovambo and Herero herding peoples.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The arid Kalahari and Karoo were extremely harsh environments where only the San could thrive.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+xam_culture = { 
+	language = tuu_language
+	
+	color = map_xam
+	
+	tags = { african_gfx }
+
+
+	country_modifier = {
+		# The San were expert hunters and trackers whose knowledge of the harsh Kalahari environment was unmatched.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The /Xam possessed sophisticated knowledge of Karoo plants, creating tools, poisons, and medicines.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	
+}
+
+xoon_culture = { 
+	language = tuu_language
+	
+	color = map_xoon
+	
+	tags = { african_gfx }
+
+
+	country_modifier = {
+		# The San were expert hunters and trackers whose knowledge of the harsh Kalahari environment was unmatched.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid Kalahari and Karoo were extremely harsh environments where only the San could thrive.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+n_ng_culture = { 
+	language = tuu_language
+	
+	color = map_n_ng
+	
+	tags = { african_gfx }
+
+
+	country_modifier = {
+		# The San were expert hunters and trackers whose knowledge of the harsh Kalahari environment was unmatched.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid Kalahari and Karoo were extremely harsh environments where only the San could thrive.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+xegwi_culture = { 
+	language = tuu_language
+	
+	color = map_xegwi
+	
+	tags = { african_gfx }
+
+
+	country_modifier = {
+		# The San were expert hunters and trackers whose knowledge of the harsh Kalahari environment was unmatched.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid Kalahari and Karoo were extremely harsh environments where only the San could thrive.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}

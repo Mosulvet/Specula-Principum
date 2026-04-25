@@ -1,0 +1,743 @@
+
+french = { 
+	language = french_language
+	
+	color = map_FRA
+	
+	tags = { french_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The French crown under the Valois wielded enormous diplomatic influence, brokering alliances and papal negotiations across Europe.
+		diplomatic_reputation = 1
+	}
+
+	location_modifier = {
+# The Île-de-France was the most densely populated and economically developed region of medieval France, centered on Paris.
+		local_monthly_development = 0.03
+	}
+
+	opinions = {
+		angevin = kindred
+		berrichon = kindred
+		burgundian = kindred
+		champenais = kindred
+		franc_comtois = kindred
+		gallo = kindred
+		lorrain = kindred
+		norman = kindred
+		picard = kindred
+		poitevin = kindred
+		saintongeais = kindred
+		walloon = kindred
+	}
+	
+	culture_groups = {
+		french_group
+	}
+}
+
+breton = { 
+	language = breton_dialect
+	
+	color = map_BRI
+	
+	tags = { breton_gfx french_gfx celtic_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Breton sailors were among the most skilled in Atlantic Europe, ranging from the Channel to Newfoundland for cod fishing.
+		global_sailors_modifier = 0.15
+	}
+
+	location_modifier = {
+# Brittany's long coastline supported a massive fishing industry, with Breton ports exporting dried and salted fish across Europe.
+		local_fish_output_modifier = 0.15
+	}
+
+	opinions = {
+		gallo = kindred
+		welsh = positive
+		cornish = kindred
+	}
+	
+	culture_groups = {
+		celtic_group
+		french_group
+	}
+}
+
+gallo = { 
+	language = angevin_dialect
+	
+	color = map_gallo
+	
+	tags = { breton_gfx french_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Eastern Brittany's Gallo-speaking population served as cultural intermediaries between Breton and French-speaking communities.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Gallo-speaking regions of eastern Brittany featured fertile farmland and productive mixed agriculture.
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+		breton = kindred
+		angevin = kindred
+		berrichon = kindred
+		burgundian = kindred
+		champenais = kindred
+		franc_comtois = kindred
+		french = kindred
+		lorrain = kindred
+		norman = kindred
+		picard = kindred
+		poitevin = kindred
+		saintongeais = kindred
+		walloon = kindred
+	}
+	
+	culture_groups = {
+		french_group
+	}
+}
+
+burgundian = { 
+	language = burgundian_dialect
+	
+	color = map_BUR
+	
+	tags = { french_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The Valois Burgundian court was the wealthiest and most culturally influential in 15th-century Europe, patronizing arts and trade.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# Burgundy's chalky soils and temperate climate produced some of the finest wines in medieval Europe, exported far and wide.
+		local_wine_output_modifier = 0.15
+	}
+
+	opinions = {
+		angevin = kindred
+		berrichon = kindred
+		champenais = kindred
+		franc_comtois = kindred
+		french = kindred
+		gallo = kindred
+		lorrain = kindred
+		norman = kindred
+		picard = kindred
+		poitevin = kindred
+		saintongeais = kindred
+		walloon = kindred
+	}
+	
+	culture_groups = {
+		french_group
+	}
+}
+
+picard = {
+	language = francique_dialect
+	
+	color = map_PIC
+	
+	tags = { french_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Picardy's major towns of Arras and Amiens were among the foremost cloth-producing centers of northern France.
+		global_cloth_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Picard textile towns produced high-quality dyed cloth and tapestries that rivaled those of Flanders in European markets.
+		local_cloth_output_modifier = 0.15
+	}
+
+	opinions = {
+		angevin = kindred
+		berrichon = kindred
+		burgundian = kindred
+		champenais = kindred
+		franc_comtois = kindred
+		french = kindred
+		gallo = kindred
+		lorrain = kindred
+		norman = kindred
+		poitevin = kindred
+		saintongeais = kindred
+		walloon = kindred
+	}
+	
+	culture_groups = {
+		french_group
+		netherlandish_group
+	}
+}
+
+champenais = {
+	language = francique_dialect
+	
+	color = map_CHP
+	
+	tags = { french_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The Champagne fairs were Europe's foremost international trading centers in the High Middle Ages, establishing commercial conventions.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# The wealthy Champagne trading towns of Troyes, Provins, and Bar-sur-Aube drew merchants from across the continent.
+		local_monthly_development = 0.03
+	}
+
+	opinions = {
+		angevin = kindred
+		berrichon = kindred
+		burgundian = kindred
+		franc_comtois = kindred
+		french = kindred
+		gallo = kindred
+		lorrain = kindred
+		norman = kindred
+		picard = kindred
+		poitevin = kindred
+		saintongeais = kindred
+		walloon = kindred
+	}
+	
+	culture_groups = {
+		french_group
+	}
+}
+
+franc_comtois = {
+	language = burgundian_dialect
+	
+	color = rgb { 65 34 39 }
+	
+	tags = { french_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The Franche-Comté, perched between France and the Empire, developed a tradition of frontier defense and skilled garrison warfare.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# The Jura mountain passes and fortified towns of Franche-Comté made the region a natural defensive bulwark.
+		local_defensive = 0.1
+	}
+
+	opinions = {
+		angevin = kindred
+		berrichon = kindred
+		burgundian = kindred
+		champenais = kindred
+		french = kindred
+		gallo = kindred
+		lorrain = kindred
+		norman = kindred
+		picard = kindred
+		poitevin = kindred
+		saintongeais = kindred
+		walloon = kindred
+	}
+	
+	culture_groups = {
+		french_group
+		swiss_group
+	}
+}
+
+lorrain = {
+	language = francique_dialect
+	
+	color = map_LOR
+	
+	tags = { french_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Lorraine's rich iron deposits in the Briey basin supported a substantial metalworking tradition since antiquity.
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+# The iron-rich lands of Lorraine produced substantial quantities of raw iron, feeding both local smithies and regional trade.
+		local_iron_output_modifier = 0.15
+	}
+
+	opinions = {
+		angevin = kindred
+		berrichon = kindred
+		burgundian = kindred
+		champenais = kindred
+		franc_comtois = kindred
+		french = kindred
+		gallo = kindred
+		norman = kindred
+		picard = kindred
+		poitevin = kindred
+		saintongeais = kindred
+		walloon = kindred
+	}
+	
+	culture_groups = {
+		french_group
+	}
+}
+
+auvergnat = {
+	language = occitan_dialect
+	
+	color = map_AUV
+	
+	tags = { occitan_gfx french_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The rugged volcanic highlands of the Massif Central sustained a pastoral economy centered on cattle and sheep.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Auvergne's mountainous terrain with its volcanic plateaux and deep valleys provided formidable natural defenses.
+		local_defensive = 0.15
+	}
+
+	opinions = {
+		arpitan = positive
+		catalan = kindred
+		gascon = kindred
+		limousin = kindred
+		languedocien = kindred
+		provencal = kindred
+		vivaro_alpine = kindred
+	}
+	
+	culture_groups = {
+		french_group
+	}
+}
+
+berrichon = {
+	language = french_language
+	
+	color = map_BER
+	
+	tags = { french_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Berry's position at the heart of France made it a breadbasket, with the fertile Beauce and Champagne Berrichonne producing abundant grain.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The flat, fertile plains of Berry were among the most productive cereal-growing lands in medieval France.
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+		angevin = kindred
+		burgundian = kindred
+		champenais = kindred
+		franc_comtois = kindred
+		french = kindred
+		gallo = kindred
+		lorrain = kindred
+		norman = kindred
+		picard = kindred
+		poitevin = kindred
+		saintongeais = kindred
+		walloon = kindred
+	}
+	
+	culture_groups = {
+		french_group
+	}
+}
+
+limousin = {
+	language = occitan_dialect
+	
+	color = rgb { 66 70 50 }
+	
+	tags = { occitan_gfx french_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Limousin was famous for its Limoges enamelwork and horse breeding, producing sought-after warhorses for medieval armies.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+# The rolling hills of Limousin supported extensive cattle and horse breeding, with the Limousin breed prized across France.
+		local_livestock_output_modifier = 0.15
+	}
+
+	opinions = {
+		arpitan = positive
+		auvergnat = kindred
+		catalan = kindred
+		gascon = kindred
+		languedocien = kindred
+		provencal = kindred
+		vivaro_alpine = kindred
+	}
+	
+	culture_groups = {
+		french_group
+	}
+}
+
+saintongeais = {
+	language = poitevin_dialect
+	
+	color = rgb { 53 104 45 }
+	
+	tags = { french_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Saintonge's Atlantic salt marshes produced substantial quantities of sea salt, a critical medieval commodity traded across Europe.
+		global_salt_output_modifier = 0.15
+	}
+
+	location_modifier = {
+# The salt marshes along the Saintonge coast and the Charente estuary were among the most productive salt-making sites in France.
+		local_salt_output_modifier = 0.15
+	}
+
+	opinions = {
+		angevin = kindred
+		berrichon = kindred
+		burgundian = kindred
+		champenais = kindred
+		franc_comtois = kindred
+		french = kindred
+		gallo = kindred
+		lorrain = kindred
+		norman = kindred
+		picard = kindred
+		poitevin = kindred
+		walloon = kindred
+	}
+	
+	culture_groups = {
+		french_group
+	}
+}
+
+angevin = {
+	language = angevin_dialect
+	
+	color = rgb { 32 33 79 }
+	
+	tags = { french_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The Angevin dynasty built an empire spanning England, France, and Sicily, demonstrating extraordinary dynastic and diplomatic ambition.
+		diplomatic_reputation = 1
+	}
+
+	location_modifier = {
+# The Loire Valley around Anjou was one of France's most fertile regions, its mild climate ideal for vineyards and orchards.
+		local_wine_output_modifier = 0.1
+	}
+
+	opinions = {
+		berrichon = kindred
+		burgundian = kindred
+		champenais = kindred
+		franc_comtois = kindred
+		french = kindred
+		gallo = kindred
+		lorrain = kindred
+		norman = kindred
+		picard = kindred
+		poitevin = kindred
+		saintongeais = kindred
+		walloon = kindred
+	}
+	
+	culture_groups = {
+		french_group
+	}
+}
+
+poitevin = {
+	language = poitevin_dialect
+	
+	color = rgb { 195 88 49 }
+	
+	tags = { french_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Poitou was a crucial crossroads between northern and southern France, with a long tradition of scholarly and legal culture.
+		stability_cost_modifier = -0.05
+	}
+
+	location_modifier = {
+# The Poitevin marshlands and flat agricultural plains produced abundant grain, supporting a substantial rural population.
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		angevin = kindred
+		berrichon = kindred
+		burgundian = kindred
+		champenais = kindred
+		franc_comtois = kindred
+		french = kindred
+		gallo = kindred
+		lorrain = kindred
+		norman = kindred
+		picard = kindred
+		saintongeais = kindred
+		walloon = kindred
+	}
+	
+	culture_groups = {
+		french_group
+	}
+}
+
+gascon = { 
+	language = gascon_dialect
+	
+	color = map_AQN
+	
+	tags = { occitan_gfx french_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Gascon soldiers were renowned as fierce light infantry and crossbowmen, serving as mercenaries and troops across France and beyond.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# Gascony's Bordeaux wine trade with England was the largest single commodity trade in medieval Europe by volume.
+		local_wine_output_modifier = 0.15
+	}
+
+	opinions = {
+		arpitan = positive
+		auvergnat = kindred
+		basque = positive
+		languedocien = kindred
+		limousin = kindred
+		provencal = kindred
+		vivaro_alpine = kindred
+	}
+	
+	culture_groups = {
+		pyrenean_group
+		french_group
+	}	
+}
+
+languedocien = { 
+	language = occitan_dialect
+	
+	color = map_TOU
+	
+	tags = { occitan_gfx french_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Languedoc's position between the Mediterranean and Atlantic, with access to both trade spheres, fostered a wealthy merchant class.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# The Mediterranean coast of Languedoc and the Toulouse hinterland produced dye-plants, particularly woad (pastel), a lucrative export.
+		local_dye_output_modifier = 0.15
+	}
+
+	opinions = {
+		arpitan = positive
+		auvergnat = kindred
+		catalan = kindred
+		gascon = kindred
+		limousin = kindred
+		provencal = kindred
+		vivaro_alpine = kindred
+	}
+	
+	culture_groups = {
+		french_group
+	}
+}
+
+arpitan = { 
+	language = arpitan_dialect
+	
+	color = map_arpitan
+	
+	tags = { french_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The Arpitan-speaking Alpine regions developed a tradition of skilled mountain warfare and mercenary service across Europe.
+		global_manpower_modifier = 0.05
+	}
+
+	location_modifier = {
+# Alpine pastures supported extensive dairy farming and cheese-making, while mountain passes generated toll revenue from transit trade.
+		local_livestock_output_modifier = 0.1
+	}
+
+	opinions = {
+		auvergnat = positive
+		gascon = positive
+		limousin = positive
+		languedocien = positive
+		provencal = positive
+		vivaro_alpine = positive
+	}
+	
+	culture_groups = {
+		french_group
+		swiss_group
+	}
+}
+
+vivaro_alpine = { 
+	language = occitan_dialect
+	
+	color = map_vivaro_alpine
+	
+	tags = { occitan_gfx french_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The Vivarais and Alpine Occitan regions produced hardy mountaineers with a strong tradition of local self-governance.
+		stability_cost_modifier = -0.05
+	}
+
+	location_modifier = {
+# The rugged terrain of the Vivarais and Alpine foothills made these regions difficult to conquer and easy to defend.
+		local_defensive = 0.1
+	}
+
+	opinions = {
+		arpitan = positive
+		auvergnat = kindred
+		catalan = kindred
+		gascon = kindred
+		languedocien = kindred
+		limousin = kindred
+		provencal = kindred
+	}
+	
+	culture_groups = {
+		french_group
+	}
+}
+
+walloon = { 
+	language = francique_dialect
+
+	
+	color = map_LIE
+	
+	tags = { french_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Wallonia's coal and iron resources, combined with its Meuse River trade connections, fostered a strong proto-industrial economy.
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+# The Meuse valley towns of Liège and Namur were major centers of metalworking, producing weapons and tools for export.
+		local_iron_output_modifier = 0.1
+	}
+
+	opinions = {
+		angevin = kindred
+		berrichon = kindred
+		burgundian = kindred
+		champenais = kindred
+		franc_comtois = kindred
+		french = kindred
+		gallo = kindred
+		lorrain = kindred
+		norman = kindred
+		picard = kindred
+		poitevin = kindred
+		saintongeais = kindred
+	}
+	
+	culture_groups = {
+		netherlandish_group
+		french_group
+		german_group
+	}
+}
+
+norman = { 
+	language = norman_dialect
+	
+	color = map_NRM
+	
+	tags = { norman_gfx french_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The Normans were history's most prolific conquerors for their size — seizing England, Sicily, Antioch, and more through military ambition.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+# Normandy's rich dairy farms and orchards, combined with its Channel ports, created a productive and well-connected regional economy.
+		local_production_efficiency = 0.1
+	}
+
+	opinions = {
+		english = positive
+		anglo_irish = positive
+		angevin = kindred
+		berrichon = kindred
+		burgundian = kindred
+		champenais = kindred
+		franc_comtois = kindred
+		french = kindred
+		gallo = kindred
+		lorrain = kindred
+		picard = kindred
+		poitevin = kindred
+		saintongeais = kindred
+		walloon = kindred
+	}
+	
+	culture_groups = {
+		french_group
+	}
+}
+
+provencal = { 
+	language = occitan_dialect
+	
+	color = map_PRO
+	
+	tags = { occitan_gfx french_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Provence's Mediterranean ports, especially Marseille, were major hubs of Levantine trade, connecting France to the eastern Mediterranean.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# Marseille and the Provençal coast facilitated extensive Mediterranean commerce, with olive oil and wine as major local exports.
+		local_wine_output_modifier = 0.1
+	}
+
+	opinions = {
+		arpitan = positive
+		auvergnat = kindred
+		catalan = kindred
+		gascon = kindred
+		languedocien = kindred
+		limousin = kindred
+		vivaro_alpine = kindred
+	}
+	
+	culture_groups = {
+		french_group
+	}
+}

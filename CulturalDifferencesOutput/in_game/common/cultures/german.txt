@@ -1,0 +1,1315 @@
+#Low German
+
+angrian = { 
+	language = low_german_dialect
+	
+	color = map_PDB
+	
+	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Angria's lowland plains supported horse breeding and cattle herding.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Flat North German agricultural plains.
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		brandenburgish = positive
+		eastern_pomeranian = positive
+		eastphalian = positive
+		holsatian = positive
+		lower_saxon = positive
+		markish = positive
+		prussian = positive
+		western_pomeranian = positive
+		westphalian = positive
+		east_franconian = positive
+		low_franconian = positive
+		german_carpathian = positive
+		german_silesian = positive
+		german_transylvanian = positive
+		moselle_franconian = positive
+		rhine_franconian = positive
+		ripuarian_franconian = positive
+		saxon = positive
+		danube_bavarian = positive
+		high_alemannic = positive
+		rhine_alemannic = positive
+		southern_bavarian = positive
+		swabian = positive
+		upper_palatine = positive
+		frisian = positive
+		walloon = positive
+	}	
+	
+	culture_groups = {
+		german_group
+	}
+}
+
+brandenburgish = { 
+	language = low_german_dialect
+	
+	color = map_BRA
+	
+	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Frontier colonization drew settlers to the March.
+		global_manpower_modifier = 0.05
+	}
+
+	location_modifier = {
+# Cleared marshland and settled farms.
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		angrian = positive
+		eastern_pomeranian = positive
+		eastphalian = positive
+		holsatian = positive
+		lower_saxon = positive
+		markish = positive
+		prussian = positive
+		western_pomeranian = positive
+		westphalian = positive
+		east_franconian = positive
+		low_franconian = positive
+		german_carpathian = positive
+		german_silesian = positive
+		german_transylvanian = positive
+		moselle_franconian = positive
+		rhine_franconian = positive
+		ripuarian_franconian = positive
+		saxon = positive
+		danube_bavarian = positive
+		high_alemannic = positive
+		rhine_alemannic = positive
+		southern_bavarian = positive
+		swabian = positive
+		upper_palatine = positive
+		frisian = positive
+		walloon = positive
+	}	
+	
+	culture_groups = {
+		german_group
+	}
+}
+
+eastern_pomeranian = { 
+	language = low_german_dialect
+	
+	color = map_STE
+	
+	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Baltic coastal seafaring tradition.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+# Rich Baltic fishing grounds.
+		local_fish_output_modifier = 0.15
+	}
+
+	opinions = {
+		angrian = positive
+		brandenburgish = positive
+		eastphalian = positive
+		holsatian = positive
+		lower_saxon = positive
+		markish = positive
+		prussian = positive
+		western_pomeranian = positive
+		westphalian = positive
+		east_franconian = positive
+		low_franconian = positive
+		german_carpathian = positive
+		german_silesian = positive
+		german_transylvanian = positive
+		moselle_franconian = positive
+		rhine_franconian = positive
+		ripuarian_franconian = positive
+		saxon = positive
+		danube_bavarian = positive
+		high_alemannic = positive
+		rhine_alemannic = positive
+		southern_bavarian = positive
+		swabian = positive
+		upper_palatine = positive
+		frisian = positive
+		walloon = positive
+	}	
+	
+	culture_groups = {
+		german_group
+	}
+}
+
+eastphalian = { 
+	language = low_german_dialect
+	
+	color = map_BRU
+	
+	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Harz Mountains silver and iron mining tradition dating to antiquity.
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+# Harz iron deposits and Goslar silver mines.
+		local_iron_output_modifier = 0.15
+	}
+
+	opinions = {angrian = positive
+	brandenburgish = positive
+	eastern_pomeranian = positive
+	holsatian = positive
+	lower_saxon = positive
+	markish = positive
+	prussian = positive
+	western_pomeranian = positive
+	westphalian = positive
+	east_franconian = positive
+	low_franconian = positive
+	german_carpathian = positive
+	german_silesian = positive
+	german_transylvanian = positive
+	moselle_franconian = positive
+	rhine_franconian = positive
+	ripuarian_franconian = positive
+	saxon = positive
+	danube_bavarian = positive
+	high_alemannic = positive
+	rhine_alemannic = positive
+	southern_bavarian = positive
+	swabian = positive
+	upper_palatine = positive
+	frisian = positive
+	walloon = positive
+	}	
+	
+	culture_groups = {
+		german_group
+	}
+}
+
+hanseatic = { 
+	language = low_german_dialect
+	
+	color = map_hansa
+	
+	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The Hanseatic League was the dominant commercial network of Northern Europe.
+		trade_efficiency = 0.15
+	}
+
+	location_modifier = {
+# Hanseatic trading cities like Lübeck, Hamburg, and Bremen were among the wealthiest in Northern Europe.
+		local_monthly_development = 0.05
+	}
+
+	opinions = {
+	}	
+	
+	culture_groups = {
+		german_group
+	}
+}
+
+
+holsatian = { 
+	language = low_german_dialect
+	
+	color = map_lubeck
+	
+	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Holstein and Lübeck controlled vital Baltic-North Sea trade routes.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# Herring fisheries of the Belt and Sound.
+		local_fish_output_modifier = 0.1
+	}
+
+	opinions = {
+		angrian = positive
+		brandenburgish = positive
+		eastern_pomeranian = positive
+		eastphalian = positive
+		lower_saxon = positive
+		markish = positive
+		prussian = positive
+		western_pomeranian = positive
+		westphalian = positive
+		east_franconian = positive
+		low_franconian = positive
+		german_carpathian = positive
+		german_silesian = positive
+		german_transylvanian = positive
+		moselle_franconian = positive
+		rhine_franconian = positive
+		ripuarian_franconian = positive
+		saxon = positive
+		danube_bavarian = positive
+		high_alemannic = positive
+		rhine_alemannic = positive
+		southern_bavarian = positive
+		swabian = positive
+		upper_palatine = positive
+		frisian = positive
+		walloon = positive
+	}	
+	
+	culture_groups = {
+		german_group
+	}
+}
+
+lower_saxon = { 
+	language = low_german_dialect
+	
+	color = map_BRE
+	
+	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Bremen and North Sea maritime tradition.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+# North Sea fishing communities.
+		local_fish_output_modifier = 0.1
+	}
+
+	opinions = {
+		angrian = positive
+		brandenburgish = positive
+		eastern_pomeranian = positive
+		eastphalian = positive
+		holsatian = positive
+		markish = positive
+		prussian = positive
+		western_pomeranian = positive
+		westphalian = positive
+		east_franconian = positive
+		low_franconian = positive
+		german_carpathian = positive
+		german_silesian = positive
+		german_transylvanian = positive
+		moselle_franconian = positive
+		rhine_franconian = positive
+		ripuarian_franconian = positive
+		saxon = positive
+		danube_bavarian = positive
+		high_alemannic = positive
+		rhine_alemannic = positive
+		southern_bavarian = positive
+		swabian = positive
+		upper_palatine = positive
+		frisian = positive
+		walloon = positive
+	}	
+	
+	culture_groups = {
+		german_group
+	}
+}
+
+markish = { 
+	language = low_german_dialect
+	
+	color = map_RUP
+	
+	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Sauerland and Berg iron ore extraction.
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+# Sauerland iron and steel working.
+		local_iron_output_modifier = 0.1
+	}
+
+	opinions = {
+		angrian = positive
+		brandenburgish = positive
+		eastern_pomeranian = positive
+		eastphalian = positive
+		holsatian = positive
+		lower_saxon = positive
+		prussian = positive
+		western_pomeranian = positive
+		westphalian = positive
+		east_franconian = positive
+		low_franconian = positive
+		german_carpathian = positive
+		german_silesian = positive
+		german_transylvanian = positive
+		moselle_franconian = positive
+		rhine_franconian = positive
+		ripuarian_franconian = positive
+		saxon = positive
+		danube_bavarian = positive
+		high_alemannic = positive
+		rhine_alemannic = positive
+		southern_bavarian = positive
+		swabian = positive
+		upper_palatine = positive
+		frisian = positive
+		walloon = positive
+	}	
+	
+	culture_groups = {
+		german_group
+	}
+}
+
+prussian = { 
+	language = low_german_dialect
+	
+	color = map_PRU
+	
+	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Teutonic Order's disciplined military tradition shaped Prussian martial culture.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+# Fertile Vistula delta farmland.
+		local_grain_output_modifier = 0.1
+	}
+
+	opinions = {
+		angrian = positive
+		brandenburgish = positive
+		eastern_pomeranian = positive
+		eastphalian = positive
+		holsatian = positive
+		lower_saxon = positive
+		markish = positive
+		western_pomeranian = positive
+		westphalian = positive
+		east_franconian = positive
+		low_franconian = positive
+		german_carpathian = positive
+		german_silesian = positive
+		german_transylvanian = positive
+		moselle_franconian = positive
+		rhine_franconian = positive
+		ripuarian_franconian = positive
+		saxon = positive
+		danube_bavarian = positive
+		high_alemannic = positive
+		rhine_alemannic = positive
+		southern_bavarian = positive
+		swabian = positive
+		upper_palatine = positive
+		frisian = positive
+		walloon = positive
+	}	
+	
+	culture_groups = {
+		german_group
+	}
+}
+
+western_pomeranian = { 
+	language = low_german_dialect
+	
+	color = map_POM
+	
+	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Pomeranian Baltic fishing fleet.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Baltic herring and cod fishing.
+		local_fish_output_modifier = 0.15
+	}
+
+	opinions = {
+		angrian = positive
+		brandenburgish = positive
+		eastern_pomeranian = positive
+		eastphalian = positive
+		holsatian = positive
+		lower_saxon = positive
+		markish = positive
+		prussian = positive
+		westphalian = positive
+		east_franconian = positive
+		low_franconian = positive
+		german_carpathian = positive
+		german_silesian = positive
+		german_transylvanian = positive
+		moselle_franconian = positive
+		rhine_franconian = positive
+		ripuarian_franconian = positive
+		saxon = positive
+		danube_bavarian = positive
+		high_alemannic = positive
+		rhine_alemannic = positive
+		southern_bavarian = positive
+		swabian = positive
+		upper_palatine = positive
+		frisian = positive
+		walloon = positive
+	}	
+	
+	culture_groups = {
+		german_group
+	}
+}
+
+westphalian = { 
+	language = low_german_dialect
+	
+	color = map_WES
+	
+	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Westphalian linen production was a major export industry.
+		global_cloth_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Linen weaving towns of Westphalia.
+		local_cloth_output_modifier = 0.1
+	}
+
+	opinions = {
+		angrian = positive
+		brandenburgish = positive
+		eastern_pomeranian = positive
+		eastphalian = positive
+		holsatian = positive
+		lower_saxon = positive
+		markish = positive
+		prussian = positive
+		western_pomeranian = positive
+		east_franconian = positive
+		low_franconian = positive
+		german_carpathian = positive
+		german_silesian = positive
+		german_transylvanian = positive
+		moselle_franconian = positive
+		rhine_franconian = positive
+		ripuarian_franconian = positive
+		saxon = positive
+		danube_bavarian = positive
+		high_alemannic = positive
+		rhine_alemannic = positive
+		southern_bavarian = positive
+		swabian = positive
+		upper_palatine = positive
+		frisian = positive
+		walloon = positive
+	}	
+	
+	culture_groups = {
+		german_group
+		netherlandish_group
+	}
+}
+
+#Middle German
+
+east_franconian = {
+	language = central_german_dialect
+	
+	color = map_ANS
+	
+	tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Nuremberg was a major craft and trade center of the Empire.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# Nuremberg's workshops produced metalwork, clockwork, and goods exported across Europe.
+		local_production_efficiency = 0.1
+	}
+
+	opinions = {
+		angrian = positive
+		brandenburgish = positive
+		eastern_pomeranian = positive
+		eastphalian = positive
+		holsatian = positive
+		lower_saxon = positive
+		markish = positive
+		prussian = positive
+		western_pomeranian = positive
+		westphalian = positive
+		low_franconian = positive
+		german_carpathian = positive
+		german_silesian = positive
+		german_transylvanian = positive
+		moselle_franconian = positive
+		rhine_franconian = positive
+		ripuarian_franconian = positive
+		saxon = positive
+		danube_bavarian = positive
+		high_alemannic = positive
+		rhine_alemannic = positive
+		southern_bavarian = positive
+		swabian = positive
+		upper_palatine = positive
+		frisian = positive
+		walloon = positive
+	}	
+	
+	culture_groups = {
+		german_group
+	}
+}
+
+german_carpathian = { #https://en.wikipedia.org/wiki/Carpathian_Germans
+	language = central_german_dialect
+	
+	color = map_german_carpathian
+	
+	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Carpathian German mining settlers brought advanced extraction techniques.
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+# Carpathian mineral deposits exploited by German colonists.
+		local_iron_output_modifier = 0.1
+	}
+
+	opinions = {
+		angrian = positive
+		brandenburgish = positive
+		eastern_pomeranian = positive
+		eastphalian = positive
+		holsatian = positive
+		lower_saxon = positive
+		markish = positive
+		prussian = positive
+		western_pomeranian = positive
+		westphalian = positive
+		east_franconian = positive
+		low_franconian = positive
+		german_silesian = positive
+		german_transylvanian = positive
+		moselle_franconian = positive
+		rhine_franconian = positive
+		ripuarian_franconian = positive
+		saxon = positive
+		danube_bavarian = positive
+		high_alemannic = positive
+		rhine_alemannic = positive
+		southern_bavarian = positive
+		swabian = positive
+		upper_palatine = positive
+		frisian = positive
+		walloon = positive
+	}	
+	
+	culture_groups = {
+		german_group
+		carpathian_group
+	}
+}
+
+german_silesian = {
+	language = central_german_dialect
+	
+	color = map_german_silesian
+	
+	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Silesian mines were major sources of iron and precious metals.
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+# Silesian iron and copper mines.
+		local_iron_output_modifier = 0.1
+	}
+
+	opinions = {
+		angrian = positive
+		brandenburgish = positive
+		eastern_pomeranian = positive
+		eastphalian = positive
+		holsatian = positive
+		lower_saxon = positive
+		markish = positive
+		prussian = positive
+		western_pomeranian = positive
+		westphalian = positive
+		east_franconian = positive
+		low_franconian = positive
+		german_carpathian = positive
+		german_transylvanian = positive
+		moselle_franconian = positive
+		rhine_franconian = positive
+		ripuarian_franconian = positive
+		saxon = positive
+		danube_bavarian = positive
+		high_alemannic = positive
+		rhine_alemannic = positive
+		southern_bavarian = positive
+		swabian = positive
+		upper_palatine = positive
+		frisian = positive
+		walloon = positive
+	}	
+	
+	culture_groups = {
+		german_group
+	}
+}
+
+german_transylvanian = { #https://en.wikipedia.org/wiki/Transylvanian_Saxons
+	language = central_german_dialect
+	
+	color = map_german_transylvanian
+	
+	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Transylvanian Saxons built self-governing fortified towns with strong communal institutions.
+		stability_cost_modifier = -0.05
+	}
+
+	location_modifier = {
+# Fortified Saxon church-towns were built to resist Ottoman and Tatar raids.
+		local_defensive = 0.15
+	}
+
+	opinions = {
+		angrian = positive
+		brandenburgish = positive
+		eastern_pomeranian = positive
+		eastphalian = positive
+		holsatian = positive
+		lower_saxon = positive
+		markish = positive
+		prussian = positive
+		western_pomeranian = positive
+		westphalian = positive
+		east_franconian = positive
+		low_franconian = positive
+		german_carpathian = positive
+		german_silesian = positive
+		moselle_franconian = positive
+		rhine_franconian = positive
+		ripuarian_franconian = positive
+		saxon = positive
+		danube_bavarian = positive
+		high_alemannic = positive
+		rhine_alemannic = positive
+		southern_bavarian = positive
+		swabian = positive
+		upper_palatine = positive
+		frisian = positive
+		walloon = positive
+	}	
+	
+	culture_groups = {
+		german_group
+		carpathian_group
+	}
+}
+
+low_franconian = {
+	language = dutch_dialect
+	
+	color = map_dutch
+	
+	tags = { dutch_gfx north_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The Low Countries were the commercial heart of northwestern Europe.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# Flemish and Brabantine cloth production dominated European markets.
+		local_cloth_output_modifier = 0.15
+	}
+
+	opinions = {
+		angrian = positive
+		brandenburgish = positive
+		eastern_pomeranian = positive
+		eastphalian = positive
+		holsatian = positive
+		lower_saxon = positive
+		markish = positive
+		prussian = positive
+		western_pomeranian = positive
+		westphalian = positive
+		east_franconian = positive
+		german_carpathian = positive
+		german_silesian = positive
+		german_transylvanian = positive
+		moselle_franconian = positive
+		rhine_franconian = positive
+		ripuarian_franconian = positive
+		saxon = positive
+		danube_bavarian = positive
+		high_alemannic = positive
+		rhine_alemannic = positive
+		southern_bavarian = positive
+		swabian = positive
+		upper_palatine = positive
+		frisian = positive
+		walloon = positive
+	}	
+	
+	culture_groups = {
+		netherlandish_group
+		german_group
+	}
+}
+
+moselle_franconian = { 
+	language = central_german_dialect
+	
+	color = map_TRI
+	
+	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Moselle valley wines were prized across medieval Europe.
+		global_wine_output_modifier = 0.15
+	}
+
+	location_modifier = {
+# Steep Moselle valley slopes were ideal for viticulture.
+		local_wine_output_modifier = 0.15
+	}
+
+	opinions = {
+		angrian = positive
+		brandenburgish = positive
+		eastern_pomeranian = positive
+		eastphalian = positive
+		holsatian = positive
+		lower_saxon = positive
+		markish = positive
+		prussian = positive
+		western_pomeranian = positive
+		westphalian = positive
+		east_franconian = positive
+		low_franconian = positive
+		german_carpathian = positive
+		german_silesian = positive
+		german_transylvanian = positive
+		rhine_franconian = positive
+		ripuarian_franconian = positive
+		saxon = positive
+		danube_bavarian = positive
+		high_alemannic = positive
+		rhine_alemannic = positive
+		southern_bavarian = positive
+		swabian = positive
+		upper_palatine = positive
+		frisian = positive
+		walloon = positive
+	}	
+	
+	culture_groups = {
+		german_group
+	}
+}
+
+rhine_franconian = { 
+	language = central_german_dialect
+	
+	color = map_HES
+	
+	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Frankfurt trade fairs connected northern and southern European commerce.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+# Frankfurt fairs and Hessian market towns spurred urban growth.
+		local_monthly_development = 0.03
+	}
+
+	opinions = {
+		angrian = positive
+		brandenburgish = positive
+		eastern_pomeranian = positive
+		eastphalian = positive
+		holsatian = positive
+		lower_saxon = positive
+		markish = positive
+		prussian = positive
+		western_pomeranian = positive
+		westphalian = positive
+		east_franconian = positive
+		low_franconian = positive
+		german_carpathian = positive
+		german_silesian = positive
+		german_transylvanian = positive
+		moselle_franconian = positive
+		ripuarian_franconian = positive
+		saxon = positive
+		danube_bavarian = positive
+		high_alemannic = positive
+		rhine_alemannic = positive
+		southern_bavarian = positive
+		swabian = positive
+		upper_palatine = positive
+		frisian = positive
+		walloon = positive
+	}	
+	
+	culture_groups = {
+		german_group
+	}
+}
+
+ripuarian_franconian = { 
+	language = central_german_dialect
+	
+	color = map_KOL
+	
+	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Cologne was one of the largest and wealthiest cities in medieval Europe.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# Cologne's position on the Rhine made it a center of trade and culture.
+		local_monthly_development = 0.03
+	}
+
+	opinions = {
+		angrian = positive
+		brandenburgish = positive
+		eastern_pomeranian = positive
+		eastphalian = positive
+		holsatian = positive
+		lower_saxon = positive
+		markish = positive
+		prussian = positive
+		western_pomeranian = positive
+		westphalian = positive
+		east_franconian = positive
+		low_franconian = positive
+		german_carpathian = positive
+		german_silesian = positive
+		german_transylvanian = positive
+		moselle_franconian = positive
+		rhine_franconian = positive
+		saxon = positive
+		danube_bavarian = positive
+		high_alemannic = positive
+		rhine_alemannic = positive
+		southern_bavarian = positive
+		swabian = positive
+		upper_palatine = positive
+		frisian = positive
+		walloon = positive
+	}
+	
+	culture_groups = {
+		german_group
+	}
+	
+}
+
+saxon = { 
+	language = central_german_dialect
+	
+	color = map_SAX
+	
+	tags = { north_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The Erzgebirge mountains held enormous silver deposits that funded Saxon power.
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+# Erzgebirge silver and iron mines were among the richest in Europe.
+		local_iron_output_modifier = 0.15
+	}
+
+	opinions = {
+		angrian = positive
+		brandenburgish = positive
+		eastern_pomeranian = positive
+		eastphalian = positive
+		holsatian = positive
+		lower_saxon = positive
+		markish = positive
+		prussian = positive
+		western_pomeranian = positive
+		westphalian = positive
+		east_franconian = positive
+		low_franconian = positive
+		german_carpathian = positive
+		german_silesian = positive
+		german_transylvanian = positive
+		moselle_franconian = positive
+		rhine_franconian = positive
+		ripuarian_franconian = positive
+		danube_bavarian = positive
+		high_alemannic = positive
+		rhine_alemannic = positive
+		southern_bavarian = positive
+		swabian = positive
+		upper_palatine = positive
+		frisian = positive
+		walloon = positive
+	}	
+	
+	culture_groups = {
+		german_group
+	}
+}
+
+
+#Upper German
+danube_bavarian = {
+	language = upper_german_dialect
+	
+	color = map_austrian
+	
+	tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The Salzburg-Hallein salt trade was the economic backbone of Bavarian and Austrian power.
+		global_salt_output_modifier = 0.15
+	}
+
+	location_modifier = {
+# Alpine salt mines at Hallein and Berchtesgaden were highly productive.
+		local_salt_output_modifier = 0.15
+	}
+
+	opinions = {
+		angrian = positive
+		brandenburgish = positive
+		eastern_pomeranian = positive
+		eastphalian = positive
+		holsatian = positive
+		lower_saxon = positive
+		markish = positive
+		prussian = positive
+		western_pomeranian = positive
+		westphalian = positive
+		east_franconian = positive
+		low_franconian = positive
+		german_carpathian = positive
+		german_silesian = positive
+		german_transylvanian = positive
+		moselle_franconian = positive
+		rhine_franconian = positive
+		ripuarian_franconian = positive
+		saxon = positive
+		high_alemannic = positive
+		rhine_alemannic = positive
+		southern_bavarian = positive
+		swabian = positive
+		upper_palatine = positive
+		frisian = positive
+		walloon = positive
+	}	
+	
+	culture_groups = {
+		german_group
+	}
+}
+
+high_alemannic = {	#Swiss, non-Swabian Baden
+	language = alemannic_dialect
+	
+	color = map_SWI
+	
+	tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Swiss pikemen were the finest infantry in 15th-century Europe, feared on every battlefield.
+		army_infantry_power = 0.1
+	}
+
+	location_modifier = {
+# Alpine terrain and Swiss mountain warfare made the Confederacy nearly impossible to conquer.
+		local_defensive = 0.15
+	}
+
+	opinions = {
+		angrian = positive
+		brandenburgish = positive
+		eastern_pomeranian = positive
+		eastphalian = positive
+		holsatian = positive
+		lower_saxon = positive
+		markish = positive
+		prussian = positive
+		western_pomeranian = positive
+		westphalian = positive
+		east_franconian = positive
+		low_franconian = positive
+		german_carpathian = positive
+		german_silesian = positive
+		german_transylvanian = positive
+		moselle_franconian = positive
+		rhine_franconian = positive
+		ripuarian_franconian = positive
+		saxon = positive
+		danube_bavarian = positive
+		rhine_alemannic = positive
+		southern_bavarian = positive
+		swabian = positive
+		upper_palatine = positive
+		frisian = positive
+		walloon = positive
+	}	
+	
+	culture_groups = {
+		german_group
+		swiss_group
+	}
+}
+
+rhine_alemannic = {
+	language = alemannic_dialect
+	
+	color = map_MLH
+	
+	tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Alsatian wines were a major Rhine trade commodity.
+		global_wine_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The Rhine valley and Alsatian hills produced excellent wines.
+		local_wine_output_modifier = 0.1
+	}
+
+	opinions = {
+		angrian = positive
+		brandenburgish = positive
+		eastern_pomeranian = positive
+		eastphalian = positive
+		holsatian = positive
+		lower_saxon = positive
+		markish = positive
+		prussian = positive
+		western_pomeranian = positive
+		westphalian = positive
+		east_franconian = positive
+		low_franconian = positive
+		german_carpathian = positive
+		german_silesian = positive
+		german_transylvanian = positive
+		moselle_franconian = positive
+		rhine_franconian = positive
+		ripuarian_franconian = positive
+		saxon = positive
+		danube_bavarian = positive
+		high_alemannic = positive
+		southern_bavarian = positive
+		swabian = positive
+		upper_palatine = positive
+		frisian = positive
+		walloon = positive
+	}
+	
+	culture_groups = {
+		german_group
+	}
+}
+
+southern_bavarian = {
+	language = upper_german_dialect
+	
+	color = map_TIR
+	
+	tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Tyrolean silver and copper mines at Schwaz were among Europe's most productive.
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+# Alpine passes and mountain valleys provided formidable natural defenses.
+		local_defensive = 0.15
+	}
+
+	opinions = {
+		angrian = positive
+		brandenburgish = positive
+		eastern_pomeranian = positive
+		eastphalian = positive
+		holsatian = positive
+		lower_saxon = positive
+		markish = positive
+		prussian = positive
+		western_pomeranian = positive
+		westphalian = positive
+		east_franconian = positive
+		low_franconian = positive
+		german_carpathian = positive
+		german_silesian = positive
+		german_transylvanian = positive
+		moselle_franconian = positive
+		rhine_franconian = positive
+		ripuarian_franconian = positive
+		saxon = positive
+		danube_bavarian = positive
+		high_alemannic = positive
+		rhine_alemannic = positive
+		swabian = positive
+		upper_palatine = positive
+		frisian = positive
+		walloon = positive
+	}	
+	
+	culture_groups = {
+		german_group
+	}
+}
+
+swabian = {
+	language = upper_german_dialect
+	
+	color = map_SWA
+	
+	tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Swabian linen and fustian cloth were major export commodities.
+		global_cloth_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# Augsburg and Ulm were thriving craft and trade centers.
+		local_production_efficiency = 0.05
+	}
+
+	opinions = {
+		angrian = positive
+		brandenburgish = positive
+		eastern_pomeranian = positive
+		eastphalian = positive
+		holsatian = positive
+		lower_saxon = positive
+		markish = positive
+		prussian = positive
+		western_pomeranian = positive
+		westphalian = positive
+		east_franconian = positive
+		low_franconian = positive
+		german_carpathian = positive
+		german_silesian = positive
+		german_transylvanian = positive
+		moselle_franconian = positive
+		rhine_franconian = positive
+		ripuarian_franconian = positive
+		saxon = positive
+		danube_bavarian = positive
+		high_alemannic = positive
+		rhine_alemannic = positive
+		southern_bavarian = positive
+		upper_palatine = positive
+		frisian = positive
+		walloon = positive
+	}	
+	
+	culture_groups = {
+		german_group
+	}
+}
+
+upper_palatine = { 
+	language = upper_german_dialect
+	
+	color = map_PAL
+	
+	tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The University of Heidelberg, founded 1386, was one of the Empire's foremost centers of learning.
+		prestige = 5
+	}
+
+	location_modifier = {
+# The Palatinate's Rhenish vineyards produced wines famous across Europe.
+		local_wine_output_modifier = 0.15
+	}
+
+	opinions = {
+		angrian = positive
+		brandenburgish = positive
+		eastern_pomeranian = positive
+		eastphalian = positive
+		holsatian = positive
+		lower_saxon = positive
+		markish = positive
+		prussian = positive
+		western_pomeranian = positive
+		westphalian = positive
+		east_franconian = positive
+		low_franconian = positive
+		german_carpathian = positive
+		german_silesian = positive
+		german_transylvanian = positive
+		moselle_franconian = positive
+		rhine_franconian = positive
+		ripuarian_franconian = positive
+		saxon = positive
+		danube_bavarian = positive
+		high_alemannic = positive
+		rhine_alemannic = positive
+		southern_bavarian = positive
+		swabian = positive
+		frisian = positive
+		walloon = positive
+	}	
+	
+	culture_groups = {
+		german_group
+	}
+}
+
+
+
+

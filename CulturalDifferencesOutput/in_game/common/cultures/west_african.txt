@@ -1,0 +1,2030 @@
+﻿mandinka = { #https://en.wikipedia.org/wiki/Mandinka_people
+	language = mande_language
+	
+	color = map_mandinka
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Mandinka built the Mali Empire, one of the richest empires in world history under Mansa Musa, controlling trans-Saharan gold trade.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# The Niger River inland delta and surrounding farmland supported the dense populations of the Mali Empire.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		soninke = kindred
+		susu = kindred
+		kpelle = kindred
+		kono_cul = kindred
+		dan = kindred
+		dyula = kindred
+		bobo = kindred
+		bambara = kindred
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+soninke = { 
+	language = mande_language
+	
+	color = map_soninke
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Soninke founded the ancient Ghana Empire, the earliest great trading empire of the western Sudan.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+		# The Soninke homeland in the southern Sahara-Sahel supported agriculture and gold mining.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		mandinka = kindred
+		susu = kindred
+		kpelle = kindred
+		kono_cul = kindred
+		dan = kindred
+		dyula = kindred
+		bobo = kindred
+		bambara = kindred
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+susu = { #https://en.wikipedia.org/wiki/Susu_people#Society_and_culture
+	language = mande_language
+	
+	color = map_susu
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Susu were Mande farmers and traders of coastal Guinea, once rulers of the Sosso Kingdom.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Guinean coast's tropical rainfall supported productive rice and millet agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		mandinka = kindred
+		soninke = kindred
+		kpelle = kindred
+		kono_cul = kindred
+		dan = kindred
+		dyula = kindred
+		bobo = kindred
+		bambara = kindred
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+kpelle = { 
+	language = mande_language
+	
+	color = map_kpelle
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Mande-speaking forest people practiced rice and yam cultivation in the Guinea and Liberian forests.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The dense West African forests were difficult terrain for outsiders to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+		mandinka = kindred
+		soninke = kindred
+		susu = kindred
+		kono_cul = kindred
+		dan = kindred
+		dyula = kindred
+		bobo = kindred
+		bambara = kindred
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+kono_cul = { 
+	language = mande_language
+	
+	color = map_kono
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Mande-speaking forest people practiced rice and yam cultivation in the Guinea and Liberian forests.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The dense West African forests were difficult terrain for outsiders to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+		mandinka = kindred
+		soninke = kindred
+		susu = kindred
+		kpelle = kindred
+		dan = kindred
+		dyula = kindred
+		bobo = kindred
+		bambara = kindred
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+dan = { 
+	language = mande_language
+	
+	color = map_dan
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Mande-speaking forest people practiced rice and yam cultivation in the Guinea and Liberian forests.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The dense West African forests were difficult terrain for outsiders to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+		mandinka = kindred
+		soninke = kindred
+		susu = kindred
+		kpelle = kindred
+		kono_cul = kindred
+		dyula = kindred
+		bobo = kindred
+		bambara = kindred
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+dyula = { 
+	language = mande_language
+	
+	color = map_kong
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Dyula (Juula) were the preeminent long-distance traders of West Africa, linking the forest gold zone with Saharan trade routes.
+		trade_efficiency = 0.15
+	}
+
+	location_modifier = {
+		# Dyula trading towns served as commercial centers connecting the gold fields with trans-Saharan markets.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+		mandinka = kindred
+		soninke = kindred
+		susu = kindred
+		kpelle = kindred
+		kono_cul = kindred
+		dan = kindred
+		bobo = kindred
+		bambara = kindred
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+wolof = { #https://en.wikipedia.org/wiki/Wolof_people#Religion
+	language = senegambian_language
+	
+	color = map_jolof
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Jolof Empire was a major Senegambian state that controlled trade between the Sahara and the Atlantic coast.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+		# The Senegal River valley and coastal plains supported productive millet and sorghum agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+serer = { 
+	language = senegambian_language
+	
+	color = map_serer
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Serer were among the finest farmers of Senegambia, developing sophisticated systems of crop rotation and land management.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Serer homeland's deep soils supported intensive millet farming with careful land management.
+		local_grain_output_modifier = 0.15
+	}
+	opinions = {
+	}
+	
+	
+}
+
+jola = { #https://en.wikipedia.org/wiki/Jola_people#Culture
+	language = senegambian_language
+	
+	color = map_jola
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Senegambian people was skilled rice farmers of the coastal lowlands, building complex paddy systems.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The coastal mangrove regions of Guinea-Bissau and Casamance supported wet-rice cultivation.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+manjak = { #https://en.wikipedia.org/wiki/Manjak_people
+	language = senegambian_language
+	
+	color = map_manjak
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Senegambian people was skilled rice farmers of the coastal lowlands, building complex paddy systems.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The coastal mangrove regions of Guinea-Bissau and Casamance supported wet-rice cultivation.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+balanta = { 
+	language = senegambian_language
+	
+	color = map_balanta
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Senegambian people was skilled rice farmers of the coastal lowlands, building complex paddy systems.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The coastal mangrove regions of Guinea-Bissau and Casamance supported wet-rice cultivation.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+fulbe = { #https://en.wikipedia.org/wiki/Fula_people
+	language = senegambian_language
+	
+	color = map_fulo
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Fulbe (Fulani) were the greatest pastoralist-warriors of West Africa, their jihads transforming the political landscape.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+		# The Sahel grasslands supported the enormous Fulani cattle herds that were the foundation of their pastoral economy.
+		local_livestock_output_modifier = 0.15
+	}
+	opinions = {
+	}
+	
+	
+}
+
+tenda_culture = { #https://en.wikipedia.org/wiki/Tenda_people
+	language = senegambian_language
+	
+	color = map_tenda
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Tenda peoples were farmers of the Fouta Djallon foothills, among the earliest inhabitants of the region.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Fouta Djallon highlands were remote and difficult terrain to control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}	
+}
+
+temne = { #https://en.wikipedia.org/wiki/Temne_people
+	language = mel_language
+	
+	color = map_temne
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This coastal West African people practiced rice farming and fishing along the Sierra Leone-Liberia coast.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The West African coast provided abundant fishing alongside agricultural production.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+baga_culture = { #https://en.wikipedia.org/wiki/Baga_people
+	language = mel_language
+	
+	color = map_baga
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This coastal West African people practiced rice farming and fishing along the Sierra Leone-Liberia coast.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The West African coast provided abundant fishing alongside agricultural production.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+sherbro = { #https://en.wikipedia.org/wiki/Sherbro_people
+	language = mel_language
+	
+	color = map_sherbro
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This coastal West African people practiced rice farming and fishing along the Sierra Leone-Liberia coast.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The West African coast provided abundant fishing alongside agricultural production.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+bullom = { 
+	language = mel_language
+	
+	color = map_bullom
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This coastal West African people practiced rice farming and fishing along the Sierra Leone-Liberia coast.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The West African coast provided abundant fishing alongside agricultural production.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+kissi = { #https://en.wikipedia.org/wiki/Kissi_people
+	language = mel_language
+	
+	color = map_kissi
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This coastal West African people practiced rice farming and fishing along the Sierra Leone-Liberia coast.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The West African coast provided abundant fishing alongside agricultural production.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+gola = { #https://en.wikipedia.org/wiki/Gola_people
+	language = mel_language
+	
+	color = map_gola
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This coastal West African people practiced rice farming and fishing along the Sierra Leone-Liberia coast.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The West African coast provided abundant fishing alongside agricultural production.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+senufo = { #https://en.wikipedia.org/wiki/Senufo_people
+	#https://www.101lasttribes.com/tribes/senufo.html
+	language = senufo_language
+	
+	color = map_kenedougou
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Senufo were skilled farmers and renowned woodcarvers of the Ivory Coast-Mali-Burkina Faso region.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Senufo homeland's savanna-forest transition zone supported productive agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+western_kru = { #https://en.wikipedia.org/wiki/Kru_people
+	language = kru_language
+	
+	color = map_western_kru
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Kru were expert seafarers and canoe-men of the Liberian and Ivory Coast, renowned for their maritime skills.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Kru coast provided rich fishing grounds exploited by these skilled maritime people.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+eastern_kru = { 
+	language = kru_language
+	
+	color = map_eastern_kru
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Kru were expert seafarers and canoe-men of the Liberian and Ivory Coast, renowned for their maritime skills.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Kru coast provided rich fishing grounds exploited by these skilled maritime people.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+mossi = { #https://en.wikipedia.org/wiki/Mossi_people
+	language = gur_language
+	
+	color = map_mossi
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Mossi kingdoms were among the most stable and long-lasting states in West Africa, with powerful cavalry forces.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Mossi plateau in Burkina Faso supported intensive millet and sorghum agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+mamprusi = { #https://en.wikipedia.org/wiki/Mamprusi_people
+	language = gur_language
+	
+	color = map_mamprugu
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Voltaic people practiced intensive grain farming in the West African savanna.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The West African savanna supported millet and sorghum cultivation during the rainy season.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+dagbani = { #https://en.wikipedia.org/wiki/Dagomba_people
+	language = gur_language
+	
+	color = map_dagbon
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Voltaic people practiced intensive grain farming in the West African savanna.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The West African savanna supported millet and sorghum cultivation during the rainy season.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+tem = { #https://en.wikipedia.org/wiki/Tem_people
+	language = gur_language
+	
+	color = map_tem
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Voltaic people practiced intensive grain farming in the West African savanna.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The West African savanna supported millet and sorghum cultivation during the rainy season.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+kabiye = { #https://en.wikipedia.org/wiki/Kabye_people
+	language = gur_language
+	
+	color = map_kabiye
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Kabye were mountain warriors of northern Togo, famous for their resistance from fortified positions.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The West African savanna supported millet and sorghum cultivation during the rainy season.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+bariba = { 
+	language = gur_language
+	
+	color = map_bariba
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Bariba founded the Borgu kingdoms, fielding cavalry forces that controlled trade routes in the Niger bend.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Borgu savanna supported grain farming and pastoral herding.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+gonja = { #https://en.wikipedia.org/wiki/Gonja_people
+	language = gur_language
+	
+	color = map_gonja
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Gonja kingdom was founded by Mande warriors and traders, controlling trade routes in the northern Gold Coast.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The Gonja savanna supported farming and served as a trade crossroads.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+akan = { #https://en.wikipedia.org/wiki/Akan_people
+	language = kwa_language
+	
+	color = map_bonoman
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Akan controlled the richest gold deposits in West Africa, the foundation of the trans-Saharan gold trade.
+		expand_rgo_mining_cost_modifier = -0.1
+	}
+
+	location_modifier = {
+		# The Akan forest zone contained abundant gold deposits that were the source of much of medieval Europe's gold.
+		local_iron_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+ewe = { 
+	language = kwa_language
+	
+	color = map_ewe
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Ewe were skilled farmers and weavers of the Volta region, known for their kente cloth tradition.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Volta River region supported productive agriculture for Ewe farming communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+ajan = { 
+	language = kwa_language
+	
+	color = map_ajan
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Aja people of the Slave Coast were active in regional trade networks connecting coastal and inland markets.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The Aja homeland's coastal and inland plains supported productive tropical agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+fon = { 
+	language = kwa_language
+	
+	color = map_fon
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Fon built the Kingdom of Dahomey, one of West Africa's most militarized states, with elite warrior regiments including the famous Amazons.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Abomey plateau supported the agriculture that fed Dahomey's large military establishment.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+yoruba = { 
+	language = nigerian_language
+	
+	color = map_oyo
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Yoruba city-states, led by Oyo and Ife, were among the most urbanized civilizations in pre-colonial Africa.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# Yoruba cities were major centers of bronze-casting, weaving, and artistic production.
+		local_production_efficiency = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+edo = { 
+	language = nigerian_language
+	
+	color = map_benin
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Kingdom of Benin was one of Africa's most powerful and culturally sophisticated states, famed for its bronze art.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# Benin City's bronze-casters, weavers, and other artisans produced some of the finest works of art in human history.
+		local_production_efficiency = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+igbo = { 
+	language = nigerian_language
+	
+	color = map_nri
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Igbo maintained a decentralized but highly commercial society, with extensive trading networks and the Nri priestly kingdom.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+		# The Igbo heartland's fertile soils supported both agriculture and productive local industries.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	
+	
+}
+
+igala = { 
+	language = nigerian_language
+	
+	color = map_igala
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Middle Belt Nigerian people practiced mixed farming of grains, yams, and other crops.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Nigerian Middle Belt's fertile soils supported productive mixed agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+ijaw = { 
+	language = ijaw_language
+	
+	color = map_ijaw
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Ijaw were expert fishermen and canoe warriors of the Niger Delta, controlling the waterways of southern Nigeria.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Niger Delta's vast network of creeks and rivers provided abundant fishing.
+		local_fish_output_modifier = 0.15
+	}
+	opinions = {
+	}
+	
+	
+}
+
+bantoid = { 
+	language = bantoid_language
+	
+	color = map_bantoid
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Cross River Bantoid peoples were known warriors who maintained strong military traditions.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Nigerian Middle Belt's fertile soils supported productive mixed agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+benue = { 
+	language = bantoid_language
+	
+	color = map_benue
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Benue River valley peoples facilitated trade between the Niger Delta and the interior Sahel.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The Nigerian Middle Belt's fertile soils supported productive mixed agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+		
+	
+}
+	
+nupe = {  #https://en.wikipedia.org/wiki/Nupe_people
+	language = nigerian_language
+	
+	color = map_nupe
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Nupe kingdom controlled trade at the Niger-Benue confluence, known for glassmaking and bronze-casting.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The Nupe homeland at the Niger-Benue confluence supported agriculture and specialized craft production.
+		local_production_efficiency = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+idoma = { 
+	language = nigerian_language
+	
+	color = map_idoma
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Middle Belt Nigerian people practiced mixed farming of grains, yams, and other crops.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Nigerian Middle Belt's fertile soils supported productive mixed agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+gbari = { #https://en.wikipedia.org/wiki/Gbagyi_people
+	language = nigerian_language
+	
+	color = map_gbari
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Gbari (Gwari) were skilled warriors and craftspeople of central Nigeria.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Nigerian Middle Belt's fertile soils supported productive mixed agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+}
+
+hausa = { 
+	language = hausa_language
+	
+	color = map_zazzau
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Hausa city-states of Kano, Katsina, and Zaria were among the greatest trading centers of the western Sudan.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+		# The Hausa cities were major production centers for textiles, leatherwork, and metalwork traded across the Sahara.
+		local_production_efficiency = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+bambara = { 
+	language = mande_language
+	
+	color = map_bambara
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Bambara were fierce warriors who founded the Kingdoms of Segou and Kaarta, rivaling the Mali successor states.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Bambara homeland along the Niger River supported productive millet and sorghum agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		mandinka = kindred
+		soninke = kindred
+		susu = kindred
+		kpelle = kindred
+		kono_cul = kindred
+		dan = kindred
+		dyula = kindred
+		bobo = kindred
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+bobo = { 
+	language = mande_language
+	
+	color = map_bobo
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Bobo were skilled farmers of Burkina Faso, maintaining an egalitarian society resistant to centralized rule.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Bobo homeland in southwestern Burkina Faso supported productive grain farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		mandinka = kindred
+		soninke = kindred
+		susu = kindred
+		kpelle = kindred
+		kono_cul = kindred
+		dan = kindred
+		dyula = kindred
+		bambara = kindred
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+dogon = { 
+	language = dogon_language
+	
+	color = map_dogon
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Dogon were renowned for their cliff-dwelling villages on the Bandiagara Escarpment, virtually impregnable natural fortresses.
+		local_defensive = 0.1
+	}
+
+	location_modifier = {
+		# The Bandiagara Escarpment's cliff faces provided extraordinary natural defensive positions for Dogon villages.
+		local_defensive = 0.15
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+songhai = { #https://en.wikipedia.org/wiki/Songhai_people
+	language = songhai_language
+	
+	color = map_songhai
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Songhai Empire under Sunni Ali and Askia Muhammad was the largest empire in African history, controlling the trans-Saharan trade.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# The Niger River bend and its floodplains were among West Africa's most productive agricultural regions.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+gurunsi = { #https://en.wikipedia.org/wiki/Gurunsi_people
+	language = gur_language
+	
+	color = map_gurunsi
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Voltaic people practiced intensive grain farming in the West African savanna.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The West African savanna supported millet and sorghum cultivation during the rainy season.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+gurma = { #https://en.wikipedia.org/wiki/Gurma_people
+	language = gur_language
+	
+	color = map_gurma
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Voltaic people practiced intensive grain farming in the West African savanna.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The West African savanna supported millet and sorghum cultivation during the rainy season.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+kanembu_culture = { 
+	language = saharan_language
+	
+	color = map_kanembu
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Kanembu founded the Bornu Empire, one of the longest-lasting empires in African history, dominating the Lake Chad basin.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# The Lake Chad basin's seasonal flooding supported productive agriculture for the Bornu state.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+bilala_culture = { 
+	language = saharan_language
+	
+	color = map_bilala
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Lake Chad-Sahel people combined pastoral herding with farming in the transitional savanna-desert zone.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Sahel grasslands supported seasonal pastoral herding of cattle and camels.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+zaghawa_culture = { #https://en.wikipedia.org/wiki/Zaghawa_people
+	language = saharan_language
+	
+	color = map_zaghawa
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Lake Chad-Sahel people combined pastoral herding with farming in the transitional savanna-desert zone.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Sahel grasslands supported seasonal pastoral herding of cattle and camels.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+masalit_culture = { #https://en.wikipedia.org/wiki/Masalit_people
+	language = saharan_language
+	
+	color = map_masalit
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Masalit established a sultanate in the Chad-Darfur borderlands, practicing agriculture and herding.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Masalit homeland received enough seasonal rainfall for grain cultivation.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+maba_africa_culture = { #https://en.wikipedia.org/wiki/Maba_people
+	language = saharan_language
+	
+	color = map_maba_africa
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Lake Chad-Sahel people combined pastoral herding with farming in the transitional savanna-desert zone.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Sahel grasslands supported seasonal pastoral herding of cattle and camels.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+runga_culture = { #https://en.wikipedia.org/wiki/Runga_people
+	language = saharan_language
+	
+	color = map_runga
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Lake Chad-Sahel people combined pastoral herding with farming in the transitional savanna-desert zone.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Sahel grasslands supported seasonal pastoral herding of cattle and camels.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+mandara_culture = { #https://en.wikipedia.org/wiki/Mandara_people
+	language = sao_language
+
+	color = map_mandara
+
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Mandara Sultanate in the Mandara Mountains fielded strong armies and controlled trade in northern Cameroon.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Mandara Mountains provided natural defensive positions for the sultanate.
+		local_defensive = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+sao_culture = { #https://en.wikipedia.org/wiki/Sao_civilisation
+	language = sao_language
+	
+	color = map_sao
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Sao civilization was known for elaborate terracotta art and metalwork around Lake Chad.
+		global_production_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The Lake Chad shoreline supported fishing, farming, and artisan production.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+	}
+	
+	
+	culture_groups = {
+		west_african_group
+	}
+	
+}
+
+baguirmi_culture = { #https://en.wikipedia.org/wiki/Bagirmi_people
+	language = baguirmi_language
+	
+	color = map_baguirmi
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Baguirmi Sultanate was a major slave-raiding and trading state south of Lake Chad.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The Baguirmi homeland south of Lake Chad supported agriculture along the Chari River.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	
+	culture_groups = {
+		west_african_group
+	}
+	
+}
+
+messufa_culture = {
+	language = tamazight_language
+	
+	color = map_messufa
+	
+	tags = { mande_gfx middle_east_gfx }
+
+
+	country_modifier = {
+		# This Sanhaja Berber-related Saharan people were masters of the trans-Saharan caravan trade, controlling vital desert routes.
+		trade_efficiency = 0.15
+	}
+
+	location_modifier = {
+		# The Sahara Desert was one of the most hostile environments on Earth, deadly to those without local knowledge.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+	use_patronym = yes
+	
+	
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+lamtuna_culture = {
+	language = tamazight_language
+	
+	color = map_lamtuna
+	
+	tags = { mande_gfx middle_east_gfx }
+
+
+	country_modifier = {
+		# This Sanhaja Berber-related Saharan people were masters of the trans-Saharan caravan trade, controlling vital desert routes.
+		trade_efficiency = 0.15
+	}
+
+	location_modifier = {
+		# The Sahara Desert was one of the most hostile environments on Earth, deadly to those without local knowledge.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+	use_patronym = yes
+	
+	
+	culture_groups = {
+		west_african_group
+	}
+	
+}
+
+godala_culture = { #https://en.wikipedia.org/wiki/Godala
+	language = tamazight_language
+	
+	color = map_godala
+	
+	tags = { mande_gfx middle_east_gfx }
+
+
+	country_modifier = {
+		# This Sanhaja Berber-related Saharan people were masters of the trans-Saharan caravan trade, controlling vital desert routes.
+		trade_efficiency = 0.15
+	}
+
+	location_modifier = {
+		# The Sahara Desert was one of the most hostile environments on Earth, deadly to those without local knowledge.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+	use_patronym = yes
+	
+	
+	culture_groups = {
+		west_african_group
+	}
+	
+}
+
+adamawa_culture = {
+	language = adamawa_language
+	
+	color = map_adamawa
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Adamawa plateau peoples combined farming with cattle herding in the highland grasslands of Cameroon.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Adamawa Plateau's highland grasslands supported pastoral herding.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+	
+	
+}
+
+bubi_culture = {
+	language = bassa_language
+	
+	color = map_bubi
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Bubi were the indigenous inhabitants of Bioko Island (Fernando Po), living by fishing and farming.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The volcanic island of Bioko's coastal waters provided rich fishing grounds.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+	
+}
+
+bassa_culture = {
+	language = bassa_language
+	
+	color = map_bassa
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Bassa were farming people of southern Cameroon, cultivating yams and other tropical crops.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The southern Cameroon coastal plain supported productive tropical agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+	
+}
+
+sara_culture = { #https://en.wikipedia.org/wiki/Sara_people
+	language = baguirmi_language
+	
+	color = map_sara
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Central African people practiced shifting cultivation and foraging in the forest-savanna transition zone.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The dense forests and remote savannas of Central Africa were difficult for outside forces to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+mbay_culture = { # https://en.wikipedia.org/wiki/Mbay_language
+	language = baguirmi_language
+	
+	color = map_mbay
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Central African people practiced shifting cultivation and foraging in the forest-savanna transition zone.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The dense forests and remote savannas of Central Africa were difficult for outside forces to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+mandja_culture = { #https://en.wikipedia.org/wiki/Mandja_people
+	language = adamawa_language
+	
+	color = map_mandja
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Central African people practiced shifting cultivation and foraging in the forest-savanna transition zone.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The dense forests and remote savannas of Central Africa were difficult for outside forces to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+gbaya_culture = { #https://en.wikipedia.org/wiki/Gbaya_people
+	language = adamawa_language
+	
+	color = map_gbaya
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Central African people practiced shifting cultivation and foraging in the forest-savanna transition zone.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The dense forests and remote savannas of Central Africa were difficult for outside forces to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+bulu_culture = { #https://en.wikipedia.org/wiki/Beti-Pahuin_peoples#Bulu
+	language = bassa_language
+	
+	color = map_bulu
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Central African people practiced shifting cultivation and foraging in the forest-savanna transition zone.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The dense forests and remote savannas of Central Africa were difficult for outside forces to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+baka_culture = { #https://en.wikipedia.org/wiki/Baka_people_(Cameroon_and_Gabon)
+	language = ubangian_language
+	
+	color = map_baka
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Baka (Pygmy) were expert forest hunter-gatherers with unmatched knowledge of the equatorial rainforest.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Baka's dense forest homeland was virtually impenetrable to outsiders.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+gyele_culture = { #https://en.wikipedia.org/wiki/Gyele_people
+	language = bassa_language
+	
+	color = map_gyele
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Central African people practiced shifting cultivation and foraging in the forest-savanna transition zone.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The dense forests and remote savannas of Central Africa were difficult for outside forces to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+madi_culture = { #https://en.wikipedia.org/wiki/Madi_people
+	language = moru_madi_language
+	
+	color = map_madi_culture
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Central African people practiced shifting cultivation and foraging in the forest-savanna transition zone.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The dense forests and remote savannas of Central Africa were difficult for outside forces to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+lugbara_culture = { #https://en.wikipedia.org/wiki/Lugbara_people
+	language = moru_madi_language
+	
+	color = map_lugbara
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Central African people practiced shifting cultivation and foraging in the forest-savanna transition zone.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The dense forests and remote savannas of Central Africa were difficult for outside forces to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+banda_culture = { #https://en.wikipedia.org/wiki/Banda_people
+	language = ubangian_language
+	
+	color = map_banda
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Central African people practiced shifting cultivation and foraging in the forest-savanna transition zone.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The dense forests and remote savannas of Central Africa were difficult for outside forces to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+bomassa_culture = {
+	language = adamawa_language
+	
+	color = map_bomassa
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Central African people practiced shifting cultivation and foraging in the forest-savanna transition zone.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The dense forests and remote savannas of Central Africa were difficult for outside forces to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+gula_iro_culture = {#https://en.wikipedia.org/wiki/Gula_Iro_language
+	language = bua_language
+	
+	color = map_gula_iro
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Central African people practiced shifting cultivation and foraging in the forest-savanna transition zone.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The dense forests and remote savannas of Central Africa were difficult for outside forces to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+ngbandi_culture = {#https://en.wikipedia.org/wiki/Ngbandi_people
+	language = ubangian_language
+	
+	color = map_ngbandi
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Central African people practiced shifting cultivation and foraging in the forest-savanna transition zone.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The dense forests and remote savannas of Central Africa were difficult for outside forces to penetrate.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}
+
+fang_culture = {#https://en.wikipedia.org/wiki/Fang_people
+	language = bassa_language
+	
+	color = map_fang
+	
+	tags = { mande_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Fang were aggressive warriors who expanded through military conquest across the equatorial forests of Cameroon and Gabon.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The dense equatorial rainforest provided Fang warriors with terrain advantages.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		west_african_group
+	}
+}

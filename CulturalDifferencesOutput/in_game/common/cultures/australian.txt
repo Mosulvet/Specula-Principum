@@ -1,0 +1,4114 @@
+﻿
+noongar_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_noongar
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# The Noongar were the most populous Aboriginal group in Western Australia, managing their lands through sophisticated fire-stick farming.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Noongar country of southwestern Australia was the most fertile and well-watered region in the west.
+		local_grain_output_modifier = 0.05
+	}
+	opinions = {
+	}
+	
+}
+
+nhanta_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_nhanta
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Aboriginal Australian people maintained sophisticated land management through fire-stick farming for over 40,000 years.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Nhanta territory along the WA coast provided marine resources and shellfish gathering.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+malkana_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_malkana
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Aboriginal Australian people maintained sophisticated land management through fire-stick farming for over 40,000 years.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian landscape was intimately known to its Aboriginal inhabitants, hostile terrain for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+yinggarda_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_yinggarda
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Aboriginal Australian people maintained sophisticated land management through fire-stick farming for over 40,000 years.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian landscape was intimately known to its Aboriginal inhabitants, hostile terrain for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+baiyungu_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_baiyungu
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Aboriginal Australian people maintained sophisticated land management through fire-stick farming for over 40,000 years.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# Shark Bay (Baiyungu territory) was one of Australia's richest marine environments for fishing and shellfish.
+		local_fish_output_modifier = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+thalanyji_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_thalanyji
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Aboriginal Australian people maintained sophisticated land management through fire-stick farming for over 40,000 years.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Thalanyji coast near Onslow provided tidal fishing and shellfish gathering.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+nhuwala_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_nhuwala
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Aboriginal Australian people maintained sophisticated land management through fire-stick farming for over 40,000 years.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Pilbara coast provided productive tidal fishing and shellfish gathering for the Nhuwala.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+martuthunira_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_martuthunira
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Aboriginal Australian people maintained sophisticated land management through fire-stick farming for over 40,000 years.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Fortescue River gorges provided the Martuthunira with naturally defensive rocky terrain.
+		local_defensive = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+ngarluma_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_ngarluma
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Aboriginal Australian people maintained sophisticated land management through fire-stick farming for over 40,000 years.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian landscape was intimately known to its Aboriginal inhabitants, hostile terrain for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+nyamal_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_nyamal
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Aboriginal Australian people maintained sophisticated land management through fire-stick farming for over 40,000 years.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian landscape was intimately known to its Aboriginal inhabitants, hostile terrain for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+nyangumarda_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_nyangumarda
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Aboriginal Australian people maintained sophisticated land management through fire-stick farming for over 40,000 years.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian landscape was intimately known to its Aboriginal inhabitants, hostile terrain for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+karajarri_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_karajarri
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This coastal Aboriginal people combined fishing and shellfish gathering with hunting and fire-stick land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The tropical northern Australian coastline provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+jukun_culture = { 
+	language = nyulnyulan_language
+	
+	color = map_jukun
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This coastal Aboriginal people combined fishing and shellfish gathering with hunting and fire-stick land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The tropical northern Australian coastline provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+ngumbarl_culture = { 
+	language = nyulnyulan_language
+	
+	color = map_ngumbarl
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This coastal Aboriginal people combined fishing and shellfish gathering with hunting and fire-stick land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The tropical northern Australian coastline provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+jabirrjabirr_culture = { 
+	language = nyulnyulan_language
+	
+	color = map_jabirrjabirr
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This coastal Aboriginal people combined fishing and shellfish gathering with hunting and fire-stick land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The tropical northern Australian coastline provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+bardi_culture = { 
+	language = nyulnyulan_language
+	
+	color = map_bardi
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This coastal Aboriginal people combined fishing and shellfish gathering with hunting and fire-stick land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The tropical northern Australian coastline provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+nimanburu_culture = { 
+	language = nyulnyulan_language
+	
+	color = map_nimanburu
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This coastal Aboriginal people combined fishing and shellfish gathering with hunting and fire-stick land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The tropical northern Australian coastline provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+nyikina_culture = { 
+	language = nyulnyulan_language
+	
+	color = map_nyikina
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This coastal Aboriginal people combined fishing and shellfish gathering with hunting and fire-stick land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The tropical northern Australian coastline provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+warwa_culture = { 
+	language = nyulnyulan_language
+	
+	color = map_warwa
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This coastal Aboriginal people combined fishing and shellfish gathering with hunting and fire-stick land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The tropical northern Australian coastline provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+unggarangi_culture = { 
+	language = wororan_language
+	
+	color = map_unggarangi
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This coastal Aboriginal people combined fishing and shellfish gathering with hunting and fire-stick land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The tropical northern Australian coastline provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+umida_culture = { 
+	language = wororan_language
+	
+	color = map_umida
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This coastal Aboriginal people combined fishing and shellfish gathering with hunting and fire-stick land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The tropical northern Australian coastline provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+wunambul_culture = { 
+	language = wororan_language
+	
+	color = map_wunambul
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This coastal Aboriginal people combined fishing and shellfish gathering with hunting and fire-stick land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The tropical northern Australian coastline provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+gamberre_culture = { 
+	language = wororan_language
+	
+	color = map_gamberre
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This coastal Aboriginal people combined fishing and shellfish gathering with hunting and fire-stick land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The tropical northern Australian coastline provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+kwini_culture = { 
+	language = wororan_language
+	
+	color = map_kwini
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This coastal Aboriginal people combined fishing and shellfish gathering with hunting and fire-stick land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The tropical northern Australian coastline provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+yiiji_culture = { 
+	language = wororan_language
+	
+	color = map_yiiji
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This coastal Aboriginal people combined fishing and shellfish gathering with hunting and fire-stick land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The tropical northern Australian coastline provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+kadjerong_culture = { 
+	language = djeragan_language
+	
+	color = map_kadjerong
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This coastal Aboriginal people combined fishing and shellfish gathering with hunting and fire-stick land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The tropical northern Australian coastline provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+jaminjung_culture = { 
+	language = gimbiyu_language
+	
+	color = map_jaminjung
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Western Desert Aboriginal people were among the most resilient humans on Earth, surviving in extreme arid conditions.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Jaminjung territory's river systems and gorges provided natural defensive positions.
+		local_defensive = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+murrinh_patha_culture = { 
+	language = daly_language
+	
+	color = map_murrinh_patha
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This coastal Aboriginal people combined fishing and shellfish gathering with hunting and fire-stick land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The tropical northern Australian coastline provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+marrithiyel_culture = { 
+	language = daly_language
+	
+	color = map_marrithiyel
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This coastal Aboriginal people combined fishing and shellfish gathering with hunting and fire-stick land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The tropical northern Australian coastline provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+kungarakany_culture = { 
+	language = daly_language
+	
+	color = map_kungarakany
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This coastal Aboriginal people combined fishing and shellfish gathering with hunting and fire-stick land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The tropical northern Australian coastline provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+larrakia_culture = { 
+	language = laragiya_language
+	
+	color = map_larrakia
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This coastal Aboriginal people combined fishing and shellfish gathering with hunting and fire-stick land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The tropical northern Australian coastline provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+limilngan_culture = { 
+	language = limilngan_language
+	
+	color = map_limilngan
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This coastal Aboriginal people combined fishing and shellfish gathering with hunting and fire-stick land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The tropical northern Australian coastline provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+konbudj_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_konbudj
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This coastal Aboriginal people combined fishing and shellfish gathering with hunting and fire-stick land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The tropical northern Australian coastline provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+amarak_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_amarak
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This coastal Aboriginal people combined fishing and shellfish gathering with hunting and fire-stick land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The tropical northern Australian coastline provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+maung_culture = { 
+	language = yiwaidjan_language
+	
+	color = map_maung
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This coastal Aboriginal people combined fishing and shellfish gathering with hunting and fire-stick land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The tropical northern Australian coastline provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+gunbalang_culture = { 
+	language = gunwinyguan_language
+	
+	color = map_gunbalang
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This coastal Aboriginal people combined fishing and shellfish gathering with hunting and fire-stick land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The tropical northern Australian coastline provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+nakara_culture = { 
+	language = gunwinyguan_language
+	
+	color = map_nakara
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This coastal Aboriginal people combined fishing and shellfish gathering with hunting and fire-stick land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The tropical northern Australian coastline provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+yolngu_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_yolngu
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# The Yolngu of Arnhem Land maintained one of the most sophisticated Aboriginal cultures, with complex kinship, art, and ceremonial systems.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# The Arnhem Land coast and rivers provided rich fishing and gathering resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+warnindilyakwa_culture = { 
+	language = gunwinyguan_language
+	
+	color = map_warnindilyakwa
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Arnhem Land Aboriginal people combined coastal fishing with inland hunting and gathering.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The northern Australian coast and river systems provided productive fishing.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+nunggubuyu_culture = { 
+	language = gunwinyguan_language
+	
+	color = map_nunggubuyu
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Arnhem Land Aboriginal people combined coastal fishing with inland hunting and gathering.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The northern Australian coast and river systems provided productive fishing.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+mara_culture = { 
+	language = gunwinyguan_language
+	
+	color = map_mara
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Arnhem Land Aboriginal people combined coastal fishing with inland hunting and gathering.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The northern Australian coast and river systems provided productive fishing.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+yanyuwa_culture = { 
+	language = gunwinyguan_language
+	
+	color = map_yanyuwa
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Arnhem Land Aboriginal people combined coastal fishing with inland hunting and gathering.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The northern Australian coast and river systems provided productive fishing.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+ganggalida_culture = { 
+	language = garawa_language
+	
+	color = map_ganggalida
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Gulf Country Aboriginal people combined fishing in the Gulf of Carpentaria with inland hunting and gathering.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The remote Gulf Country was harsh, seasonally flooded terrain difficult for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+mingin_culture = { 
+	language = garawa_language
+	
+	color = map_mingin
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Gulf Country Aboriginal people were expert hunters and gatherers of the seasonally-flooded inland plains.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Gulf Country river systems provided seasonal fishing alongside hunting on the inland plains.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+kukatj_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_kukatj
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Gulf Country Aboriginal people were expert hunters and gatherers of the seasonally-flooded inland plains.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The remote Gulf Country was harsh, seasonally flooded terrain difficult for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+kuthant_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_kuthant
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Gulf Country Aboriginal people were expert hunters and gatherers of the seasonally-flooded inland plains.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The remote Gulf Country was harsh, seasonally flooded terrain difficult for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+kurtjar_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_kurtjar
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Gulf Country Aboriginal people were expert hunters and gatherers of the seasonally-flooded inland plains.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The remote Gulf Country was harsh, seasonally flooded terrain difficult for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+yir_yoront_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_yir_yoront
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# The Yir Yoront of Cape York maintained elaborate ceremonial exchange networks trading stone axes and other goods.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The Yir Yoront territory along the Mitchell River provided seasonal fishing and aquatic resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+wik_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_wik
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Gulf Country Aboriginal people combined fishing in the Gulf of Carpentaria with inland hunting and gathering.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Wik peoples of western Cape York managed their territories through sophisticated fire-stick farming practices.
+		local_grain_output_modifier = 0.05
+	}
+	opinions = {
+	}
+	
+}
+
+anguthimri_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_anguthimri
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Cape York Aboriginal people maintained sophisticated land management through fire-stick farming.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Cape York peninsula's tropical forests and monsoon woodlands provided natural defensive cover.
+		local_defensive = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+anggamudi_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_anggamudi
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Cape York Aboriginal people maintained sophisticated land management through fire-stick farming.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Cape York peninsula's tropical forests and monsoon woodlands provided natural defensive cover.
+		local_defensive = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+yadhaigana_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_yadhaigana
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Cape York Aboriginal people combined tropical fishing with hunting and gathering in northern Queensland.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Cape York peninsula's tropical forests and monsoon woodlands provided natural defensive cover.
+		local_defensive = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+wuthathi_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_wuthathi
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Cape York Aboriginal people combined tropical fishing with hunting and gathering in northern Queensland.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Cape York's remote tropical wilderness was difficult terrain for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+kuuku_yau_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_kuuku_yau
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Cape York Aboriginal people combined tropical fishing with hunting and gathering in northern Queensland.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Cape York's remote tropical wilderness was difficult terrain for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+uutaalnganu_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_uutaalnganu
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Cape York Aboriginal people combined tropical fishing with hunting and gathering in northern Queensland.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Cape York's remote tropical wilderness was difficult terrain for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+umpila_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_umpila
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Cape York Aboriginal people combined tropical fishing with hunting and gathering in northern Queensland.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Cape York's remote tropical wilderness was difficult terrain for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+lamalama_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_lamalama
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Cape York Aboriginal people combined tropical fishing with hunting and gathering in northern Queensland.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Cape York's remote tropical wilderness was difficult terrain for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+mutumui_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_mutumui
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Cape York Aboriginal people maintained sophisticated land management through fire-stick farming.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# Cape York's remote tropical wilderness was difficult terrain for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+guugu_yimidhirr_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_guugu_yimidhirr
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This tropical Queensland Aboriginal people combined reef fishing with rainforest foraging.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Great Barrier Reef coast provided extraordinarily rich marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+kuku_yalanji_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_kuku_yalanji
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This tropical Queensland Aboriginal people combined reef fishing with rainforest foraging.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Great Barrier Reef coast provided extraordinarily rich marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+djabuganjdji_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_djabuganjdji
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# The Djabugay were rainforest people of the Atherton Tablelands, with sophisticated forest management knowledge.
+		stability_cost_modifier = -0.05
+	}
+
+	location_modifier = {
+		# The Great Barrier Reef coast provided extraordinarily rich marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+yidinjdji_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_yidinjdji
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This tropical Queensland Aboriginal people combined reef fishing with rainforest foraging.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Great Barrier Reef coast provided extraordinarily rich marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+djirbalngan_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_djirbalngan
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# The Dyirbal rainforest people developed one of the most complex language systems of any Aboriginal culture.
+		stability_cost_modifier = -0.05
+	}
+
+	location_modifier = {
+		# The Great Barrier Reef coast provided extraordinarily rich marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+wargamaygan_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_wargamaygan
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# The Wargamay were rainforest people who managed their tropical forest territories through controlled burning.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Great Barrier Reef coast provided extraordinarily rich marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+nyawaygi_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_nyawaygi
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This tropical Queensland Aboriginal people combined reef fishing with rainforest foraging.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Great Barrier Reef coast provided extraordinarily rich marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+wulgurukaba_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_wulgurukaba
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This tropical Queensland Aboriginal people combined reef fishing with rainforest foraging.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Great Barrier Reef coast provided extraordinarily rich marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+bindal_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_bindal
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This tropical Queensland Aboriginal people combined reef fishing with rainforest foraging.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Great Barrier Reef coast provided extraordinarily rich marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+yuru_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_yuru
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This tropical Queensland Aboriginal people combined reef fishing with rainforest foraging.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Great Barrier Reef coast provided extraordinarily rich marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+giya_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_giya
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This tropical Queensland Aboriginal people combined reef fishing with rainforest foraging.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Great Barrier Reef coast provided extraordinarily rich marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+yuwi_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_yuwi
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This tropical Queensland Aboriginal people combined reef fishing with rainforest foraging.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Great Barrier Reef coast provided extraordinarily rich marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+guwinmal_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_guwinmal
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This inland Queensland Aboriginal people were expert hunters and gatherers of the semi-arid Australian interior.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Guwinmal territory's hills and ranges provided natural defensive terrain.
+		local_defensive = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+darumbal_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_darumbal
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This inland Queensland Aboriginal people were expert hunters and gatherers of the semi-arid Australian interior.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Darumbal coast near Rockhampton provided productive fishing and shellfish.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+bayali_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_bayali
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This inland Queensland Aboriginal people were expert hunters and gatherers of the semi-arid Australian interior.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The semi-arid Australian interior was harsh, waterless terrain deadly to unprepared outsiders.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+gureng_gureng_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_gureng_gureng
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This southeastern coastal Aboriginal people combined fishing and shellfish gathering with hunting and gathering.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The subtropical east Australian coast provided productive fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+gubbi_gubbi_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_gubbi_gubbi
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This southeastern coastal Aboriginal people combined fishing and shellfish gathering with hunting and gathering.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The subtropical east Australian coast provided productive fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+badtjala_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_badtjala
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This southeastern coastal Aboriginal people combined fishing and shellfish gathering with hunting and gathering.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The subtropical east Australian coast provided productive fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+quandamooka_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_quandamooka
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This southeastern coastal Aboriginal people combined fishing and shellfish gathering with hunting and gathering.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The subtropical east Australian coast provided productive fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+turrbal_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_turrbal
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This southeastern coastal Aboriginal people combined fishing and shellfish gathering with hunting and gathering.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The subtropical east Australian coast provided productive fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+bundjalung_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_bundjalung
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This southeastern coastal Aboriginal people combined fishing and shellfish gathering with hunting and gathering.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The subtropical east Australian coast provided productive fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+gumbaynggirr_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_gumbaynggirr
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This southeastern coastal Aboriginal people combined fishing and shellfish gathering with hunting and gathering.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The subtropical east Australian coast provided productive fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+dainggatti_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_dainggatti
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This southeastern coastal Aboriginal people combined fishing and shellfish gathering with hunting and gathering.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The subtropical east Australian coast provided productive fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+biripi_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_biripi
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This southeastern coastal Aboriginal people combined fishing and shellfish gathering with hunting and gathering.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The subtropical east Australian coast provided productive fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+worimi_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_worimi
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This southeastern coastal Aboriginal people combined fishing and shellfish gathering with hunting and gathering.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The subtropical east Australian coast provided productive fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+dharug_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_dharug
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Sydney region Aboriginal people were expert fishermen and shellfish gatherers of the NSW coast.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Sydney harbour and NSW south coast provided rich fishing and shellfish resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+eora_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_eora
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Sydney region Aboriginal people were expert fishermen and shellfish gatherers of the NSW coast.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Sydney harbour and NSW south coast provided rich fishing and shellfish resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+tharawal_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_tharawal
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Sydney region Aboriginal people were expert fishermen and shellfish gatherers of the NSW coast.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Sydney harbour and NSW south coast provided rich fishing and shellfish resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+yuin_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_yuin
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Sydney region Aboriginal people were expert fishermen and shellfish gatherers of the NSW coast.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Sydney harbour and NSW south coast provided rich fishing and shellfish resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+bidwell_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_bidwell
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Victorian Aboriginal people combined fishing, eel-trapping, and hunting with sophisticated land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Victoria's rivers, lakes, and coast supported productive fishing and eel harvesting.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+boon_wurrung_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_boon_wurrung
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# The Boonwurrung managed their coastal and wetland territories through sophisticated fire-stick burning practices.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# Victoria's rivers, lakes, and coast supported productive fishing and eel harvesting.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+wathaurong_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_wathaurong
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Victorian Aboriginal people combined fishing, eel-trapping, and hunting with sophisticated land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Victoria's rivers, lakes, and coast supported productive fishing and eel harvesting.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+gadubanud_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_gadubanud
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Victorian Aboriginal people combined fishing, eel-trapping, and hunting with sophisticated land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Victoria's rivers, lakes, and coast supported productive fishing and eel harvesting.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+giraiwurung_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_giraiwurung
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Victorian Aboriginal people combined fishing, eel-trapping, and hunting with sophisticated land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Victoria's rivers, lakes, and coast supported productive fishing and eel harvesting.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+gunditjmara_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_gunditjmara
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# The Gunditjmara built the Budj Bim eel farming system, the oldest known aquaculture in the world, over 6,000 years old.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Budj Bim volcanic landscape supported sophisticated eel trapping and farming channels.
+		local_fish_output_modifier = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+buandig_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_buandig
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This South Australian Aboriginal people survived through expert knowledge of the arid landscape and its seasonal resources.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid South Australian landscape was extremely harsh, with vast waterless distances.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+ngarrindjeri_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_ngarrindjeri
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# The Ngarrindjeri of the Murray River mouth were expert fishermen and water managers of the Coorong lagoon system.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Murray River mouth and Coorong lagoon provided rich freshwater and marine fishing.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+kaurna_pangkarra_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_kaurna_pangkarra
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This South Australian Aboriginal people survived through expert knowledge of the arid landscape and its seasonal resources.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid South Australian landscape was extremely harsh, with vast waterless distances.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+narangga_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_narangga
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This South Australian Aboriginal people survived through expert knowledge of the arid landscape and its seasonal resources.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid South Australian landscape was extremely harsh, with vast waterless distances.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+nukunu_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_nukunu
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This South Australian Aboriginal people survived through expert knowledge of the arid landscape and its seasonal resources.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid South Australian landscape was extremely harsh, with vast waterless distances.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+banggarla_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_banggarla
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This South Australian Aboriginal people survived through expert knowledge of the arid landscape and its seasonal resources.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid South Australian landscape was extremely harsh, with vast waterless distances.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+nawu_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_nawu
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This South Australian Aboriginal people survived through expert knowledge of the arid landscape and its seasonal resources.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid South Australian landscape was extremely harsh, with vast waterless distances.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+wirangu_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_wirangu
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This South Australian Aboriginal people survived through expert knowledge of the arid landscape and its seasonal resources.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid South Australian landscape was extremely harsh, with vast waterless distances.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+mirning_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_mirning
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This South Australian Aboriginal people survived through expert knowledge of the arid landscape and its seasonal resources.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid South Australian landscape was extremely harsh, with vast waterless distances.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+ngatjumay_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_ngatjumay
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This South Australian Aboriginal people survived through expert knowledge of the arid landscape and its seasonal resources.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid South Australian landscape was extremely harsh, with vast waterless distances.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+malpa_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_malpa
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Aboriginal Australian people maintained sophisticated land management through fire-stick farming for over 40,000 years.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian landscape was intimately known to its Aboriginal inhabitants, hostile terrain for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+kalaamaya_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_kalaamaya
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Aboriginal Australian people maintained sophisticated land management through fire-stick farming for over 40,000 years.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian landscape was intimately known to its Aboriginal inhabitants, hostile terrain for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+badimaya_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_badimaya
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Aboriginal Australian people maintained sophisticated land management through fire-stick farming for over 40,000 years.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian landscape was intimately known to its Aboriginal inhabitants, hostile terrain for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+watjarri_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_watjarri
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Aboriginal Australian people maintained sophisticated land management through fire-stick farming for over 40,000 years.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian landscape was intimately known to its Aboriginal inhabitants, hostile terrain for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+purduna_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_purduna
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Aboriginal Australian people maintained sophisticated land management through fire-stick farming for over 40,000 years.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian landscape was intimately known to its Aboriginal inhabitants, hostile terrain for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+kurrama_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_kurrama
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Aboriginal Australian people maintained sophisticated land management through fire-stick farming for over 40,000 years.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian landscape was intimately known to its Aboriginal inhabitants, hostile terrain for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+ngarinyin_culture = { 
+	language = wororan_language
+	
+	color = map_ngarinyin
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Western Desert Aboriginal people were among the most resilient humans on Earth, surviving in extreme arid conditions.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian Western Desert was one of the harshest inhabited environments on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+worla_culture = { 
+	language = djeragan_language
+	
+	color = map_worla
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Western Desert Aboriginal people were among the most resilient humans on Earth, surviving in extreme arid conditions.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian Western Desert was one of the harshest inhabited environments on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+kija_culture = { 
+	language = djeragan_language
+	
+	color = map_kija
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Western Desert Aboriginal people were among the most resilient humans on Earth, surviving in extreme arid conditions.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Kija territory in the East Kimberley included the Bungle Bungles and provided defensive rocky terrain.
+		local_defensive = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+jaru_culture = { 
+	language = wororan_language
+	
+	color = map_jaru
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Western Desert Aboriginal people were among the most resilient humans on Earth, surviving in extreme arid conditions.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian Western Desert was one of the harshest inhabited environments on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+gooniyandi_culture = { 
+	language = djeragan_language
+	
+	color = map_gooniyandi
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Western Desert Aboriginal people were among the most resilient humans on Earth, surviving in extreme arid conditions.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian Western Desert was one of the harshest inhabited environments on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+doolboong_culture = { 
+	language = wororan_language
+	
+	color = map_doolboong
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Western Desert Aboriginal people were among the most resilient humans on Earth, surviving in extreme arid conditions.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian Western Desert was one of the harshest inhabited environments on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+gurindji_culture = { 
+	language = wororan_language
+	
+	color = map_gurindji
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Western Desert Aboriginal people were among the most resilient humans on Earth, surviving in extreme arid conditions.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian Western Desert was one of the harshest inhabited environments on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+ngarinman_culture = { 
+	language = djeragan_language
+	
+	color = map_ngarinman
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Western Desert Aboriginal people were among the most resilient humans on Earth, surviving in extreme arid conditions.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian Western Desert was one of the harshest inhabited environments on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+ngaliwuru_culture = { 
+	language = gimbiyu_language
+	
+	color = map_ngaliwuru
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Western Desert Aboriginal people were among the most resilient humans on Earth, surviving in extreme arid conditions.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian Western Desert was one of the harshest inhabited environments on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+wardaman_culture = { 
+	language = gunwinyguan_language
+	
+	color = map_wardaman
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Western Desert Aboriginal people were among the most resilient humans on Earth, surviving in extreme arid conditions.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian Western Desert was one of the harshest inhabited environments on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+yangman_culture = { 
+	language = gunwinyguan_language
+	
+	color = map_yangman
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Western Desert Aboriginal people were among the most resilient humans on Earth, surviving in extreme arid conditions.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian Western Desert was one of the harshest inhabited environments on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+mudbarra_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_mudbarra
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Western Desert Aboriginal people were among the most resilient humans on Earth, surviving in extreme arid conditions.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian Western Desert was one of the harshest inhabited environments on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+warumungu_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_warumungu
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Western Desert Aboriginal people were among the most resilient humans on Earth, surviving in extreme arid conditions.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian Western Desert was one of the harshest inhabited environments on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+wakaya_culture = { 
+	language = garawa_language
+	
+	color = map_wakaya
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Western Desert Aboriginal people were among the most resilient humans on Earth, surviving in extreme arid conditions.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian Western Desert was one of the harshest inhabited environments on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+bilinara_culture = { 
+	language = djeragan_language
+	
+	color = map_bilinara
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Western Desert Aboriginal people were among the most resilient humans on Earth, surviving in extreme arid conditions.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian Western Desert was one of the harshest inhabited environments on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+karangpurru_culture = { 
+	language = wororan_language
+	
+	color = map_karangpurru
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Western Desert Aboriginal people were among the most resilient humans on Earth, surviving in extreme arid conditions.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian Western Desert was one of the harshest inhabited environments on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+jingili_culture = { 
+	language = west_barkly_language
+	
+	color = map_jingili
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Western Desert Aboriginal people were among the most resilient humans on Earth, surviving in extreme arid conditions.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Australian Western Desert was one of the harshest inhabited environments on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+ngalakan_culture = { 
+	language = gunwinyguan_language
+	
+	color = map_ngalakan
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Arnhem Land Aboriginal people combined seasonal fishing with hunting and gathering in the monsoon tropics.
+		global_fish_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Arnhem Land escarpment and plateau were rugged, remote terrain.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+wagiman_culture = { 
+	language = gunwinyguan_language
+	
+	color = map_wagiman
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Arnhem Land Aboriginal people combined seasonal fishing with hunting and gathering in the monsoon tropics.
+		global_fish_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Arnhem Land escarpment and plateau were rugged, remote terrain.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+gunwinggu_culture = { 
+	language = gunwinyguan_language
+	
+	color = map_gunwinggu
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Arnhem Land Aboriginal people combined seasonal fishing with hunting and gathering in the monsoon tropics.
+		global_fish_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Arnhem Land escarpment and plateau were rugged, remote terrain.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+dangbon_culture = { 
+	language = gunwinyguan_language
+	
+	color = map_dangbon
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Arnhem Land Aboriginal people combined seasonal fishing with hunting and gathering in the monsoon tropics.
+		global_fish_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Arnhem Land escarpment and plateau were rugged, remote terrain.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+rembarnga_culture = { 
+	language = gunwinyguan_language
+	
+	color = map_rembarnga
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Arnhem Land Aboriginal people combined seasonal fishing with hunting and gathering in the monsoon tropics.
+		global_fish_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Arnhem Land escarpment and plateau were rugged, remote terrain.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+ngalkbun_culture = { 
+	language = gunwinyguan_language
+	
+	color = map_ngalkbun
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Arnhem Land Aboriginal people combined seasonal fishing with hunting and gathering in the monsoon tropics.
+		global_fish_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Arnhem Land escarpment and plateau were rugged, remote terrain.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+ngandi_culture = { 
+	language = daly_language
+	
+	color = map_ngandi
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Arnhem Land Aboriginal people combined seasonal fishing with hunting and gathering in the monsoon tropics.
+		global_fish_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Arnhem Land escarpment and plateau were rugged, remote terrain.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+ngandji_culture = { 
+	language = west_barkly_language
+	
+	color = map_ngandji
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Arnhem Land Aboriginal people combined seasonal fishing with hunting and gathering in the monsoon tropics.
+		global_fish_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Arnhem Land escarpment and plateau were rugged, remote terrain.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+gunindiri_culture = { 
+	language = west_barkly_language
+	
+	color = map_gunindiri
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Arnhem Land Aboriginal people combined seasonal fishing with hunting and gathering in the monsoon tropics.
+		global_fish_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Arnhem Land escarpment and plateau were rugged, remote terrain.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+waanyi_culture = { 
+	language = west_barkly_language
+	
+	color = map_waanyi
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This western Queensland Aboriginal people were expert hunters and gatherers of the Channel Country and Gulf hinterland.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The remote western Queensland semi-arid interior was harsh, waterless terrain.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+warluwarra_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_warluwarra
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This western Queensland Aboriginal people were expert hunters and gatherers of the Channel Country and Gulf hinterland.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The remote western Queensland semi-arid interior was harsh, waterless terrain.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+yalarrnga_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_yalarrnga
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This western Queensland Aboriginal people were expert hunters and gatherers of the Channel Country and Gulf hinterland.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The remote western Queensland semi-arid interior was harsh, waterless terrain.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+yanda_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_yanda
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This western Queensland Aboriginal people were expert hunters and gatherers of the Channel Country and Gulf hinterland.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The remote western Queensland semi-arid interior was harsh, waterless terrain.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+guwa_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_guwa
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This western Queensland Aboriginal people were expert hunters and gatherers of the Channel Country and Gulf hinterland.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The remote western Queensland semi-arid interior was harsh, waterless terrain.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+wunumara_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_wunumara
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This western Queensland Aboriginal people were expert hunters and gatherers of the Channel Country and Gulf hinterland.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The remote western Queensland semi-arid interior was harsh, waterless terrain.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+mayi_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_mayi
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This western Queensland Aboriginal people were expert hunters and gatherers of the Channel Country and Gulf hinterland.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The remote western Queensland semi-arid interior was harsh, waterless terrain.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+kalkadoon_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_kalkadoon
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# The Kalkadoon were renowned warriors of the Queensland highlands, famous for their fierce resistance at Battle Mountain.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Kalkadoon homeland's rocky ranges provided defensive terrain for their resistance.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+kunjen_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_kunjen
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This western Queensland Aboriginal people were expert hunters and gatherers of the Channel Country and Gulf hinterland.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The remote western Queensland semi-arid interior was harsh, waterless terrain.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+yinwum_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_yinwum
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This western Queensland Aboriginal people were expert hunters and gatherers of the Channel Country and Gulf hinterland.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The remote western Queensland semi-arid interior was harsh, waterless terrain.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+kaantju_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_kaantju
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This western Queensland Aboriginal people were expert hunters and gatherers of the Channel Country and Gulf hinterland.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The remote western Queensland semi-arid interior was harsh, waterless terrain.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+luthigh_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_luthigh
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This western Queensland Aboriginal people were expert hunters and gatherers of the Channel Country and Gulf hinterland.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The remote western Queensland semi-arid interior was harsh, waterless terrain.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+kokowarra_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_kokowarra
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This western Queensland Aboriginal people were expert hunters and gatherers of the Channel Country and Gulf hinterland.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The remote western Queensland semi-arid interior was harsh, waterless terrain.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+kokomini_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_kokomini
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This western Queensland Aboriginal people were expert hunters and gatherers of the Channel Country and Gulf hinterland.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The remote western Queensland semi-arid interior was harsh, waterless terrain.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+mbara_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_mbara
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Darling Downs/central Queensland Aboriginal people managed their lands through controlled burning and seasonal hunting.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Queensland interior grasslands and woodlands were managed through sophisticated fire-stick farming.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+yanga_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_yanga
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Darling Downs/central Queensland Aboriginal people managed their lands through controlled burning and seasonal hunting.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Queensland interior grasslands and woodlands were managed through sophisticated fire-stick farming.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+yirandali_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_yirandali
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Darling Downs/central Queensland Aboriginal people managed their lands through controlled burning and seasonal hunting.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Queensland interior grasslands and woodlands were managed through sophisticated fire-stick farming.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+yilba_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_yilba
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Darling Downs/central Queensland Aboriginal people managed their lands through controlled burning and seasonal hunting.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Queensland interior grasslands and woodlands were managed through sophisticated fire-stick farming.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+yangga_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_yangga
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Darling Downs/central Queensland Aboriginal people managed their lands through controlled burning and seasonal hunting.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Queensland interior grasslands and woodlands were managed through sophisticated fire-stick farming.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+yagalingu_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_yagalingu
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Darling Downs/central Queensland Aboriginal people managed their lands through controlled burning and seasonal hunting.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Queensland interior grasslands and woodlands were managed through sophisticated fire-stick farming.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+wangan_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_wangan
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Darling Downs/central Queensland Aboriginal people managed their lands through controlled burning and seasonal hunting.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Queensland interior grasslands and woodlands were managed through sophisticated fire-stick farming.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+barna_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_barna
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Darling Downs/central Queensland Aboriginal people managed their lands through controlled burning and seasonal hunting.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Queensland interior grasslands and woodlands were managed through sophisticated fire-stick farming.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+baradha_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_baradha
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Darling Downs/central Queensland Aboriginal people managed their lands through controlled burning and seasonal hunting.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Queensland interior grasslands and woodlands were managed through sophisticated fire-stick farming.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+gangulu_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_gangulu
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Darling Downs/central Queensland Aboriginal people managed their lands through controlled burning and seasonal hunting.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Queensland interior grasslands and woodlands were managed through sophisticated fire-stick farming.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+bidjara_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_bidjara
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Darling Downs/central Queensland Aboriginal people managed their lands through controlled burning and seasonal hunting.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Queensland interior grasslands and woodlands were managed through sophisticated fire-stick farming.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+barunggam_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_barunggam
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Darling Downs/central Queensland Aboriginal people managed their lands through controlled burning and seasonal hunting.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Queensland interior grasslands and woodlands were managed through sophisticated fire-stick farming.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+ngoorabul_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_ngoorabul
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Darling Downs/central Queensland Aboriginal people managed their lands through controlled burning and seasonal hunting.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The Queensland interior grasslands and woodlands were managed through sophisticated fire-stick farming.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+wiradjuri_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_wiradjuri
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# The Wiradjuri were the largest Aboriginal nation in NSW, controlling vast territories across the central western plains and tablelands.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# The Wiradjuri territory's rivers and woodlands supported diverse hunting and gathering.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+nganyaywana_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_nganyaywana
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This NSW interior Aboriginal people combined river fishing with hunting and gathering in the woodlands.
+		global_fish_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The NSW tablelands and western slopes were managed through fire-stick farming.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+geawegal_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_geawegal
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This NSW interior Aboriginal people combined river fishing with hunting and gathering in the woodlands.
+		global_fish_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The NSW tablelands and western slopes were managed through fire-stick farming.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+ngunawal_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_ngunawal
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This NSW interior Aboriginal people combined river fishing with hunting and gathering in the woodlands.
+		global_fish_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The NSW tablelands and western slopes were managed through fire-stick farming.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+gundungurra_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_gundungurra
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This NSW interior Aboriginal people combined river fishing with hunting and gathering in the woodlands.
+		global_fish_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The NSW tablelands and western slopes were managed through fire-stick farming.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+jaitmatang_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_jaitmatang
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Murray-Darling region Aboriginal people combined river fishing with hunting in the riverine woodlands.
+		global_fish_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Murray-Darling river system provided productive freshwater fishing and gathering.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+waveroo_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_waveroo
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Murray-Darling region Aboriginal people combined river fishing with hunting in the riverine woodlands.
+		global_fish_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Murray-Darling river system provided productive freshwater fishing and gathering.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+yorta_yorta_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_yorta_yorta
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# The Yorta Yorta of the Murray-Goulburn confluence were part of major inter-tribal trade and ceremonial networks.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# Victoria's rivers, lakes, and coast supported productive fishing and eel harvesting.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+ngurraiillam_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_ngurraiillam
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# The Ngurai-Illam Wurrung participated in trade networks exchanging greenstone axes and other goods.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# Victoria's rivers, lakes, and coast supported productive fishing and eel harvesting.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+wurundjeri_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_wurundjeri
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Victorian Aboriginal people combined fishing, eel-trapping, and hunting with sophisticated land management.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Victoria's rivers, lakes, and coast supported productive fishing and eel harvesting.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+gulidjan_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_gulidjan
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# The Gulidjan of western Victoria's lakes district managed their territories through careful land stewardship.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# Victoria's rivers, lakes, and coast supported productive fishing and eel harvesting.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+baraba_baraba_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_baraba_baraba
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Murray-Darling region Aboriginal people combined river fishing with hunting in the riverine woodlands.
+		global_fish_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Murray-Darling river system provided productive freshwater fishing and gathering.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+wemba_wemba_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_wemba_wemba
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Murray-Darling region Aboriginal people combined river fishing with hunting in the riverine woodlands.
+		global_fish_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Murray-Darling river system provided productive freshwater fishing and gathering.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+nari_nari_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_nari_nari
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Murray-Darling region Aboriginal people combined river fishing with hunting in the riverine woodlands.
+		global_fish_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Murray-Darling river system provided productive freshwater fishing and gathering.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+yitha_yitha_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_yitha_yitha
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Murray-Darling region Aboriginal people combined river fishing with hunting in the riverine woodlands.
+		global_fish_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Murray-Darling river system provided productive freshwater fishing and gathering.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+ngadjuri_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_ngadjuri
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This South Australian Aboriginal people survived through expert knowledge of the arid landscape and its seasonal resources.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid South Australian landscape was extremely harsh, with vast waterless distances.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+ngargad_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_ngargad
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This South Australian Aboriginal people survived through expert knowledge of the arid landscape and its seasonal resources.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid South Australian landscape was extremely harsh, with vast waterless distances.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	
+}
+
+jardwadjali_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_jardwadjali
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Murray-Darling region Aboriginal people combined river fishing with hunting in the riverine woodlands.
+		global_fish_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Murray-Darling river system provided productive freshwater fishing and gathering.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+palawa_culture = { 
+	language = tyerrernotepanner_language
+	
+	color = map_palawa
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# The Palawa (Tasmanian Aboriginal people) were expert shellfish gatherers and hunters, isolated for 10,000 years.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Tasmania's rugged wilderness and isolation preserved Aboriginal culture for millennia.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+kurnai_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_kurnai
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# The Kurnai of Gippsland were fishermen and hunters of southeastern Victoria's lakes and coast.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Gippsland Lakes and coast provided productive fishing.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+wergaia_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_wergaia
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Murray-Darling region Aboriginal people combined river fishing with hunting in the riverine woodlands.
+		global_fish_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Murray-Darling river system provided productive freshwater fishing and gathering.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+latje_latje_culture = { 
+	language = pama_nyungan_language
+	
+	color = map_latje_latje
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Murray-Darling region Aboriginal people combined river fishing with hunting in the riverine woodlands.
+		global_fish_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Murray-Darling river system provided productive freshwater fishing and gathering.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+toogee_culture = { 
+	language = western_tasmanian_language
+	
+	color = map_toogee
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# This Murray-Darling region Aboriginal people combined river fishing with hunting in the riverine woodlands.
+		global_fish_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Murray-Darling river system provided productive freshwater fishing and gathering.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+pyemmairrener_culture = { 
+	language = pyemmairrener_language
+	
+	color = map_pyemmairrener
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# The Palawa (Tasmanian Aboriginal people) were expert shellfish gatherers and hunters, isolated for 10,000 years.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Tasmania's rugged wilderness and isolation preserved Aboriginal culture for millennia.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}
+
+paredarerme_culture = { 
+	language = eastern_tasmanian_language
+	
+	color = map_paredarerme
+	
+	tags = { aboriginal_gfx indian_gfx }
+
+
+	country_modifier = {
+		# The Palawa (Tasmanian Aboriginal people) were expert shellfish gatherers and hunters, isolated for 10,000 years.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Tasmania's rugged wilderness and isolation preserved Aboriginal culture for millennia.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+}

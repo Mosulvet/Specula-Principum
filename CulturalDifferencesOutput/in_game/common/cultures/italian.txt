@@ -1,0 +1,477 @@
+corsican = { 
+	language = tuscan_dialect
+	
+	color = map_corsican
+	
+	tags = { south_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Corsica's rugged mountainous terrain bred hardy, fiercely independent people with a strong warrior tradition and vendetta culture.
+		global_manpower_modifier = 0.1
+	}
+
+	location_modifier = {
+# The island's rough interior made it extremely difficult for invaders to pacify, with locals adept at guerrilla resistance.
+		local_hostile_attrition = 0.15
+	}
+
+	opinions = {
+	}
+
+	culture_groups = {
+		italian_group
+	}
+}
+
+emilian = { 
+	language = emilian_dialect
+	
+	color = map_emilian
+	
+	tags = { north_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Bologna housed Europe's oldest university, making Emilia a center of legal scholarship and intellectual prestige in the medieval period.
+		prestige = 5
+	}
+
+	location_modifier = {
+# The fertile Po River valley made Emilia one of the most productive agricultural regions in Italy, a breadbasket of grain and livestock.
+		local_grain_output_modifier = 0.15
+	}
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		italian_group
+	}
+}
+
+friulian = { 
+	language = rhaetian_dialect
+	
+	color = map_friulian
+	
+	tags = { north_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Friuli's position as a borderland between Italian, Germanic, and Slavic worlds produced resilient frontier soldiers hardened by frequent conflict.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# The mountainous terrain of the Julian and Carnic Alps provided strong natural defenses against invasion from the northeast.
+		local_defensive = 0.15
+	}
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		italian_group
+	}
+}
+
+ladin = { 
+	language = rhaetian_dialect
+	
+	color = map_ladin
+	
+	tags = { north_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The isolated Ladin valleys of the Dolomites fostered a self-sufficient pastoral culture largely insulated from lowland political upheaval.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The steep Dolomite valleys provided exceptional natural fortifications, making Ladin communities extremely difficult to assault.
+		local_defensive = 0.15
+	}
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		italian_group
+	}
+}
+
+ligurian = { 
+	language = ligurian_dialect
+	
+	color = map_ligurian
+	
+	tags = { north_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Genoa was one of the great Mediterranean maritime republics, rivaling Venice in trade networks stretching from the Black Sea to Iberia.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+# The Ligurian coast supported a substantial fishing industry, with Genoese fishermen ranging across the western Mediterranean.
+		local_fish_output_modifier = 0.15
+	}
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		italian_group
+	}
+}
+
+lombard = { 
+	language = lombard_dialect
+	
+	color = map_lombard
+	
+	tags = { north_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Milan was renowned for its arms and armor industry, producing some of Europe's finest plate armor and equipping armies across the continent.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# Lombardy's rich iron deposits and long tradition of metalworking made it a premier center of iron production in medieval Italy.
+		local_iron_output_modifier = 0.15
+	}
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		italian_group
+	}
+}
+
+maltese = { 
+	language = maltese_dialect
+	
+	color = map_maltese
+	
+	tags = { south_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Malta's strategic central Mediterranean position made its people natural seafarers, with a maritime tradition reinforced by Hospitaller rule.
+		global_sailors_modifier = 0.15
+	}
+
+	location_modifier = {
+# The waters around Malta teemed with fish, and the islanders depended heavily on fishing as a primary food source and trade good.
+		local_fish_output_modifier = 0.15
+	}
+
+	opinions = {
+	}
+
+	culture_groups = {
+		italian_group
+		maghrebi_group
+		arabic_group
+	}	
+}
+
+neapolitan = { 
+	language = neapolitan_dialect
+	
+	color = map_naples
+	
+	tags = { south_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The Kingdom of Naples controlled vast grain-producing regions of southern Italy, exporting wheat across the Mediterranean world.
+		global_grain_output_modifier = 0.15
+	}
+
+	location_modifier = {
+# Naples was one of Europe's largest cities by 1400, with a productive hinterland of farms and workshops supplying the capital.
+		local_production_efficiency = 0.1
+	}
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		italian_group
+	}
+}
+
+piedmontese = { 
+	language = piedmontese_dialect
+	
+	color = map_piedmontese
+	
+	tags = { north_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Piedmont's position guarding the Alpine passes into Italy bred a strong military tradition, with Savoyard troops among Italy's most disciplined.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+# The Alpine valleys and fortified towns of Piedmont created formidable defensive positions controlling the western approaches to the Po valley.
+		local_defensive = 0.15
+	}
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		italian_group
+	}
+}
+
+romansh = { 
+	language = rhaetian_dialect
+	
+	color = map_romansh
+	
+	tags = { north_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The Romansh communities of the Alpine passes maintained a pastoral livestock economy, with cattle and dairy as their primary exports.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The high Alpine passes of Romansh territory provided exceptional natural defenses, with narrow valleys easily held against larger forces.
+		local_defensive = 0.15
+	}
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		italian_group
+		swiss_group
+	}
+}
+
+sardinian = { 
+	language = sardinian_dialect
+	
+	color = map_sardinian
+	
+	tags = { south_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Sardinia's isolated interior supported a predominantly pastoral economy centered on sheep and goat herding across its rugged highlands.
+		global_livestock_output_modifier = 0.15
+	}
+
+	location_modifier = {
+# The island's extensive grazing lands and traditional transhumance routes made livestock the backbone of the Sardinian rural economy.
+		local_livestock_output_modifier = 0.15
+	}
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		italian_group
+	}
+}
+
+sicilian = { 
+	language = sicilian_dialect
+	
+	color = map_sicilian
+	
+	tags = { south_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Sicily was the breadbasket of the Mediterranean since antiquity, with massive grain exports feeding cities from Rome to Constantinople.
+		global_grain_output_modifier = 0.15
+	}
+
+	location_modifier = {
+# The island's vast latifundia estates produced enormous grain surpluses, making Sicily one of the most important granaries in Europe.
+		local_grain_output_modifier = 0.15
+	}
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		italian_group
+	}
+}
+
+southern_gallo_italic = { 
+	language = lombard_dialect
+	
+	color = map_southern_gallo_italic
+	
+	tags = { north_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The southern Gallo-Italic transition zone between northern and central Italy blended Lombard industry with Tuscan agricultural traditions.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+# The region's mixed economy of agriculture and small-scale manufacturing created a diversified and relatively productive local economy.
+		local_production_efficiency = 0.1
+	}
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		italian_group
+	}
+}
+
+tuscan = { 
+	language = tuscan_dialect
+	
+	color = map_tuscan
+	
+	tags = { south_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Florence was the cradle of the Renaissance and home to Europe's most powerful banking houses, radiating cultural prestige across the continent.
+		prestige = 5
+	}
+
+	location_modifier = {
+# Florentine patronage of arts, architecture, and scholarship made Tuscany the intellectual heart of Italy, attracting talent from across Europe.
+		local_monthly_development = 0.05
+	}
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		italian_group
+	}
+}
+
+bardi_bank_culture = { #Created for the BRD building-based tag
+	language = tuscan_dialect
+	
+	color = map_BRD
+	
+	tags = { south_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The Bardi family operated one of medieval Europe's largest banking networks, financing kings and popes from London to Naples.
+		trade_efficiency = 0.15
+	}
+
+	location_modifier = {
+# Bardi banking operations concentrated wealth and commercial expertise in Florence, enhancing the city's already formidable economic development.
+		local_monthly_development = 0.05
+	}
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		italian_group
+	}
+}
+
+peruzzi_bank_culture = { #Created for the PRZ building-based tag
+	language = tuscan_dialect
+	
+	color = map_PRZ
+	
+	tags = { south_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The Peruzzi company was among the largest commercial enterprises in medieval Europe, with agents in every major trading city.
+		trade_efficiency = 0.15
+	}
+
+	location_modifier = {
+# Peruzzi banking activities channeled enormous capital flows through Florence, spurring urban growth and institutional sophistication.
+		local_monthly_development = 0.05
+	}
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		italian_group
+	}
+}
+
+acciaioli_bank_culture = { #Created for the ACC building-based tag
+	language = tuscan_dialect
+	
+	color = map_ACC
+	
+	tags = { south_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# The Acciaioli family combined banking with political ambition, financing the Angevin kings of Naples and eventually ruling the Duchy of Athens.
+		trade_efficiency = 0.15
+	}
+
+	location_modifier = {
+# Acciaioli investments in land and commerce brought sustained economic development to their Florentine base and southern Italian holdings.
+		local_monthly_development = 0.05
+	}
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		italian_group
+	}
+}
+
+median = { 
+	language = median_dialect
+	
+	color = map_umbrian
+	
+	tags = { south_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Padua's university was among Europe's most prestigious, and the central Veneto fostered a tradition of legal and scholarly excellence.
+		prestige = 5
+	}
+
+	location_modifier = {
+# The scholarly tradition centered on Padua attracted students and thinkers from across Europe, fostering sustained intellectual and urban growth.
+		local_monthly_development = 0.05
+	}
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		italian_group
+	}
+}
+
+venetian = { 
+	language = venetian_dialect
+	
+	color = map_venetian
+	
+	tags = { north_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	country_modifier = {
+# Venice was the dominant Mediterranean trading power, controlling lucrative spice and luxury trade routes from Constantinople to Alexandria.
+		trade_efficiency = 0.15
+	}
+
+	location_modifier = {
+# The Venetian Arsenal was the largest industrial complex in Europe, producing ships and naval supplies at an unmatched scale.
+		local_naval_supplies_output_modifier = 0.15
+	}
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		italian_group
+	}
+}

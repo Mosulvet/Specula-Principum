@@ -1,0 +1,1143 @@
+﻿taontaenrat_culture = { 
+	language = wendat_language
+	
+	color = map_taontaenrat
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+
+
+	country_modifier = {
+		# This Wendat (Huron) nation was part of the most important trading confederacy of the Great Lakes, linking agricultural and hunting peoples.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The southern Ontario peninsula supported productive Three Sisters (maize, beans, squash) farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		attignawantan_culture = kindred
+		arendaronon_culture = kindred
+		attigneenongnahac_culture = kindred
+		ataronchronon_culture = kindred
+		weskarini_culture = positive
+		nipissing_culture = positive
+		odawa_culture = positive
+	}
+	culture_groups = {
+		wendat_group
+	}
+}
+
+attignawantan_culture = { 
+	language = wendat_language
+	
+	color = map_attignawantan
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# The Attignawantan (Bear Nation) were the largest and wealthiest of the Wendat nations, controlling the fur trade hub.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+		# The Wendat homeland in Simcoe County had the best farmland in the Georgian Bay region.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		taontaenrat_culture = kindred
+		arendaronon_culture = kindred
+		attigneenongnahac_culture = kindred
+		ataronchronon_culture = kindred
+		weskarini_culture = positive
+		nipissing_culture = positive
+		odawa_culture = positive
+	}
+	culture_groups = {
+		wendat_group
+	}
+}
+
+arendaronon_culture = { 
+	language = wendat_language
+	
+	color = map_arendaronon
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Wendat (Huron) nation was part of the most important trading confederacy of the Great Lakes, linking agricultural and hunting peoples.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The southern Ontario peninsula supported productive Three Sisters (maize, beans, squash) farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		attignawantan_culture = kindred
+		taontaenrat_culture = kindred
+		attigneenongnahac_culture = kindred
+		ataronchronon_culture = kindred
+		weskarini_culture = positive
+		nipissing_culture = positive
+		odawa_culture = positive
+	}
+	culture_groups = {
+		wendat_group
+	}
+}
+
+attigneenongnahac_culture = { 
+	language = wendat_language
+	
+	color = map_attigneenongnahac
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Wendat (Huron) nation was part of the most important trading confederacy of the Great Lakes, linking agricultural and hunting peoples.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The southern Ontario peninsula supported productive Three Sisters (maize, beans, squash) farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		attignawantan_culture = kindred
+		arendaronon_culture = kindred
+		taontaenrat_culture = kindred
+		ataronchronon_culture = kindred
+		weskarini_culture = positive
+		nipissing_culture = positive
+		odawa_culture = positive
+	}
+	culture_groups = {
+		wendat_group
+	}
+}
+
+ataronchronon_culture = { 
+	language = wendat_language
+	
+	color = map_ataronchronon
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Wendat (Huron) nation was part of the most important trading confederacy of the Great Lakes, linking agricultural and hunting peoples.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The southern Ontario peninsula supported productive Three Sisters (maize, beans, squash) farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		attignawantan_culture = kindred
+		arendaronon_culture = kindred
+		attigneenongnahac_culture = kindred
+		taontaenrat_culture = kindred
+		weskarini_culture = positive
+		nipissing_culture = positive
+		odawa_culture = positive
+	}
+	culture_groups = {
+		wendat_group
+	}
+}
+
+aondironon_culture = { #Western Neutrals
+	language = iroquoian_language
+	
+	color = map_aondironon
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Wendat (Huron) nation was part of the most important trading confederacy of the Great Lakes, linking agricultural and hunting peoples.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The southern Ontario peninsula supported productive Three Sisters (maize, beans, squash) farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		onghniaahra_culture = kindred
+		wenrohronon_culture = kindred
+		tionontate_culture = positive
+	}
+	culture_groups = {
+		iroquoian_group
+	}
+}
+
+onghniaahra_culture = { #Niagara neutrals
+	language = iroquoian_language
+	
+	color = map_onghniaahra
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Iroquoian people of southern Ontario were skilled farmers growing tobacco and maize.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The fertile Niagara and Nottawasaga regions supported productive farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		wenrohronon_culture = kindred
+		aondironon_culture = kindred
+		tionontate_culture = positive
+	}
+	culture_groups = {
+		iroquoian_group
+	}
+}
+
+tionontate_culture = { #Petuns
+	language = wendat_language
+	
+	color = map_tionontate
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Iroquoian people of southern Ontario were skilled farmers growing tobacco and maize.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The fertile Niagara and Nottawasaga regions supported productive farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		taontaenrat_culture = positive
+		attignawantan_culture = positive
+		arendaronon_culture = positive
+		attigneenongnahac_culture = positive
+		ataronchronon_culture = positive
+	}
+	culture_groups = {
+		wendat_group
+	}
+}
+
+osheaga_culture = { #Osheaga and Stadacona
+	language = iroquoian_language
+	
+	color = map_osheaga
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# The St. Lawrence Iroquoians grew maize in the northern limit of agriculture, trading with neighboring peoples.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The St. Lawrence River valley supported farming at the northern edge of agricultural viability.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		stadaconan_culture = negative
+		agojuda_culture = negative
+		ilnu_culture = negative
+		innu_culture = negative
+		mikmaq_culture = negative
+		wolastoqiyik_culture = negative
+		taontaenrat_culture = positive
+		attignawantan_culture = positive
+		arendaronon_culture = positive
+		attigneenongnahac_culture = positive
+		ataronchronon_culture = positive
+	}
+	culture_groups = {
+		iroquoian_group
+	}
+}
+
+maisouna_culture = { 
+	language = iroquoian_language
+	
+	color = map_maisouna
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# The St. Lawrence Iroquoians grew maize in the northern limit of agriculture, trading with neighboring peoples.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The St. Lawrence River valley supported farming at the northern edge of agricultural viability.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		ilnu_culture = negative
+		innu_culture = negative
+		mikmaq_culture = negative
+		wolastoqiyik_culture = negative
+		taontaenrat_culture = positive
+		attignawantan_culture = positive
+		arendaronon_culture = positive
+		attigneenongnahac_culture = positive
+		ataronchronon_culture = positive
+	}
+	culture_groups = {
+		iroquoian_group
+	}
+}
+
+stadaconan_culture = { 
+	language = iroquoian_language
+	
+	color = map_stadacona
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# The St. Lawrence Iroquoians grew maize in the northern limit of agriculture, trading with neighboring peoples.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The St. Lawrence River valley supported farming at the northern edge of agricultural viability.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		osheaga_culture = negative
+		ilnu_culture = negative
+		innu_culture = negative
+		mikmaq_culture = negative
+		wolastoqiyik_culture = negative
+		taontaenrat_culture = positive
+		attignawantan_culture = positive
+		arendaronon_culture = positive
+		attigneenongnahac_culture = positive
+		ataronchronon_culture = positive
+	}
+	culture_groups = {
+		iroquoian_group
+	}
+}
+
+agojuda_culture = { #unknown group identified by the Laurentian Iroquoians as their enemy to the west in Cartier<s time. Used here to represent the fourth major Laurentina province, in upstare New York and Ontario
+	language = wendat_language
+	
+	color = map_agojuda
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# The St. Lawrence Iroquoians grew maize in the northern limit of agriculture, trading with neighboring peoples.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The St. Lawrence River valley supported farming at the northern edge of agricultural viability.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		osheaga_culture = negative
+	}
+	culture_groups = {
+		wendat_group
+	}
+}
+
+#Mi'kmaq
+mikmaq_culture = { #https://en.wikipedia.org/wiki/Mi%27kmaq
+	language = abenakian_language
+	
+	color = map_mikmaq
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# The Mi'kmaq were expert seafarers and fishermen of the Maritime Provinces, the 'People of the Dawn.'
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Maritime Provinces and Gulf of St. Lawrence provided abundant cod, salmon, and shellfish.
+		local_fish_output_modifier = 0.15
+	}
+	opinions = {
+		wolastoqiyik_culture = kindred
+		eastern_abenaki_culture = kindred
+		western_abenaki_culture = kindred
+		passamaquoddy_culture = kindred
+		innu_culture = positive
+		penobscot_culture = kindred
+	}
+	culture_groups = {
+		abenakian_group
+	}
+}
+
+#Maliseet and Passamaquoddy
+wolastoqiyik_culture = { #https://en.wikipedia.org/wiki/Wolastoqiyik
+	language = abenakian_language
+	
+	color = map_wolastoqiyik
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Wabanaki people combined coastal fishing with hunting and farming in the northeastern woodlands.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Maine and Maritime coasts provided productive fishing and shellfish gathering.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+		mikmaq_culture = kindred
+		eastern_abenaki_culture = kindred
+		western_abenaki_culture = kindred	
+		passamaquoddy_culture = kindred
+		penobscot_culture = kindred	
+	}
+	culture_groups = {
+		abenakian_group
+	}
+}
+
+eastern_abenaki_culture = {  #Includes the Penobscot
+	language = abenakian_language
+	
+	color = map_eastern_abenaki
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Wabanaki people combined coastal fishing with hunting and farming in the northeastern woodlands.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Maine and Maritime coasts provided productive fishing and shellfish gathering.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+		wolastoqiyik_culture = kindred
+		mikmaq_culture = kindred
+		western_abenaki_culture = kindred
+		passamaquoddy_culture = kindred
+		penobscot_culture = kindred
+	}
+	culture_groups = {
+		abenakian_group
+	}
+}
+
+western_abenaki_culture = { #Including the Pennacook
+	language = abenakian_language
+	
+	color = map_western_abenaki
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Wabanaki people combined coastal fishing with hunting and farming in the northeastern woodlands.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Maine and Maritime coasts provided productive fishing and shellfish gathering.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+		wolastoqiyik_culture = kindred
+		mikmaq_culture = kindred
+		western_abenaki_culture = kindred
+		passamaquoddy_culture = kindred
+		penobscot_culture = kindred
+	}
+	culture_groups = {
+		abenakian_group
+	}
+}
+
+innu_culture = { #https://en.wikipedia.org/wiki/Innu
+	language = cree_language
+	
+	color = map_innu
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Innu/Naskapi people were caribou hunters of the vast Labrador-Quebec interior.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Labrador-Quebec subarctic was among the harshest inhabited regions in North America.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+		ilnu_culture = kindred
+		naskapi_culture = kindred
+	}
+	culture_groups = {
+		cree_group
+	}
+}
+
+ilnu_culture = { 
+	language = cree_language
+	
+	color = map_ilnu
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Innu/Naskapi people were caribou hunters of the vast Labrador-Quebec interior.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Labrador-Quebec subarctic was among the harshest inhabited regions in North America.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+		innu_culture = kindred
+		naskapi_culture = kindred
+	}
+	culture_groups = {
+		cree_group
+	}
+}
+
+naskapi_culture = { 
+	language = cree_language
+	
+	color = map_naskapi
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Innu/Naskapi people were caribou hunters of the vast Labrador-Quebec interior.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Labrador-Quebec subarctic was among the harshest inhabited regions in North America.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+		innu_culture = kindred
+	}
+	culture_groups = {
+		cree_group
+	}
+}
+
+beothuk_culture = { 
+	language = cree_language
+	
+	color = map_beothuk
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# The Beothuk were the indigenous people of Newfoundland, living by salmon fishing, hunting, and coastal gathering.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# Newfoundland's rivers and coasts provided salmon and cod fishing.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		cree_group
+	}
+}
+
+iyiniyu_culture = { #East Cree (South)
+	language = cree_language
+	
+	color = map_iyiniyu
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Cree people were hunters and trappers of the vast boreal forest, following caribou and moose.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The vast boreal forests and muskeg of the Canadian Shield were difficult terrain for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+		iyiyiyu_culture = kindred
+		ilili_culture = kindred
+		innini_culture = kindred
+		nehina_culture = kindred
+	}
+	culture_groups = {
+		cree_group
+	}
+}
+
+iyiyiyu_culture = { #East Cree (North)
+	language = cree_language
+	
+	color = map_iyiyiyu
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Cree people were hunters and trappers of the vast boreal forest, following caribou and moose.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The vast boreal forests and muskeg of the Canadian Shield were difficult terrain for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+		iyiniyu_culture = kindred
+		ilili_culture = kindred
+		innini_culture = kindred
+		nehina_culture = kindred
+	}
+	culture_groups = {
+		cree_group
+	}
+}
+
+ilili_culture = {  #Moose Cree/West Main Cree
+	language = cree_language
+	
+	color = map_ilili
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Cree people were hunters and trappers of the vast boreal forest, following caribou and moose.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The vast boreal forests and muskeg of the Canadian Shield were difficult terrain for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+		iyiyiyu_culture = kindred
+		iyiniyu_culture = kindred
+		innini_culture = kindred
+		nehina_culture = kindred
+	}
+	culture_groups = {
+		cree_group
+	}
+}
+
+innini_culture = { #Eastern Swampy Cree
+	language = cree_language
+	
+	color = map_innini
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Cree people were hunters and trappers of the vast boreal forest, following caribou and moose.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The vast boreal forests and muskeg of the Canadian Shield were difficult terrain for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+		iyiyiyu_culture = kindred
+		ilili_culture = kindred
+		iyiniyu_culture = kindred
+		nehina_culture = kindred
+	}
+	culture_groups = {
+		cree_group
+	}
+}
+
+nehina_culture = { #Western Swampy Cree
+	language = cree_language
+	
+	color = map_nehina
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Cree people were hunters and trappers of the vast boreal forest, following caribou and moose.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The vast boreal forests and muskeg of the Canadian Shield were difficult terrain for outsiders.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+		iyiyiyu_culture = kindred
+		ilili_culture = kindred
+		innini_culture = kindred
+		iyiniyu_culture = kindred
+	}
+	culture_groups = {
+		cree_group
+	}
+}
+
+atikamekw_culture = { 
+	language = cree_language
+	
+	color = map_atikamekw
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Algonquin people combined fishing, hunting, and seasonal farming in the Ottawa Valley and beyond.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Ottawa River and tributary lakes provided abundant fishing resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		cree_group
+	}
+}
+
+kichesipirini_culture = { 
+	language = anishinabe_language
+	
+	color = map_kichesipirini
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Algonquin people combined fishing, hunting, and seasonal farming in the Ottawa Valley and beyond.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Ottawa River and tributary lakes provided abundant fishing resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+		weskarini_culture = kindred
+		odawa_culture = positive
+		nipissing_culture = positive
+		ojibwe_culture = positive
+		taontaenrat_culture = positive
+		attignawantan_culture = positive
+		arendaronon_culture = positive
+		attigneenongnahac_culture = positive
+		ataronchronon_culture = positive
+	}
+	culture_groups = {
+		anishinabe_group
+	}
+}
+
+timiscaming_culture = { 
+	language = anishinabe_language
+	
+	color = map_timiscaming
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Algonquin people combined fishing, hunting, and seasonal farming in the Ottawa Valley and beyond.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Ottawa River and tributary lakes provided abundant fishing resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		anishinabe_group
+	}
+}
+
+abitibi_culture = { 
+	language = anishinabe_language
+	
+	color = map_abitibi
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Algonquin people combined fishing, hunting, and seasonal farming in the Ottawa Valley and beyond.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Ottawa River and tributary lakes provided abundant fishing resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		anishinabe_group
+	}
+}
+
+weskarini_culture = { 
+	language = anishinabe_language
+	
+	color = map_weskarini
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Algonquin people combined fishing, hunting, and seasonal farming in the Ottawa Valley and beyond.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Ottawa River and tributary lakes provided abundant fishing resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+		kichesipirini_culture = kindred
+		odawa_culture = positive
+		nipissing_culture = positive
+		ojibwe_culture = positive
+		taontaenrat_culture = positive
+		attignawantan_culture = positive
+		arendaronon_culture = positive
+		attigneenongnahac_culture = positive
+		ataronchronon_culture = positive
+	}
+	culture_groups = {
+		anishinabe_group
+	}
+}
+
+ojibwe_culture = { 
+	language = anishinabe_language
+	
+	color = map_ojibwe
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Anishinaabe people were fishermen, hunters, and wild rice gatherers of the Great Lakes.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Great Lakes and northern rivers provided abundant fishing and wild rice resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+		missisage_culture = kindred
+		nakawe_culture = kindred
+		odawa_culture = kindred
+		nipissing_culture = positive
+	}
+	culture_groups = {
+		anishinabe_group
+	}
+}
+
+odawa_culture = { 
+	language = anishinabe_language
+	
+	color = map_odawa
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Anishinaabe people were fishermen, hunters, and wild rice gatherers of the Great Lakes.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Great Lakes and northern rivers provided abundant fishing and wild rice resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+		nakawe_culture = kindred
+		missisage_culture = kindred
+		ojibwe_culture = kindred
+		kichesipirini_culture = positive
+		weskarini_culture = positive
+		nipissing_culture = positive
+		taontaenrat_culture = positive
+		attignawantan_culture = positive
+		arendaronon_culture = positive
+		attigneenongnahac_culture = positive
+		ataronchronon_culture = positive
+	}
+	culture_groups = {
+		anishinabe_group
+	}
+}
+
+nipissing_culture = { 
+	language = anishinabe_language
+	
+	color = map_nipissing
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Anishinaabe people were fishermen, hunters, and wild rice gatherers of the Great Lakes.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Great Lakes and northern rivers provided abundant fishing and wild rice resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+		odawa_culture = positive
+		ojibwe_culture = positive
+		taontaenrat_culture = positive
+		attignawantan_culture = positive
+		arendaronon_culture = positive
+		attigneenongnahac_culture = positive
+		ataronchronon_culture = positive
+	}
+	culture_groups = {
+		anishinabe_group
+	}
+}
+
+akainaa_culture = { 
+	language = siksika_language
+	
+	color = map_akainaa
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+	
+
+	country_modifier = {
+		# This Blackfoot Confederacy nation was among the most powerful and feared warrior peoples of the northern Plains.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+		# The northern Plains/Alberta grasslands supported vast bison herds central to Blackfoot life.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+		siksika_culture = kindred
+		piikani_culture = kindred
+	}
+	culture_groups = {
+		siksika_group
+	}
+}
+
+siksika_culture = { 
+	language = siksika_language
+	
+	color = map_siksika
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+	
+
+	country_modifier = {
+		# This Blackfoot Confederacy nation was among the most powerful and feared warrior peoples of the northern Plains.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+		# The northern Plains/Alberta grasslands supported vast bison herds central to Blackfoot life.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+		akainaa_culture = kindred
+		piikani_culture = kindred
+	}
+	culture_groups = {
+		siksika_group
+	}
+}
+
+piikani_culture = { 
+	language = siksika_language
+	
+	color = map_piikani
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+	
+
+	country_modifier = {
+		# This Blackfoot Confederacy nation was among the most powerful and feared warrior peoples of the northern Plains.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+		# The northern Plains/Alberta grasslands supported vast bison herds central to Blackfoot life.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+		siksika_culture = kindred
+		akainaa_culture = kindred
+	}
+	culture_groups = {
+		siksika_group
+	}
+}
+
+dorset_culture = {
+	language = inuit_language
+	
+	color = map_dorset
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+	
+
+	country_modifier = {
+		# The Dorset (Tuniit) were skilled Arctic hunters, predecessors of the Inuit in the Canadian Arctic.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Canadian Arctic was among the most extreme environments inhabited by humans.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+		siksika_culture = kindred
+	}
+	culture_groups = {
+		inuit_group
+	}
+}
+
+nakawe_culture = {
+	language = anishinabe_language
+	
+	color = map_nakawe
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Anishinaabe people were fishermen, hunters, and wild rice gatherers of the Great Lakes.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Great Lakes and northern rivers provided abundant fishing and wild rice resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+		missisage_culture = kindred
+		ojibwe_culture = kindred
+		odawa_culture = kindred
+		nipissing_culture = positive
+	}
+	culture_groups = {
+		anishinabe_group
+	}
+}
+
+missisage_culture =  {
+	language = anishinabe_language
+	
+	color = map_missisage
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Anishinaabe people were fishermen, hunters, and wild rice gatherers of the Great Lakes.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Great Lakes and northern rivers provided abundant fishing and wild rice resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+		ojibwe_culture = kindred
+		nakawe_culture = kindred
+		odawa_culture = kindred
+		nipissing_culture = positive
+	}
+	culture_groups = {
+		anishinabe_group
+	}
+}
+
+passamaquoddy_culture = {
+	language = abenakian_language
+	
+	color = map_passamaquoddy
+	
+	tags = { native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Wabanaki people combined coastal fishing with hunting and farming in the northeastern woodlands.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Maine and Maritime coasts provided productive fishing and shellfish gathering.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+		wolastoqiyik_culture = kindred
+		eastern_abenaki_culture = kindred
+		western_abenaki_culture = kindred
+		mikmaq_culture = kindred
+	}
+	culture_groups = {
+		abenakian_group
+	}
+}
