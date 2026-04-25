@@ -66,6 +66,16 @@ malto_culture = { #https://en.wikipedia.org/wiki/Malto_people
 		indian_group
 	}
 
+	country_modifier = {
+		# Rajmahal Hills tribal people; the Malto were hill-dwelling cultivators and foragers
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The rugged Rajmahal Hills provided natural defensive terrain for the Malto
+		local_hostile_attrition = 0.1
+	}
+
 	opinions = {
 
 	}
@@ -83,6 +93,16 @@ beary = {
 	culture_groups = {
 		dravidian_group
 		indian_group
+	}
+
+	country_modifier = {
+		# The Beary were a Muslim trading community of the Malabar coast, active in Indian Ocean commerce
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+		# The Malabar coast was a hub of Indian Ocean spice trade
+		local_trade_output_modifier = 0.1
 	}
 
 	opinions = {
@@ -282,6 +302,16 @@ khond_culture = { #https://en.wikipedia.org/wiki/Khonds
 	culture_groups = {
 		dravidian_group
 		indian_group
+	}
+
+	country_modifier = {
+		# The Khonds were fierce hill warriors of the Eastern Ghats, resisting Mughal and British expansion
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Eastern Ghats hill terrain was natural defensive country for the Khonds
+		local_defensive = 0.1
 	}
 
 	opinions = {

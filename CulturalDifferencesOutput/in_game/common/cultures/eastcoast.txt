@@ -1,0 +1,2779 @@
+﻿penobscot_culture = { 
+	language = abenakian_language
+	
+	color = map_penobscot
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# This Algonquian people combined farming with coastal fishing, hunting, and shellfish gathering.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The New England coast provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+		wolastoqiyik_culture = kindred
+		mikmaq_culture = kindred
+		western_abenaki_culture = kindred
+		passamaquoddy_culture = kindred
+		eastern_abenaki_culture = kindred
+	}
+	culture_groups = {
+		abenakian_group
+	}
+}
+
+pennacook_culture = { 
+	language = abenakian_language
+	
+	color = map_pennacook
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# This Algonquian people combined farming with coastal fishing, hunting, and shellfish gathering.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The New England coast provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		abenakian_group
+	}
+}
+
+massachusett_culture = { 
+	language = massachusett_language
+	
+	color = map_massachusett
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# This Algonquian people combined farming with coastal fishing, hunting, and shellfish gathering.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The New England coast provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		massachusett_group
+	}
+}
+
+wampanoag_culture = { 
+	language = massachusett_language
+	
+	color = map_wampanoag
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# This Algonquian people combined farming with coastal fishing, hunting, and shellfish gathering.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The New England coast provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		massachusett_group
+	}
+}
+
+quiripi_culture = { 
+	language = massachusett_language
+	
+	color = map_quiripi
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# This Algonquian people combined farming with coastal fishing, hunting, and shellfish gathering.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The New England coast provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		massachusett_group
+	}
+}
+
+pocumtuck_culture = { 
+	language = massachusett_language
+	
+	color = map_pocumtuck
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# This Algonquian people combined farming with coastal fishing, hunting, and shellfish gathering.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The New England coast provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		massachusett_group
+	}
+}
+
+mahican_culture = { 
+	language = lenape_language
+	
+	color = map_mahican
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# This Algonquian people practiced settled agriculture and fishing in the Mid-Atlantic coastal zone.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Mid-Atlantic river valleys and coastline supported farming and fishing.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		lenape_group
+	}
+}
+
+unami_culture = { 
+	language = lenape_language
+	
+	color = map_unami
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# This Algonquian people practiced settled agriculture and fishing in the Mid-Atlantic coastal zone.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Mid-Atlantic river valleys and coastline supported farming and fishing.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		munsee_culture = kindred
+		unalachtigo_culture = kindred
+	}
+	culture_groups = {
+		lenape_group
+	}
+}
+
+munsee_culture = { 
+	language = lenape_language
+	
+	color = map_munsee
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# This Algonquian people practiced settled agriculture and fishing in the Mid-Atlantic coastal zone.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Mid-Atlantic river valleys and coastline supported farming and fishing.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		unami_culture = kindred
+		unalachtigo_culture = kindred
+	}
+	culture_groups = {
+		lenape_group
+	}
+}
+
+unalachtigo_culture = { 
+	language = lenape_language
+	
+	color = map_unalachtigo
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# This Algonquian people practiced settled agriculture and fishing in the Mid-Atlantic coastal zone.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Mid-Atlantic river valleys and coastline supported farming and fishing.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		munsee_culture = kindred
+		unami_culture = kindred
+	}
+	culture_groups = {
+		lenape_group
+	}
+}
+
+nanticoke_culture = { 
+	language = powhatan_language
+	
+	color = map_nanticoke
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Algonquian people practiced settled agriculture and fishing in the Mid-Atlantic coastal zone.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Mid-Atlantic river valleys and coastline supported farming and fishing.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		powhatan_group
+	}
+}
+
+piscataway_culture = { 
+	language = powhatan_language
+	
+	color = map_piscataway
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Algonquian people practiced settled agriculture and fishing in the Mid-Atlantic coastal zone.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Mid-Atlantic river valleys and coastline supported farming and fishing.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		powhatan_group
+	}
+}
+
+powhatan_culture = { 
+	language = powhatan_language
+	
+	color = map_powhatan
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# The Powhatan Confederacy was the most powerful alliance in the mid-Atlantic, uniting dozens of tribes under a paramount chief.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# The Chesapeake Bay tidewater supported productive farming and abundant shellfish.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		powhatan_group
+	}
+}
+
+pamlico_culture = { 
+	language = powhatan_language
+	
+	color = map_pamlico
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This coastal Southeastern people combined farming with fishing and shellfish gathering.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The southeastern Atlantic coast provided rich fishing and shellfish resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		powhatan_group
+	}
+}
+
+doeg_culture = { 
+	language = powhatan_language
+	
+	color = map_doeg
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Algonquian people practiced settled agriculture and fishing in the Mid-Atlantic coastal zone.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Mid-Atlantic river valleys and coastline supported farming and fishing.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		powhatan_group
+	}
+}
+
+kanienkehaka_culture = { 
+	language = haudenosaunee_language
+	
+	color = map_kanienkehaka
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# The Mohawk (Kanienkehaka) were the 'Keepers of the Eastern Door' of the Iroquois Confederacy, the fiercest warriors of the Northeast.
+		army_infantry_power = 0.1
+	}
+
+	location_modifier = {
+		# The Mohawk River valley supported intensive Three Sisters agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		onyotaaka_culture = kindred
+		onondagega_culture = kindred
+		gayogohono_culture = kindred
+		onondowaga_culture = kindred
+	}
+	culture_groups = {
+		haudenosaunee_group
+	}
+}
+
+onyotaaka_culture = { 
+	language = haudenosaunee_language
+	
+	color = map_onyotaaka
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# This Haudenosaunee nation was part of the Iroquois Confederacy, one of the most sophisticated political systems in the pre-Columbian Americas.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Haudenosaunee practiced intensive Three Sisters (maize, beans, squash) agriculture in the northeastern forests.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		kanienkehaka_culture = kindred
+		onondagega_culture = kindred
+		gayogohono_culture = kindred
+		onondowaga_culture = kindred
+	}
+	culture_groups = {
+		haudenosaunee_group
+	}
+}
+
+onondagega_culture = { 
+	language = haudenosaunee_language
+	
+	color = map_onondagega
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# This Haudenosaunee nation was part of the Iroquois Confederacy, one of the most sophisticated political systems in the pre-Columbian Americas.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Haudenosaunee practiced intensive Three Sisters (maize, beans, squash) agriculture in the northeastern forests.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		onyotaaka_culture = kindred
+		kanienkehaka_culture = kindred
+		gayogohono_culture = kindred
+		onondowaga_culture = kindred
+	}
+	culture_groups = {
+		haudenosaunee_group
+	}
+}
+
+gayogohono_culture = { 
+	language = haudenosaunee_language
+	
+	color = map_gayogohono
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# This Haudenosaunee nation was part of the Iroquois Confederacy, one of the most sophisticated political systems in the pre-Columbian Americas.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Haudenosaunee practiced intensive Three Sisters (maize, beans, squash) agriculture in the northeastern forests.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		onyotaaka_culture = kindred
+		onondagega_culture = kindred
+		kanienkehaka_culture = kindred
+		onondowaga_culture = kindred
+	}
+	culture_groups = {
+		haudenosaunee_group
+	}
+}
+
+onondowaga_culture = { 
+	language = haudenosaunee_language
+	
+	color = map_onondowaga
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Haudenosaunee nation was part of the Iroquois Confederacy, one of the most sophisticated political systems in the pre-Columbian Americas.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Haudenosaunee practiced intensive Three Sisters (maize, beans, squash) agriculture in the northeastern forests.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		onyotaaka_culture = kindred
+		onondagega_culture = kindred
+		gayogohono_culture = kindred
+		kanienkehaka_culture = kindred
+	}
+	culture_groups = {
+		haudenosaunee_group
+	}
+}
+
+onojutta_culture = { 
+	language = haudenosaunee_language
+	
+	color = map_onojutta
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Haudenosaunee nation was part of the Iroquois Confederacy, one of the most sophisticated political systems in the pre-Columbian Americas.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Haudenosaunee practiced intensive Three Sisters (maize, beans, squash) agriculture in the northeastern forests.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		carantouan_culture = kindred
+		atrakwaye_culture = kindred
+	}
+	culture_groups = {
+		haudenosaunee_group
+	}
+}
+
+carantouan_culture = { 
+	language = haudenosaunee_language
+	
+	color = map_carantouan
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+		
+
+
+	country_modifier = {
+		# This Iroquoian people practiced settled agriculture and maintained fortified village communities.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The northeastern forests and river valleys supported productive Three Sisters farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		onojutta_culture = kindred
+		atrakwaye_culture = kindred
+	}
+	culture_groups = {
+		haudenosaunee_group
+	}
+}
+
+atrakwaye_culture = { 
+	language = haudenosaunee_language
+	
+	color = map_atrakwaye
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Iroquoian people practiced settled agriculture and maintained fortified village communities.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The northeastern forests and river valleys supported productive Three Sisters farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		carantouan_culture = kindred
+		onojutta_culture = kindred
+	}
+	culture_groups = {
+		haudenosaunee_group
+	}
+}
+
+nottoway_culture = { 
+	language = skarureh_language
+	
+	color = map_nottoway
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx gulf_mississippi_coa_gfx }
+	
+
+	country_modifier = {
+		# This Iroquoian people practiced settled agriculture and maintained fortified village communities.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The northeastern forests and river valleys supported productive Three Sisters farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		skarureh_group
+	}
+}
+
+skarureh_culture = { 
+	language = skarureh_language
+	
+	color = map_skarureh
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx gulf_mississippi_coa_gfx }
+	
+
+	country_modifier = {
+		# This Iroquoian people practiced settled agriculture and maintained fortified village communities.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The northeastern forests and river valleys supported productive Three Sisters farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		skarureh_group
+	}
+}
+
+wenrohronon_culture = { 
+	language = iroquoian_language
+	
+	color = map_wenrohronon
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+
+	country_modifier = {
+		# This Iroquoian people practiced settled agriculture and maintained fortified village communities.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The northeastern forests and river valleys supported productive Three Sisters farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		onghniaahra_culture = kindred
+		aondironon_culture = kindred
+	}
+	culture_groups = {
+		iroquoian_group
+	}
+}
+
+kentaientonga_culture = { 
+	language = iroquoian_language
+	
+	color = map_kentaientonga
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+	culture_groups = {
+	}
+
+
+
+	country_modifier = {
+		# This Iroquoian people practiced settled agriculture and maintained fortified village communities.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The northeastern forests and river valleys supported productive Three Sisters farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		erielhonan_culture = kindred
+		honniasont_culture = kindred
+	}
+	culture_groups = {
+		iroquoian_group
+	}
+}
+
+erielhonan_culture = { 
+	language = iroquoian_language
+	
+	color = map_erielhonan
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+	
+	culture_groups = {
+	}
+
+
+
+	country_modifier = {
+		# This Iroquoian people practiced settled agriculture and maintained fortified village communities.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The northeastern forests and river valleys supported productive Three Sisters farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		kentaientonga_culture = kindred
+		honniasont_culture = kindred
+	}
+	culture_groups = {
+		iroquoian_group
+	}
+}
+
+honniasont_culture = { 
+	language = iroquoian_language
+	
+	color = map_honniasont
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+	culture_groups = {
+	}
+
+
+
+	country_modifier = {
+		# This Iroquoian people practiced settled agriculture and maintained fortified village communities.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The northeastern forests and river valleys supported productive Three Sisters farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		erielhonan_culture = kindred
+		kentaientonga_culture = kindred
+	}
+	culture_groups = {
+		iroquoian_group
+	}
+}
+
+monacan_culture = { 
+	language = tutelo_language
+	
+	color = map_monacan
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Siouan-speaking Southeastern people practiced agriculture in the Piedmont and Appalachian foothills.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Piedmont river valleys supported productive Three Sisters farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		tutelo_group
+	}
+}
+
+tutelo_culture = { 
+	language = tutelo_language
+	
+	color = map_tutelo
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Siouan-speaking Southeastern people practiced agriculture in the Piedmont and Appalachian foothills.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Piedmont river valleys supported productive Three Sisters farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		tutelo_group
+	}
+}
+
+catawba_culture = { 
+	language = tutelo_language
+	
+	color = map_catawba
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Siouan-speaking Southeastern people practiced agriculture in the Piedmont and Appalachian foothills.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Piedmont river valleys supported productive Three Sisters farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		tutelo_group
+	}
+}
+
+waccamaw_culture = { 
+	language = tutelo_language
+	
+	color = map_waccamaw
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Siouan-speaking Southeastern people practiced agriculture in the Piedmont and Appalachian foothills.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Piedmont river valleys supported productive Three Sisters farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		tutelo_group
+	}
+}
+
+issati_culture = { 
+	language = tutelo_language
+	
+	color = map_issati
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Siouan people were warrior-farmers of the prairie-woodland border, combining bison hunting with maize agriculture.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Missouri and Ohio River valleys supported productive farming alongside prairie hunting.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		tutelo_group
+	}
+}
+
+moneton_culture = { 
+	language = tutelo_language
+	
+	color = map_moneton
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Siouan-speaking Southeastern people practiced agriculture in the Piedmont and Appalachian foothills.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Piedmont river valleys supported productive Three Sisters farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		tutelo_group
+	}
+}
+
+kansa_culture = { 
+	language = dhegiha_language
+	
+	color = map_kansa
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Siouan people were warrior-farmers of the prairie-woodland border, combining bison hunting with maize agriculture.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Missouri and Ohio River valleys supported productive farming alongside prairie hunting.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		osage_culture = kindred
+		quapaw_culture = kindred
+		ponca_culture = kindred
+		omaha_culture = kindred
+	}
+	culture_groups = {
+		dhegiha_group
+	}
+}
+
+osage_culture = { #https://en.wikipedia.org/wiki/Osage_Nation
+	language = dhegiha_language
+	
+	color = map_osage
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Siouan people were warrior-farmers of the prairie-woodland border, combining bison hunting with maize agriculture.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Missouri and Ohio River valleys supported productive farming alongside prairie hunting.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		kansa_culture = kindred
+		quapaw_culture = kindred
+		ponca_culture = kindred
+		omaha_culture = kindred
+	}
+	culture_groups = {
+		dhegiha_group
+	}
+}
+
+quapaw_culture = { 
+	language = dhegiha_language
+	
+	color = map_quapaw
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Siouan people were warrior-farmers of the prairie-woodland border, combining bison hunting with maize agriculture.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Missouri and Ohio River valleys supported productive farming alongside prairie hunting.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		osage_culture = kindred
+		kansa_culture = kindred
+		ponca_culture = kindred
+		omaha_culture = kindred
+	}
+	culture_groups = {
+		dhegiha_group
+	}
+}
+
+omaha_culture = { 
+	language = dhegiha_language
+	
+	color = map_omaha
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Siouan people were warrior-farmers of the prairie-woodland border, combining bison hunting with maize agriculture.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Missouri and Ohio River valleys supported productive farming alongside prairie hunting.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		osage_culture = kindred
+		quapaw_culture = kindred
+		ponca_culture = kindred
+		kansa_culture = kindred
+	}
+	culture_groups = {
+		dhegiha_group
+	}
+}
+
+ponca_culture = { 
+	language = dhegiha_language
+	
+	color = map_ponca
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Siouan people were warrior-farmers of the prairie-woodland border, combining bison hunting with maize agriculture.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Missouri and Ohio River valleys supported productive farming alongside prairie hunting.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		osage_culture = kindred
+		quapaw_culture = kindred
+		kansa_culture = kindred
+		omaha_culture = kindred
+	}
+	culture_groups = {
+		dhegiha_group
+	}
+}
+
+cusabo_culture = { 
+	language = muskogee_language
+	
+	color = map_cusabo
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This coastal Southeastern people combined farming with fishing and shellfish gathering.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The southeastern Atlantic coast provided rich fishing and shellfish resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		muskogee_group
+	}
+}
+
+hitchiti_culture = { #https://en.wikipedia.org/wiki/Mikasuki_language
+	language = muskogee_language
+	
+	color = map_hitchiti
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Muscogee-related people were settled farmers of the southeastern woodlands.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The southeastern river valleys supported productive farming communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		oconee_culture = kindred
+		sawokli_culture = kindred
+		tamathli_culture = kindred
+		yamasee_culture = kindred
+	}
+	culture_groups = {
+		muskogee_group
+	}
+}
+
+guale_culture = { 
+	language = muskogee_language
+	
+	color = map_guale
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This coastal Southeastern people combined farming with fishing and shellfish gathering.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The southeastern Atlantic coast provided rich fishing and shellfish resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		muskogee_group
+	}
+}
+
+yamasee_culture = { 
+	language = muskogee_language
+	
+	color = map_yamasee
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This coastal Southeastern people combined farming with fishing and shellfish gathering.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The southeastern Atlantic coast provided rich fishing and shellfish resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+		oconee_culture = kindred
+		sawokli_culture = kindred
+		tamathli_culture = kindred
+		hitchiti_culture = kindred
+	}
+	culture_groups = {
+		muskogee_group
+	}
+}
+
+coosa_culture = { 
+	language = muskogee_language
+	
+	color = map_coosa
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Muscogee-related people were settled farmers of the southeastern woodlands.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The southeastern river valleys supported productive farming communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		muscogee_culture = kindred
+		coweta_culture = kindred
+		tuckabatchee_culture = kindred
+		eufaula_culture = kindred
+	}
+	culture_groups = {
+		muskogee_group
+	}
+}
+
+coweta_culture = { 
+	language = muskogee_language
+	
+	color = map_coweta
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Muscogee-related people were settled farmers of the southeastern woodlands.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The southeastern river valleys supported productive farming communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		muscogee_culture = kindred
+		coosa_culture = kindred
+		tuckabatchee_culture = kindred
+		eufaula_culture = kindred
+	}
+	culture_groups = {
+		muskogee_group
+	}
+}
+
+tuckabatchee_culture = { 
+	language = muskogee_language
+	
+	color = map_tuckabatchee
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Muscogee-related people were settled farmers of the southeastern woodlands.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The southeastern river valleys supported productive farming communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		muscogee_culture = kindred
+		coweta_culture = kindred
+		coosa_culture = kindred
+		eufaula_culture = kindred
+	}
+	culture_groups = {
+		muskogee_group
+	}
+}
+
+apalachee_culture = { #https://en.wikipedia.org/wiki/Apalachee
+	language = muskogee_language
+	
+	color = map_apalachee
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# The Apalachee were the most productive farmers of the Florida region, growing enormous maize surpluses.
+		global_grain_output_modifier = 0.15
+	}
+
+	location_modifier = {
+		# The Apalachee homeland in the Florida panhandle had the richest farmland in the Southeast.
+		local_grain_output_modifier = 0.15
+	}
+	opinions = {
+	}
+	culture_groups = {
+		muskogee_group
+	}
+}
+
+alabama_culture = { #https://en.wikipedia.org/wiki/Alabama%E2%80%93Coushatta_Tribe_of_Texas
+	language = muskogee_language
+	
+	color = map_alabama
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Muskogean people were settled farmers of the southeastern woodlands.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Alabama and Coosa River valleys supported productive farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		muskogee_group
+	}
+}
+
+koasati_culture = { #https://en.wikipedia.org/wiki/Coushatta
+	language = muskogee_language
+	
+	color = map_koasati
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Muskogean people were settled farmers of the southeastern woodlands.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Alabama and Coosa River valleys supported productive farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		muskogee_group
+	}
+}
+
+choctaw_culture = { 
+	language = chickasaw_choctaw_language
+	
+	color = map_choctaw
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# The Choctaw were the largest nation of the Southeast, known as master farmers producing enormous maize surpluses.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Choctaw heartland's rich Mississippi bottomlands supported intensive maize agriculture.
+		local_grain_output_modifier = 0.15
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chickasaw_choctaw_group
+	}
+}
+
+chickasaw_culture = { 
+	language = chickasaw_choctaw_language
+	
+	color = map_chickasaw
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# The Chickasaw were among the most formidable warriors in the Southeast, never defeated in their homeland.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Chickasaw homeland's prairies and woodlands supported mixed farming and hunting.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chickasaw_choctaw_group
+	}
+}
+
+natchez_culture = { 
+	language = natchez_language
+	
+	color = map_natchez
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# The Natchez maintained the last great Mississippian chiefdom, with a divine Sun King and elaborate temple mound ceremonialism.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# The Natchez bluffs above the Mississippi supported productive farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		natchez_group
+	}
+}
+
+tunica_culture = { #https://en.wikipedia.org/wiki/Tunica_people
+	language = chickasaw_choctaw_language
+	
+	color = map_tunica
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Mississippi Valley people practiced mound-building and intensive floodplain agriculture.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Mississippi River floodplains supported productive farming for settled communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chickasaw_choctaw_group
+	}
+}
+
+acolapissa_culture = { 
+	language = chickasaw_choctaw_language
+	
+	color = map_acolapissa
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Mississippi Valley people practiced mound-building and intensive floodplain agriculture.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Mississippi River floodplains supported productive farming for settled communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chickasaw_choctaw_group
+	}
+}
+
+mobile_culture = { 
+	language = chickasaw_choctaw_language
+	
+	color = map_mobile
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Mississippi Valley people practiced mound-building and intensive floodplain agriculture.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Mississippi River floodplains supported productive farming for settled communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chickasaw_choctaw_group
+	}
+}
+
+chatot_culture = { 
+	language = chickasaw_choctaw_language
+	
+	color = map_chatot
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Mississippi Valley people practiced mound-building and intensive floodplain agriculture.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Mississippi River floodplains supported productive farming for settled communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chickasaw_choctaw_group
+	}
+}
+
+timucua_culture = { 
+	language = timucua_language
+	
+	color = map_timucua
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# The Timucua were the largest indigenous group in Florida, combining farming with fishing and gathering.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Florida interior and coast supported both farming and abundant fishing.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		timucua_group
+	}
+}
+
+calusa_culture = { 
+	language = timucua_language
+	
+	color = map_calusa
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# The Calusa built a powerful chiefdom in southwestern Florida based entirely on fishing, without agriculture.
+		global_fish_output_modifier = 0.15
+	}
+
+	location_modifier = {
+		# The rich estuarine waters of Charlotte Harbor and the Ten Thousand Islands supported enormous fisheries.
+		local_fish_output_modifier = 0.15
+	}
+	opinions = {
+	}
+	culture_groups = {
+		timucua_group
+	}
+}
+
+ais_culture = { #https://en.wikipedia.org/wiki/Ais_people
+	language = chitimacha_language
+	
+	color = map_ais_florida
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Florida coastal people lived by fishing and shellfish gathering in the rich Gulf and Atlantic waters.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Florida coast's warm waters supported abundant fishing and shellfish resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chitimacha_group
+	}
+}
+
+tocobaga_culture = { #https://en.wikipedia.org/wiki/Tocobaga
+	language = timucua_language
+	
+	color = map_tocobaga
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Florida coastal people lived by fishing and shellfish gathering in the rich Gulf and Atlantic waters.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Florida coast's warm waters supported abundant fishing and shellfish resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		timucua_group
+	}
+}
+
+kaskinampo_culture = { 
+	language = muskogee_language
+	
+	color = map_kaskinampo
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Mississippi Valley people practiced mound-building and intensive floodplain agriculture.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Mississippi River floodplains supported productive farming for settled communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		muskogee_group
+	}
+}
+
+chalahgawtha_culture = { 
+	language = shawnee_language
+	
+	color = map_chalahgawtha
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# The Shawnee were among the most widely-traveled and politically active nations of the Eastern Woodlands, renowned as warriors.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Ohio Valley supported productive farming for Shawnee communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		mekoche_culture = kindred
+		kispoko_culture = kindred
+		pekowi_culture = kindred
+		hathawekela_culture = kindred
+	}
+	culture_groups = {
+		shawnee_group
+	}
+}
+
+mekoche_culture = { 
+	language = shawnee_language
+	
+	color = map_mekoche
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# The Shawnee were among the most widely-traveled and politically active nations of the Eastern Woodlands, renowned as warriors.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Ohio Valley supported productive farming for Shawnee communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		chalahgawtha_culture = kindred
+		kispoko_culture = kindred
+		pekowi_culture = kindred
+		hathawekela_culture = kindred
+	}
+	culture_groups = {
+		shawnee_group
+	}
+}
+
+kispoko_culture = { 
+	language = shawnee_language
+	
+	color = map_kispoko
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# The Shawnee were among the most widely-traveled and politically active nations of the Eastern Woodlands, renowned as warriors.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Ohio Valley supported productive farming for Shawnee communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		chalahgawtha_culture = kindred
+		mekoche_culture = kindred
+		pekowi_culture = kindred
+		hathawekela_culture = kindred
+	}
+	culture_groups = {
+		shawnee_group
+	}
+}
+
+pekowi_culture = { 
+	language = shawnee_language
+	
+	color = map_pekowi
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# The Shawnee were among the most widely-traveled and politically active nations of the Eastern Woodlands, renowned as warriors.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Ohio Valley supported productive farming for Shawnee communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		chalahgawtha_culture = kindred
+		kispoko_culture = kindred
+		mekoche_culture = kindred
+		hathawekela_culture = kindred
+	}
+	culture_groups = {
+		shawnee_group
+	}
+}
+
+hathawekela_culture = { 
+	language = shawnee_language
+	
+	color = map_hathawekela
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# The Shawnee were among the most widely-traveled and politically active nations of the Eastern Woodlands, renowned as warriors.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Ohio Valley supported productive farming for Shawnee communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		chalahgawtha_culture = kindred
+		kispoko_culture = kindred
+		pekowi_culture = kindred
+		mekoche_culture = kindred
+	}
+	culture_groups = {
+		shawnee_group
+	}
+}
+
+atchakangouen_culture = { 
+	language = myaamia_language
+	
+	color = map_atchakangouen
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Miami/Illinois people were farmers and hunters of the Great Lakes-Ohio Valley region.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Ohio and Wabash River valleys supported productive farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		wea_culture = kindred
+		myaamia_culture = kindred
+		piankeshaw_culture = kindred
+	}
+	culture_groups = {
+		myaamia_group
+	}
+}
+
+
+piankeshaw_culture = { 
+	language = myaamia_language
+	
+	color = map_piankeshaw
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Miami/Illinois people were farmers and hunters of the Great Lakes-Ohio Valley region.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Ohio and Wabash River valleys supported productive farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		atchakangouen_culture = kindred
+		myaamia_culture = kindred
+		wea_culture = kindred
+	}
+	culture_groups = {
+		myaamia_group
+	}
+}
+
+wea_culture = { 
+	language = myaamia_language
+	
+	color = map_wea
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Miami/Illinois people were farmers and hunters of the Great Lakes-Ohio Valley region.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Ohio and Wabash River valleys supported productive farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		atchakangouen_culture = kindred
+		myaamia_culture = kindred
+		piankeshaw_culture = kindred
+	}
+	culture_groups = {
+		myaamia_group
+	}
+}
+
+peewareewa_culture = { 
+	language = myaamia_language
+	
+	color = map_peewareewa
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Miami/Illinois people were farmers and hunters of the Great Lakes-Ohio Valley region.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Ohio and Wabash River valleys supported productive farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		inoka_culture = kindred
+		kahokiaki_culture = kindred
+		kaskankaham_culture = kindred
+	}
+	culture_groups = {
+		myaamia_group
+	}
+}
+
+kahokiaki_culture = { 
+	language = myaamia_language
+	
+	color = map_kahokiaki
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Mississippi Valley people practiced mound-building and intensive floodplain agriculture.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Mississippi River floodplains supported productive farming for settled communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		peewareewa_culture = kindred
+		kaskankaham_culture = kindred
+		inoka_culture = kindred
+	}
+	culture_groups = {
+		myaamia_group
+	}
+}
+
+
+cahokia_culture = { 
+	language = dhegiha_language
+	
+	color = map_cahokia
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# The Cahokia mound complex was the largest pre-Columbian city north of Mexico, a monumental achievement of Mississippian civilization.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# The American Bottom floodplain near Cahokia was one of the most productive agricultural zones in eastern North America.
+		local_grain_output_modifier = 0.15
+	}
+	opinions = {
+	}
+	culture_groups = {
+		dhegiha_group
+	}
+}
+
+kaskankaham_culture = { 
+	language = myaamia_language
+	
+	color = map_kaskankaham
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Mississippi Valley people practiced mound-building and intensive floodplain agriculture.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Mississippi River floodplains supported productive farming for settled communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		peewareewa_culture = kindred
+		kahokiaki_culture = kindred
+		inoka_culture = kindred
+	}
+	culture_groups = {
+		myaamia_group
+	}
+}
+
+hocak_culture = { 
+	language = chiwere_language
+	
+	color = map_hocak
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# The Ho-Chunk (Winnebago) were powerful farmer-warriors of Wisconsin, maintaining influence between the Great Lakes and Plains.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Wisconsin River valley supported productive farming for Ho-Chunk communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chiwere_group
+	}
+}
+
+baxoje_culture = { 
+	language = chiwere_language
+	
+	color = map_baxoje
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# This Siouan farming people combined agriculture with bison hunting on the prairie-woodland border.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Iowa and Missouri prairies supported farming alongside seasonal hunting.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chiwere_group
+	}
+}
+
+niuachi_culture = { 
+	language = chiwere_language
+	
+	color = map_niuachi
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# This Siouan farming people combined agriculture with bison hunting on the prairie-woodland border.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Iowa and Missouri prairies supported farming alongside seasonal hunting.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chiwere_group
+	}
+}
+
+waghtochtatta_culture = { 
+	language = chiwere_language
+	
+	color = map_waghtochtatta
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# This Eastern Dakota people combined farming with hunting and gathering in the Minnesota woodlands.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Minnesota lakes and woodlands supported farming, wild rice gathering, and hunting.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chiwere_group
+	}
+}
+
+wahpekhute_culture = { 
+	language = dakota_language
+	
+	color = map_wahpekhute
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Eastern Dakota people combined farming with hunting and gathering in the Minnesota woodlands.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Minnesota lakes and woodlands supported farming, wild rice gathering, and hunting.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		dakota_group
+	}
+}
+
+sisithunwan_culture = { 
+	language = dakota_language
+	
+	color = map_sisithunwan
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Eastern Dakota people combined farming with hunting and gathering in the Minnesota woodlands.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Minnesota lakes and woodlands supported farming, wild rice gathering, and hunting.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		dakota_group
+	}
+}
+
+bdewekhantunwan_culture = { 
+	language = dakota_language
+	
+	color = map_bdewekhantunwan
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx  central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Eastern Dakota people combined farming with hunting and gathering in the Minnesota woodlands.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Minnesota lakes and woodlands supported farming, wild rice gathering, and hunting.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		dakota_group
+	}
+}
+
+wahpetunwan_culture = { 
+	language = dakota_language
+	
+	color = map_wahpetunwan
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Eastern Dakota people combined farming with hunting and gathering in the Minnesota woodlands.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Minnesota lakes and woodlands supported farming, wild rice gathering, and hunting.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		dakota_group
+	}
+}
+
+cherokee_culture = { 
+	language = cherokee_language
+	
+	color = map_cherokee
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# The Cherokee were the largest and most politically sophisticated nation of the American Southeast, with a complex chiefdom system.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# The Southern Appalachian valleys supported intensive Cherokee farming of maize, beans, and squash.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		otali_culture = kindred
+		guwahiyi_culture = kindred
+	}
+	culture_groups = {
+		cherokee_group
+	}
+}
+
+tsoyaha_culture = { 
+	language = tutelo_language
+	
+	color = map_tsoyaha
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Siouan-speaking Southeastern people practiced agriculture in the Piedmont and Appalachian foothills.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Piedmont river valleys supported productive Three Sisters farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		tutelo_group
+	}
+}
+
+bodewadomik_culture = { 
+	language = anishinabe_language
+	
+	color = map_bodewadomik
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# This Great Lakes Algonquian people combined farming, fishing, and hunting across the woodlands.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Great Lakes provided abundant fishing alongside wild rice and farming resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		anishinabe_group
+	}
+}
+
+mamaceqtaw_culture = { 
+	language = anishinabe_language
+	
+	color = map_mamaceqtaw
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# This Great Lakes Algonquian people combined farming, fishing, and hunting across the woodlands.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Great Lakes provided abundant fishing alongside wild rice and farming resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		anishinabe_group
+	}
+}
+
+osaakiiwaki_culture = { 
+	language = shawnee_language
+	
+	color = map_osaakiiwaki
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# This Great Lakes Algonquian people combined farming, fishing, and hunting across the woodlands.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Great Lakes provided abundant fishing alongside wild rice and farming resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		shawnee_group
+	}
+}
+
+meskwaki_culture = { 
+	language = shawnee_language
+	
+	color = map_meskwaki
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# This Great Lakes Algonquian people combined farming, fishing, and hunting across the woodlands.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Great Lakes provided abundant fishing alongside wild rice and farming resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		shawnee_group
+	}
+}
+
+kiwigapawa_culture = { 
+	language = shawnee_language
+	
+	color = map_kiwigapawa
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# This Great Lakes Algonquian people combined farming, fishing, and hunting across the woodlands.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Great Lakes provided abundant fishing alongside wild rice and farming resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		shawnee_group
+	}
+}
+
+mascouten_culture = { 
+	language = myaamia_language
+	
+	color = map_mascouten
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# This Great Lakes Algonquian people combined farming, fishing, and hunting across the woodlands.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Great Lakes provided abundant fishing alongside wild rice and farming resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		myaamia_group
+	}
+}
+
+accomac_culture = {
+	language = powhatan_language
+	
+	color = map_accomac
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Algonquian people practiced settled agriculture and fishing in the Mid-Atlantic coastal zone.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Mid-Atlantic river valleys and coastline supported farming and fishing.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		powhatan_group
+	}
+}
+
+
+nansemond_culture = {
+	language = powhatan_language
+	
+	color = map_nansemond
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Algonquian people practiced settled agriculture and fishing in the Mid-Atlantic coastal zone.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Mid-Atlantic river valleys and coastline supported farming and fishing.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		powhatan_group
+	}
+}
+
+rappahannock_culture = {
+	language = powhatan_language
+	
+	color = map_rappahannock
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Algonquian people practiced settled agriculture and fishing in the Mid-Atlantic coastal zone.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Mid-Atlantic river valleys and coastline supported farming and fishing.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		powhatan_group
+	}
+}
+
+croatan_culture = {
+	language = powhatan_language
+	
+	color = map_croatan
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This coastal Southeastern people combined farming with fishing and shellfish gathering.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The southeastern Atlantic coast provided rich fishing and shellfish resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		powhatan_group
+	}
+}
+
+ofo_culture = {
+	language = tutelo_language
+	
+	color = map_ofo
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Southeastern people practiced farming and fishing in the lower Mississippi region.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Mississippi River floodplains supported farming for settled communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		tutelo_group
+	}
+}
+
+myaamia_culture = {
+	language = myaamia_language
+	
+	color = map_myaamia
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Miami/Illinois people were farmers and hunters of the Great Lakes-Ohio Valley region.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Ohio and Wabash River valleys supported productive farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		atchakangouen_culture = kindred
+		wea_culture = kindred
+		piankeshaw_culture = kindred
+	}
+	culture_groups = {
+		myaamia_group
+	}
+}
+
+inoka_culture = {
+	language = myaamia_language
+	
+	color = map_inoka
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Miami/Illinois people were farmers and hunters of the Great Lakes-Ohio Valley region.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Ohio and Wabash River valleys supported productive farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		myaamia_group
+	}
+}
+
+chakchiuma_culture = {
+	language = chickasaw_choctaw_language
+	
+	color = map_chakchiuma
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Southeastern people practiced farming and fishing in the lower Mississippi region.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Mississippi River floodplains supported farming for settled communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chickasaw_choctaw_group
+	}
+}
+
+taensa_culture = {
+	language = natchez_language
+	
+	color = map_taensa
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Southeastern people practiced farming and fishing in the lower Mississippi region.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Mississippi River floodplains supported farming for settled communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		natchez_group
+	}
+}
+
+taneks_culture = {
+	language = tutelo_language
+	
+	color = map_taneks
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Southeastern people practiced farming and fishing in the lower Mississippi region.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Mississippi River floodplains supported farming for settled communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		tutelo_group
+	}
+}
+
+tamathli_culture = {
+	language = muskogee_language
+	
+	color = map_tamathli
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Muscogee-related people were settled farmers of the southeastern woodlands.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The southeastern river valleys supported productive farming communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		oconee_culture = kindred
+		sawokli_culture = kindred
+		hitchiti_culture = kindred
+		yamasee_culture = kindred
+	}
+	culture_groups = {
+		muskogee_group
+	}
+}
+
+oconee_culture = {
+	language = muskogee_language
+	
+	color = map_oconee
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Muscogee-related people were settled farmers of the southeastern woodlands.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The southeastern river valleys supported productive farming communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		hitchiti_culture = kindred
+		sawokli_culture = kindred
+		tamathli_culture = kindred
+		yamasee_culture = kindred
+	}
+	culture_groups = {
+		muskogee_group
+	}
+}
+
+muscogee_culture = { #https://en.wikipedia.org/wiki/Muscogee
+	language = muskogee_language
+	
+	color = map_muscogee
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# The Muscogee (Creek) Confederacy was one of the most powerful Native alliances in the Southeast, with a sophisticated political structure.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# The Creek homeland's river valleys supported intensive maize agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		muskogee_group
+	}
+}
+
+eufaula_culture = {
+	language = muskogee_language
+	
+	color = map_eufaula
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Muscogee-related people were settled farmers of the southeastern woodlands.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The southeastern river valleys supported productive farming communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		muscogee_culture = kindred
+		coosa_culture = kindred
+		tuckabatchee_culture = kindred
+		eufaula_culture = kindred
+	}
+	culture_groups = {
+		muskogee_group
+	}
+}
+
+sawokli_culture = {
+	language = muskogee_language
+	
+	color = map_sawokli
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Muscogee-related people were settled farmers of the southeastern woodlands.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The southeastern river valleys supported productive farming communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		oconee_culture = kindred
+		hitchiti_culture = kindred
+		tamathli_culture = kindred
+		yamasee_culture = kindred
+	}
+	culture_groups = {
+		muskogee_group
+	}
+}
+
+guwahiyi_culture = {
+	language = cherokee_language
+	
+	color = map_guwahiyi
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Cherokee-related community practiced settled agriculture in the Southern Appalachian Mountains.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Appalachian mountain valleys supported productive farming communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		otali_culture = kindred
+		cherokee_culture = kindred
+	}
+	culture_groups = {
+		cherokee_group
+	}
+}
+
+otali_culture = { #https://en.wikipedia.org/wiki/Cherokee_language
+	language = cherokee_language
+	
+	color = map_otali
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Cherokee-related community practiced settled agriculture in the Southern Appalachian Mountains.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Appalachian mountain valleys supported productive farming communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		cherokee_culture = kindred
+		guwahiyi_culture = kindred
+	}
+	culture_groups = {
+		cherokee_group
+	}
+}
+
+narraganset_culture = {
+	language = massachusett_language
+	
+	color = map_narraganset
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# This Algonquian people combined farming with coastal fishing, hunting, and shellfish gathering.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The New England coast provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		massachusett_group
+	}
+}
+
+pequot_culture = {
+	language = massachusett_language
+	
+	color = map_pequot
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+
+	country_modifier = {
+		# This Algonquian people combined farming with coastal fishing, hunting, and shellfish gathering.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The New England coast provided rich fishing and marine resources.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		massachusett_group
+	}
+}
