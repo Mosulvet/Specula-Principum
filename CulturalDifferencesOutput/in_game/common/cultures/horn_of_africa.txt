@@ -1,0 +1,920 @@
+﻿amhara = {
+	language = ethiopic_language
+	
+	color = map_ethiopia
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Amhara-led Solomonic dynasty ruled one of Africa's oldest Christian kingdoms, claiming descent from King Solomon.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# The Ethiopian highlands' fertile volcanic soils supported intensive grain agriculture including teff and barley.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		gonga_culture = positive
+		tigre = positive
+		tigrinya = positive
+	}		
+	culture_groups = {
+		ethiopian_group
+	}
+}
+
+gurage = {
+	language = ethiopic_language
+	
+	color = map_gurage
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Gurage were renowned traders and cultivators of enset (false banana), a unique Ethiopian crop.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The Gurage homeland in south-central Ethiopia supported intensive enset cultivation.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		
+	}		
+	culture_groups = {
+		ethiopian_group
+	}
+}
+
+tigre = {
+	language = north_ethiopic_language
+	
+	color = map_medri
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Tigre were pastoral and agro-pastoral people of the Eritrean lowlands, herding cattle and camels.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Eritrean lowlands and coast supported pastoral herding alongside limited agriculture.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+		amhara = positive
+		gonga_culture = positive
+		tigrinya = positive
+	}		
+	culture_groups = {
+		ethiopian_group
+	}
+}
+
+tigrinya = {
+	language = north_ethiopic_language
+	
+	color = map_enderta
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Tigrinya were heirs to the ancient Aksumite Empire, one of the great civilizations of the ancient world.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# The Eritrean and Tigrayan highlands supported terraced farming of grains in the Aksumite heartland.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		amhara = positive
+		gonga_culture = positive
+		tigre = positive
+	}		
+	culture_groups = {
+		ethiopian_group
+	}
+}
+
+gonga_culture = {
+	language = omotic_language
+	
+	color = map_kaffa
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Gonga (Kaffa) people gave their name to coffee, which they were the first to cultivate as a beverage crop.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The lush southwestern Ethiopian highlands were among the most fertile regions in the Horn of Africa.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		amhara = positive
+		tigre = positive
+		tigrinya = positive
+	}		
+}
+
+ometo_culture = {
+	language = omotic_language
+	
+	color = map_welayta
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Ometo peoples of southern Ethiopia maintained organized kingdoms and intensive agriculture.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Omo River region's fertile soils supported productive farming communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		amhara = positive
+		tigre = positive
+		tigrinya = positive
+	}		
+}
+
+omo_culture = {
+	language = omotic_language
+	
+	color = map_omo
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Omo Valley peoples practiced agro-pastoralism along the lower Omo River.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The lower Omo Valley supported pastoral herding and floodplain agriculture.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+		amhara = positive
+		tigre = positive
+		tigrinya = positive
+	}		
+}
+
+sudanese_arab = {
+	language = egyptian_dialect
+	
+	color = rgb { 130 108 52 }
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Sudanese Arabs were traders and pastoralists who brought Islam and commerce to the Nilotic Sudan.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The Sudanese savanna supported cattle, camel, and sheep herding alongside Nile-fed agriculture.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+		
+	}
+	
+	culture_groups = {
+		arabic_group
+	}
+}
+
+afar_culture = {
+	language = afar_dialect
+	
+	color = map_afar
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Afar controlled the vital salt trade from the Danakil Depression, one of the hottest places on Earth.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The Danakil Depression and Afar Triangle were among the most inhospitable inhabited regions on Earth.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+		amhara = negative
+		gonga_culture = negative
+		tigre = negative
+		tigrinya = negative
+		somali_culture = positive
+	}		
+}
+
+agaw_culture = {
+	language = agaw_language
+	
+	color = map_agaw
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Agaw were among the original Cushitic inhabitants of the Ethiopian highlands, skilled grain farmers.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Agaw homeland in the Ethiopian highlands supported productive grain agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+
+	}		
+}
+
+beja_culture = {
+	language = beja_language
+	
+	color = map_beja
+	
+	tags = { nubian_gfx east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Beja were nomadic pastoralists of the Red Sea hills, fierce warriors who resisted Egyptian and Roman control.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The arid Red Sea hills were harsh, waterless terrain that provided natural defense for the Beja.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+		amhara = negative
+		tigre = negative
+		tigrinya = negative
+		nubian = negative
+		sudanese_arab = positive
+	}		
+}
+
+burji_culture = {
+	language = highland_cushitic_dialect
+	
+	color = map_burji
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Cushitic-speaking Highland people practiced intensive agriculture in the fertile Ethiopian highlands.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The southern Ethiopian highland valleys supported productive enset and grain cultivation.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		
+	}		
+}
+
+gedeo_culture = {
+	language = highland_cushitic_dialect
+	
+	color = map_gedeo
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Cushitic-speaking Highland people practiced intensive agriculture in the fertile Ethiopian highlands.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The southern Ethiopian highland valleys supported productive enset and grain cultivation.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		
+	}		
+}
+
+hadiya_culture = { #https://en.wikipedia.org/wiki/Hadiya_people
+	language = highland_cushitic_dialect
+	
+	color = map_hadiya
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Cushitic-speaking Highland people practiced intensive agriculture in the fertile Ethiopian highlands.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The southern Ethiopian highland valleys supported productive enset and grain cultivation.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		
+	}		
+}
+
+harla_culture = { #https://en.wikipedia.org/wiki/Harla_people
+	language = ethiopic_language
+	
+	color = map_dawaro
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Harla were an ancient people of eastern Ethiopia, associated with the medieval Adal Sultanate and long-distance trade.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The Harar region was a crossroads of trade between the Ethiopian highlands and the Red Sea coast.
+		local_production_efficiency = 0.05
+	}
+	opinions = {
+		
+	}		
+}
+
+kambaata_culture = {
+	language = highland_cushitic_dialect
+	
+	color = map_kambaata
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Cushitic-speaking Highland people practiced intensive agriculture in the fertile Ethiopian highlands.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The southern Ethiopian highland valleys supported productive enset and grain cultivation.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		
+	}		
+}
+
+oromo_culture = { #https://en.wikipedia.org/wiki/Oromo_people
+	language = oromo_dialect
+	
+	color = map_afre
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Oromo were formidable mounted warriors whose great expansion in the 16th century transformed the Horn of Africa.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+		# The Oromo homeland's grasslands and highlands supported large herds of cattle and horses.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+		amhara = negative
+		tigre = negative
+		tigrinya = negative
+		somali_culture = positive
+	}		
+}
+
+sidama_culture = { #https://en.wikipedia.org/wiki/Sidama_people
+	language = highland_cushitic_dialect
+	
+	color = map_sidama
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Cushitic-speaking Highland people practiced intensive agriculture in the fertile Ethiopian highlands.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The southern Ethiopian highland valleys supported productive enset and grain cultivation.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		
+	}		
+}
+
+somali_culture = { #https://en.wikipedia.org/wiki/Somali_people
+	language = somali_dialect
+	
+	color = map_ajuran
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Somali controlled lucrative Indian Ocean trade routes, with Mogadishu and Zeila as major commercial ports.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+		# The semi-arid Somali regions supported pastoral camel and cattle herding alongside coastal trade.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+		
+	}		
+}
+
+daju_culture = { #https://en.wikipedia.org/wiki/Daju_people
+	language = daju_language
+	
+	color = map_daju
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Sudanese people practiced subsistence agriculture and herding in the hills of central Sudan.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The hilly terrain of the central Sudanese region provided natural defensive positions.
+		local_defensive = 0.1
+	}
+	opinions = {
+		
+	}		
+}
+
+dinka_culture = {
+	language = dinka_language
+	
+	color = map_dinka
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Nilotic cattle-herding people organized their entire society around cattle, which served as wealth, currency, and spiritual center.
+		global_livestock_output_modifier = 0.15
+	}
+
+	location_modifier = {
+		# The Sudd and White Nile floodplains provided rich seasonal grazing for enormous cattle herds.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+		
+	}		
+}
+
+otuho_culture = { #https://en.wikipedia.org/wiki/Otuho_people
+	language = lotuko_language
+	
+	color = map_otuho
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Nilotic/Surmic people practiced agro-pastoralism in the South Sudanese and Ethiopian borderlands.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The remote South Sudanese/Ethiopian borderlands were difficult terrain for outside powers to control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+		
+	}		
+}
+
+funj_culture = { 
+ 	language = egyptian_dialect
+	
+ 	color = map_funj
+	
+ 	tags = { nubian_gfx east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Funj Sultanate of Sennar was the most powerful state in the Nilotic Sudan, ruling from the Blue Nile confluence.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# The Blue and White Nile confluence region supported productive irrigated agriculture.
+		local_grain_output_modifier = 0.1
+	}
+ 	opinions = {
+		
+ 	}		
+}
+
+fur_culture = {
+ 	language = egyptian_dialect 
+	
+ 	color = map_darfur
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Fur people founded the Sultanate of Darfur, a major power of the western Sudan with a strong military tradition.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Jebel Marra highlands of Darfur received enough rainfall to support productive farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		
+ 	}		
+}
+
+gumuz_culture = { #https://en.wikipedia.org/wiki/Gumuz_people
+	language = egyptian_dialect 
+	
+	color = map_gumuz
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Gumuz were shifting cultivators of the Ethiopian-Sudanese lowlands, growing sorghum and other crops.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The hot, malarial lowlands of the Ethiopian-Sudanese border were dangerous for highland armies.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+		
+	}		
+}
+
+kunama_culture = { #https://en.wikipedia.org/wiki/Kunama_people#
+	language = egyptian_dialect 
+	
+	color = map_kunama
+	
+	tags = { nubian_gfx east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Kunama were settled farmers of the Eritrean-Ethiopian lowlands, cultivating sorghum and practicing apiculture.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Kunama lowlands supported sorghum cultivation in the Gash-Barka region.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		
+	}		
+}
+
+
+nuba = { #https://en.wikipedia.org/wiki/Nuba_peoples
+	language = nubian_language
+	
+	color = rgb { 49 102 80 }
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Nuba peoples of the Nuba Mountains were fierce defenders of their highland refuges against Sudanese raiders.
+		local_defensive = 0.1
+	}
+
+	location_modifier = {
+		# The Nuba Mountains provided natural fortress positions that resisted outside control for centuries.
+		local_defensive = 0.15
+	}
+	opinions = {
+		
+	}		
+}
+
+nyimang_culture = { #https://en.m.wikipedia.org/wiki/Nyimang_people
+	language = nubian_language
+	
+	color = map_nyimang
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Sudanese people practiced subsistence agriculture and herding in the hills of central Sudan.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The hilly terrain of the central Sudanese region provided natural defensive positions.
+		local_defensive = 0.1
+	}
+	opinions = {
+		
+	}		
+}
+
+kadu_culture = { #https://en.m.wikipedia.org/wiki/Kadu_languages
+	language = dinka_language
+	
+	color = map_kadu
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Sudanese people practiced subsistence agriculture and herding in the hills of central Sudan.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The hilly terrain of the central Sudanese region provided natural defensive positions.
+		local_defensive = 0.1
+	}
+	opinions = {
+		
+	}		
+}
+
+katla_culture = { #https://en.m.wikipedia.org/wiki/Katloid_languages
+	language = kordofan_language
+	
+	color = map_katla
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Sudanese people practiced subsistence agriculture and herding in the hills of central Sudan.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The hilly terrain of the central Sudanese region provided natural defensive positions.
+		local_defensive = 0.1
+	}
+	opinions = {
+		
+	}		
+}
+
+nubian = {
+	language = nubian_language
+	
+	color = map_alodia
+	
+	tags = { nubian_gfx east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Nubians were heirs to the ancient kingdoms of Kush and Meroe, maintaining Christian kingdoms until the 15th century.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# The Nubian Nile valley supported irrigated agriculture in a narrow fertile strip.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		
+	}		
+}
+
+tunjur_culture = { #https://en.wikipedia.org/wiki/Tunjur_people
+	language = egyptian_dialect
+	
+	color = map_tunjur
+	
+	tags = { nubian_gfx east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Tunjur established early sultanates in Darfur and Wadai before being displaced by the Fur and Maba.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Sahel grasslands of the Tunjur homeland supported pastoral herding.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+		
+	}		
+}
+
+nuer_culture = {
+	language = dinka_language
+	
+	color = map_nuer
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Nilotic cattle-herding people organized their entire society around cattle, which served as wealth, currency, and spiritual center.
+		global_livestock_output_modifier = 0.15
+	}
+
+	location_modifier = {
+		# The Sudd and White Nile floodplains provided rich seasonal grazing for enormous cattle herds.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+		
+	}		
+}
+
+seru_culture = { #Ancestors https://www.101lasttribes.com/tribes/sere.html
+	language = ubangian_language
+	
+	color = map_seru
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Nilotic/Surmic people practiced agro-pastoralism in the South Sudanese and Ethiopian borderlands.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The remote South Sudanese/Ethiopian borderlands were difficult terrain for outside powers to control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+		
+	}		
+}
+
+shilluk_culture = { #https://en.wikipedia.org/wiki/Shilluk_people
+	#https://ehrafworldcultures.yale.edu/cultures/fj23/summary
+	language = luo_language
+	
+	color = map_shilluk
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Shilluk maintained a divine kingship (Reth), one of the most sophisticated political systems among Nilotic peoples.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# The Shilluk kingdom along the White Nile practiced agriculture in the river's fertile floodplain.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		
+	}		
+}
+
+anuak_culture = {
+	language = luo_language
+	
+	color = map_anuak_culture
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Nilotic/Surmic people practiced agro-pastoralism in the South Sudanese and Ethiopian borderlands.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The remote South Sudanese/Ethiopian borderlands were difficult terrain for outside powers to control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+		
+	}		
+}
+
+moru_culture = { #https://en.wikipedia.org/wiki/Moru_people
+	language = moru_madi_language
+	
+	color = map_moru_culture
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Nilotic/Surmic people practiced agro-pastoralism in the South Sudanese and Ethiopian borderlands.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The remote South Sudanese/Ethiopian borderlands were difficult terrain for outside powers to control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+		
+	}		
+}
+
+zande_culture = { #https://en.wikipedia.org/wiki/Azande_people#Religion
+	language = ubangian_language
+	
+	color = map_zande_culture
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Zande were formidable warriors who built a powerful kingdom in the Congo-Nile watershed through military conquest.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Zande homeland's tropical forests and savannas supported productive agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+		
+	}		
+}
+
+berta_culture = {
+	language = dinka_language
+	
+	color = map_berta
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# The Berta were farmers and gold-washers of the Ethiopian-Sudanese borderlands.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Berta homeland in the Blue Nile headwaters region contained alluvial gold deposits.
+		local_iron_output_modifier = 0.1
+	}
+	opinions = {
+		
+	}		
+}
+
+surma_culture = {
+	language = dinka_language
+	
+	color = map_surma_culture
+	
+	tags = { east_african_gfx african_gfx }
+
+
+	country_modifier = {
+		# This Nilotic/Surmic people practiced agro-pastoralism in the South Sudanese and Ethiopian borderlands.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The remote South Sudanese/Ethiopian borderlands were difficult terrain for outside powers to control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+		
+	}		
+}

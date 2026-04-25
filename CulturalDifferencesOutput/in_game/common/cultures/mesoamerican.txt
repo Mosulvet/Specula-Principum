@@ -1,0 +1,1210 @@
+﻿purepecha_culture = { 
+	language = purepecha_language
+	
+	color = map_tarascan
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx purepecha_coa_gfx }
+
+
+	country_modifier = {
+		# The Purepecha (Tarascan) Empire was the only Mesoamerican state to successfully resist Aztec expansion, with superior metalworking.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Purepecha were the finest metalworkers in Mesoamerica, producing copper and bronze tools and weapons.
+		local_production_efficiency = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		purepecha_group
+	}
+}
+
+nahua_culture = { #https://en.wikipedia.org/wiki/Nahuas
+	language = nahuatl_language
+	
+	color = map_tenochca
+	
+	tags = { aztec_gfx native_american_tag south_american_gfx american_gfx aztec_coa_gfx }
+
+
+	country_modifier = {
+		# The Nahua/Aztec civilization built the Triple Alliance empire centered on Tenochtitlan, one of the world's largest cities by 1400.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# The chinampa floating gardens of the Valley of Mexico were among the most productive agricultural systems ever devised.
+		local_grain_output_modifier = 0.15
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		nahua_group
+	}
+}
+
+tolimec_culture = {
+	language = nahuatl_language
+	
+	color = map_tolimec
+	
+	tags = { aztec_gfx native_american_tag south_american_gfx american_gfx aztec_coa_gfx }
+
+
+	country_modifier = {
+		# This Nahua-related people practiced intensive maize agriculture in the central Mexican highlands.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The central Mexican valleys supported productive maize, bean, and squash cultivation.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		nahua_group
+	}
+}
+
+pochutec_culture = { #https://en.wikipedia.org/wiki/Pochutec_language
+	language = nahuatl_language
+	
+	color = map_pochutec
+	
+	tags = { aztec_gfx native_american_tag south_american_gfx american_gfx aztec_coa_gfx }
+
+
+	country_modifier = {
+		# This Nahua-related people practiced intensive maize agriculture in the central Mexican highlands.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The central Mexican valleys supported productive maize, bean, and squash cultivation.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		nahua_group
+	}
+}
+
+teco_culture = { 
+	language = nahuatl_language
+	
+	color = map_coliman
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx aztec_coa_gfx }
+
+
+	country_modifier = {
+		# This Nahua-related people practiced intensive maize agriculture in the central Mexican highlands.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The central Mexican valleys supported productive maize, bean, and squash cultivation.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+
+	culture_groups = {
+		nahua_group
+	}
+	
+}
+
+cuitlatec_culture = { #https://es.wikipedia.org/wiki/Idioma_cuitlateco
+	language = cuitlatec_language
+	
+	color = map_cuitlatec
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx aztec_coa_gfx }
+
+
+	country_modifier = {
+		# This Nahua-related people practiced intensive maize agriculture in the central Mexican highlands.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The central Mexican valleys supported productive maize, bean, and squash cultivation.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		cuitlatec_group
+	}
+}
+
+otomanguean_culture = { 
+	language = otopamean_language
+	
+	color = map_xaltocan
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx aztec_coa_gfx }
+
+
+	country_modifier = {
+		# The Otomi were among the earliest inhabitants of central Mexico, skilled farmers and warriors.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The semi-arid central Mexican plateau supported intensive maguey and maize cultivation.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		otopamean_group
+	}
+}
+
+matlatzinca_culture = { #https://es.wikipedia.org/wiki/Pueblo_matlatzinca
+	language = otopamean_language
+	
+	color = map_tollohcan
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx aztec_coa_gfx }
+
+
+	country_modifier = {
+		# The Matlatzinca were Valley of Toluca farmers, conquered but not fully subjugated by the Aztecs.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Valley of Toluca's high altitude supported productive maize farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		otopamean_group
+	}
+}
+
+mephaa_culture = { #https://en.wikipedia.org/wiki/Tlapanec_language
+	language = otopamean_language
+	
+	color = map_tlapanec
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx aztec_coa_gfx }
+
+
+	country_modifier = {
+		# This southern Mexican indigenous people practiced maize agriculture in the mountains and valleys of Oaxaca and Guerrero.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The mountainous terrain of southern Mexico supported terraced and milpa agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		otopamean_group
+	}
+}
+
+amuzgo_culture = { #https://es.wikipedia.org/wiki/Pueblo_amuzgo
+	language = eastern_otomanguean_language
+	
+	color = map_amuzgo
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx aztec_coa_gfx }
+
+
+	country_modifier = {
+		# This southern Mexican indigenous people practiced maize agriculture in the mountains and valleys of Oaxaca and Guerrero.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The mountainous terrain of southern Mexico supported terraced and milpa agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		eastern_otomanguean_group
+	}
+}
+
+popoloca_culture = { #https://en.wikipedia.org/wiki/Popoloca_languages
+	language = eastern_otomanguean_language
+	
+	color = map_popoloca
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx aztec_coa_gfx mixtec_coa_gfx }
+
+
+	country_modifier = {
+		# This southern Mexican indigenous people practiced maize agriculture in the mountains and valleys of Oaxaca and Guerrero.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The mountainous terrain of southern Mexico supported terraced and milpa agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		eastern_otomanguean_group
+	}
+}
+
+mixtec_culture = { 
+	language = eastern_otomanguean_language
+	
+	color = map_mixtec
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx mixtec_coa_gfx }
+
+
+	country_modifier = {
+		# The Mixtec were the finest goldsmiths and artisans in Mesoamerica, their metalwork and codices unrivaled.
+		global_production_efficiency = 0.1
+	}
+
+	location_modifier = {
+		# The Mixtec highlands of Oaxaca supported artisan production that was prized across Mesoamerica.
+		local_production_efficiency = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		eastern_otomanguean_group
+	}
+}
+
+zapotec_culture = { #https://en.wikipedia.org/wiki/Zapotec_civilization
+	language = eastern_otomanguean_language
+	
+	color = map_zapotec
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx mixtec_coa_gfx }
+
+
+	country_modifier = {
+		# The Zapotec built Monte Alban, one of the earliest urban centers in the Americas, and maintained a sophisticated civilization for millennia.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# The Valley of Oaxaca was one of Mesoamerica's most productive agricultural regions.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		eastern_otomanguean_group
+	}
+}
+
+totonac_culture = { #https://en.wikipedia.org/wiki/Totonac
+	language = totozoquean_language
+	
+	color = map_totonac
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx totonac_coa_gfx }
+
+
+	country_modifier = {
+		# The Totonac controlled the fertile Veracruz coast, producing vanilla and cacao for Mesoamerican trade networks.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The Gulf Coast lowlands of Veracruz were highly productive tropical agricultural lands.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		totozoquean_group
+	}
+}
+
+tlaxcaltec_culture = { 
+	language = nahuatl_language
+	
+	color = map_tlaxcallan
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx aztec_coa_gfx }
+
+
+	country_modifier = {
+		# The Tlaxcaltec were the fiercest rivals of the Aztecs, their warrior republic never conquered despite being surrounded.
+		army_infantry_power = 0.1
+	}
+
+	location_modifier = {
+		# The Tlaxcala valley supported intensive agriculture despite Aztec trade blockades.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+
+	culture_groups = {
+		nahua_group
+	}
+	
+}
+
+pame_culture = { 
+	language = otopamean_language
+	
+	color = map_pame
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx aztec_coa_gfx chichimec_coa_gfx }
+
+
+	country_modifier = {
+		# This Chichimec people of northern Mexico were semi-nomadic hunter-warriors, fierce and difficult to subjugate.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid northern Mexican deserts and mountains were harsh terrain that resisted outside control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		otopamean_group
+	}
+}
+
+tonala_culture = { #https://en.wikipedia.org/wiki/Tecuexe
+	language = nahuatl_language
+	
+	color = map_tonala
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx aztec_coa_gfx }
+
+
+	country_modifier = {
+		# This Chichimec people of northern Mexico were semi-nomadic hunter-warriors, fierce and difficult to subjugate.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid northern Mexican deserts and mountains were harsh terrain that resisted outside control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+
+	culture_groups = {
+		nahua_group
+	}
+	
+}
+
+tepecan_culture = { 
+	language = tepiman_language
+	
+	color = map_tepecan
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx aztec_coa_gfx chichimec_coa_gfx }
+
+
+	country_modifier = {
+		# This Chichimec people of northern Mexico were semi-nomadic hunter-warriors, fierce and difficult to subjugate.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid northern Mexican deserts and mountains were harsh terrain that resisted outside control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		yutonahua_group
+	}
+}
+
+caxcan_culture = { #https://es.wikipedia.org/wiki/Caxc%C3%A1n
+	language = corachol_language
+	
+	color = map_teulinchan
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx aztec_coa_gfx chichimec_coa_gfx }
+
+
+	country_modifier = {
+		# This Chichimec people of northern Mexico were semi-nomadic hunter-warriors, fierce and difficult to subjugate.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid northern Mexican deserts and mountains were harsh terrain that resisted outside control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		yutonahua_group
+	}
+}
+
+zacatecah_culture = { #https://en.wikipedia.org/wiki/Zacateco
+	language = corachol_language
+	
+	color = map_zacatecah
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx chichimec_coa_gfx }
+
+
+	country_modifier = {
+		# This Chichimec people of northern Mexico were semi-nomadic hunter-warriors, fierce and difficult to subjugate.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid northern Mexican deserts and mountains were harsh terrain that resisted outside control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		yutonahua_group
+	}
+}
+
+guamar_culture = { 
+	language = otopamean_language
+	
+	color = map_guamar
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx aztec_coa_gfx chichimec_coa_gfx }
+
+
+	country_modifier = {
+		# This Chichimec people of northern Mexico were semi-nomadic hunter-warriors, fierce and difficult to subjugate.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid northern Mexican deserts and mountains were harsh terrain that resisted outside control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		otopamean_group
+	}
+}
+
+guachichil_culture = { #https://en.wikipedia.org/wiki/Guachichil
+	language = corachol_language
+	
+	color = map_guachichil
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx chichimec_coa_gfx }
+
+
+	country_modifier = {
+		# This Chichimec people of northern Mexico were semi-nomadic hunter-warriors, fierce and difficult to subjugate.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid northern Mexican deserts and mountains were harsh terrain that resisted outside control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		yutonahua_group
+	}
+}
+
+sauzas_culture = { #The Sauzas are also Guachichil https://es.wikipedia.org/wiki/Sauzas
+	language = corachol_language
+	
+	color = map_sauzas
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx aztec_coa_gfx chichimec_coa_gfx }
+
+
+	country_modifier = {
+		# This Chichimec people of northern Mexico were semi-nomadic hunter-warriors, fierce and difficult to subjugate.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid northern Mexican deserts and mountains were harsh terrain that resisted outside control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		yutonahua_group
+	}
+}
+
+iztachichimecah_culture = { 
+	language = otopamean_language
+	
+	color = map_iztachichimecah
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx aztec_coa_gfx chichimec_coa_gfx }
+
+
+	country_modifier = {
+		# This Chichimec people of northern Mexico were semi-nomadic hunter-warriors, fierce and difficult to subjugate.
+		land_morale = 0.05
+	}
+
+	location_modifier = {
+		# The arid northern Mexican deserts and mountains were harsh terrain that resisted outside control.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		otopamean_group
+	}
+}
+
+toltec_culture = { #https://en.wikipedia.org/wiki/Toltec
+	language = nahuatl_language
+	
+	color = map_toltec
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx aztec_coa_gfx }
+
+	country_modifier = {
+		# This Nahua-related people practiced intensive maize agriculture in the central Mexican highlands.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The central Mexican valleys supported productive maize, bean, and squash cultivation.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		yutonahua_group
+	}
+}
+
+ikoot_culture = { #https://es.wikipedia.org/wiki/Ikoots
+	language = totozoquean_language
+	
+	color = map_ikoot
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx mixtec_coa_gfx }
+
+	country_modifier = {
+		# This southern Mexican indigenous people practiced maize agriculture in the mountains and valleys of Oaxaca and Guerrero.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The mountainous terrain of southern Mexico supported terraced and milpa agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		totozoquean_group
+	}
+}
+
+zoque_culture = { #https://es.wikipedia.org/wiki/Zoque_(etnia)
+	language = totozoquean_language
+	
+	color = map_zoque
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx mixtec_coa_gfx }
+
+	country_modifier = {
+		# This southern Mexican indigenous people practiced maize agriculture in the mountains and valleys of Oaxaca and Guerrero.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The mountainous terrain of southern Mexico supported terraced and milpa agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		totozoquean_group
+	}
+}
+
+mixe_culture = { #https://en.wikipedia.org/wiki/Mixe_languages
+	language = totozoquean_language
+	
+	color = map_mixe
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx mixtec_coa_gfx }
+
+	country_modifier = {
+		# This southern Mexican indigenous people practiced maize agriculture in the mountains and valleys of Oaxaca and Guerrero.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The mountainous terrain of southern Mexico supported terraced and milpa agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		totozoquean_group
+	}
+}
+
+#------Maya----
+qeqchi_culture = { #https://en.wikipedia.org/wiki/Q%CA%BCeqchi%CA%BC
+	language = maya_language
+
+	color = map_qeqchi
+
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx maya_coa_gfx }
+
+	country_modifier = {
+		# This Maya-speaking people maintained the agricultural and cultural traditions of one of the Americas' greatest civilizations.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Maya homeland's tropical soils supported productive maize agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+
+	culture_groups = {
+		maya_group
+	}
+}
+
+chorti_culture = { #https://es.wikipedia.org/wiki/Chort%C3%ADs
+	language = maya_language
+
+	color = map_chorti
+
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx maya_coa_gfx }
+
+	country_modifier = {
+		# This Maya-speaking people maintained the agricultural and cultural traditions of one of the Americas' greatest civilizations.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Maya homeland's tropical soils supported productive maize agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+
+	culture_groups = {
+		maya_group
+	}
+}
+
+chontal_culture = { #Yoko t'aanob #https://es.wikipedia.org/wiki/Chontales_de_Tabasco
+	language = chontal_language
+	
+	color = map_chontal
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx maya_coa_gfx }
+
+	country_modifier = {
+		# This Maya-speaking people maintained the agricultural and cultural traditions of one of the Americas' greatest civilizations.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Maya homeland's tropical soils supported productive maize agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		maya_group
+	}
+}
+
+poqom_culture = { #https://en.wikipedia.org/wiki/Poqomam_people
+	language = maya_language
+	
+	color = map_poqom
+	
+	tags = { aztec_gfx native_american_tag south_american_gfx american_gfx maya_coa_gfx }
+	
+
+	country_modifier = {
+		# This Maya-speaking people maintained the agricultural and cultural traditions of one of the Americas' greatest civilizations.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Maya homeland's tropical soils supported productive maize agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		maya_group
+	}
+}
+
+mache_culture = { #https://en.wikipedia.org/wiki/Manche_Ch%CA%BCol
+	language = maya_language
+	
+	color = map_mache
+	
+	tags = { aztec_gfx native_american_tag south_american_gfx american_gfx maya_coa_gfx }
+	
+
+	country_modifier = {
+		# This Maya-speaking people maintained the agricultural and cultural traditions of one of the Americas' greatest civilizations.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Maya homeland's tropical soils supported productive maize agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		maya_group
+	}
+}
+
+
+kaqchikel_culture = { #https://en.wikipedia.org/wiki/Kaqchikel_people
+	language = maya_language
+	
+	color = map_kaqchikel
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx maya_coa_gfx }
+
+	country_modifier = {
+		# The Kaqchikel were powerful highland Maya warriors who rivaled the K'iche' for dominance of Guatemala.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Kaqchikel homeland around Lake Atitlan had rich volcanic soils for agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		maya_group
+	}
+}
+
+mam_culture = { #https://es.wikipedia.org/wiki/Mam_(etnia)
+	language = maya_language
+	
+	color = map_mam
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx maya_coa_gfx }
+
+	country_modifier = {
+		# This Maya-speaking people maintained the agricultural and cultural traditions of one of the Americas' greatest civilizations.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Maya homeland's tropical soils supported productive maize agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		maya_group
+	}
+}
+
+itza_culture = { #https://en.wikipedia.org/wiki/Itza_people
+	language = maya_language
+	
+	color = map_itza
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx maya_coa_gfx }
+
+	country_modifier = {
+		# The Itza Maya maintained the independent kingdom of Nojpeten, the last unconquered Maya state.
+		trade_efficiency = 0.05
+	}
+
+	location_modifier = {
+		# The Peten lake district's soils supported productive Maya agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		maya_group
+	}
+}
+
+putun_culture = { #https://es.wikipedia.org/wiki/Put%C3%BAn
+	language = maya_language
+	
+	color = map_putun
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx maya_coa_gfx }
+
+	country_modifier = {
+		# The Putun (Chontal) Maya were the greatest maritime traders of Mesoamerica, controlling coastal canoe trade networks.
+		global_sailors_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Tabasco and Campeche coast supported both fishing and maritime trade.
+		local_fish_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		maya_group
+	}
+}
+
+
+kowoj_culture = { #https://en.wikipedia.org/wiki/Kowoj
+	language = maya_language
+	
+	color = map_kowoj
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx maya_coa_gfx }
+
+	country_modifier = {
+		# This Maya-speaking people maintained the agricultural and cultural traditions of one of the Americas' greatest civilizations.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Maya homeland's tropical soils supported productive maize agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		maya_group
+	}
+}
+
+mopan_culture = { #https://en.wikipedia.org/wiki/Mopan_people
+	language = maya_language
+	
+	color = map_mopan
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx maya_coa_gfx }
+
+	country_modifier = {
+		# This Maya-speaking people maintained the agricultural and cultural traditions of one of the Americas' greatest civilizations.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Maya homeland's tropical soils supported productive maize agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		maya_group
+	}
+}
+
+chol_culture = { #Chʼol #https://en.wikipedia.org/wiki/Ch%CA%BCol_people
+	language = maya_language
+	
+	color = map_chol
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx maya_coa_gfx }
+
+	country_modifier = {
+		# This Maya-speaking people maintained the agricultural and cultural traditions of one of the Americas' greatest civilizations.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Maya homeland's tropical soils supported productive maize agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		maya_group
+	}
+}
+
+tojolabal_culture = { #https://en.wikipedia.org/wiki/Tojolabal_people
+	language = maya_language
+	
+	color = map_tojolabal
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx maya_coa_gfx }
+
+	country_modifier = {
+		# This Maya-speaking people maintained the agricultural and cultural traditions of one of the Americas' greatest civilizations.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Maya homeland's tropical soils supported productive maize agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		maya_group
+	}
+}
+
+tzutujil_culture = { #https://es.wikipedia.org/wiki/Zutuhil
+	language = maya_language
+	
+	color = map_tzutujil
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx maya_coa_gfx }
+
+	country_modifier = {
+		# This Maya-speaking people maintained the agricultural and cultural traditions of one of the Americas' greatest civilizations.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Maya homeland's tropical soils supported productive maize agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		maya_group
+	}
+}
+
+qanjobal_culture = { #Q'anjob'al #https://es.wikipedia.org/wiki/Q%27anjob%27al_(etnia)
+	language = maya_language
+	
+	color = map_qanjobal
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx maya_coa_gfx }
+
+	country_modifier = {
+		# This Maya-speaking people maintained the agricultural and cultural traditions of one of the Americas' greatest civilizations.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Maya homeland's tropical soils supported productive maize agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		maya_group
+	}
+}
+
+kiche_culture = { #k'iche' #https://es.wikipedia.org/wiki/Quich%C3%A9_(etnia)
+	language = maya_language
+	
+	color = map_kiche
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx maya_coa_gfx }
+
+	country_modifier = {
+		# The K'iche' Maya built the most powerful highland Maya kingdom, ruling from Q'umarkaj with a strong military.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Guatemalan highlands supported intensive maize agriculture in fertile volcanic soils.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		maya_group
+	}
+}
+
+yucatec_culture = { #maaya #https://es.wikipedia.org/wiki/Idioma_maya
+	language = maya_language
+	
+	color = map_yucatec
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx maya_coa_gfx }
+
+	country_modifier = {
+		# The Yucatec Maya maintained city-states like Mayapan, heirs to the greatest intellectual tradition in the pre-Columbian Americas.
+		prestige = 5
+	}
+
+	location_modifier = {
+		# The Yucatan's limestone terrain supported milpa agriculture and the production of henequen fiber.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		maya_group
+	}
+}
+
+toquegua_culture = { #https://en.wikipedia.org/wiki/Toquegua
+	language = maya_language
+	
+	color = map_toquegua
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx maya_coa_gfx }
+
+	country_modifier = {
+		# This Maya-speaking people maintained the agricultural and cultural traditions of one of the Americas' greatest civilizations.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Maya homeland's tropical soils supported productive maize agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		maya_group
+	}
+}
+
+tzeltal_culture = { #Winik Atel #https://en.wikipedia.org/wiki/Tzeltal_people
+	language = maya_language
+	
+	color = map_tzeltal
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx maya_coa_gfx }
+
+	country_modifier = {
+		# This Maya-speaking people maintained the agricultural and cultural traditions of one of the Americas' greatest civilizations.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Maya homeland's tropical soils supported productive maize agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		maya_group
+	}
+}
+
+tzotzil_culture = { #Sotz'leb #https://en.wikipedia.org/wiki/Tzeltal_people
+	language = maya_language
+	
+	color = map_tzotzil
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx maya_coa_gfx }
+
+	country_modifier = {
+		# This Maya-speaking people maintained the agricultural and cultural traditions of one of the Americas' greatest civilizations.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Maya homeland's tropical soils supported productive maize agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		maya_group
+	}
+}
+
+huastec_culture = { 
+	language = maya_language
+	
+	color = map_huastec
+	
+	tags = { native_american_tag south_american_gfx american_gfx aztec_gfx huastec_coa_gfx }
+
+	country_modifier = {
+		# The Huastec were a Maya-speaking people isolated in northeastern Mexico, developing a distinct cultural tradition.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Huastec Gulf Coast lowlands supported productive tropical agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	
+	culture_groups = {
+		maya_group
+	}
+}
+#------------
+
+

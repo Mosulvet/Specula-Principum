@@ -1,0 +1,1220 @@
+﻿tsatsaotine_culture = { 
+	language = nadene_language
+	
+	color = map_tsatsaotine
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Dene (Athabaskan) people were hunters and trappers of the northern forests, following caribou herds.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The vast subarctic boreal forests were extremely harsh terrain for outsiders.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	culture_groups = {
+		nadene_group
+	}
+}
+
+tlicho_culture = { 
+	language = nadene_language
+	
+	color = map_tlicho
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Dene (Athabaskan) people were hunters and trappers of the northern forests, following caribou herds.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The vast subarctic boreal forests were extremely harsh terrain for outsiders.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	culture_groups = {
+		nadene_group
+	}
+}
+
+dehcho_culture = { 
+	language = nadene_language
+	
+	color = map_dehcho
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Dene (Athabaskan) people were hunters and trappers of the northern forests, following caribou herds.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The vast subarctic boreal forests were extremely harsh terrain for outsiders.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	culture_groups = {
+		nadene_group
+	}
+}
+
+danezaa_culture = { 
+	language = nadene_language
+	
+	color = map_danezaa
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Dene (Athabaskan) people were hunters and trappers of the northern forests, following caribou herds.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The vast subarctic boreal forests were extremely harsh terrain for outsiders.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	culture_groups = {
+		nadene_group
+	}
+}
+
+nihithaw_culture = { 
+	language = cree_language
+	
+	color = map_nihithaw
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+
+
+	country_modifier = {
+		# This Cree/Algonquian people were hunters and fishermen of the northern forests and prairies.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The vast boreal forests and tundra provided natural barriers against outside forces.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		cree_group
+	}
+}
+
+matiyinini_culture = { 
+	language = cree_language
+	
+	color = map_matiyinini
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+
+
+	country_modifier = {
+		# This Cree/Algonquian people were hunters and fishermen of the northern forests and prairies.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The vast boreal forests and tundra provided natural barriers against outside forces.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		cree_group
+	}
+}
+
+mahmikiwini_culture = { 
+	language = cree_language
+	
+	color = map_mahmikiwini
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+
+
+	country_modifier = {
+		# This Cree/Algonquian people were hunters and fishermen of the northern forests and prairies.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The vast boreal forests and tundra provided natural barriers against outside forces.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		cree_group
+	}
+}
+
+nakoda_culture = { 
+	language = dakota_language
+	
+	color = map_nakoda
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# The Nakoda (Assiniboine) were Plains warriors and bison hunters allied with the Cree.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+		# The northern Plains grasslands supported bison herds hunted by the Nakoda.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		dakota_group
+	}
+}
+
+tsuutina_culture = { 
+	language = nadene_language
+	
+	color = map_tsuutina
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Dene (Athabaskan) people were hunters and trappers of the northern forests, following caribou herds.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The vast subarctic boreal forests were extremely harsh terrain for outsiders.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	culture_groups = {
+		nadene_group
+	}
+}
+
+haaninin_culture = { 
+	language = hinonoeitiit_language
+	
+	color = map_haaninin
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Plains warrior culture fielded formidable fighters, with military traditions centered on raiding and warfare.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Great Plains supported vast bison herds that were the foundation of the Plains economy.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		hinonoeitiit_group
+	}
+}
+
+denesoline_culture = { 
+	language = nadene_language
+	
+	color = map_denesoline
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Dene (Athabaskan) people were hunters and trappers of the northern forests, following caribou herds.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The vast subarctic boreal forests were extremely harsh terrain for outsiders.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	culture_groups = {
+		nadene_group
+	}
+}
+
+ashalaho_culture = { 
+	language = apsaalooke_hiraaca_language
+	
+	color = map_ashalaho
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Plains warrior culture fielded formidable fighters, with military traditions centered on raiding and warfare.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Great Plains supported vast bison herds that were the foundation of the Plains economy.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		apsaalooke_hiraaca_group
+	}
+}
+
+ashshipite_culture = { 
+	language = apsaalooke_hiraaca_language
+	
+	color = map_ashshipite
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Plains warrior culture fielded formidable fighters, with military traditions centered on raiding and warfare.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Great Plains supported vast bison herds that were the foundation of the Plains economy.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		apsaalooke_hiraaca_group
+	}
+}
+
+tsetsehesahese_culture = { 
+	language = tsehesenestsestotse_language
+	
+	color = map_tsetsehesahese
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Plains warrior culture fielded formidable fighters, with military traditions centered on raiding and warfare.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Great Plains supported vast bison herds that were the foundation of the Plains economy.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		tsehesenestsestotse_group
+	}
+}
+
+sotaeoo_culture = { 
+	language = tsehesenestsestotse_language
+	
+	color = map_sotaeoo
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Plains warrior culture fielded formidable fighters, with military traditions centered on raiding and warfare.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Great Plains supported vast bison herds that were the foundation of the Plains economy.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		tsehesenestsestotse_group
+	}
+}
+
+lahkota_culture = { 
+	language = dakota_language
+	
+	color = map_lahkota
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# The Lakota Sioux were among the most formidable warriors of the Great Plains, dominating the northern buffalo ranges.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+		# The northern Great Plains supported enormous bison herds central to Lakota life.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		dakota_group
+	}
+}
+
+ithanktunwan_culture = { 
+	language = dakota_language
+	
+	color = map_ithanktunwan
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Plains warrior culture fielded formidable fighters, with military traditions centered on raiding and warfare.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Great Plains supported vast bison herds that were the foundation of the Plains economy.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		dakota_group
+	}
+}
+
+ithanktunwanna_culture = { 
+	language = dakota_language
+	
+	color = map_ithanktunwanna
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Plains warrior culture fielded formidable fighters, with military traditions centered on raiding and warfare.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+		# The Great Plains supported vast bison herds that were the foundation of the Plains economy.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		dakota_group
+	}
+}
+
+nanwuinenan_culture = { 
+	language = hinonoeitiit_language
+	
+	color = map_nanwuinenan
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Comanche band became the dominant military power of the southern Plains, their mounted warfare skills unmatched.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+		# The southern Plains supported bison herds and horse herding for the Comanche.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		hinonoeitiit_group
+	}
+}
+
+hinonoeino_culture = { 
+	language = hinonoeitiit_language
+	
+	color = map_hinonoeino
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# The Arapaho were formidable Plains warriors and traders, allied with the Cheyenne.
+		army_cavalry_power = 0.05
+	}
+
+	location_modifier = {
+		# The central Plains supported bison herds central to Arapaho subsistence.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		hinonoeitiit_group
+	}
+}
+
+hupe_culture = { 
+	language = shoshoni_language
+	
+	color = map_hupe
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Comanche band became the dominant military power of the southern Plains, their mounted warfare skills unmatched.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+		# The southern Plains supported bison herds and horse herding for the Comanche.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		hinonoeitiit_group
+	}
+}
+
+yapahruka_culture = { 
+	language = shoshoni_language
+	
+	color = map_yamparika
+	 
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Comanche band became the dominant military power of the southern Plains, their mounted warfare skills unmatched.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+		# The southern Plains supported bison herds and horse herding for the Comanche.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		shoshoni_group
+	}
+}
+
+kuhtsutuuka_culture = { 
+	language = shoshoni_language
+	
+	color = map_kotsoteka
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Comanche band became the dominant military power of the southern Plains, their mounted warfare skills unmatched.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+		# The southern Plains supported bison herds and horse herding for the Comanche.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		shoshoni_group
+	}
+}
+
+tawakoni_culture = { 
+	language = caddoan_language
+	
+	color = map_tawakoni
+	
+ 	tags = { north_american_gfx american_gfx }
+		
+
+	country_modifier = {
+		# This Wichita-related people combined bison hunting with settled farming of maize, beans, and squash.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The river valleys of the southern Plains supported farming alongside bison hunting.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+}
+
+kitikitish_culture = { 
+	language = caddoan_language
+	
+	color = map_kitikitish
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Wichita-related people combined bison hunting with settled farming of maize, beans, and squash.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The river valleys of the southern Plains supported farming alongside bison hunting.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		caddoan_group
+	}
+}
+
+cayas_culture = { 
+	language = caddoan_language
+	
+	color = map_cayas
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Wichita-related people combined bison hunting with settled farming of maize, beans, and squash.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The river valleys of the southern Plains supported farming alongside bison hunting.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		caddoan_group
+	}
+}
+
+taovaya_culture = { 
+	language = caddoan_language
+	
+	color = map_taovaya
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Wichita-related people combined bison hunting with settled farming of maize, beans, and squash.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The river valleys of the southern Plains supported farming alongside bison hunting.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		caddoan_group
+	}
+}
+
+kaigwu_culture = { 
+	language = tanoan_language
+	
+	color = map_kaigwu
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+
+
+	country_modifier = {
+		# The Kiowa were elite mounted warriors of the southern Plains, renowned for their raiding prowess.
+		army_cavalry_power = 0.1
+	}
+
+	location_modifier = {
+		# The southern Plains supported bison hunting and horse herding for the Kiowa.
+		local_livestock_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		tanoan_group
+	}
+}
+
+skiri_culture = { 
+	language = caddoan_language
+	
+	color = map_skiri
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# The Pawnee were settled farmer-warriors of the central Plains, cultivating maize and hunting bison seasonally.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Loup and Platte River valleys supported productive Pawnee farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		caddoan_group
+	}
+}
+
+tsawi_culture = { #https://en.wikipedia.org/wiki/Pawnee_people
+	language = caddoan_language
+	
+	color = map_tsawi
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# The Pawnee were settled farmer-warriors of the central Plains, cultivating maize and hunting bison seasonally.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Loup and Platte River valleys supported productive Pawnee farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		caddoan_group
+	}
+}
+
+pitahwarita_culture = { 
+	language = caddoan_language
+	
+	color = map_pitahwarita
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# The Pawnee were settled farmer-warriors of the central Plains, cultivating maize and hunting bison seasonally.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Loup and Platte River valleys supported productive Pawnee farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		caddoan_group
+	}
+}
+
+kitkehaki_culture = { 
+	language = caddoan_language
+	
+	color = map_kitkehaki
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# The Pawnee were settled farmer-warriors of the central Plains, cultivating maize and hunting bison seasonally.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Loup and Platte River valleys supported productive Pawnee farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		caddoan_group
+	}
+}
+
+sahnish_culture = { 
+	language = caddoan_language
+	
+	color = map_sahnish
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# The Arikara were skilled farmers of the Missouri River, growing maize, squash, and beans in fortified villages.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Missouri River bottomlands supported productive Arikara agriculture.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		caddoan_group
+	}
+}
+
+nueta_culture = { 
+	language = apsaalooke_hiraaca_language
+	
+	color = map_nueta
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# The Mandan were the greatest traders of the northern Plains, their villages serving as a continental trade hub.
+		trade_efficiency = 0.1
+	}
+
+	location_modifier = {
+		# The Mandan Missouri River villages supported intensive maize agriculture and inter-tribal trade.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		apsaalooke_hiraaca_group
+	}
+}
+
+hiraaca_culture = { 
+	language = apsaalooke_hiraaca_language
+	
+	color = map_hiraaca
+	
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# The Hidatsa were skilled farmer-warriors of the Missouri River, closely allied with the Mandan.
+		global_grain_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Missouri River bottomlands supported productive Hidatsa farming.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		apsaalooke_hiraaca_group
+	}
+}
+
+yazoo_culture = { 
+	language = natchez_language
+	
+	color = map_yazoo
+	
+	tags = { native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Lower Mississippi people practiced farming and fishing in the fertile river bottomlands.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Mississippi River floodplain supported productive farming for riverside communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		natchez_group
+	}
+}
+
+koroa_culture = { 
+	language = natchez_language
+	
+	color = map_koroa
+	
+	tags = { native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Lower Mississippi people practiced farming and fishing in the fertile river bottomlands.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Mississippi River floodplain supported productive farming for riverside communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		natchez_group
+	}
+}
+
+tiou_culture = { 
+	language = natchez_language
+	
+	color = map_tiou
+	
+	tags = { native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Lower Mississippi people practiced farming and fishing in the fertile river bottomlands.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Mississippi River floodplain supported productive farming for riverside communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		natchez_group
+	}
+}
+
+chitimacha_culture = { #https://en.wikipedia.org/wiki/Chitimacha
+	language = chitimacha_language
+	
+	color = map_chitimacha
+	
+	tags = { native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Lower Mississippi people practiced farming and fishing in the fertile river bottomlands.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Mississippi River floodplain supported productive farming for riverside communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chitimacha_group
+	}
+}
+
+bayagoula_culture = { #https://en.wikipedia.org/wiki/Bayogoula
+	language = chitimacha_language #Unknown language, using Chitimacha as a placeholder
+	
+	color = map_bayagoula
+	
+	tags = { native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Lower Mississippi people practiced farming and fishing in the fertile river bottomlands.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Mississippi River floodplain supported productive farming for riverside communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		chitimacha_group
+	}
+}
+
+avoyel_culture = { 
+	language = natchez_language
+	
+	color = map_avoyel
+	
+	tags = { native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Lower Mississippi people practiced farming and fishing in the fertile river bottomlands.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Mississippi River floodplain supported productive farming for riverside communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		natchez_group
+	}
+}
+
+tula_culture = { 
+	language = caddoan_language
+	
+	color = map_tula
+	
+	tags = { native_american_tag north_american_gfx american_gfx gulf_mississippi_coa_gfx }
+
+
+	country_modifier = {
+		# This Lower Mississippi people practiced farming and fishing in the fertile river bottomlands.
+		global_grain_output_modifier = 0.05
+	}
+
+	location_modifier = {
+		# The Mississippi River floodplain supported productive farming for riverside communities.
+		local_grain_output_modifier = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		caddoan_group
+	}
+}
+
+asinikawithini_culture = { 
+	language = cree_language
+	
+	color = map_asinikawithini
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+
+
+	country_modifier = {
+		# This Cree/Algonquian people were hunters and fishermen of the northern forests and prairies.
+		global_livestock_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The vast boreal forests and tundra provided natural barriers against outside forces.
+		local_hostile_attrition = 0.1
+	}
+	opinions = {
+	}
+	culture_groups = {
+		cree_group
+	}
+}
+
+inuit_culture = { #https://en.wikipedia.org/wiki/Inuit_culture
+	language = inuit_language
+	
+	color = map_inuit
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+
+
+	country_modifier = {
+		# The Inuit were master Arctic hunters, surviving in the harshest inhabited environment on Earth through ingenious adaptation.
+		global_fish_output_modifier = 0.1
+	}
+
+	location_modifier = {
+		# The Arctic tundra was the most extreme climate inhabited by humans, lethal to unprepared outsiders.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	culture_groups = {
+		inuit_group
+	}
+}
+
+tinde_culture = { 
+	language = nadene_language
+	
+	color = map_tinde
+
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Apache band were fierce raiders and warriors of the American Southwest, masters of guerrilla warfare.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The rugged desert mountains and canyons of Apacheria were ideal terrain for Apache guerrilla tactics.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	culture_groups = {
+		nadene_group
+	}
+}
+
+hende_culture = { #Chiricahua Apache
+	language = nadene_language
+	
+	color = map_hende
+
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Apache band were fierce raiders and warriors of the American Southwest, masters of guerrilla warfare.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The rugged desert mountains and canyons of Apacheria were ideal terrain for Apache guerrilla tactics.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	culture_groups = {
+		nadene_group
+	}
+}
+
+naadahende_culture = { #Mescalero Apache
+	language = nadene_language
+	
+	color = map_naadahende
+
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Apache band were fierce raiders and warriors of the American Southwest, masters of guerrilla warfare.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The rugged desert mountains and canyons of Apacheria were ideal terrain for Apache guerrilla tactics.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	culture_groups = {
+		nadene_group
+	}
+}
+
+lepai_nde_culture = { #Lipan Apache
+	language = nadene_language
+	
+	color = map_lepai_nde
+
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Apache band were fierce raiders and warriors of the American Southwest, masters of guerrilla warfare.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The rugged desert mountains and canyons of Apacheria were ideal terrain for Apache guerrilla tactics.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	culture_groups = {
+		nadene_group
+	}
+}
+
+yattinde_culture = { #Plains Apache
+	language = nadene_language
+	
+	color = map_yattinde
+
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Apache band were fierce raiders and warriors of the American Southwest, masters of guerrilla warfare.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The rugged desert mountains and canyons of Apacheria were ideal terrain for Apache guerrilla tactics.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	culture_groups = {
+		nadene_group
+	}
+}
+
+inde_culture = { #Western Apache
+	language = nadene_language
+	
+	color = map_inde
+
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Apache band were fierce raiders and warriors of the American Southwest, masters of guerrilla warfare.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The rugged desert mountains and canyons of Apacheria were ideal terrain for Apache guerrilla tactics.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	culture_groups = {
+		nadene_group
+	}
+}
+
+tickanwatic_culture = { #Tonkawa People. Language is a simplification to avoid a language isolate that would be impossible to populate for names. 
+	language = caddoan_language
+	
+	color = map_tickanwatic
+
+	tags = { native_american_tag north_american_gfx american_gfx central_plains_coa_gfx }
+
+
+	country_modifier = {
+		# This Apache band were fierce raiders and warriors of the American Southwest, masters of guerrilla warfare.
+		army_infantry_power = 0.05
+	}
+
+	location_modifier = {
+		# The rugged desert mountains and canyons of Apacheria were ideal terrain for Apache guerrilla tactics.
+		local_hostile_attrition = 0.15
+	}
+	opinions = {
+	}
+	culture_groups = {
+		caddoan_group
+	}
+}
