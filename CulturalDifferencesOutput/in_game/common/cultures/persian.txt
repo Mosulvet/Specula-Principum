@@ -37,7 +37,7 @@ farsi_culture = {
 
 	location_modifier = {
 # The great Persian cities of Isfahan, Shiraz, and Tabriz were centers of learning, poetry, and architectural achievement.
-		local_monthly_development = 0.03
+		local_monthly_development_modifier = 0.03
 	}
 
 	opinions = {
@@ -91,7 +91,7 @@ tajik_culture = {
 
 	location_modifier = {
 # Tajik artisans in the cities of Transoxiana produced fine silk, paper, and ceramics exported across the Islamic world.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 
 	opinions = {
@@ -119,7 +119,7 @@ adhari_culture = { # Tat people https://en.wikipedia.org/wiki/Tat_people_(Caucas
 
 	location_modifier = {
 # Adhari settlements combined agriculture with skilled craftsmanship in metalwork and textiles.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 
 	opinions = {
@@ -303,7 +303,7 @@ semnani_culture = {
 
 	location_modifier = {
 # Semnani settlements served as rest points and small manufacturing centers along the great eastern trade route.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 
 	opinions = {

@@ -12,7 +12,7 @@ czech = {
 
 	location_modifier = {
 # Prague under Charles IV was one of Europe's grandest cities, with a university, Gothic architecture, and thriving commerce.
-		local_monthly_development = 0.03
+		local_monthly_development_modifier = 0.03
 	}
 
 	opinions = {		

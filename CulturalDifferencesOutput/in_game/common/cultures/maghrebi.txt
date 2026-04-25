@@ -78,7 +78,7 @@ moroccan = {
 
 	location_modifier = {
 # Fez was famous for its leather-working, pottery, and textile production, with the Fez tanneries renowned across the Mediterranean.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 
 	opinions = {
@@ -112,7 +112,7 @@ tunisian = {
 
 	location_modifier = {
 # Tunis and its port were among the most developed urban centers in North Africa, rivaling Cairo in commercial significance.
-		local_monthly_development = 0.03
+		local_monthly_development_modifier = 0.03
 	}
 
 	opinions = {	
@@ -304,7 +304,7 @@ mozabite = {
 
 	location_modifier = {
 # The M'zab oasis valley sustained a productive economy based on date palm cultivation and skilled craftsmanship.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 
 	opinions = {

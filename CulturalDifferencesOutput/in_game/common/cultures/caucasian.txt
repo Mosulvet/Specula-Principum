@@ -14,7 +14,7 @@ armenian_culture = { #https://en.wikipedia.org/wiki/Armenians
 
 	location_modifier = {
 # Armenian merchants formed one of the most important trading diasporas across the Middle East, linking Persia, India, and the Mediterranean.
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.05
 	}
 
 	culture_groups = {
@@ -251,7 +251,7 @@ dargin_culture = {
 	}		
 
     country_modifier = {
-		global_monthly_development = 0.002
+		global_monthly_development = 0.001
 	}
 
 	location_modifier = {

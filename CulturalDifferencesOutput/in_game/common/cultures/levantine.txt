@@ -62,7 +62,7 @@ levantine_culture = {
 
 	location_modifier = {
 # Damascus, Aleppo, and the Levantine port cities were among the most developed urban centers of the Islamic world.
-		local_monthly_development = 0.03
+		local_monthly_development_modifier = 0.03
 	}
 
 	opinions = {
@@ -87,7 +87,7 @@ mandean_culture = {
 
 	location_modifier = {
 # Mandean communities were renowned silversmiths and boat-builders in the marshlands of the Tigris-Euphrates delta.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 
 	opinions = {
@@ -112,7 +112,7 @@ samaritan_culture = {
 
 	location_modifier = {
 # The Samaritan community around Nablus practiced agriculture and skilled craftsmanship on the fertile slopes of Mount Gerizim.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 
 	opinions = {
@@ -137,7 +137,7 @@ syriac_culture = {
 
 	location_modifier = {
 # Syriac monasteries were centers of learning, manuscript production, and skilled craftsmanship across the Mesopotamian plain.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 
 	opinions = {

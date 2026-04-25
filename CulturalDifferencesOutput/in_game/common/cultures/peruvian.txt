@@ -849,7 +849,7 @@ chimu_culture = {  #https://es.wikipedia.org/wiki/Reino_Chim%C3%BA
 
 	location_modifier = {
 		# The Chimu were master metalworkers and irrigators, transforming coastal desert into productive farmland.
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.05
 	}
 	opinions = {
 	}

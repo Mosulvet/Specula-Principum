@@ -199,7 +199,7 @@ bagheli = {
 
 	location_modifier = {
 # Forested hilly terrain of central India; mixed agriculture and forest resource gathering
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 
 	opinions = {
@@ -342,7 +342,7 @@ halbi = {
 
 	location_modifier = {
 # Dense forest resources of the Bastar plateau; timber and forest produce
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 
 	opinions = {
@@ -721,7 +721,7 @@ sinhalese = {
 
 	location_modifier = {
 # Ceylon spice cultivation; cinnamon, pepper, and gem-mining sustained a productive economy
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.05
 	}
 
 	opinions = {
@@ -837,7 +837,7 @@ dehlavi = {
 
 	location_modifier = {
 # Imperial capital and administrative hub; Delhi's concentration of power attracted artisans and scholars
-		local_monthly_development = 0.05
+		local_monthly_development_modifier = 0.05
 	}
 
 	opinions = {
@@ -956,7 +956,7 @@ banjara = {
 
 	location_modifier = {
 # Itinerant commerce along Deccan trade routes; Banjara camps served as mobile market nodes
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 
 	opinions = {
@@ -1014,7 +1014,7 @@ dhundhari = {
 
 	location_modifier = {
 # Amber-Jaipur craft economy; gemstone cutting, brasswork, and textile production
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 
 	opinions = {
@@ -1100,7 +1100,7 @@ khandeshi = { #Ahirani
 
 	location_modifier = {
 # Khandesh Tapti river valley; alluvial agriculture between the Satpura and Ajanta ranges
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 
 	opinions = {

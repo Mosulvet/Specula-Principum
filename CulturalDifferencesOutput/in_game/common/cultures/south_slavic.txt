@@ -126,7 +126,7 @@ sclavene = {
 
 	location_modifier = {
 # Sclavene agricultural communities along the southern Balkans maintained productive farming on fertile lowland soils.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 
 	opinions = { 

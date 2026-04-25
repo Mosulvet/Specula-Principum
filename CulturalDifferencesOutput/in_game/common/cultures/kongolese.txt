@@ -81,7 +81,7 @@ chokwe = {
 
 	location_modifier = {
 		# The Chokwe homeland supported hunting, farming, and renowned artistic production.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -404,7 +404,7 @@ bwende = {
 
 	location_modifier = {
 		# The Bwende (Sonde) produced distinctive cloth and ceremonial objects for regional trade.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -1086,7 +1086,7 @@ kuba = {
 
 	location_modifier = {
 		# The Kuba homeland between the Kasai and Sankuru rivers supported both agriculture and artisan production.
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.05
 	}
 	opinions = {
 	}
@@ -1132,7 +1132,7 @@ hemba = {
 
 	location_modifier = {
 		# The Hemba were master sculptors, producing some of Central Africa's finest ancestor figures and ceremonial art.
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.05
 	}
 	opinions = {
 	}
@@ -1384,7 +1384,7 @@ bashilele = {
 
 	location_modifier = {
 		# The Lele were renowned cloth producers, weaving raffia textiles traded across the Kasai region.
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.05
 	}
 	opinions = {
 	}

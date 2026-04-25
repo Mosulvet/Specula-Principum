@@ -11,7 +11,7 @@ novgorodian = {
 
 	location_modifier = {
 # Novgorod's wealth from fur, wax, and honey trade made it one of the largest and most prosperous cities in medieval Russia.
-		local_monthly_development = 0.03
+		local_monthly_development_modifier = 0.03
 	}
 
 	opinions = {
@@ -103,7 +103,7 @@ ruthenian = { #KIE
 
 	location_modifier = {
 # Kyiv and its surrounding lands maintained productive agriculture and river-borne trade along the Dnieper.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
  
 	opinions = {
@@ -237,7 +237,7 @@ polatskian_culture = {
 
 	location_modifier = {
 # The Polotsk region's river system supported both agriculture and transit trade between Baltic and interior markets.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
  
 	opinions = {
@@ -271,7 +271,7 @@ smolenskian_culture = {
 
 	location_modifier = {
 # Smolensk's strategic position on the Dnieper headwaters made it a productive agricultural and commercial center.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
  
 	opinions = {

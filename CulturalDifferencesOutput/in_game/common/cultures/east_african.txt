@@ -37,7 +37,7 @@ chewa_culture = { #Bantu Group N https://en.wikipedia.org/wiki/Chewa_people
 
 	location_modifier = {
 		# The Chewa were skilled ironworkers and potters with strong artisanal production traditions.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}

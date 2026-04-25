@@ -217,7 +217,7 @@ hanseatic = {
 
 	location_modifier = {
 # Hanseatic trading cities like Lübeck, Hamburg, and Bremen were among the wealthiest in Northern Europe.
-		local_monthly_development = 0.05
+		local_monthly_development_modifier = 0.05
 	}
 
 	opinions = {
@@ -552,7 +552,7 @@ east_franconian = {
 
 	location_modifier = {
 # Nuremberg's workshops produced metalwork, clockwork, and goods exported across Europe.
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.05
 	}
 
 	opinions = {
@@ -861,7 +861,7 @@ rhine_franconian = {
 
 	location_modifier = {
 # Frankfurt fairs and Hessian market towns spurred urban growth.
-		local_monthly_development = 0.03
+		local_monthly_development_modifier = 0.03
 	}
 
 	opinions = {
@@ -912,7 +912,7 @@ ripuarian_franconian = {
 
 	location_modifier = {
 # Cologne's position on the Rhine made it a center of trade and culture.
-		local_monthly_development = 0.03
+		local_monthly_development_modifier = 0.03
 	}
 
 	opinions = {
@@ -1222,7 +1222,7 @@ swabian = {
 
 	location_modifier = {
 # Augsburg and Ulm were thriving craft and trade centers.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 
 	opinions = {

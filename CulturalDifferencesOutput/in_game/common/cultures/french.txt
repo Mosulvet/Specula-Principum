@@ -13,7 +13,7 @@ french = {
 
 	location_modifier = {
 # The Île-de-France was the most densely populated and economically developed region of medieval France, centered on Paris.
-		local_monthly_development = 0.03
+		local_monthly_development_modifier = 0.03
 	}
 
 	opinions = {
@@ -79,7 +79,7 @@ gallo = {
 
 	location_modifier = {
 # The Gallo-speaking regions of eastern Brittany featured fertile farmland and productive mixed agriculture.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 
 	opinions = {
@@ -192,7 +192,7 @@ champenais = {
 
 	location_modifier = {
 # The wealthy Champagne trading towns of Troyes, Provins, and Bar-sur-Aube drew merchants from across the continent.
-		local_monthly_development = 0.03
+		local_monthly_development_modifier = 0.03
 	}
 
 	opinions = {
@@ -336,7 +336,7 @@ berrichon = {
 
 	location_modifier = {
 # The flat, fertile plains of Berry were among the most productive cereal-growing lands in medieval France.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 
 	opinions = {
@@ -685,7 +685,7 @@ norman = {
 
 	location_modifier = {
 # Normandy's rich dairy farms and orchards, combined with its Channel ports, created a productive and well-connected regional economy.
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.05
 	}
 
 	opinions = {
