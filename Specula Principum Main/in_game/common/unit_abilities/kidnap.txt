@@ -9,7 +9,7 @@
 		is_moving = no
 		is_exiled = no
 		in_siege  = no
-		num_subunits > 5
+		num_subunits > 3 #5
 		unit_has_leader = yes
 		
 		dominant_culture = { has_culture_group = culture_group:maghrebi_group } #this was commented out, re-adding.

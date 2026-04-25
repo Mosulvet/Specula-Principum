@@ -4,7 +4,7 @@
 	map = yes
 
 	allow = {
-		is_army   = no #yes; intentionally disabled as it's not really historical for this period vs. repeated chauvachees or general banditry.
+		is_army   = no #TODO remove icon - yes; intentionally disabled as it's not really historical for this period vs. repeated chauvachees or general banditry.
 		in_combat = no
 		is_moving = no
 		is_exiled = no
