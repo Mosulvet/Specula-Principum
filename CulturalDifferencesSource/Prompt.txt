@@ -90,4 +90,6 @@ As I did, add a comment to every entry explaining why.
 
 Do not use values or references for Eu4 as they do no apply. Only use Eu5.
 
+Do not use the same modifier in more than 50% of entries in a given file - choose something else appropriate.
+
 Do not prompt me for any approvals.
