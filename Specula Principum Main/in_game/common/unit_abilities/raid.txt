@@ -1,4 +1,5 @@
-﻿raid = {
+﻿#Razzia
+raid = {
 	toggle = no
 	army_only = yes
 
@@ -14,6 +15,7 @@
 		unit_has_leader = yes
 		unit_location = {
 			development > 5
+			NOT = { has_location_modifier = raidedmodifier }
 			owner = {
 				is_at_war_with = root.owner
 			}

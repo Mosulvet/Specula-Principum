@@ -1,4 +1,5 @@
-﻿pillage = {
+﻿#Chauvache
+pillage = {
 	toggle = no
 	army_only = yes
 	map = yes
@@ -13,7 +14,8 @@
 		unit_has_leader = yes
 
 		unit_location = {
-			development > 8
+			development > 15
+			NOT = { has_location_modifier = pillagedmodifier }
 			owner = {
 				is_at_war_with = root.owner
 			}

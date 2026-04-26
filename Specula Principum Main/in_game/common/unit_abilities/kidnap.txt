@@ -1,4 +1,7 @@
-﻿kidnap = {
+﻿#Ghazwa
+#Ideally this should turn pops into slaves. May just remove otherwise.
+
+kidnap = {
 	toggle = no
 	army_only = yes
 	map = yes
@@ -17,8 +20,6 @@
 		unit_location = {
 			development > 5
 			owner = { is_at_war_with = root.owner }
-
-
 			NOT = { has_location_modifier = kidnap_recently_kidnapped }
 		}
 	}
