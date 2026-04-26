@@ -11,3 +11,4 @@
 [ O ] Refine readme.md.
 [ O ] Test mod upload to Steam
 [ O ] Create steam page
+[ O ] Moderate increase to RGO costs + substantial increase to mining specifically.
