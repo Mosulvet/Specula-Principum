@@ -1,3 +1,5 @@
+#Remember - these are injects, so they function additively.
+
 INJECT:country_base_values = {
 	global_pop_assimilation_speed = -0.001 # This cuts passive by half.
 	global_pop_conversion_speed = -0.001 # This cuts passive by half.
