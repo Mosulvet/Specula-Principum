@@ -4,9 +4,10 @@ INJECT:promote_culture = {
 	location_modifier = {
 		local_pop_assimilation_speed = -0.015 # base is 0.04
 	}
-	country_modifier = {
-	monthly_nationalist_rebel_growth = 0.01 # reb growth
-	}
+	
+	#country_modifier = {
+	#monthly_nationalist_rebel_growth = 0.01 # reb growth
+	#}
 }
 
 INJECT:assimilate_area = {
@@ -14,9 +15,9 @@ INJECT:assimilate_area = {
 		local_pop_assimilation_speed = -0.0075 # base 0.02 
 	}
 
-	country_modifier = {
-	monthly_nationalist_rebel_growth = 0.01 # reb growth
-	}
+	#country_modifier = {
+	#monthly_nationalist_rebel_growth = 0.01 # reb growth
+	#}
 }
 
 INJECT:promote_religion = {
@@ -24,7 +25,7 @@ INJECT:promote_religion = {
 		local_pop_conversion_speed = -0.015 # base 0.04
 	}
 
-	country_modifier = {
-	monthly_nationalist_rebel_growth = 0.01 # reb growth
-	}
+	#country_modifier = {
+	#monthly_nationalist_rebel_growth = 0.01 # reb growth
+	#}
 }

@@ -1,7 +1,7 @@
 ﻿###################################
 # Hardcoded
 ###################################
-
+	
 # SP these mods not balanced against chnages in depth 0 advances
 # SP these mods should be checked later game for building and rgo costs, especially across areas that are different control and have different existing RGO levels already build.
 # SP building price effected by control
@@ -119,6 +119,16 @@ TRY_REPLACE:is_occupied = {
 	
 	local_construction_speed = -0.5 #-0.25
 
+}
+
+#scales with friendly strength in province / expected army size
+provincial_troops = {
+	game_data = {
+		category = location
+	}
+	local_unrest = -1.0 #-0.2
+	local_max_control = 0.1 #0.01
+	local_monthly_control = 0.01 #0.001
 }
 
 #multiplied with 1-control
