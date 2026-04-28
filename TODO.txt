@@ -12,3 +12,6 @@
 [ O ] Test mod upload to Steam
 [ O ] Create steam page
 [ O ] Moderate increase to RGO costs + substantial increase to mining specifically.
+
+Others -
+Considering experimenting with a MUCH higher tax efficiency base (say 90%?) + much higher bonuses in script values. This might create interesting / more historical growht dynamics.

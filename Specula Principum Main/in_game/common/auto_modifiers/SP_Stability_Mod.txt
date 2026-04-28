@@ -49,11 +49,13 @@ REPLACE:stability_impact = {
 	pop_leave_rebels_threshold = -0.075
 }
 
+
 INJECT:war_exhaustion_impact = {
 	scales_with = war_exhaustion
-	stability_decay = 0.00015 # with the great impact of stab, this functions as a sig drag on large countries repeated in wars.
+	stability_decay = 0.00015 # with the greater impact of stab, this functions as a sig drag on large countries repeated in wars.
 }
 
+#SP - smallsih stab cost to debt
 INJECT:debt_impact = {
 	scales_with = {
 		value = total_debt
