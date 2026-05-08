@@ -12,6 +12,21 @@
 [ O ] Test mod upload to Steam
 [ O ] Create steam page
 [ O ] Moderate increase to RGO costs + substantial increase to mining specifically.
+[ O ] Figure out wealth vs. tax base parameters and use in snowball (since the calcs changed drastically)
 
 Others -
 Considering experimenting with a MUCH higher tax efficiency base (say 90%?) + much higher bonuses in script values. This might create interesting / more historical growht dynamics.
+
+
+1.2
+
+* Remove great power score mods
+* Check how this balances out w/ my changes: Aristocracy now have +10% discipline instead of +5%, and also get +25% population growth for nobility. Plutocracy now gets +50% max levels for trade category buidings; The Estate Satisfaction of the Nobility now affects Monthly Legitimacy gain instead of Levy Combat efficiency, making happy Nobles useful for ruling your country, but angry Nobles expensive to deal with.
+* Big? --> You will now lose cores if they are no longer primary/accepted culture.
+
+* These may make the trade mod moot in some ways: Distance impact on merchant capacity needed is now 50% of before. && Trade paths over seas now cost 1/10th of before.
+* Big oops, will have balance implications: Lack of Control income for estates is x* (1-control), not x* control
+
+* Interesting: Towns and Cities now start with more buildings, scaling the economy further. && There is now villages in most rural locations in the world. && Estates will now start with a fair amount of estate buildings already around.
+
+* I can probably remove my own promotion speed changes: Promotion Speed is now 1/10th of previous values.

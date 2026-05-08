@@ -18,11 +18,11 @@ REPLACE:difficulty_player_hard = {
 }
 
 #remember these are all additive
-TRY_INJECT:difficulty_ai_hard = {
-
-	tax_income_efficiency = -15 #remember this adds
-
-}
+#TRY_INJECT:difficulty_ai_hard = {
+#
+#	tax_income_efficiency = -15 #remember this adds
+#
+#}
 
 TRY_INJECT:difficulty_ai_very_hard = {
 
