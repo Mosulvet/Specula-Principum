@@ -1,4 +1,4 @@
-#SP - Local and Naval Governor buildings have adjusted maintenance requirements, largely to help the AI build these (critical) buildings. This can be removed / adjusted if Paradox updates these.
+﻿#SP - Local and Naval Governor buildings have adjusted maintenance requirements, largely to help the AI build these (critical) buildings. This can be removed / adjusted if Paradox updates these.
 #SP - Both governor types have an alternate method that uses 2x silver instead of gold.
 local_gov_maintenance_gold = {
 	weaponry = 0.25

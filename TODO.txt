@@ -53,3 +53,36 @@ Considering experimenting with a MUCH higher tax efficiency base (say 90%?) + mu
 * remove start up byz bonuses
 
 * remove my HRE law changes (should be fixeD?)
+
+
+
+TODO - is cultural file generating errors based on modifiers? May need an update? Lots of errors here.
+
+TODO - Inf power and cav power mods need to be replaced
+
+TODO Modifier Errors; if they do exist in 1.2.x, it may be an issue of SCOPE:
+trade_efficiency
+global_grain_output_modifier
+local_grain_output_modifier
+
+probably now split by type:
+army_cavalry_maintenance_cost_modifier
+army_cavalry_power
+army_infantry_power
+
+army_maintenance_cost
+
+stability_cost_modifier
+
+local_trade_output_modifier
+
+TODO - what's up with these logging errors. Check name, syntax and actual modifiers against game default. Try to figure out if they are working
+
+[11:38:40][pdx_persistent_reader.cpp:289]: Error: "Unknown modifier type: TRY_INJECT:surplus_jobs. It is either invalid, or a potential dynamic modifier type definition missing from the database.: TRY_INJECT:surplus_jobs, near line: 110" in file: "common/static_modifiers/SP_location.txt" near line: 114
+[11:38:40][pdx_persistent_reader.cpp:289]: Error: "Unknown modifier type: TRY_INJECT:rgo_level. It is either invalid, or a potential dynamic modifier type definition missing from the database.: TRY_INJECT:rgo_level, near line: 117" in file: "common/static_modifiers/SP_location.txt" near line: 120
+[11:38:40][pdx_persistent_reader.cpp:289]: Error: "Unknown modifier type: TRY_INJECT:raised_levies. It is either invalid, or a potential dynamic modifier type definition missing from the database.: TRY_INJECT:raised_levies, near line: 122" in file: "common/static_modifiers/SP_location.txt" near line: 130
+[11:38:40][pdx_persistent_reader.cpp:289]: Error: "Unknown modifier type: TRY_INJECT:possible_promotion_percentage. It is either invalid, or a potential dynamic modifier type definition missing from the database.: TRY_INJECT:possible_promotion_percentage, near line: 132" in file: "common/static_modifiers/SP_location.txt" near line: 136
+[11:38:40][pdx_persistent_reader.cpp:289]: Error: "Unknown modifier type: TRY_INJECT:devastation. It is either invalid, or a potential dynamic modifier type definition missing from the database.: TRY_INJECT:devastation, near line: 139" in file: "common/static_modifiers/SP_location.txt" near line: 147
+[11:38:40][pdx_persistent_reader.cpp:289]: Error: "Unknown modifier type: TRY_REPLACE:recently_raided_by_horde. It is either invalid, or a potential dynamic modifier type definition missing from the database.: TRY_REPLACE:recently_raided_by_horde, near line: 156" in file: "common/static_modifiers/SP_location.txt" near line: 163
+[11:38:40][pdx_persistent_reader.cpp:289]: Error: "Unknown modifier type: TRY_REPLACE:recently_razed. It is either invalid, or a potential dynamic modifier type definition missing from the database.: TRY_REPLACE:recently_razed, near line: 165" in file: "common/static_modifiers/SP_location.txt" near line: 172
+[11:38:40][pdx_persistent_reader.cpp:289]: Error: "Unknown modifier type: trade_efficiency. It is either invalid, or a potential dynamic modifier type definition missing from the database.: trade_efficiency, near line: 12" in file: "common/static_modifiers/SP_Cath_Resolutions.txt" near line: 12

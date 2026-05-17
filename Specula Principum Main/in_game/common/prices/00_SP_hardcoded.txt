@@ -54,7 +54,7 @@ TRY_REPLACE:embrace_institution = {
 
 TRY_REPLACE:send_gift = {
 	scaled_recipient_gold = 2 #scaled_recipient_gold = payee monthly income, so 2.4 times average of the receiving nations income
-	scaled_gold = .25
+	scaled_gold = 0.25
 	min_scale = 25
 	# 2 months of recipient + 1 month of sender
 }

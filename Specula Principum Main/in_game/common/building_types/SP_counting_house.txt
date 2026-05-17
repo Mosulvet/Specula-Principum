@@ -1,4 +1,4 @@
-#SP The counting house is fairly expensive and only situationally useful. Adding some proximity; this also can help offset some of the control changes elsewhere.
+﻿#SP The counting house is fairly expensive and only situationally useful. Adding some proximity; this also can help offset some of the control changes elsewhere.
 
 counting_house = {
 	is_foreign = no

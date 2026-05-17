@@ -11,16 +11,13 @@
 
 
 TRY_INJECT:location_base_values = {
-	game_data = {
-		category = location
-	}
 	
 	local_devastation_recovery = -0.0025 #SP additive 0.005
 	local_max_rgo_size = -0.75 #additive 2; remember efficiency hits in other areas. TODO consider dropping to 1.0; this will require food consumption adjustments (or not).
 	
 }
 
-TRY_REPLACElocation_size_impact = {
+TRY_REPLACE:location_size_impact = {
 	game_data = {
 		category = location
 	}
@@ -103,13 +100,13 @@ TRY_REPLACE:unemployed_peasants = {
 		category = location
 	}
 	local_migration_attraction = -0.0025
-	local_levy_size_modifier = .1 #added; no job? join the army, meet cool people, and then kill them!
-
+	local_levy_size_modifier = 0.1 #added; no job? join the army, meet cool people, and then kill them!
+}
 
 #per 1k available jobs; this means there is more jobs then labor, so labor is in demand.
 TRY_INJECT:surplus_jobs = {
 
-	local_build_buildings_cost = 0.05 #labor demand, so building is more expensive; 0.3 made for very high costs in some areas (x00%+). Reducing to 0.03 should make change generally minimal.
+	local_build_new_buildings_cost = 0.05 #labor demand, so building is more expensive; 0.3 made for very high costs in some areas (x00%+). Reducing to 0.03 should make change generally minimal.
 
 }
 
@@ -117,12 +114,11 @@ TRY_INJECT:surplus_jobs = {
 TRY_INJECT:rgo_level = {
 
 	local_raw_material_output = -0.03 #SP RGO output drops per RGO level in an area. This will somewhat encourage wide play (since RGO spread over many areas will be net better; may need to adjust in otherways)
+	
 }
 
 TRY_INJECT:raised_levies = {
-	game_data = {
-		category = location
-	}
+
 	local_raw_material_output = -0.05 #additive -0.3
 	local_monthly_food_modifier = -0.05 #additive -0.3
 	
@@ -137,9 +133,6 @@ TRY_INJECT:possible_promotion_percentage = {
 
 # Remember these are multiplied by a neg value:
 TRY_INJECT:devastation = {
-	game_data = {
-		category = location
-	}
 
 	local_monthly_literacy = 0.025 # additive 0.05
 	local_life_expectancy = 15 #10 additive
