@@ -1,0 +1,6 @@
+﻿yearly_country_pulse = {
+	
+	events = {
+		bullion_famine.1
+	}
+}

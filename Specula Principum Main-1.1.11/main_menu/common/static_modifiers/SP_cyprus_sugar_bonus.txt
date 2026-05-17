@@ -1,0 +1,15 @@
+﻿# It would be rad to have a 'sleeping sickness' for RGOs w/ sugar production event.
+
+REPLACE:cyprus_sugar_base = {
+	game_data = {
+		category = location
+	}
+	local_sugar_output_modifier = 0.5 #Venetian methods focused on quality and 'boutique' small producer sugar.
+}
+
+REPLACE:madeira_sugar_base = {
+	game_data = {
+		category = location
+	}
+	local_sugar_output_modifier = 2 #largest sugar producer in the world by ~1500; close to 2000 tons anually; this was probably equal or greater than the ROW combined.
+}

@@ -1,0 +1,60 @@
+# SP - This is a 50% reduction in global literacy max AND growth for all advances that aren't special to a tag or area.
+# SP - These are made as injections so they are subtracted from the values in the advances.
+# SP - Also did not touch PisaU in area_tuscany
+
+TRY_INJECT:scientific_revolution_advance = {
+	global_max_literacy = -5 #now 5 total
+}
+
+TRY_INJECT:printing_press_advance = {
+	global_max_literacy = -2.5 # this is only a 25% reduction as printing was particulary impactful for literacy.
+}
+
+TRY_INJECT:enlightened_court = {
+	global_max_literacy = -2.5
+}
+
+TRY_INJECT:written_alphabet = {
+	global_max_literacy = -2.5
+	global_monthly_literacy = -0.005 #0.01
+}
+
+TRY_INJECT:educated_bureaucrats = {
+	global_monthly_literacy = -0.005
+}
+
+TRY_INJECT:innovativeness = {
+	global_max_literacy = -2.5
+}
+
+TRY_INJECT:humanism = {
+	global_max_literacy = -5
+}
+
+TRY_INJECT:free_thinkers = {
+	global_max_literacy = -2.5
+}
+
+TRY_INJECT:feudalism_advance = {
+	global_nobles_max_literacy = -10 #20
+}
+
+TRY_INJECT:organized_religion = {
+	global_clergy_max_literacy = -2.5
+}
+
+TRY_INJECT:guilds = {
+	global_burghers_max_literacy = -2.5
+}
+
+TRY_INJECT:global_nobles_max_literacy_advance = {
+	global_nobles_max_literacy = -5
+}
+
+TRY_INJECT:global_burghers_max_literacy_advance = {
+	global_burghers_max_literacy = -5
+}
+
+TRY_INJECT:global_clergy_max_literacy_advance = {
+	global_clergy_max_literacy = -5
+}

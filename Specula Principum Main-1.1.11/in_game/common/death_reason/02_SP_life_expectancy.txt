@@ -1,0 +1,75 @@
+﻿# SP - A number of these are rebalanced. Admirals should stop falling overboard; hunting deaths won't happen quite as often; overall death rate will track to historically younger ages.
+
+# SP old age deaths kick in younger (but don't hit as hard - more variation)
+REPLACE:old_age = {
+	random = yes
+	trigger = {
+		age_in_years >= 45
+	}
+	weight = {
+		value = age_in_years
+		subtract = 45
+		multiply = 3
+	}
+}
+
+REPLACE:pneumonia = {
+	random = yes
+	weight = 1.5
+}
+
+REPLACE:sudden_illness = {
+	random = yes
+	weight = 2
+}
+
+REPLACE:food_poisoning = {
+	random = yes
+	weight = 1.5
+}
+
+REPLACE:fever = {
+	random = yes
+	weight = 3
+}
+
+REPLACE:dysentery = {
+	random = yes
+	weight = 3
+	possible_parameter = location
+}
+
+REPLACE:drowning_sea = {
+	random = yes
+	trigger = {
+		location ?= {
+			OR = {
+				is_coastal = yes
+				is_land = no
+			}
+		}
+	}
+	weight = {
+		value = 1
+		subtract = {
+			value = mil
+			multiply = 0.025
+		}
+	}
+}
+
+REPLACE:sporting_accident = {
+	random = yes
+	trigger = {
+		age_in_years < 50
+		is_female = no
+		has_estate = estate_type:nobles_estate
+	}
+	weight = {
+		value = 5
+		subtract = {
+			value = mil
+			multiply = 0.1
+		}
+	}
+}

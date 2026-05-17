@@ -1,0 +1,117 @@
+﻿#Usages:
+# weak: common, should usually be combined with another weak
+# mild: common, stand-alone
+# severe: rare
+# extreme: very rare, event has to have a massive impact and must be rather rare / unique
+# ultimate: legendarily rare, should only be used for impressive feats or massive failures only
+# radical: rarest value you could get
+
+
+# build_price_age_of_tradition = 60 #was 50 slight bump up in early game building costs.
+
+
+######################################
+# Price Values for Buildings
+# These have been increased 20%
+######################################
+build_price_age_of_tradition = 60 #50
+build_price_age_of_renaissance = 120 #100
+build_price_age_of_discovery = 240 #200
+build_price_age_of_reformation = 480 #400
+build_price_age_of_absolutism = 960 #800
+build_price_age_of_revolution = 1680 #1200
+
+
+expensive_build_price_age_of_tradition = 240# 200
+expensive_build_price_age_of_renaissance = 480 #400
+expensive_build_price_age_of_discovery = 880 #800
+expensive_build_price_age_of_reformation = 1920 #1600
+expensive_build_price_age_of_absolutism = 3840 #3200
+expensive_build_price_age_of_revolution = 6000 #5000
+
+
+# More levy ships; helps AI a bit
+
+levy_ship_size = 0.0125 #was 0.005, helps AI out a bit
+
+# Recruitment of regulars is way to fast
+
+standard_inf_recruitment_time	= 90 #30
+standard_cav_recruitment_time	= 135 #45
+standard_art_recruitment_time	= 180 #60
+standard_aux_recruitment_time	= 90 #30
+
+
+######################################
+# Tax Income Impacts
+######################################
+
+# These set above van to offset the static 5% + dynamic efficiency nerfs based on wealth. This makes efficiency offsets more important.
+# Not needed due to other substantial nerfs to tax efficiency.
+
+#tiny_tax_income_efficiency_bonus = 0.015 #0.01
+#small_tax_income_efficiency_bonus = 0.0375 #0.025
+#medium_tax_income_efficiency_bonus = 0.075 #0.05
+#large_tax_income_efficiency_bonus = 0.15 #0.10
+#huge_tax_income_efficiency_bonus = 0.30 #0.20
+
+############################
+# Building times
+# Generally increased 2x ; Forts and certain types 3x; slower promo bonus for stability as well
+############################
+guild_build_time = 730						#365
+workshop_build_time = 730					#365
+manufactory_build_time = 900				#450
+mills_build_time = 1460						#730
+
+merchant_build_time = 365					#180
+plantation_build_time = 365				#180
+
+
+estate_build_time = 240					#120
+
+cultural_building_time = 730				#365
+large_cultural_building_time =	1460		#730
+religious_building_time = 730				#365
+large_religious_building_time = 1460 		#730
+
+bank_office_build_time = 730				#365
+trade_post_build_time = 730				#365
+colonise_build_time = 730					#365
+trade_company_headquarters_time = 730     #365
+trade_company_build_time = 365             #180
+
+rural_build_time = 	730		#365
+village_build_time = 730		#365
+generic_town_build_time = 730 	#365
+
+super_fast_temporary_house = 30
+
+small_port_building_time = 730	#365
+medium_port_building_time = 1460 #730
+large_port_building_time = 1460	#730
+huge_port_building_time = 3650	#1825
+
+soldier_building = 	730		#365
+medium_soldier_building = 730 	#365
+big_soldier_building = 1460		#730
+
+government_build_time = 730	#365
+infrastructure_build_time = 730 #365
+
+small_capital_build_time = 730	#365
+large_capital_build_time = 1460	#730
+
+market_build_time = 730		#365
+
+
+small_fort_building = 1080		#365
+medium_fort_building = 2190		#730
+large_fort_building = 	3650	#1080
+
+huge_unique_build_time = 3650 	#1825
+
+pirate_build_time = 365		#180
+
+generic_event_building = 90
+instant_build_time = 1

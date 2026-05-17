@@ -1,0 +1,72 @@
+﻿fortify_hostile = {
+	toggle = no
+	army_only = yes
+	map = yes
+
+	allow = {
+		is_army   = no #TODO disabled; remove icon from UI
+		in_combat = no
+		is_moving = no
+		is_exiled = no
+		in_siege  = no
+		num_subunits > 5
+		unit_has_leader = yes
+
+		unit_location = {
+			development > 3
+			owner = {
+				is_at_war_with = root.owner
+			}
+		}
+	}
+
+	start_effect = {
+
+
+		root.owner = {
+			save_scope_as = raid_raider
+		}
+
+		damage_unit_morale_percent = 0.1
+
+		unit_location = {
+
+			save_scope_as = raid_location
+
+			add_location_modifier = {
+				modifier = fortifiedmodifier
+				years    = 1
+				mode     = extend
+			}
+
+
+			root.owner = {
+				add_gold = {
+					value    = scope:raid_location.development
+					multiply = 4.00
+					min      = 20
+					max      = 200
+					multiply = -1
+				}
+			}
+
+
+			change_prosperity = {
+				value    = 0.025
+				multiply = -1
+			}
+
+			change_development = {
+				value    = scope:raid_location.development
+				divide   = 120
+				min      = 0.25
+				max      = 1.25
+				multiply = -1
+			}
+		}
+	}
+
+	ai_will_do = {
+		add = -20
+	}
+}

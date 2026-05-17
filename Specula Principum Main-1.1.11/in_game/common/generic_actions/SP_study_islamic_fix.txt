@@ -1,0 +1,53 @@
+﻿#this was applying a societal modifier in the wrong direction.
+
+REPLACE:study_islamic_texts = {
+	type = religious
+
+	sound = UI_action_religion_generic
+	
+	potential = {
+		scope:actor = {
+			modifier:allow_mysticism_vs_jurisprudence = yes
+		}
+	}
+	
+	allow = {
+		scope:actor = {
+			societal_value:mysticism_vs_jurisprudence > 50
+			NOT = { has_country_modifier = studying_jurisprudence_modifier }
+		}
+	}
+
+	ai_tick = monthly
+	ai_tick_frequency = 1
+
+	automation_tick = monthly
+	automation_tick_frequency = 1
+	player_automated_category = religiousdoctrines
+	
+	select_trigger = {
+		looking_for_a = religion
+		source = actor
+		target_flag = recipient
+		name = "choose_religion"
+		column = {
+			data = name
+		}
+	}
+
+	effect = {
+		scope:actor = {
+			add_country_modifier = {
+				modifier = studying_jurisprudence_modifier
+				years = modifier_duration_years_short
+				mode = replace
+			}
+			
+			change_societal_value = { type = mysticism_vs_jurisprudence value = societal_value_large_move_to_right }
+		}
+	}
+
+	ai_will_do = {
+		add = "scope:actor.currency_utility(stability|10)"
+	}
+}

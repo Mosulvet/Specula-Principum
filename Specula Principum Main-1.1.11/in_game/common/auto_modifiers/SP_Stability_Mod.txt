@@ -1,0 +1,66 @@
+#intent here is to make stability more important, and stability to function like an efficiency drag on council.
+
+REPLACE:positive_stability_impact = {
+	potential_trigger = {
+		stability > 0
+	}	
+
+	scales_with = {
+		value = stability
+		multiply = 0.01
+	}
+
+	country_cabinet_efficiency = 0.1 #small bonus	
+	global_estate_target_satisfaction = positive_stability_satisfaction_scale
+	global_pop_promotion_speed_modifier = 0.5 #was 1.0
+	monthly_doom = -0.1
+	monthly_righteousness = 0.1
+	}
+
+REPLACE:negative_stability_impact = {
+	potential_trigger = {
+		stability < 0
+	}	
+
+	scales_with = {
+		value = stability
+		multiply = -0.01
+	}
+
+	global_pop_promotion_speed_modifier = -1.0 #pop promotion slows as stability drops. Note values are multiplied by -0.1. This might need to be pos value.
+	country_cabinet_efficiency = -0.5 #as does cabinet efficiency. Note values are multiplied by -0.1 This might need to be pos value
+	pop_join_rebel_threshold = 0.25	#was 0.1
+	
+	global_estate_target_satisfaction = negative_stability_satisfaction_scale
+	global_mercenaries_modifier = 0.5
+	monthly_doom = 0.5
+	monthly_righteousness = -0.1
+	trade_efficiency = -0.15
+}
+
+#50# increase to both to offset effect of control changes on rebels.
+REPLACE:stability_impact = {
+	scales_with = {
+		value = stability
+		multiply = 0.01
+	}
+
+	pop_join_rebel_threshold = -0.15
+	pop_leave_rebels_threshold = -0.075
+}
+
+
+INJECT:war_exhaustion_impact = {
+	scales_with = war_exhaustion
+	stability_decay = 0.00015 # with the greater impact of stab, this functions as a sig drag on large countries repeated in wars.
+}
+
+#SP - smallsih stab cost to debt
+INJECT:debt_impact = {
+	scales_with = {
+		value = total_debt
+		divide = country_economical_base
+	}
+
+	stability_decay = 0.0025
+}
