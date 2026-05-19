@@ -1,44 +1,57 @@
 ﻿#SP - Local and Naval Governor buildings have adjusted maintenance requirements, largely to help the AI build these (critical) buildings. This can be removed / adjusted if Paradox updates these.
 #SP - Both governor types have an alternate method that uses 2x silver instead of gold.
+
 local_gov_maintenance_gold = {
-	weaponry = 0.25
-	fine_cloth = 0.5
-	paper = 2.0
-	furniture = 0.25
-	horses = 0.2
-	goods_gold = 0.05 #SP 0.1
+	tools = 1
+	masonry = 1
+	weaponry = 1 #0.5
+	paper = 3
+	books = 1
+	furniture = 2
+	fine_cloth = 1
+	goods_gold = 0.5 #1, reduced to general reduction in gold goods (and all goods) creating a bottleneck.
 		
 	category = building_maintenance
 }
 
 local_gov_maintenance_silver = {
-	weaponry = 0.25
-	fine_cloth = 0.5
-	paper = 2.0
-	furniture = 0.25
-	horses = 0.2
-	silver = 0.1
+	tools = 1
+	masonry = 1
+	weaponry = 1 #0.5
+	paper = 3
+	books = 1
+	furniture = 2
+	fine_cloth = 1
+	silver = 1.0
 		
 	category = building_maintenance
 }
 
 naval_gov_maintenance_gold = {
-	tools = 0.2
-	cloth = 1.0
+	tools = 1
+	masonry = 1
+	weaponry = 0.5
+	paper = 3
+	books = 1
+	furniture = 2
 	naval_supplies = 0.5
-	paper = 2.0
-	furniture = 0.25
-	goods_gold = 0.05 #SP 0.1
+	cloth = 1 #added
+	fine_cloth = 0.5 
+	goods_gold = 0.5 #1
 		
 	category = building_maintenance
 }
 
 naval_gov_maintenance_silver = {
-	tools = 0.2
-	cloth = 1.0
+	tools = 1
+	masonry = 1
+	weaponry = 0.5
+	paper = 3
+	books = 1
+	furniture = 2
 	naval_supplies = 0.5
-	paper = 2.0
-	furniture = 0.25
+	cloth = 1 #added
+	fine_cloth = 0.5
 	silver = 0.1
 		
 	category = building_maintenance

@@ -54,21 +54,163 @@ Considering experimenting with a MUCH higher tax efficiency base (say 90%?) + mu
 
 * remove my HRE law changes (should be fixeD?)
 
+TODO -check through diseases closely. May have been fixed by PDOX?
 
+TODO - probalby need to adjust cabinet culture action (stronger) since generla control nerfs will impact culture assim directly.
 
 TODO - is cultural file generating errors based on modifiers? May need an update? Lots of errors here.
 
 TODO - Inf power and cav power mods need to be replaced
 
 TODO Modifier Errors; if they do exist in 1.2.x, it may be an issue of SCOPE:
-trade_efficiency
+
+TODO - modify unit values for heavy / light and various maintenance
+
+trade_efficiency -->
+
+export_efficiency={
+	percent=yes
+	game_data={
+		category=country
+	}
+}
+
+import_efficiency={
+	percent=yes
+	game_data={
+		category=country
+	}
+}
+
+trade_income={
+	percent=yes
+	game_data={
+		category=country
+	}
+}
+
 global_grain_output_modifier
-local_grain_output_modifier
+local_grain_output_modifier -->
+
+local_wheat_output_modifier={
+	percent=yes
+	game_data={
+		category=location
+	}
+}
+
+
+Does this need to replace RGO output modifier?
+local_raw_material_output={
+	percent=yes
+	game_data={
+		category=location
+	}
+}
 
 probably now split by type:
-army_cavalry_maintenance_cost_modifier
+army_cavalry_maintenance_cost_modifier -->
+
+army_heavy_cavalry_reinforce_cost_modifier={
+	color=bad
+	percent=yes
+	game_data={
+		category=country
+	}
+}
+
+army_heavy_cavalry_maintenance_cost_modifier={
+	color=bad
+	percent=yes
+	game_data={
+		category=country
+	}
+}
+
+army_light_cavalry_reinforce_cost_modifier={
+	color=bad
+	percent=yes
+	game_data={
+		category=country
+	}
+}
+
+army_light_cavalry_maintenance_cost_modifier={
+	color=bad
+	percent=yes
+	game_data={
+		category=country
+	}
+}
+
+
 army_cavalry_power
-army_infantry_power
+army_infantry_power -->
+
+army_light_cavalry_power={
+	percent=yes
+	game_data={
+		category=unit
+	}
+}
+
+army_heavy_cavalry_power={
+	percent=yes
+	game_data={
+		category=unit
+	}
+}
+
+army_light_infantry_power={
+	percent=yes
+	game_data={
+		category=unit
+	}
+}
+
+Use this on top of RGO levels in place of prod efficiency mod? Or in addition to?:
+
+expand_rgo_mining_cost_modifier={
+	color=bad
+	percent=yes
+	game_data={
+		category=country
+	}
+}
+
+expand_rgo_farming_cost_modifier={
+	color=bad
+	percent=yes
+	game_data={
+		category=country
+	}
+}
+
+expand_rgo_hunting_cost_modifier={
+	color=bad
+	percent=yes
+	game_data={
+		category=country
+	}
+}
+
+expand_rgo_gathering_cost_modifier={
+	color=bad
+	percent=yes
+	game_data={
+		category=country
+	}
+}
+
+expand_rgo_forestry_cost_modifier={
+	color=bad
+	percent=yes
+	game_data={
+		category=country
+	}
+}
+
+
 
 army_maintenance_cost
 
