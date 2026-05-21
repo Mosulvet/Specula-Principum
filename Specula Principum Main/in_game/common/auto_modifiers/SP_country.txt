@@ -22,3 +22,17 @@ INJECT:country_base_values = {
 	# pop_leave_rebels_threshold = #0.35
 
 }
+
+#1.2 base:
+# 	diplomatic_spending_cost = 0.1 <-- too high?
+#
+# Static\country.txt now includes this for cost of court:
+#wealth = {
+#	game_data = {
+#		category = country
+#	}
+#	court_spending_cost_modifier = 0.1
+#	stability_cost = 0.1
+#}
+# note - need to check wealth static globals in defines
+#
