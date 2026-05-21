@@ -1,0 +1,5 @@
+TRY_INJECT:is_great_power = {
+
+	court_spending_cost_modifier = -0.25 #base is 0.5, so this cuts in half; but antisnowball mod will also bump this up.
+
+}

@@ -54,15 +54,13 @@ Considering experimenting with a MUCH higher tax efficiency base (say 90%?) + mu
 
 * remove my HRE law changes (should be fixeD?)
 
-TODO - Updates 1.2.x goods file with some key update (primarily around inexpensive transport for SOME high costs goods; higher cost transx for pototoes (inefficient) and salt (highly taxed)
-TODO - goods demands - some key tweaks to run maintenance and possibly sugar.
-TODO - redo unit_categories, and unit type values in light of new light vs heavy
+TODO - Updates 1.2.x goods file with some key update (primarily around inexpensive transport for SOME high costs goods; higher cost transx for pototoes (inefficient) and salt (highly taxed). Fix sugar.
 X TODO -check through diseases closely. May have been fixed by PDOX?
-TODO - probalby need to adjust cabinet culture action (stronger) since generla control nerfs will impact culture assim directly.
+X TODO - probalby need to adjust cabinet culture action (stronger) since generla control nerfs will impact culture assim directly.
 TODO - is cultural file generating errors based on modifiers? May need an update? Lots of errors here.
 TODO - Inf power and cav power mods need to be replaced
-TODO - adjust courts costs diplo costs in main 00 defines. Diplo half, court 2x?
-TODO - adjust impact of wealth in the my automods
+X TODO - adjust courts costs diplo costs in main 00 defines. Diplo half, court 2x?
+X TODO - adjust impact of wealth in the my automods
 
 trade_efficiency -->
 
