@@ -17,14 +17,14 @@ sager_tax_efficiency_small = {
 	tax_income_efficiency = 0.15
 }
 
-# Mid-size and larger receive a malus.
-sager_tax_efficiency_mid = {
-	potential_trigger = {
-		country_economical_base => 75
-		country_economical_base < 100
-	}
-	tax_income_efficiency = -0.025 	
-}
+# Mid-size receive a malus.
+#sager_tax_efficiency_mid = {
+#	potential_trigger = {
+#		country_economical_base => 75
+#		country_economical_base < 100
+#	}
+#	tax_income_efficiency = -0.025 	
+#}
 
 sager_tax_efficiency = {
 	potential_trigger = {
