@@ -17,6 +17,13 @@
 Others -
 Considering experimenting with a MUCH higher tax efficiency base (say 90%?) + much higher bonuses in script values. This might create interesting / more historical growht dynamics.
 
+1.3
+O Ship costs (espec heavy ship) are wrong.
+Idea - should values push each other? E.g. naval pushes towards free subjects; capital economy pushes towards innovation; individualism pushes towards free trade etc...
+X Need to understand large jump in building upkeep; how this was balanced elsewhere. / it was from monthly incrase in share country pays which is DUMB
+X Maybe turn down tax efficiency bonuses
+X Check trade incomes / goods costs
+Consider boosting theft and waste impact for taxes a bit again
 
 1.2
 
@@ -53,6 +60,10 @@ Considering experimenting with a MUCH higher tax efficiency base (say 90%?) + mu
 * remove start up byz bonuses
 
 * remove my HRE law changes (should be fixeD?)
+
+
+
+TODO - reduce building costs, especially later game - look at L1 advances and control malus to building. Perhaps control malus is only for RGOs?
 
 TODO - peer at ingame Values. Also, subject income and loyalty could both be bumped for decentralized I think.
 X TODO - Unit Types mods for terrain. Test before spending time here; this didn't work correctly in the past.

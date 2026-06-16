@@ -26,9 +26,9 @@ sager_tax_efficiency_small = {
 #	tax_income_efficiency = -0.025 	
 #}
 
-sager_tax_efficiency = {
-	potential_trigger = {
-		country_economical_base >= 100
-	}
-	tax_income_efficiency = -0.05 
-}
+#sager_tax_efficiency = {
+#	potential_trigger = {
+#		country_economical_base >= 100
+#	}
+#	tax_income_efficiency = -0.05 
+#}

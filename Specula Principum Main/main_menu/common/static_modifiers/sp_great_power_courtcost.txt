@@ -3,3 +3,16 @@ TRY_INJECT:is_great_power = {
 	court_spending_cost_modifier = -0.25 #base is 0.5, so this cuts in half; but antisnowball mod will also bump this up.
 
 }
+
+TRY_INJECT:years_since_game_start = {
+
+	building_upkeep_multiplier = -0.001 #0.001
+}
+
+average_control = {
+	game_data = {
+		category = country
+	}
+	monthly_towards_centralization = societal_value_monthly_move
+	building_upkeep_multiplier = 0.1 #also, adding a similar value to values central vs. not
+}

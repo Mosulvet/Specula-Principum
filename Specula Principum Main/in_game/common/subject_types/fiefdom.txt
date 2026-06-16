@@ -3,7 +3,7 @@
 # Fiefdoms and Vassals are too similar. This file helps create some additional differentiation. Fiefdoms grant a bit more value, and are easier to keep happy, but are hard to annex (they are CROWN property, why would you annex them?).
 
 fiefdom = { # like a personal union except the subject has much less power
-	subject_pays = subject_pays_tributary #a bit better income compared to vassal
+	subject_pays = subject_pays_fief #SP added - 
 	color = subject_fiefdom
 	level = 3
 	annullment_favours_required = 30
@@ -18,7 +18,7 @@ fiefdom = { # like a personal union except the subject has much less power
 	}
 	can_be_annexed = yes # but, slowly. A fief is the direct property of the Crown. There is no reason to annex... usually.
 	has_overlords_ruler = yes
-	annexation_speed = 0.65 #slowly
+	annexation_speed = 0.5 #SP very slow annexation --> the crown "owns" this land as a demense of the state... there's no "need" to integrate it.
 	annexation_min_years_before = 100
 	annexation_min_opinion = 125
 	annexation_stall_opinion = 100

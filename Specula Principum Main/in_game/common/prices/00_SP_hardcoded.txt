@@ -1,5 +1,5 @@
 ﻿TRY_REPLACE:build_gravel_road = {
-	gold = 17.5 #was 10
+	gold = 15 #was 10
 }
 
 TRY_REPLACE:build_paved_road = {
@@ -17,11 +17,11 @@ TRY_REPLACE:build_railroad = {
 # RGO Price adjustments below, increased, and in addition to substantial RGO increases in other areas, and an efficiency malus.
 
 TRY_REPLACE:expand_rgo_mining = {
-	gold = 90 #was 50; more resource intensive expansion
+	gold = 120 #was 50; more resource intensive expansion
 }
 
 TRY_REPLACE:expand_rgo_farming = {
-	gold = 70 #50; this was 75 but lowering a bit to encourage food RGO investment (and thus greater pop growth since it was tracking under historical levels for multiple runs)
+	gold = 85 #50; this was 75 but lowering a bit to encourage food RGO investment (and thus greater pop growth since it was tracking under historical levels for multiple runs)
 }
 
 TRY_REPLACE:expand_rgo_hunting = {
