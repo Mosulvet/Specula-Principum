@@ -151,7 +151,7 @@ coptic_culture = {
 
 	location_modifier = {
 # Coptic communities in Egypt were skilled artisans, producing fine textiles, metalwork, and maintaining agricultural expertise.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 
 	opinions = {

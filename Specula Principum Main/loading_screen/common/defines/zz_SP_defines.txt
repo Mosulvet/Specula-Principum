@@ -25,25 +25,43 @@ NUnit = {
 # SP - These econ tweaks are critical to overall econ balance.
 NEconomy = {
 
+#these values had no changes from 1.1
 	ECONOMICAL_BASE_FROM_TAX_BASE = 0.5 #was 0.5
-	ECONOMICAL_BASE_FROM_POP = 0.02 #was 0.015 - this creates a slight push towards tall play.
+	ECONOMICAL_BASE_FROM_POP = 0.0125 #was 0.015 - SP because control ins generally lower in SP, this is effectively the same or worse in balance with the original 0.015.
 	ECONOMICAL_BASE_FROM_TRADE_VALUE = 0.165 #was 0.2. 0.15 was a bit low, bumping a bit to nerf trade republics (venice, yo)
 	ECONOMICAL_BASE_FROM_TRADE_PROFIT = 0.4 #was 0.2
 	ECONOMICAL_BASE_INTEREST = 0.25 #was 0.25
-	ECONOMICAL_BASE_FROM_SUBJECT = 0.04 #was 0.05, overly penalizes decentralized (and there alread some othre tweaks that add presure there)
-	ECONOMICAL_BASE_SCALE_FROM_EACH_INSTITUTION = 0.05 # was 0.066 #these already have impacts now due to change to depth 0 advances
+	ECONOMICAL_BASE_FROM_SUBJECT = 0.035 #was 0.05, overly penalizes decentralized (and there alread some othre tweaks that add presure there)
+	ECONOMICAL_BASE_SCALE_FROM_EACH_INSTITUTION = 0.025 # was 0.066 #these already have impacts now due to change to depth 0 advances
 	
-	MOTHBALL_MAINTENANCE_FACTOR = 0.2 #0.5 Savings was too low to make this action ever worthwhile.
+#these are all intersting additions for 1.2
+	PRICE_SCALE_FROM_ECO_BASE = 0.1
+	
+	MINTING_GOODS_LEVEL = 0.01
+	
+	GOODS_RGO_BASE_COST = 1.0 #0.5
+	GOODS_RGO_PRICE_SCALE = 0.0 #0.25
+
+	COURT_SPENDING_FRACTON = 0.2 #0.1 - SP because of various multipliers this functions as a significant drag on large powers, as a stand in for large government costs, especially around centralization.
+	DIPLOMATIC_SPENDING_FRACTION = 0.065 #0.1 - this needed to be adjusted down
+	
+	MOTHBALL_MAINTENANCE_FACTOR = 0.2 #SSP 0.5 Savings was too low to make this action ever worthwhile.
+	
+	TRADE_SEA_MULTIPLIER = 0.2 #SP - cheaper trade over water 0.3 moving through sea is cheaper
+	#TRADE_SEA_MARITIME_IMPACT = -0.5
+	#TRADE_PORT_COST = 5 #fixed cost of loading/unloading boat
+	
+	
 }
 
 # SP - These market values are a tweak from the integrated trade mod. They would need to be revisited if SOL is integrated.
-NMarket = {
-    BURGHER_TRADE_IMPACT_ON_SUPPLY_SCALE = 0.25 #vanilla: 0.1
-    TRADE_IMPACT_ON_SUPPLY_SCALE = 0.35 #vanilla: 0.25
-
-    BURGHER_TRADE_IMPACT_ON_DEMAND_SCALE = 0.35 #vanilla: 0.25
-    TRADE_IMPACT_ON_DEMAND_SCALE = 0.75 #vanilla: 1.0
-}
+#NMarket = {
+#    BURGHER_TRADE_IMPACT_ON_SUPPLY_SCALE = 0.25 #vanilla: 0.1
+#    TRADE_IMPACT_ON_SUPPLY_SCALE = 0.35 #vanilla: 0.25
+#
+#    BURGHER_TRADE_IMPACT_ON_DEMAND_SCALE = 0.35 #vanilla: 0.25
+#    TRADE_IMPACT_ON_DEMAND_SCALE = 0.75 #vanilla: 1.0
+#}
 
 # SP Updates to various terrain dice.
 NCombat = {

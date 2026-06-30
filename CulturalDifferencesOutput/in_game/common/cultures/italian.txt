@@ -189,7 +189,7 @@ neapolitan = {
 
 	location_modifier = {
 # Naples was one of Europe's largest cities by 1400, with a productive hinterland of farms and workshops supplying the capital.
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.05
 	}
 
 	opinions = {
@@ -315,7 +315,7 @@ southern_gallo_italic = {
 
 	location_modifier = {
 # The region's mixed economy of agriculture and small-scale manufacturing created a diversified and relatively productive local economy.
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.05
 	}
 
 	opinions = {
@@ -340,7 +340,7 @@ tuscan = {
 
 	location_modifier = {
 # Florentine patronage of arts, architecture, and scholarship made Tuscany the intellectual heart of Italy, attracting talent from across Europe.
-		local_monthly_development = 0.05
+		local_monthly_development_modifier = 0.05
 	}
 
 	opinions = {
@@ -365,7 +365,7 @@ bardi_bank_culture = { #Created for the BRD building-based tag
 
 	location_modifier = {
 # Bardi banking operations concentrated wealth and commercial expertise in Florence, enhancing the city's already formidable economic development.
-		local_monthly_development = 0.05
+		local_monthly_development_modifier = 0.05
 	}
 
 	opinions = {
@@ -390,7 +390,7 @@ peruzzi_bank_culture = { #Created for the PRZ building-based tag
 
 	location_modifier = {
 # Peruzzi banking activities channeled enormous capital flows through Florence, spurring urban growth and institutional sophistication.
-		local_monthly_development = 0.05
+		local_monthly_development_modifier = 0.05
 	}
 
 	opinions = {
@@ -415,7 +415,7 @@ acciaioli_bank_culture = { #Created for the ACC building-based tag
 
 	location_modifier = {
 # Acciaioli investments in land and commerce brought sustained economic development to their Florentine base and southern Italian holdings.
-		local_monthly_development = 0.05
+		local_monthly_development_modifier = 0.05
 	}
 
 	opinions = {
@@ -440,7 +440,7 @@ median = {
 
 	location_modifier = {
 # The scholarly tradition centered on Padua attracted students and thinkers from across Europe, fostering sustained intellectual and urban growth.
-		local_monthly_development = 0.05
+		local_monthly_development_modifier = 0.05
 	}
 
 	opinions = {

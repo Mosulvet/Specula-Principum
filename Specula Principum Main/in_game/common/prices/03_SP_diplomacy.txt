@@ -1,0 +1,36 @@
+﻿# SP added _fief to create better differentiation w/ a vassal
+subject_pays_fief = {
+	scaled_gold = 0.3
+	scaled_sailors = 0.15
+	scaled_manpower = 0.15
+	ignore_inflation = yes
+}
+
+
+TRY_REPLACE:subject_pays_vassal = {
+	scaled_gold = 0.65 #0.2
+	scaled_sailors = 0.05
+	scaled_manpower = 0.05
+	ignore_inflation = yes
+}
+
+TRY_REPLACE:subject_pays_colonial = {
+	scaled_gold = 0.1 #0.025
+	scaled_sailors = 0.1
+	scaled_manpower = 0.1
+	ignore_inflation = yes
+}
+
+TRY_REPLACE:subject_pays_tributary = {
+	scaled_gold = 0.75 #0.2
+	scaled_sailors = 0.05
+	scaled_manpower = 0.05
+	ignore_inflation = yes
+}
+
+TRY_REPLACE:hanseatic_member_cost = {
+	scaled_gold = 0.15 #0.05
+	scaled_sailors = 0.01
+	scaled_manpower = 0.01
+	ignore_inflation = yes
+}

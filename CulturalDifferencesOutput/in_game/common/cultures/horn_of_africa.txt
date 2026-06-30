@@ -357,7 +357,7 @@ harla_culture = { #https://en.wikipedia.org/wiki/Harla_people
 
 	location_modifier = {
 		# The Harar region was a crossroads of trade between the Ethiopian highlands and the Red Sea coast.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 		

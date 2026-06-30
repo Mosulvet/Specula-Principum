@@ -12,7 +12,7 @@
 
 	location_modifier = {
 # Ashkenazi Jewish quarters in German and Polish cities fostered scholarship, commerce, and skilled craftsmanship.
-		local_monthly_development = 0.03
+		local_monthly_development_modifier = 0.03
 	}
 
 	opinions = {
@@ -155,7 +155,7 @@ italki = {
 
 	location_modifier = {
 # Italki Jewish artisans were skilled silk weavers, dyers, and physicians in the cities of central and southern Italy.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 
 	opinions = {
@@ -234,7 +234,7 @@ kochini = {
 
 	location_modifier = {
 # The Cochin Jewish community's expertise in spice trading and processing made them valuable to the Malabar economy.
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.05
 	}
 
 	opinions = {
@@ -273,7 +273,7 @@ mizrahi = {
 
 	location_modifier = {
 # Mizrahi Jewish artisans and merchants contributed to the commercial life of major Middle Eastern cities like Baghdad and Damascus.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 
 	opinions = {
@@ -398,7 +398,7 @@ romanyoti = {
 
 	location_modifier = {
 # Romaniote Jewish communities in Byzantine Greek cities were skilled silk weavers, dyers, and tanners.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 
 	opinions = {
@@ -437,7 +437,7 @@ sephardi = {
 
 	location_modifier = {
 # Sephardi scholars, physicians, and merchants made Iberian Jewish quarters centers of learning and commerce.
-		local_monthly_development = 0.03
+		local_monthly_development_modifier = 0.03
 	}
 
 	opinions = {
@@ -476,7 +476,7 @@ teimani = {
 
 	location_modifier = {
 # Teimanim were skilled silversmiths and artisans, producing fine jewelry and metalwork prized across Yemen.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 
 	opinions = {

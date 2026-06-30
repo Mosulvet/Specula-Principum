@@ -1,0 +1,57 @@
+﻿###################################
+# intent here is to make experience a bit stickier
+###################################
+TRY_REPLACE:is_army_levy = {
+	game_data = {
+		category = unit
+	}
+	discipline = -0.075 #-0.1; default levies are a bit more powerful. TODO - nerf low tier peasant levies a bit. Make Soc Values more impactful.
+	experience_decay = 0.015 # 0.02
+}
+
+TRY_REPLACE:is_army_regular = {
+	game_data = {
+		category = unit
+	}
+	experience_decay = -0.002 #-0.01
+}
+
+TRY_REPLACE:is_navy_levy = {
+	game_data = {
+		category = unit
+	}
+	experience_decay = 0.015 #0.02
+}
+
+TRY_REPLACE:is_navy_regular = {
+	game_data = {
+		category = unit
+	}
+	experience_decay = -0.005 # -0.002
+}
+
+
+###
+
+TRY_REPLACE:army_leaderless = {
+	game_data = {
+		category = unit
+	}
+	land_morale_modifier = -0.20 # -0.20
+	discipline = -0.10 #this is new
+}
+
+TRY_REPLACE:navy_leaderless = {
+	game_data = {
+		category = unit
+	}
+	naval_morale_modifier = -0.25 # -0.20
+	discipline = -0.10 #this is new
+}
+
+TRY_REPLACE:in_combat = {
+	game_data = {
+		category = unit
+	}
+	experience_decay = -0.1 # -0.05, note this is negative decay, which should mean it increases.
+}

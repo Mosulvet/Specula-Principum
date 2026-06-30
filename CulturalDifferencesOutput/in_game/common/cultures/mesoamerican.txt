@@ -13,7 +13,7 @@
 
 	location_modifier = {
 		# The Purepecha were the finest metalworkers in Mesoamerica, producing copper and bronze tools and weapons.
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.05
 	}
 	opinions = {
 	}
@@ -63,7 +63,7 @@ tolimec_culture = {
 
 	location_modifier = {
 		# The Tolimec produced high-quality craft goods in their Guerrero highland workshops.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -139,7 +139,7 @@ cuitlatec_culture = { #https://es.wikipedia.org/wiki/Idioma_cuitlateco
 
 	location_modifier = {
 		# The Cuitlatec river valleys of Guerrero supported skilled artisanal production including metalwork.
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.05
 	}
 	opinions = {
 	}
@@ -289,7 +289,7 @@ mixtec_culture = {
 
 	location_modifier = {
 		# The Mixtec highlands of Oaxaca supported artisan production that was prized across Mesoamerica.
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.05
 	}
 	opinions = {
 	}
@@ -615,7 +615,7 @@ toltec_culture = { #https://en.wikipedia.org/wiki/Toltec
 
 	location_modifier = {
 		# Tula's workshops produced obsidian tools, ceramics, and luxury goods traded across Mesoamerica.
-		local_production_efficiency = 0.15
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}

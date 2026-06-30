@@ -1,0 +1,141 @@
+﻿TRY_REPLACE:build_gravel_road = {
+	gold = 17.5 #was 10
+}
+
+TRY_REPLACE:build_paved_road = {
+	gold = 50 #was 25
+}
+
+TRY_REPLACE:build_modern_road = {
+	gold = 100 #was 50
+}
+
+TRY_REPLACE:build_railroad = {
+	gold = 200 #was 100
+}
+
+# RGO Price adjustments below, increased, and in addition to substantial RGO increases in other areas, and an efficiency malus.
+
+TRY_REPLACE:expand_rgo_mining = {
+	gold = 90 #was 50; more resource intensive expansion
+}
+
+TRY_REPLACE:expand_rgo_farming = {
+	gold = 70 #50; this was 75 but lowering a bit to encourage food RGO investment (and thus greater pop growth since it was tracking under historical levels for multiple runs)
+}
+
+TRY_REPLACE:expand_rgo_hunting = {
+	gold = 70 # less resource intensive expansions
+}
+
+TRY_REPLACE:expand_rgo_gathering = {
+	gold = 70 # less resource intensive expansions
+}
+
+TRY_REPLACE:expand_rgo_forestry = {
+	gold = 80 # less resource intensive expansions
+}
+
+# price mods below from a variety of different sources, intended to create harder and meaninful decisions.
+
+TRY_REPLACE:select_expensive_child_education = {
+	government_power = -5 #gain a bit of legitimacy for doing the best for your kid
+	scaled_gold = 0.5
+	min_scale = 10
+	max_scale = 400 #No more than 400
+	
+}
+
+TRY_REPLACE:embrace_institution = {
+	scaled_gold = 10.0
+	stability = 50
+	max_scale = 2500
+}
+
+TRY_REPLACE:send_gift = {
+	scaled_recipient_gold = 2 #scaled_recipient_gold = payee monthly income, so 2.4 times average of the receiving nations income
+	scaled_gold = .25
+	min_scale = 25
+	# 2 months of recipient + 1 month of sender
+}
+
+TRY_REPLACE:buy_military_access = {
+	scaled_recipient_gold = 1
+	scaled_gold = 0.15
+	min_scale = 5
+	max_scale = 400 #No more than 400
+}
+
+TRY_REPLACE:buy_fleet_basing_rights = {
+	scaled_recipient_gold = 1
+	scaled_gold = 0.15
+	min_scale = 5
+	max_scale = 400 #No more than 400
+}
+
+TRY_REPLACE:create_colonial_charter = {
+	scaled_gold = 2
+	max_scale = 250
+}
+
+TRY_REPLACE:capital_movement = {
+	scaled_gold = 12
+	stability = 20
+	max_scale = 5000
+}
+
+TRY_REPLACE:create_market = {
+	gold = 500
+	scaled_gold = 5
+	max_scale = 2500
+}
+
+TRY_REPLACE:relocate_market = {
+	gold = 500
+	scaled_gold = 2.5
+	max_scale = 1000
+}
+
+TRY_REPLACE:recruit_explorer = {
+	gold = 20
+	scaled_gold = 2
+	max_scale = 250
+}
+
+TRY_REPLACE:invite_religious_figure_same_school = {
+	scaled_gold = 0.2
+	max_scale = 250
+}
+
+TRY_REPLACE:invite_religious_figure_different_school = {
+	scaled_gold = 0.4
+	max_scale = 500
+}
+
+TRY_REPLACE:commission_religious_images = {
+	scaled_gold = 3.0
+	max_scale = 300
+}
+
+TRY_REPLACE:indulge_in_feasts = {
+	scaled_gold = 5
+	max_scale = 500
+}
+
+TRY_REPLACE:head_of_cabinet_promotion = {
+	stability = 5
+	scaled_gold = 2.0
+	max_scale = 250
+}
+
+TRY_REPLACE:change_policy = {
+	stability = 50
+	righteousness = 10
+	scaled_gold = 2.0
+	max_scale = 500
+}
+
+TRY_REPLACE:hire_privateer = {
+	sailors = 0.25
+	gold = 25
+}

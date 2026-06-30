@@ -639,7 +639,7 @@ banjar_culture = {
 
 	location_modifier = {
 		# The Banjar homeland contained diamond deposits and supported riverine trade.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 
@@ -1929,7 +1929,7 @@ ternate_culture = { #https://en.wikipedia.org/wiki/Ternate
 
 	location_modifier = {
 		# The volcanic Spice Islands produced cloves, nutmeg, and mace found nowhere else on Earth.
-		local_production_efficiency = 0.15
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 
@@ -1954,7 +1954,7 @@ tidore_culture = { #https://en.wikipedia.org/wiki/Tidore_people
 
 	location_modifier = {
 		# The volcanic Spice Islands produced cloves, nutmeg, and mace found nowhere else on Earth.
-		local_production_efficiency = 0.15
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 

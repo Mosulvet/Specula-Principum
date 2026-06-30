@@ -1,0 +1,40 @@
+#SP The counting house is fairly expensive and only situationally useful. Adding some proximity; this also can help offset some of the control changes elsewhere.
+
+counting_house = {
+	is_foreign = no
+	max_levels = 1
+	pop_type = burghers
+
+	employment_size = generic_burgher_employment
+
+	category = government_category
+	forbidden_for_estates = yes
+
+	town = yes
+	city = yes
+
+	expensive = yes
+
+	build_time = government_build_time
+
+	unique_production_methods = {
+		counting_house_maintenance = {
+			paper = 0.2
+			books = 0.05
+			goods_gold = 0.05
+			tools = 0.1
+			category = building_maintenance
+		}
+	}
+
+
+	construction_demand = town_building_construction
+
+
+	modifier = {
+		local_crown_estate_power = 0.33
+		local_proximity_source = 10
+		
+	}
+
+}

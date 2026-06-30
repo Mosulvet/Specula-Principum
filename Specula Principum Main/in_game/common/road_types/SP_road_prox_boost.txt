@@ -1,0 +1,26 @@
+﻿#Remember - these are additive. These are boosting proximity because there are many other nerfts to proximiaty in game.
+
+TRY_INJECT:gravel_road = {
+
+	proximity = 5 #was 0
+
+}
+
+
+TRY_INJECT:paved_road = {
+
+	proximity = 7.5 #5
+
+}
+
+TRY_INJECT:modern_road = {
+
+	proximity = 13.5 #10
+
+}
+
+TRY_INJECT:railroad = {
+
+	proximity = 20 #15
+
+}

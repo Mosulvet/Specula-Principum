@@ -38,7 +38,7 @@ gutnish = {
 
 	location_modifier = {
 # Visby on Gotland was the premier Baltic trading hub, its harbor drawing merchants from Germany, Russia, and beyond.
-		local_monthly_development = 0.03
+		local_monthly_development_modifier = 0.03
 	}
 
 	opinions = {

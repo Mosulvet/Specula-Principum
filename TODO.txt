@@ -11,3 +11,238 @@
 [ O ] Refine readme.md.
 [ O ] Test mod upload to Steam
 [ O ] Create steam page
+[ O ] Moderate increase to RGO costs + substantial increase to mining specifically.
+[ O ] Figure out wealth vs. tax base parameters and use in snowball (since the calcs changed drastically)
+
+Others -
+Considering experimenting with a MUCH higher tax efficiency base (say 90%?) + much higher bonuses in script values. This might create interesting / more historical growht dynamics.
+
+1.3
+O Ship costs (espec heavy ship) are wrong.
+Idea - should values push each other? E.g. naval pushes towards free subjects; capital economy pushes towards innovation; individualism pushes towards free trade etc...
+X Need to understand large jump in building upkeep; how this was balanced elsewhere. / it was from monthly incrase in share country pays which is DUMB
+X Maybe turn down tax efficiency bonuses
+X Check trade incomes / goods costs
+Consider boosting theft and waste impact for taxes a bit again
+
+1.2
+
+* Need to redo wealth scaling to make tax based? Or redo size of scalars (make larger)
+
+* Remove great power score mods
+
+* Check how this balances out w/ my changes: Aristocracy now have +10% discipline instead of +5%, and also get +25% population growth for nobility. Plutocracy now gets +50% max levels for trade category buidings; The Estate Satisfaction of the Nobility now affects Monthly Legitimacy gain instead of Levy Combat efficiency, making happy Nobles useful for ruling your country, but angry Nobles expensive to deal with.
+* Big? --> You will now lose cores if they are no longer primary/accepted culture.
+
+* Check RGO costs in context of scaled good price issue. (This is dumb, but whatever...). Consider removing this if possible.
+
+* These may make the trade mod moot in some ways: Distance impact on merchant capacity needed is now 50% of before. && Trade paths over seas now cost 1/10th of before.
+* Big oops, will have balance implications: Lack of Control income for estates is x* (1-control), not x* control
+
+* Interesting: Towns and Cities now start with more buildings, scaling the economy further. && There is now villages in most rural locations in the world. && Estates will now start with a fair amount of estate buildings already around.
+
+* I can probably remove my own promotion speed changes: Promotion Speed is now 1/10th of previous values.
+
+* Improved trade mod - remove, or re-integrate when it updates. Consider removing and just pulling a few key changes around produciton and goods? THis is big, "Trade paths over seas now cost 1/10th of before."
+
+* Removed the copper and tin requirements for naval supplies production. --> hmm... maybe keep as alternate?
+
+* Look at naval buildings input goods; vanilla moved closer to mine.
+
+* test whether AI making governmors
+
+* check annexations speeds
+
+* check truce changes I made
+
+* remove euro naval superiority, BUT create a set of laws, that create / guide tworards historical play styles?
+
+* remove start up byz bonuses
+
+* remove my HRE law changes (should be fixeD?)
+
+
+
+TODO - reduce building costs, especially later game - look at L1 advances and control malus to building. Perhaps control malus is only for RGOs?
+
+TODO - peer at ingame Values. Also, subject income and loyalty could both be bumped for decentralized I think.
+X TODO - Unit Types mods for terrain. Test before spending time here; this didn't work correctly in the past.
+X TODO - Updates 1.2.x goods file with some key update (primarily around inexpensive transport for SOME high costs goods; higher cost transx for pototoes (inefficient) and salt (highly taxed). Fix sugar.
+X TODO -check through diseases closely. May have been fixed by PDOX?
+X TODO - probalby need to adjust cabinet culture action (stronger) since generla control nerfs will impact culture assim directly.
+TODO - is cultural file generating errors based on modifiers? May need an update? Lots of errors here.
+X TODO - Inf power and cav power mods need to be replaced
+X TODO - adjust courts costs diplo costs in main 00 defines. Diplo half, court 2x?
+X TODO - adjust impact of wealth in the my automods
+
+trade_efficiency -->
+
+AI prompt here is:
+1) ignore if percent = no
+and,
+2) pay attention to category for location and national bonuses
+3) increase bonus size generally
+4) local raw material and food outputs should generally be +/-20
+5) And, in every case, also add a malus document why.
+6) And, update cultures file with the comment
+
+export_efficiency={
+	percent=yes
+	game_data={
+		category=country
+	}
+}
+
+import_efficiency={
+	percent=yes
+	game_data={
+		category=country
+	}
+}
+
+trade_income={
+	percent=yes
+	game_data={
+		category=country
+	}
+}
+
+global_grain_output_modifier
+local_grain_output_modifier -->
+
+local_wheat_output_modifier={
+	percent=yes
+	game_data={
+		category=location
+	}
+}
+
+
+Does this need to replace RGO output modifier?
+local_raw_material_output={
+	percent=yes
+	game_data={
+		category=location
+	}
+}
+
+probably now split by type:
+army_cavalry_maintenance_cost_modifier -->
+
+army_heavy_cavalry_reinforce_cost_modifier={
+	color=bad
+	percent=yes
+	game_data={
+		category=country
+	}
+}
+
+army_heavy_cavalry_maintenance_cost_modifier={
+	color=bad
+	percent=yes
+	game_data={
+		category=country
+	}
+}
+
+army_light_cavalry_reinforce_cost_modifier={
+	color=bad
+	percent=yes
+	game_data={
+		category=country
+	}
+}
+
+army_light_cavalry_maintenance_cost_modifier={
+	color=bad
+	percent=yes
+	game_data={
+		category=country
+	}
+}
+
+
+army_cavalry_power
+army_infantry_power -->
+
+army_light_cavalry_power={
+	percent=yes
+	game_data={
+		category=unit
+	}
+}
+
+army_heavy_cavalry_power={
+	percent=yes
+	game_data={
+		category=unit
+	}
+}
+
+army_light_infantry_power={
+	percent=yes
+	game_data={
+		category=unit
+	}
+}
+
+Use this on top of RGO levels in place of prod efficiency mod? Or in addition to?:
+
+expand_rgo_mining_cost_modifier={
+	color=bad
+	percent=yes
+	game_data={
+		category=country
+	}
+}
+
+expand_rgo_farming_cost_modifier={
+	color=bad
+	percent=yes
+	game_data={
+		category=country
+	}
+}
+
+expand_rgo_hunting_cost_modifier={
+	color=bad
+	percent=yes
+	game_data={
+		category=country
+	}
+}
+
+expand_rgo_gathering_cost_modifier={
+	color=bad
+	percent=yes
+	game_data={
+		category=country
+	}
+}
+
+expand_rgo_forestry_cost_modifier={
+	color=bad
+	percent=yes
+	game_data={
+		category=country
+	}
+}
+
+
+
+army_maintenance_cost
+
+stability_cost_modifier
+
+local_trade_output_modifier
+
+TODO - what's up with these logging errors. Check name, syntax and actual modifiers against game default. Try to figure out if they are working
+
+[11:38:40][pdx_persistent_reader.cpp:289]: Error: "Unknown modifier type: TRY_INJECT:surplus_jobs. It is either invalid, or a potential dynamic modifier type definition missing from the database.: TRY_INJECT:surplus_jobs, near line: 110" in file: "common/static_modifiers/SP_location.txt" near line: 114
+[11:38:40][pdx_persistent_reader.cpp:289]: Error: "Unknown modifier type: TRY_INJECT:rgo_level. It is either invalid, or a potential dynamic modifier type definition missing from the database.: TRY_INJECT:rgo_level, near line: 117" in file: "common/static_modifiers/SP_location.txt" near line: 120
+[11:38:40][pdx_persistent_reader.cpp:289]: Error: "Unknown modifier type: TRY_INJECT:raised_levies. It is either invalid, or a potential dynamic modifier type definition missing from the database.: TRY_INJECT:raised_levies, near line: 122" in file: "common/static_modifiers/SP_location.txt" near line: 130
+[11:38:40][pdx_persistent_reader.cpp:289]: Error: "Unknown modifier type: TRY_INJECT:possible_promotion_percentage. It is either invalid, or a potential dynamic modifier type definition missing from the database.: TRY_INJECT:possible_promotion_percentage, near line: 132" in file: "common/static_modifiers/SP_location.txt" near line: 136
+[11:38:40][pdx_persistent_reader.cpp:289]: Error: "Unknown modifier type: TRY_INJECT:devastation. It is either invalid, or a potential dynamic modifier type definition missing from the database.: TRY_INJECT:devastation, near line: 139" in file: "common/static_modifiers/SP_location.txt" near line: 147
+[11:38:40][pdx_persistent_reader.cpp:289]: Error: "Unknown modifier type: TRY_REPLACE:recently_raided_by_horde. It is either invalid, or a potential dynamic modifier type definition missing from the database.: TRY_REPLACE:recently_raided_by_horde, near line: 156" in file: "common/static_modifiers/SP_location.txt" near line: 163
+[11:38:40][pdx_persistent_reader.cpp:289]: Error: "Unknown modifier type: TRY_REPLACE:recently_razed. It is either invalid, or a potential dynamic modifier type definition missing from the database.: TRY_REPLACE:recently_razed, near line: 165" in file: "common/static_modifiers/SP_location.txt" near line: 172
+[11:38:40][pdx_persistent_reader.cpp:289]: Error: "Unknown modifier type: trade_efficiency. It is either invalid, or a potential dynamic modifier type definition missing from the database.: trade_efficiency, near line: 12" in file: "common/static_modifiers/SP_Cath_Resolutions.txt" near line: 12

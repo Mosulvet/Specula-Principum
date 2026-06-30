@@ -1,0 +1,24 @@
+# reduced by 50%
+REPLACE:num_locations_impact = {
+	scales_with = {
+		value = num_locations
+		divide = 5 #10
+	}
+	
+	fort_limit = 1
+}
+
+#Remember these are additive
+INJECT:country_base_values = {
+
+	monthly_war_exhaustion = 0.01 #-0.025
+	global_prosperity_decay = 0.005 #0.01
+	mercenary_range = -250 #500
+
+	raw_material_in_province_impact = -0.05 #0.1
+	produced_in_market_bonus = -0.1 #0.2
+	
+	pop_join_rebel_threshold  = -0.02 #0.20
+	# pop_leave_rebels_threshold = #0.35
+
+}

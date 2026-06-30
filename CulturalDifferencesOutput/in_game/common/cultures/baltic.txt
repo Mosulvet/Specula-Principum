@@ -256,7 +256,7 @@ german_baltic = { #Baltic https://en.wikipedia.org/wiki/Baltic_Germans
 
 	location_modifier = {
 # German-founded Baltic cities like Riga and Reval became major trading hubs with advanced urban infrastructure.
-		local_monthly_development = 0.03
+		local_monthly_development_modifier = 0.03
 	}
 
 	opinions = {

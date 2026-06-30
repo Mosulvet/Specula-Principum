@@ -1,0 +1,128 @@
+﻿torch = {
+	toggle = no
+	army_only = yes
+	map = yes
+
+	allow = {
+		is_army   = no #TODO remove icon - yes; intentionally disabled as it's not really historical for this period vs. repeated chauvachees or general banditry.
+		in_combat = no
+		is_moving = no
+		is_exiled = no
+		in_siege  = no
+		num_subunits > 13
+		unit_has_leader = yes
+
+		unit_location = {
+			development > 10
+			owner = {
+				is_at_war_with = root.owner
+			}
+		}
+	}
+
+	start_effect = {
+
+		custom_tooltip = {
+			text = scorched_earth_pops_unhappy
+			every_location_in_province = {
+				every_pop = {
+					add_pop_satisfaction = pop_satisfaction_severe_penalty
+				}
+			}
+		}
+
+		if = {
+			limit = { current_year > 1690 }
+			torch_effect_doubled = yes
+		}
+		else = {
+			torch_effect = yes
+		}
+
+
+		root.owner = { save_scope_as = raid_raider }
+
+		damage_unit_percent = 0.025
+		damage_unit_morale_percent = 0.15
+
+		unit_location = {
+			save_scope_as = raid_location
+
+
+
+				
+
+
+		
+
+
+			add_location_modifier = {
+				modifier = torchedmodifier
+				years    = 10
+				mode     = extend
+			}
+
+
+			root.owner = {
+				add_prestige       = -0.50
+				add_army_tradition = -0.15
+				}
+
+			
+				
+			
+			change_prosperity = {
+				value    = 0.20
+				multiply = -1
+			}
+
+			change_development = {
+				value    = scope:raid_location.development
+				divide   = 15
+				add      = 1
+				min      = 1
+				max      = 10
+				multiply = -1
+			}
+
+
+			owner = {
+				add_war_exhaustion = {
+					value  = scope:raid_location.development
+					divide = 35
+					min    = 0.50
+					max    = 3.00
+				}
+
+				add_opinion = {
+					modifier = torch_resentment
+					target   = scope:raid_raider
+					scale    = { value = 1 }
+				}
+
+				if = {
+					limit = { is_at_war_with = scope:raid_raider }
+
+					"war_with_country(scope:raid_raider)" = {
+						add_bonus_warscore = {
+							country = scope:raid_raider
+							amount  = 4
+						}
+					}
+				}
+
+				if = {
+					limit = {
+						is_human = yes
+						NOT = { has_variable = raid_notifications_disabled }
+					}
+					trigger_event_non_silently = { id = raid_events.1 }
+				}
+			}
+		}
+	}
+
+	ai_will_do = {
+		add = -20
+	}
+}

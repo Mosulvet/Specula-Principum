@@ -1,0 +1,6 @@
+﻿l_english:
+ bullion_famine.1.title: "The Great Bullion Famine"
+ bullion_famine.1.desc: "We often pay in gold or silver to import silk, alum, spices and pearls from the East. As this trade increases, the growing outflow of precious metals combined with the depletion of several large old European mines has led to severe gold and silver shortages in Europe."
+ bullion_famine.1.a: "If only we had another continent or two to strip of their resources..."
+ STATIC_MODIFIER_NAME_the_great_bullion_famine: "The Great Bullion Famine"
+ STATIC_MODIFIER_DESC_the_great_bullion_famine: "A severe shortage of silver and gold in Europe."

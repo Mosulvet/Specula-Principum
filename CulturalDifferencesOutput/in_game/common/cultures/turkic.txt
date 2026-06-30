@@ -18,7 +18,7 @@ turkish_culture = { #https://en.wikipedia.org/wiki/Turkish_people
 
 	location_modifier = {
 # Anatolia's diverse geography supported rich agriculture, with fertile valleys producing grain, cotton, and fruit for Ottoman markets.
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.05
 	}
 
 	culture_groups = {
@@ -100,7 +100,7 @@ azeri_culture = {
 
 	location_modifier = {
 # Azerbaijan's position between the Caspian and the Caucasus made it a vital crossroads for Silk Road trade between Persia and the steppe.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	
 	culture_groups = {
@@ -154,7 +154,7 @@ khorezmian_culture = {
 
 	location_modifier = {
 # The irrigated oases of Khwarezm along the Amu Darya were among the most productive agricultural lands in Central Asia.
-		local_monthly_development = 0.03
+		local_monthly_development_modifier = 0.03
 	}
 
 	culture_groups = {

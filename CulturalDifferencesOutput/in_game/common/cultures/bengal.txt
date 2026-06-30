@@ -539,7 +539,7 @@ newar_culture = {
 
 	location_modifier = {
 # Kathmandu urbanism; Newar city-states of Kathmandu, Patan, and Bhaktapur fostered dense urban culture
-		local_monthly_development = 0.03
+		local_monthly_development_modifier = 0.03
 	}
 
 	opinions = {

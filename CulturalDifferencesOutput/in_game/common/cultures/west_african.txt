@@ -211,7 +211,7 @@ dyula = {
 
 	location_modifier = {
 		# Dyula trading towns served as commercial centers connecting the gold fields with trans-Saharan markets.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 		mandinka = kindred
@@ -878,7 +878,7 @@ yoruba = {
 
 	location_modifier = {
 		# Yoruba cities were major centers of bronze-casting, weaving, and artistic production.
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.05
 	}
 	opinions = {
 	}
@@ -901,7 +901,7 @@ edo = {
 
 	location_modifier = {
 		# Benin City's bronze-casters, weavers, and other artisans produced some of the finest works of art in human history.
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.05
 	}
 	opinions = {
 	}
@@ -924,7 +924,7 @@ igbo = {
 
 	location_modifier = {
 		# The Igbo heartland's fertile soils supported both agriculture and productive local industries.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -1039,7 +1039,7 @@ nupe = {  #https://en.wikipedia.org/wiki/Nupe_people
 
 	location_modifier = {
 		# The Nupe homeland at the Niger-Benue confluence supported agriculture and specialized craft production.
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.05
 	}
 	opinions = {
 	}
@@ -1108,7 +1108,7 @@ hausa = {
 
 	location_modifier = {
 		# The Hausa cities were major production centers for textiles, leatherwork, and metalwork traded across the Sahara.
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.05
 	}
 	opinions = {
 	}
@@ -1474,7 +1474,7 @@ sao_culture = { #https://en.wikipedia.org/wiki/Sao_civilisation
 
 	location_modifier = {
 		# The Lake Chad shoreline supported fishing, farming, and artisan production.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}

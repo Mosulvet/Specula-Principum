@@ -1,0 +1,7 @@
+﻿# SP - this was an almost useless cabinet ability. This makes it a bit more attractive.
+
+TRY_INJECT:diplomatic_endeavors = {
+	country_modifier = {
+		annexation_speed_modifier = 0.33
+	}
+}

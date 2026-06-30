@@ -431,7 +431,7 @@ xam_culture = {
 
 	location_modifier = {
 		# The /Xam possessed sophisticated knowledge of Karoo plants, creating tools, poisons, and medicines.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}

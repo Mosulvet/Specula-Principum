@@ -38,7 +38,7 @@ saigoku_culture = {
 
 	location_modifier = {
 # Japanese craftsmanship in metalwork, ceramics, and textiles was highly refined by the Muromachi period.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	culture_groups = {
 		japanese_group
@@ -67,7 +67,7 @@ tougoku_culture = {
 
 	location_modifier = {
 # Japanese craftsmanship in metalwork, ceramics, and textiles was highly refined by the Muromachi period.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	culture_groups = {
 		japanese_group
@@ -97,7 +97,7 @@ kyushu_culture = {
 
 	location_modifier = {
 # Japanese craftsmanship in metalwork, ceramics, and textiles was highly refined by the Muromachi period.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	culture_groups = {
 		japanese_group
@@ -129,7 +129,7 @@ touhoku_culture = {
 
 	location_modifier = {
 # Japanese craftsmanship in metalwork, ceramics, and textiles was highly refined by the Muromachi period.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 
 
@@ -304,7 +304,7 @@ hui_muslim_culture = {
 
 	location_modifier = {
 # Hui merchants and artisans contributed to commercial life in China's major trading cities.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -679,7 +679,7 @@ wu_culture = { #吳
 
 	location_modifier = {
 # The Wu region's silk production, rice paddies, and urban workshops made it the economic heart of Ming China.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -704,7 +704,7 @@ yue_wu_culture = { #越
 
 	location_modifier = {
 # The Wu region's silk production, rice paddies, and urban workshops made it the economic heart of Ming China.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -729,7 +729,7 @@ xuanzhou_culture = { #宣州
 
 	location_modifier = {
 # The Wu region's silk production, rice paddies, and urban workshops made it the economic heart of Ming China.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -754,7 +754,7 @@ wuzhou_culture = { #婺州
 
 	location_modifier = {
 # The Wu region's silk production, rice paddies, and urban workshops made it the economic heart of Ming China.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -779,7 +779,7 @@ quzhou_culture = { #衢州
 
 	location_modifier = {
 # The Wu region's silk production, rice paddies, and urban workshops made it the economic heart of Ming China.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -804,7 +804,7 @@ chuzhou_culture = { #滁州
 
 	location_modifier = {
 # The Wu region's silk production, rice paddies, and urban workshops made it the economic heart of Ming China.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -829,7 +829,7 @@ jiangshan_culture = { #江山
 
 	location_modifier = {
 # The Wu region's silk production, rice paddies, and urban workshops made it the economic heart of Ming China.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -854,7 +854,7 @@ taizhou_wu_culture = { #台州
 
 	location_modifier = {
 # The Wu region's silk production, rice paddies, and urban workshops made it the economic heart of Ming China.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -879,7 +879,7 @@ ouhai_culture = { #瓯海
 
 	location_modifier = {
 # The Wu region's silk production, rice paddies, and urban workshops made it the economic heart of Ming China.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -904,7 +904,7 @@ tunxi_culture = { #屯溪
 
 	location_modifier = {
 # The Wu region's silk production, rice paddies, and urban workshops made it the economic heart of Ming China.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -929,7 +929,7 @@ jixi_culture = { #绩溪
 
 	location_modifier = {
 # The Wu region's silk production, rice paddies, and urban workshops made it the economic heart of Ming China.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -954,7 +954,7 @@ qiwu_culture = { #屯溪
 
 	location_modifier = {
 # The Wu region's silk production, rice paddies, and urban workshops made it the economic heart of Ming China.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -1504,7 +1504,7 @@ yuehai_culture = { #粵海
 
 	location_modifier = {
 # The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -1529,7 +1529,7 @@ xinhui_culture = { #新会
 
 	location_modifier = {
 # The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -1554,7 +1554,7 @@ malao_culture = { #麻佬
 
 	location_modifier = {
 # The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -1579,7 +1579,7 @@ huazhou_culture = { #化州
 
 	location_modifier = {
 # The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -1604,7 +1604,7 @@ gaozhou_culture = { #高州
 
 	location_modifier = {
 # The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -1629,7 +1629,7 @@ wuchuan_culture = { #吴川
 
 	location_modifier = {
 # The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -1654,7 +1654,7 @@ yangjiang_culture = { #阳江
 
 	location_modifier = {
 # The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -1679,7 +1679,7 @@ guangxin_culture = { #广信
 
 	location_modifier = {
 # The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -1704,7 +1704,7 @@ tubai_culture = { #土白
 
 	location_modifier = {
 # The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -1729,7 +1729,7 @@ yulin_culture = { #郁林
 
 	location_modifier = {
 # The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -1754,7 +1754,7 @@ danzhou_culture = { #儋州
 
 	location_modifier = {
 # The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -1779,7 +1779,7 @@ mai_culture_culture = { #迈
 
 	location_modifier = {
 # The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -1804,7 +1804,7 @@ guibei_culture = { #桂北
 
 	location_modifier = {
 # The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -1829,7 +1829,7 @@ guinan_culture = { #桂北
 
 	location_modifier = {
 # The Pearl River Delta and Guangxi regions supported productive agriculture and growing commercial activity.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 	}
@@ -2127,7 +2127,7 @@ bai_culture = { #https://en.wikipedia.org/wiki/Bai_people
 
 	location_modifier = {
 # Dali was a prosperous trading center connecting China with Southeast Asia and Tibet.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 	opinions = {
 		
@@ -2153,7 +2153,7 @@ uyghur_culture = {
 
 	location_modifier = {
 # The irrigated oases of the Tarim Basin supported productive agriculture and Silk Road trading cities.
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.05
 	}
 	opinions = {
 		

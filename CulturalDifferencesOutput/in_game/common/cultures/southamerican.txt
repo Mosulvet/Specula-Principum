@@ -394,7 +394,7 @@ muisca_culture = { #https://es.wikipedia.org/wiki/Muiscas
 
 	location_modifier = {
 		# The Muisca highlands of the Bogota plateau supported intensive agriculture and renowned gold-smithing.
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.05
 	}
 	opinions = {
 	}
@@ -419,7 +419,7 @@ quimbaya_culture = { #https://es.wikipedia.org/wiki/Quimbaya_(etnia)
 
 	location_modifier = {
 		# The Quimbaya homeland's Colombian coffee region supported agriculture and goldsmithing.
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.05
 	}
 	opinions = {
 	}

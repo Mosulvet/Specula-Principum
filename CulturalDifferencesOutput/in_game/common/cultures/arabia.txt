@@ -87,7 +87,7 @@ hijazi_culture = {
 
 	location_modifier = {
 # The Hajj pilgrimage brought enormous wealth to the Hijaz, sustaining cities, caravanserais, and trade.
-		local_monthly_development = 0.03
+		local_monthly_development_modifier = 0.03
 	}
 
 	opinions = {
@@ -187,7 +187,7 @@ dhofari_culture = {
 
 	location_modifier = {
 # The monsoon-touched Dhofar coast produced frankincense from its unique climate, a luxury export since antiquity.
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 
 	opinions = {
@@ -264,7 +264,7 @@ yemeni_culture = {
 
 	location_modifier = {
 # Yemen's terraced mountain agriculture and Mocha port made it one of the most productive regions of the Arabian peninsula.
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.05
 	}
 
 	opinions = {

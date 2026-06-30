@@ -132,7 +132,7 @@ kannadiga = {
 
 	location_modifier = {
 # Deccan workshop tradition; artisan production in Vijayanagara-era towns and cities
-		local_production_efficiency = 0.05
+		local_production_efficiency = 0.03
 	}
 
 	opinions = {
@@ -193,7 +193,7 @@ malayali = {
 
 	location_modifier = {
 # Kerala spice and pepper production; black pepper, cardamom, and cinnamon from Malabar coast
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.05
 	}
 
 	opinions = {
@@ -222,7 +222,7 @@ tamil = {
 
 	location_modifier = {
 # Temple economy and textile production; Tamil Nadu rice paddies and weavers sustained dense settlement
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.05
 	}
 
 	opinions = {

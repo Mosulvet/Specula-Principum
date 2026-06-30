@@ -1,0 +1,52 @@
+﻿# NOTE!
+# All manpower costs scale by max_strength, so army units should be at 1 manpower
+# All sailor costs scale by crew_size, so navy units should be at 1 sailors
+#
+
+##################################
+# Army Categories
+##################################
+
+
+
+
+##################################
+# Navy Categories
+##################################
+# Heavy Ship
+TRY_REPLACE:navy_heavy_ship_build = {
+	gold = 65 #50
+	sailors = 1
+}
+
+TRY_REPLACE:navy_heavy_ship_reinforce = {
+	gold = 2.75 #2.5
+	sailors = 1
+}
+
+TRY_REPLACE:navy_heavy_ship_maintenance = {
+	gold = 0.6
+	sailors = 0.025
+}
+
+# Light Ship
+TRY_REPLACE:navy_light_ship_build = {
+	gold = 33
+	sailors = 0.9 #1
+}
+
+TRY_REPLACE:navy_light_ship_reinforce = {
+	gold = 1.25
+	sailors = 0.9
+}
+
+# Galley
+TRY_REPLACE:navy_galley_build = {
+	gold = 25
+	sailors = 1.1 #1 - SP - galleys are incredibly manpower intensive.
+}
+
+TRY_REPLACE:navy_galley_reinforce = {
+	gold = 1.25
+	sailors = 1.1 # 1
+}

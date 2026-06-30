@@ -1,0 +1,13 @@
+﻿TRY_INJECT:nobles_estate_tax_impact = {
+    game_data = {
+	    category = country
+    }
+	nobles_estate_target_satisfaction = -0.1 #this now functionally be -1.1 from -1.0
+}
+
+TRY_INJECT:burghers_estate_tax_impact = {
+    game_data = {
+	    category = country
+    }
+	burghers_estate_target_satisfaction = -0.05 #now -1.05
+}
