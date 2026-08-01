@@ -80,7 +80,7 @@ TRY_REPLACE:inverse_control = {
 	local_crown_estate_power = -1.0
 	# possible to add an enrichment penalty here to reduce money funneling to estates?
 
-	local_levy_size_modifier = -1.5 # was -1.0
+	local_levy_size_modifier = -5.0 # was -1.0
 	local_manpower_modifier = -1.25 # was -1.0
 	local_sailors_modifier = -1.0
 	
@@ -107,8 +107,8 @@ TRY_REPLACE:unemployed_peasants = {
 #per 1k available jobs; this means there is more jobs then labor, so labor is in demand.
 TRY_INJECT:surplus_jobs = {
 
-	local_build_new_buildings_cost = 0.05 #labor demand, so building is more expensive; 0.3 made for very high costs in some areas (x00%+). Reducing to 0.03 should make change generally minimal.
-
+	local_build_new_buildings_cost = 0.05 #labor demand, so building is more expensive; 0.3 made for very high costs in some areas (x00%+).
+	
 }
 
 

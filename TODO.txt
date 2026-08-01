@@ -18,8 +18,11 @@ Others -
 Considering experimenting with a MUCH higher tax efficiency base (say 90%?) + much higher bonuses in script values. This might create interesting / more historical growht dynamics.
 
 1.3
-O Ship costs (espec heavy ship) are wrong.
-Idea - should values push each other? E.g. naval pushes towards free subjects; capital economy pushes towards innovation; individualism pushes towards free trade etc...
+O Undo CB length change  (since it was added in 1.3)
+X Integrate area should be admin based (currenlty not) / should be fixed, check
+X Levy total numbers are too high. Cut by 75%? Or more? Check when they were adjusted in the patches.
+X Ship costs (espec heavy ship) are wrong.
+O Idea - should values push each other? E.g. naval pushes towards free subjects; capital economy pushes towards innovation; individualism pushes towards free trade etc...
 X Need to understand large jump in building upkeep; how this was balanced elsewhere. / it was from monthly incrase in share country pays which is DUMB
 X Maybe turn down tax efficiency bonuses
 X Check trade incomes / goods costs

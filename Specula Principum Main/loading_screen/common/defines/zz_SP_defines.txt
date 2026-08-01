@@ -5,11 +5,11 @@
 NDiplomacy = {
 
 	SUBJECT_UPKEEP_RANK_SCALE = 0.25 #SP - subject diplo upkeep a bit higher.
-	CASUS_BELLI_MONTHS = 120 #SP - longer CB lifetime
+	#CASUS_BELLI_MONTHS = 120 #SP - longer CB lifetime / Removing since 1.3 added exactly this.
 
 }
 
-# Commenting out below for since integrated trade mod + my own changes have reduced transport costs of some types of trade.
+# SP - Commenting out below since paradox has effective done this
 #NCountry = {	
 #
 #	MERCHANT_MAINTENANCE_COST = 0.35 #0.5 in vanilla
@@ -35,15 +35,15 @@ NEconomy = {
 	ECONOMICAL_BASE_SCALE_FROM_EACH_INSTITUTION = 0.025 # was 0.066 #these already have impacts now due to change to depth 0 advances
 	
 #these are all intersting additions for 1.2
-	PRICE_SCALE_FROM_ECO_BASE = 0.1
+	PRICE_SCALE_FROM_ECO_BASE = 0.025 #0.1
 	
 	MINTING_GOODS_LEVEL = 0.01
 	
 	GOODS_RGO_BASE_COST = 1.0 #0.5
 	GOODS_RGO_PRICE_SCALE = 0.0 #0.25
 
-	COURT_SPENDING_FRACTON = 0.2 #0.1 - SP because of various multipliers this functions as a significant drag on large powers, as a stand in for large government costs, especially around centralization.
-	DIPLOMATIC_SPENDING_FRACTION = 0.065 #0.1 - this needed to be adjusted down
+	COURT_SPENDING_FRACTON = 0.25 #0.1 - SP because of various multipliers this functions as a significant drag on large powers, as a stand in for large government costs, especially around centralization.
+	DIPLOMATIC_SPENDING_FRACTION = 0.06 #0.1 - this needed to be adjusted down
 	
 	MOTHBALL_MAINTENANCE_FACTOR = 0.2 #SSP 0.5 Savings was too low to make this action ever worthwhile.
 	

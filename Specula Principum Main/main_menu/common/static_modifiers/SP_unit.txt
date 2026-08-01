@@ -5,7 +5,7 @@ TRY_REPLACE:is_army_levy = {
 	game_data = {
 		category = unit
 	}
-	discipline = -0.075 #-0.1; default levies are a bit more powerful. TODO - nerf low tier peasant levies a bit. Make Soc Values more impactful.
+	discipline = -0.075 #SP - -0.1; default levies are a bit more powerful. Social values adjust the balance here a bit.
 	experience_decay = 0.015 # 0.02
 }
 
@@ -53,5 +53,5 @@ TRY_REPLACE:in_combat = {
 	game_data = {
 		category = unit
 	}
-	experience_decay = -0.1 # -0.05, note this is negative decay, which should mean it increases.
+	experience_decay = -0.1 # SP -0.05, note this is negative decay, which should means decay slows.
 }

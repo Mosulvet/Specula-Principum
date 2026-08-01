@@ -14,7 +14,7 @@ country_size_impact_small_human = {
 		multiply = 0.01 # was 0.2 Reduces impact at smallest size
 	}
 	
-	court_spending_cost_modifier = 0.0075 #added; call this the conspicuous consumption tax
+	court_spending_cost_modifier = 0.01 #added; call this the conspicuous consumption tax
 	tax_income_efficiency = -0.01
 	#trade_efficiency = -0.01
 	#global_production_efficiency = -0.01
@@ -44,7 +44,7 @@ country_size_impact_medium_human = {
 		add = 9.0 # ((1000 - 100) *0.01) e.g. This base, minus previous base threshold, times the ABOVE multiplier. this functionally add the previous category as well
 	}
 	
-	court_spending_cost_modifier = 0.0075 #added; call this the conspicuous consumption tax
+	court_spending_cost_modifier = 0.01 #added; call this the conspicuous consumption tax
 	tax_income_efficiency = -0.01
 	#trade_efficiency = -0.01
 	#global_production_efficiency = -0.01
@@ -73,7 +73,7 @@ country_size_impact_large_human = {
 		add = 40.0 #this functionally adds the two previous categories as well
 	}
 	
-	court_spending_cost_modifier = 0.0075 #added; call this the conspicuous consumption tax
+	court_spending_cost_modifier = 0.01 #added; call this the conspicuous consumption tax
 	tax_income_efficiency = -0.01 #dropped this slightly because very rich empires were not getting any taxes
 	#trade_efficiency = -0.01
 	#global_production_efficiency = -0.01
@@ -107,7 +107,7 @@ country_size_impact_small_ai = {
 		subtract = 2.5 #this is to give small ai a bit less malus here.
 	}
 	
-	court_spending_cost_modifier = 0.0075 #added; call this the conspicuous consumption tax
+	court_spending_cost_modifier = 0.01 #added; call this the conspicuous consumption tax
 	tax_income_efficiency = -0.01
 	#trade_efficiency = -0.01
 	#global_production_efficiency = -0.01
@@ -137,7 +137,7 @@ country_size_impact_medium_ai = {
 		add = 9.0 #this functionally adds the previous category as well, minus a bit (0.75)
 	}
 	
-	court_spending_cost_modifier = 0.0075 #added; call this the conspicuous consumption tax
+	court_spending_cost_modifier = 0.01 #added; call this the conspicuous consumption tax
 	tax_income_efficiency = -0.0115 #dropped this because very rich empires were not getting any taxes
 	#trade_efficiency = -0.01
 	#global_production_efficiency = -0.01
@@ -166,7 +166,7 @@ country_size_impact_large_ai = {
 		add = 40.0 #this functionally add the two previous categories as well
 	}
 	
-	court_spending_cost_modifier = 0.0075 #added; call this the conspicuous consumption tax
+	court_spending_cost_modifier = 0.01 #added; call this the conspicuous consumption tax
 	tax_income_efficiency = -0.01 #dropped this slightly because very rich empires were not getting any taxes
 	#trade_efficiency = -0.01
 	#global_production_efficiency = -0.01
